@@ -1,0 +1,116 @@
+{
+  "indicators": [
+    {
+      "id": "desmatamento",
+      "name": "Taxa de desmatamento na Amazônia Legal (PRODES/INPE)",
+      "unit": "km²",
+      "higherIsBetter": false,
+      "officialSource": "INPE – PRODES (Programa de Monitoramento do Desmatamento da Floresta Amazônica Brasileira por Satélite)",
+      "sourceUrl": "https://data.inpe.br/biomasbr/wp-content/uploads/sites/3/2025/07/Nota_tecnica_PRODES_2024_consolidada.pdf",
+      "values": {
+        "2006": 14286, "2007": 11651, "2008": 12911, "2009": 7464, "2010": 7000,
+        "2011": 6418, "2012": 4571, "2013": 5891, "2014": 5012, "2015": 6207,
+        "2016": 7893, "2017": 6947, "2018": 7536, "2019": 10129, "2020": 10851,
+        "2021": 13038, "2022": 11594, "2023": 9064, "2024": 6518, "2025": 5731,
+        "2026": 3335
+      },
+      "notes": "Ano PRODES = agosto do ano anterior a julho do ano rotulado; corte raso de floresta primária, polígonos > 6,25 ha, nove estados da Amazônia Legal. 2006-2025 são taxas consolidadas. 2025: a estimativa de out/2025 foi 5.796 km²; o valor consolidado, citado pelo INPE no release de 16/out/2026, é 5.731 km². 2026 (ago/2025-jul/2026) = 3.335 km² é ESTIMATIVA preliminar divulgada pelo INPE em 16/out/2026 (menor da série desde 1988); será substituída pela taxa consolidada em 2027. Valores consolidados de outros anos, conforme publicados nas notas técnicas/releases: 2013 consolidado (5.891) revisou a estimativa de 5.843; 2015 consolidado (6.207) revisou a estimativa de 5.835; 2017 consolidado (6.947) revisou a estimativa de 6.624; 2018 consolidado (7.536) revisou a estimativa de 7.900. Os valores de 2005-2011 e 2015 constam da tabela do INPE (Ano/Taxa km²/ano) reproduzida em resposta institucional do INPE. Hosts gov.br/data.inpe.br/terrabrasilis não puderam ser abertos nesta sessão; valores confirmados via trechos de resultados de busca.",
+      "yearSources": {
+        "2006": "https://psb40.org.br/wp-content/uploads/2020/10/Resposta-INPE-Caso-Sat%C3%A9lite_marca%C3%A7%C3%B5es-1.pdf",
+        "2007": "https://psb40.org.br/wp-content/uploads/2020/10/Resposta-INPE-Caso-Sat%C3%A9lite_marca%C3%A7%C3%B5es-1.pdf",
+        "2008": "https://psb40.org.br/wp-content/uploads/2020/10/Resposta-INPE-Caso-Sat%C3%A9lite_marca%C3%A7%C3%B5es-1.pdf",
+        "2009": "https://psb40.org.br/wp-content/uploads/2020/10/Resposta-INPE-Caso-Sat%C3%A9lite_marca%C3%A7%C3%B5es-1.pdf",
+        "2010": "https://psb40.org.br/wp-content/uploads/2020/10/Resposta-INPE-Caso-Sat%C3%A9lite_marca%C3%A7%C3%B5es-1.pdf",
+        "2011": "https://psb40.org.br/wp-content/uploads/2020/10/Resposta-INPE-Caso-Sat%C3%A9lite_marca%C3%A7%C3%B5es-1.pdf",
+        "2012": "https://site-antigo.socioambiental.org/en/print/3769",
+        "2013": "https://site-antigo.socioambiental.org/en/print/3769",
+        "2014": "https://www.ecycle.com.br/desmatamento-na-amazonia-sobe-24-em-2015-mostram-dados-do-inpe/",
+        "2015": "https://ihu.unisinos.br/560908-desmatamento-na-amazonia-sobe-24-em-2015-mostram-dados-do-prodes-inpe",
+        "2016": "https://ihu.unisinos.br/categorias/571200-inpe-desmatamento-na-amazonia-legal-aumentou-27-em-2016",
+        "2017": "https://www.gov.br/mma/pt-br/composicao/smc/departamento-de-instrumentos-de-mercado-e-redd/redd/noticias-antigas/97.pdf",
+        "2018": "https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/desmatamento-consolidado-amazonia-perdeu-7-536-km%25c2%25b2-em-2018.pdf",
+        "2019": "https://ihu.unisinos.br/599865-a-taxa-consolidada-de-desmatamento-por-corte-raso-para-os-nove-estados-da-amazonia-legal-em-2019-e-de-10-129-km2",
+        "2020": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/nota-tecnica-prodes/NotaTecnica_consolidado_PRODES_2021_rev.pdf",
+        "2021": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/nota-tecnica-prodes/NotaTecnica_consolidado_PRODES_2021_rev.pdf",
+        "2022": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/a-taxa-consolidada-de-desmatamento-para-os-nove-estados-da-amazonia-legal-em-2022-foi-de-11-594-km2-1/NotaTecnica_consolidado_PRODES_2022.pdf",
+        "2023": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/taxa-consolidada-de-desmatamento-na-amazonia-em-2022-2023-e-de-9-064-km2/ApresentacaoINPEPRODES.pdf",
+        "2024": "https://data.inpe.br/biomasbr/wp-content/uploads/sites/3/2025/07/Nota_tecnica_PRODES_2024_consolidada.pdf",
+        "2025": "https://static.poder360.com.br/uploads/2026/10/brasil-alcanca-menores-taxas-de-desmatamento-da-serie-historica-na-amazonia-e-no-cerrado-inpe-16-outubro-2026.pdf",
+        "2026": "https://static.poder360.com.br/uploads/2026/10/brasil-alcanca-menores-taxas-de-desmatamento-da-serie-historica-na-amazonia-e-no-cerrado-inpe-16-outubro-2026.pdf"
+      }
+    },
+    {
+      "id": "homicidios",
+      "name": "Taxa de homicídios (Atlas da Violência, SIM/DataSUS)",
+      "unit": "por 100 mil habitantes",
+      "higherIsBetter": false,
+      "officialSource": "Ipea / Fórum Brasileiro de Segurança Pública – Atlas da Violência (dados do SIM/DataSUS, Ministério da Saúde)",
+      "sourceUrl": "https://www.cartacapital.com.br/sociedade/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023/",
+      "values": {
+        "2013": 28.8, "2017": 31.8, "2018": 27.9, "2019": 21.7, "2020": 23.6,
+        "2021": 22.5, "2022": 21.7, "2023": 21.2, "2024": 20.1
+      },
+      "notes": "Série base: Atlas da Violência 2025 (série 2013-2023, taxa registrada no SIM, sem homicídios ocultos). 2024 vem do Atlas da Violência 2026 (Ipea/FBSP, mai/2026; 42.590 homicídios, série 2014-2024) — edição adjacente, pode ter pequenas revisões em relação ao Atlas 2025. Lacunas: 2006-2012 e 2014-2016 não foram encontradas na edição 2025 nesta sessão e foram omitidas para não misturar edições. Valores de edições anteriores (NÃO usados, revisados depois por novas estimativas populacionais): Atlas 2018 dava 29,8 (2014) e 30,3 (2016); Atlas 2019 dava 31,6 (2017) vs 31,8 no Atlas 2025; Atlas 2026 dá 30,2 para 2014. Taxa estimada incluindo homicídios ocultos é maior (ex.: Atlas 2026 aponta 7.083 homicídios ocultos em 2024).",
+      "yearSources": {
+        "2013": "https://sul21.com.br/?p=264908",
+        "2017": "https://www.cartacapital.com.br/sociedade/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023/",
+        "2018": "https://www.cartacapital.com.br/sociedade/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023/",
+        "2019": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023",
+        "2020": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023",
+        "2021": "https://www.cartacapital.com.br/sociedade/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023/",
+        "2022": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023",
+        "2023": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023",
+        "2024": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-05/brasil-tem-menor-taxa-de-homicidios-da-serie-historica-em-2024"
+      }
+    },
+    {
+      "id": "mvi",
+      "name": "Taxa de mortes violentas intencionais (Anuário FBSP)",
+      "unit": "por 100 mil habitantes",
+      "higherIsBetter": false,
+      "officialSource": "Fórum Brasileiro de Segurança Pública – Anuário Brasileiro de Segurança Pública (registros policiais das secretarias estaduais)",
+      "sourceUrl": "https://www.jb.com.br/brasil/2026/07/1060384-brasil-tem-menor-taxa-de-mortes-violentas-intencionais-desde-2012.html",
+      "values": {
+        "2021": 24.0, "2022": 23.4, "2023": 22.8, "2024": 20.6, "2025": 19.1
+      },
+      "notes": "MVI = homicídio doloso (inclui feminicídio) + latrocínio + lesão corporal seguida de morte + mortes por intervenção policial. Série distinta do Atlas (registros policiais, não SIM) — não comparar diretamente com 'homicidios'. Cada ano vem da edição mais recente encontrada: 2021-2022 do Anuário 2023 (47.508 MVI em 2022); 2023 do Anuário 2024 (46.328 MVI); 2024 e 2025 do Anuário 2026 (jul/2026; 44.127 e 40.775 MVI). O Anuário 2025 havia publicado 20,8 para 2024, revisado para 20,6 no Anuário 2026. Edições posteriores podem ter revisado 2021-2023 (não verificado). Série FBSP começa em 2011/2012 (2012 = 27,7 segundo o Anuário 2026).",
+      "yearSources": {
+        "2021": "https://www.cartacapital.com.br/?p=359198",
+        "2022": "https://www.cartacapital.com.br/?p=359198",
+        "2023": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-violentas-no-brasil-diminuem-34-em-2023/",
+        "2024": "https://www.jb.com.br/brasil/2026/07/1060384-brasil-tem-menor-taxa-de-mortes-violentas-intencionais-desde-2012.html",
+        "2025": "https://www.jb.com.br/brasil/2026/07/1060384-brasil-tem-menor-taxa-de-mortes-violentas-intencionais-desde-2012.html"
+      }
+    },
+    {
+      "id": "pib_mundo",
+      "name": "Crescimento do PIB mundial real (FMI)",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "FMI – World Economic Outlook, Statistical Appendix Table A1 (Summary of World Output, PPP weights)",
+      "sourceUrl": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+      "values": {
+        "2012": 3.5, "2013": 3.5, "2014": 3.5, "2015": 3.4, "2016": 3.3, "2017": 3.8,
+        "2018": 3.6, "2019": 3.0, "2020": -2.7, "2021": 6.7, "2022": 3.8,
+        "2023": 3.3, "2024": 3.4, "2025": 3.5
+      },
+      "notes": "Valores de diferentes edições do WEO (cada ano da edição mais recente cuja Tabela A1 mostra o ano como coluna anual, dentre as encontradas): 2018-2024 do WEO abr/2026 (linha World: média 2008-17 3,3; 2018 3,6; 2019 3,0; 2020 -2,7; 2021 6,7; 2022 3,8; 2023 3,3; 2024 3,4; 2025 3,4; 2026 3,1; 2027 3,2 — coerente com nota do Dep. de Finanças do Canadá: 3,4% em 2025, 3,1% em 2026, 3,2% em 2027). 2014-2017 do WEO out/2022; 2012-2013 do WEO abr/2020. 2025 = 3,5 do WEO out/2026 (edição mais recente; via cobertura de imprensa, tabela não acessada; abr/2026 dava 3,4). As edições revisam anos passados (ex.: 2021 = 6,6 em out/2025 vs 6,7 em abr/2026; 2023 = 3,5 em abr/2025 vs 3,3 em abr/2026), então a série combina vintages. 2006-2011 não encontrados nesta sessão (edições recentes só trazem média 2008-17); omitidos. Para série única, baixar o WEO Database out/2026 (NGDP_RPCH, World) em imf.org.",
+      "yearSources": {
+        "2012": "https://imf.org/-/media/Files/Publications/WEO/2020/April/English/StatsAppendixA.ashx",
+        "2013": "https://imf.org/-/media/Files/Publications/WEO/2020/April/English/StatsAppendixA.ashx",
+        "2014": "https://imf.org/-/media/Files/Publications/WEO/2022/October/English/tableA.ashx",
+        "2015": "https://imf.org/-/media/Files/Publications/WEO/2022/October/English/tableA.ashx",
+        "2016": "https://imf.org/-/media/Files/Publications/WEO/2022/October/English/tableA.ashx",
+        "2017": "https://imf.org/-/media/Files/Publications/WEO/2022/October/English/tableA.ashx",
+        "2018": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+        "2019": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+        "2020": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+        "2021": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+        "2022": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+        "2023": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+        "2024": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/tablea.pdf",
+        "2025": "https://www.steelorbis.com/steel-news/latest-news/imf-forecasts-global-economic-growth-to-slow-to-31-percent-in-2026-amid-energy-price-pressures-1483524.htm"
+      }
+    }
+  ]
+}
