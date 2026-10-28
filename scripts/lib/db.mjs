@@ -95,6 +95,36 @@ export function seedStatements(dataset) {
         .join(", ")}) on conflict do nothing`,
     );
   }
+  for (const el of dataset.elections ?? []) {
+    out.push(
+      `insert into election (year, round, winner, candidates, national, source_url, notes) values (${[
+        el.year, el.round, el.winner,
+      ].map(lit).join(", ")}, ${lit(JSON.stringify(el.candidates))}::jsonb, ${lit(JSON.stringify(el.national))}::jsonb, ` +
+        `${lit(el.nationalSource)}, ${lit(el.notes)}) on conflict (year, round) do update set winner = excluded.winner, ` +
+        `candidates = excluded.candidates, national = excluded.national, source_url = excluded.source_url, notes = excluded.notes`,
+    );
+    const rows = Object.entries(el.states).map(
+      ([uf, st]) => `(${[el.year, el.round, uf].map(lit).join(", ")}, ${lit(JSON.stringify(st.shares))}::jsonb, ${lit(st.source)})`,
+    );
+    if (rows.length) {
+      out.push(
+        `insert into election_state (year, round, uf, shares, source_url) values ${rows.join(", ")} ` +
+          `on conflict (year, round, uf) do update set shares = excluded.shares, source_url = excluded.source_url ` +
+          `where election_state.status <> 'revisado'`,
+      );
+    }
+  }
+
+  for (const b of dataset.bios ?? []) {
+    out.push(
+      `insert into president_bio (id, full_name, birth_date, birth_place, profession, previous_offices, sources) values (${[
+        b.id, b.fullName, isDate(b.birthDate) ? b.birthDate : null, b.birthPlace, b.profession, b.previousOffices,
+      ].map(lit).join(", ")}, ${lit(JSON.stringify(b.sources))}::jsonb) on conflict (id) do update set ` +
+        `full_name = excluded.full_name, birth_date = excluded.birth_date, birth_place = excluded.birth_place, ` +
+        `profession = excluded.profession, previous_offices = excluded.previous_offices, sources = excluded.sources ` +
+        `where president_bio.status <> 'revisado'`,
+    );
+  }
   return out;
 }
 
@@ -102,7 +132,7 @@ const day = (d) => (d instanceof Date ? d.toISOString().slice(0, 10) : d ? Strin
 
 /** Lê o banco e devolve o conjunto de dados no formato de src/data/dataset.json. */
 export async function pullDataset(query) {
-  const [inds, vals, events, checks] = await Promise.all([
+  const [inds, vals, events, checks, elections, states, bios] = await Promise.all([
     query(`select * from indicator order by id`),
     query(`select indicator_id, year, value, origin, source_url, status from indicator_value order by year`),
     query(`select e.*, coalesce(json_agg(json_build_object('outlet', s.outlet, 'title', s.title, 'url', s.url,
@@ -113,6 +143,9 @@ export async function pullDataset(query) {
              'date', s.published, 'approx', s.approx)) filter (where s.id is not null), '[]') as sources
            from factcheck c left join factcheck_source cs on cs.factcheck_id = c.id left join source s on s.id = cs.source_id
            group by c.id order by c.date desc`),
+    query(`select * from election order by year, round`),
+    query(`select * from election_state order by year, uf`),
+    query(`select * from president_bio order by id`),
   ]);
 
   const indicators = inds.map((i) => {
@@ -143,6 +176,19 @@ export async function pullDataset(query) {
     factchecks: checks.map((c) => ({
       id: c.id, claim: c.claim, claimant: c.claimant, about: c.about, date: day(c.date), dateApprox: c.date_approx,
       verdict: c.verdict, explanation: c.explanation, topic: c.topic, status: c.status, sources: src(c.sources),
+    })),
+    elections: elections.map((el) => ({
+      year: el.year, round: el.round, winner: el.winner, candidates: el.candidates, national: el.national,
+      nationalSource: el.source_url ?? "", notes: el.notes ?? "",
+      states: Object.fromEntries(
+        states
+          .filter((s) => s.year === el.year && s.round === el.round)
+          .map((s) => [s.uf.trim(), { shares: s.shares, source: s.source_url ?? "" }]),
+      ),
+    })),
+    bios: bios.map((b) => ({
+      id: b.id, fullName: b.full_name, birthDate: day(b.birth_date), birthPlace: b.birth_place ?? "",
+      profession: b.profession ?? "", previousOffices: b.previous_offices, sources: b.sources,
     })),
   };
 }

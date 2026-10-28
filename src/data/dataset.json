@@ -4257,5 +4257,784 @@
       ],
       "status": "pendente"
     }
+  ],
+  "elections": [
+    {
+      "year": 2018,
+      "round": 2,
+      "winner": "bolsonaro",
+      "candidates": [
+        {
+          "id": "bolsonaro",
+          "name": "Jair Bolsonaro",
+          "party": "PSL"
+        },
+        {
+          "id": "haddad",
+          "name": "Fernando Haddad",
+          "party": "PT"
+        }
+      ],
+      "national": {
+        "bolsonaro": 55.13,
+        "haddad": 44.87
+      },
+      "nationalSource": "https://www.jb.com.br/pais/eleicoes_2018/2018/10/951717-bolsonaro-vence-em-16-unidades-da-federacao-haddad-em-11.html",
+      "notes": "State table from pt.wikipedia 'Resultados da eleição presidencial no Brasil em 2018' (search summary said en.wikipedia '2018 Brazilian general election' shows the same percentages). Not checked directly against TSE. Count: Bolsonaro won 15 states + DF (16 units), Haddad 11 (all 9 Northeast states + PA + TO) - matches JB/Canal Rural/A União 'Bolsonaro vence em 16 unidades da Federação, Haddad em 11'. National 55.13/44.87 at 100% count (JB).",
+      "states": {
+        "AC": {
+          "shares": {
+            "bolsonaro": 77.22,
+            "haddad": 22.78
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "AL": {
+          "shares": {
+            "bolsonaro": 40.08,
+            "haddad": 59.92
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "AM": {
+          "shares": {
+            "bolsonaro": 50.27,
+            "haddad": 49.73
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "AP": {
+          "shares": {
+            "bolsonaro": 50.2,
+            "haddad": 49.8
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "BA": {
+          "shares": {
+            "bolsonaro": 27.31,
+            "haddad": 72.69
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "CE": {
+          "shares": {
+            "bolsonaro": 28.89,
+            "haddad": 71.11
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "DF": {
+          "shares": {
+            "bolsonaro": 69.99,
+            "haddad": 30.01
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "ES": {
+          "shares": {
+            "bolsonaro": 63.06,
+            "haddad": 36.94
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "GO": {
+          "shares": {
+            "bolsonaro": 65.52,
+            "haddad": 34.48
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "MA": {
+          "shares": {
+            "bolsonaro": 26.74,
+            "haddad": 73.26
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "MG": {
+          "shares": {
+            "bolsonaro": 58.19,
+            "haddad": 41.81
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "MS": {
+          "shares": {
+            "bolsonaro": 65.22,
+            "haddad": 34.78
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "MT": {
+          "shares": {
+            "bolsonaro": 66.42,
+            "haddad": 33.58
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "PA": {
+          "shares": {
+            "bolsonaro": 45.19,
+            "haddad": 54.81
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "PB": {
+          "shares": {
+            "bolsonaro": 35.02,
+            "haddad": 64.98
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "PE": {
+          "shares": {
+            "bolsonaro": 33.5,
+            "haddad": 66.5
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "PI": {
+          "shares": {
+            "bolsonaro": 22.95,
+            "haddad": 77.05
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "PR": {
+          "shares": {
+            "bolsonaro": 68.43,
+            "haddad": 31.57
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "RJ": {
+          "shares": {
+            "bolsonaro": 67.95,
+            "haddad": 32.05
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "RN": {
+          "shares": {
+            "bolsonaro": 36.59,
+            "haddad": 63.41
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "RO": {
+          "shares": {
+            "bolsonaro": 72.18,
+            "haddad": 27.82
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "RR": {
+          "shares": {
+            "bolsonaro": 71.55,
+            "haddad": 28.45
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "RS": {
+          "shares": {
+            "bolsonaro": 63.24,
+            "haddad": 36.76
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "SC": {
+          "shares": {
+            "bolsonaro": 75.92,
+            "haddad": 24.08
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "SE": {
+          "shares": {
+            "bolsonaro": 32.46,
+            "haddad": 67.54
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "SP": {
+          "shares": {
+            "bolsonaro": 67.97,
+            "haddad": 32.03
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        },
+        "TO": {
+          "shares": {
+            "bolsonaro": 48.98,
+            "haddad": 51.02
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "round": 2,
+      "winner": "lula",
+      "candidates": [
+        {
+          "id": "lula",
+          "name": "Luiz Inácio Lula da Silva",
+          "party": "PT"
+        },
+        {
+          "id": "bolsonaro",
+          "name": "Jair Bolsonaro",
+          "party": "PL"
+        }
+      ],
+      "national": {
+        "lula": 50.9,
+        "bolsonaro": 49.1
+      },
+      "nationalSource": "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/100-das-secoes-totalizadas-confira-como-ficou-o-quadro-eleitoral-apos-o-2o-turno",
+      "notes": "State table from pt.wikipedia 'Resultados da eleição presidencial no Brasil em 2022'. Cross-checks seen in other results: AP 48.64/51.36, BA ~72.1, PI 76.83-76.86, MG 50.20, SP 55.24, RJ 56.53, SC 69.27 (Gazeta do Povo/CNN/Exame); MA 71.14 matches 2,668,425 x 1,082,749 votes (CNN/Diário de Pernambuco gave 70.93, likely partial count); TO 51.36 Lula (Portal Amazônia). Small rounding differences between outlets (e.g. BA 72.11 vs 72.12, PI 76.83 vs 76.86). Count: Lula won 13 states (AL, AM, BA, CE, MA, MG, PA, PB, PE, PI, RN, SE, TO), Bolsonaro 13 states + DF - matches Gazeta do Povo/CNN/Diário de Pernambuco. Not checked directly against TSE state tables.",
+      "states": {
+        "AC": {
+          "shares": {
+            "lula": 29.7,
+            "bolsonaro": 70.3
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "AL": {
+          "shares": {
+            "lula": 58.68,
+            "bolsonaro": 41.32
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "AM": {
+          "shares": {
+            "lula": 51.1,
+            "bolsonaro": 48.9
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "AP": {
+          "shares": {
+            "lula": 48.64,
+            "bolsonaro": 51.36
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "BA": {
+          "shares": {
+            "lula": 72.12,
+            "bolsonaro": 27.88
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "CE": {
+          "shares": {
+            "lula": 69.97,
+            "bolsonaro": 30.03
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "DF": {
+          "shares": {
+            "lula": 41.19,
+            "bolsonaro": 58.81
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "ES": {
+          "shares": {
+            "lula": 41.96,
+            "bolsonaro": 58.04
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "GO": {
+          "shares": {
+            "lula": 41.29,
+            "bolsonaro": 58.71
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "MA": {
+          "shares": {
+            "lula": 71.14,
+            "bolsonaro": 28.86
+          },
+          "source": "https://oimparcial.com.br/politica/2022/10/segundo-turno-bolsonaro-vence-em-apenas-tres-municipios-do-maranhao/"
+        },
+        "MG": {
+          "shares": {
+            "lula": 50.2,
+            "bolsonaro": 49.8
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "MS": {
+          "shares": {
+            "lula": 40.51,
+            "bolsonaro": 59.49
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "MT": {
+          "shares": {
+            "lula": 34.92,
+            "bolsonaro": 65.08
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "PA": {
+          "shares": {
+            "lula": 54.75,
+            "bolsonaro": 45.25
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "PB": {
+          "shares": {
+            "lula": 66.62,
+            "bolsonaro": 33.38
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "PE": {
+          "shares": {
+            "lula": 66.93,
+            "bolsonaro": 33.07
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "PI": {
+          "shares": {
+            "lula": 76.86,
+            "bolsonaro": 23.14
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "PR": {
+          "shares": {
+            "lula": 37.6,
+            "bolsonaro": 62.4
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "RJ": {
+          "shares": {
+            "lula": 43.47,
+            "bolsonaro": 56.53
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "RN": {
+          "shares": {
+            "lula": 65.1,
+            "bolsonaro": 34.9
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "RO": {
+          "shares": {
+            "lula": 29.34,
+            "bolsonaro": 70.66
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "RR": {
+          "shares": {
+            "lula": 23.92,
+            "bolsonaro": 76.08
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "RS": {
+          "shares": {
+            "lula": 43.65,
+            "bolsonaro": 56.35
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "SC": {
+          "shares": {
+            "lula": 30.73,
+            "bolsonaro": 69.27
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "SE": {
+          "shares": {
+            "lula": 67.21,
+            "bolsonaro": 32.79
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        },
+        "SP": {
+          "shares": {
+            "lula": 44.76,
+            "bolsonaro": 55.24
+          },
+          "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_em_S%C3%A3o_Paulo_em_2022"
+        },
+        "TO": {
+          "shares": {
+            "lula": 51.36,
+            "bolsonaro": 48.64
+          },
+          "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+        }
+      }
+    },
+    {
+      "year": 2026,
+      "round": 2,
+      "winner": "lula",
+      "candidates": [
+        {
+          "id": "lula",
+          "name": "Luiz Inácio Lula da Silva",
+          "party": "PT"
+        },
+        {
+          "id": "flavio",
+          "name": "Flávio Bolsonaro",
+          "party": "PL"
+        }
+      ],
+      "national": {
+        "lula": 51.79,
+        "flavio": 48.21
+      },
+      "nationalSource": "https://www.otempo.com.br/eleicoes/2026/analises/mapa-dos-votos",
+      "notes": "State table from en.wikipedia '2026 Brazilian general election' (only source in search results with all 27 units); national 51.79/48.21 confirmed by O Tempo at 100% of sections (an earlier O Tempo/Portal Amazônia figure at 99.95% was 51.78/48.22). Cross-checks: MT 66.06 and RJ 53.10 Flávio, BA 71.31, PI 75.88, PE 69.20, SP 53.85, SC 69.42, RR 72.46 (O Tempo); TO 51.37 Flávio, MA 69.54, AM 54.02, RR 72.46 (Portal Amazônia). DISCREPANCY: MG - Wikipedia 50.43/49.57 vs O Tempo 50.41/49.59 (Wikipedia value kept; verify on TSE). AC 2nd-round figure (66.57 Flávio) has no independent confirmation (O Tempo list showed 64.56, apparently a 1st-round figure). Count: Lula 13 units (AL, AM, AP, BA, CE, MA, MG, PA, PB, PE, PI, RN, SE), Flávio 13 states + DF; Portal Amazônia confirms 4 Lula / 5 Flávio in Legal Amazon (AC, MT, RO, RR, TO for Flávio) and O Tempo confirms MG as the only state flipped to Lula between rounds. No national news article stating the total count was found. Values should be re-verified against TSE (resultados.tse.jus.br).",
+      "states": {
+        "AC": {
+          "shares": {
+            "lula": 33.43,
+            "flavio": 66.57
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "AL": {
+          "shares": {
+            "lula": 60.77,
+            "flavio": 39.23
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "AM": {
+          "shares": {
+            "lula": 54.02,
+            "flavio": 45.98
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "AP": {
+          "shares": {
+            "lula": 52.88,
+            "flavio": 47.12
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "BA": {
+          "shares": {
+            "lula": 71.31,
+            "flavio": 28.69
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "CE": {
+          "shares": {
+            "lula": 68.93,
+            "flavio": 31.07
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "DF": {
+          "shares": {
+            "lula": 45.72,
+            "flavio": 54.28
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "ES": {
+          "shares": {
+            "lula": 43.63,
+            "flavio": 56.37
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "GO": {
+          "shares": {
+            "lula": 40.34,
+            "flavio": 59.66
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "MA": {
+          "shares": {
+            "lula": 69.54,
+            "flavio": 30.46
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "MG": {
+          "shares": {
+            "lula": 50.43,
+            "flavio": 49.57
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "MS": {
+          "shares": {
+            "lula": 40.4,
+            "flavio": 59.6
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "MT": {
+          "shares": {
+            "lula": 33.94,
+            "flavio": 66.06
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "PA": {
+          "shares": {
+            "lula": 55.02,
+            "flavio": 44.98
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "PB": {
+          "shares": {
+            "lula": 67.46,
+            "flavio": 32.54
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "PE": {
+          "shares": {
+            "lula": 69.2,
+            "flavio": 30.8
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "PI": {
+          "shares": {
+            "lula": 75.88,
+            "flavio": 24.12
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "PR": {
+          "shares": {
+            "lula": 37.42,
+            "flavio": 62.58
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "RJ": {
+          "shares": {
+            "lula": 46.9,
+            "flavio": 53.1
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "RN": {
+          "shares": {
+            "lula": 65.72,
+            "flavio": 34.28
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "RO": {
+          "shares": {
+            "lula": 30.39,
+            "flavio": 69.61
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "RR": {
+          "shares": {
+            "lula": 27.54,
+            "flavio": 72.46
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "RS": {
+          "shares": {
+            "lula": 42.16,
+            "flavio": 57.84
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "SC": {
+          "shares": {
+            "lula": 30.58,
+            "flavio": 69.42
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "SE": {
+          "shares": {
+            "lula": 69.53,
+            "flavio": 30.47
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "SP": {
+          "shares": {
+            "lula": 46.15,
+            "flavio": 53.85
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        },
+        "TO": {
+          "shares": {
+            "lula": 48.63,
+            "flavio": 51.37
+          },
+          "source": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
+        }
+      }
+    }
+  ],
+  "bios": [
+    {
+      "id": "lula",
+      "fullName": "Luiz Inácio Lula da Silva",
+      "birthDate": "1945-10-27",
+      "birthPlace": "Garanhuns, PE",
+      "birthPlaceNote": "Born in Caetés, then a district of Garanhuns (Agência Câmara); Planalto gives Garanhuns.",
+      "profession": "Torneiro mecânico (metalúrgico), formado pelo Senai",
+      "previousOffices": [
+        "Deputado federal por São Paulo (1987-1991, Assembleia Nacional Constituinte)",
+        "Presidente da República (2003-2010)",
+        "Presidente da República (2023-, reeleito em 2026)"
+      ],
+      "sources": [
+        {
+          "outlet": "Planalto / Biblioteca da Presidência",
+          "title": "Biografia — Luiz Inácio Lula da Silva",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia"
+        },
+        {
+          "outlet": "Planalto",
+          "title": "Biografia do Presidente da República",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente"
+        },
+        {
+          "outlet": "Câmara dos Deputados",
+          "title": "Biografia do(a) Deputado(a) Federal LUIZ INÁCIO LULA DA SILVA",
+          "url": "https://www.camara.leg.br/deputados/139289/biografia"
+        },
+        {
+          "outlet": "Agência Câmara",
+          "title": "Veja o perfil de Lula, o presidente reeleito do Brasil",
+          "url": "https://www.camara.leg.br/noticias/91015-veja-o-perfil-de-lula-o-presidente-reeleito-do-brasil"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Luiz Inácio Lula da Silva - Período Eleitoral",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/204-luiz-inacio-lula-da-silva"
+        }
+      ]
+    },
+    {
+      "id": "dilma",
+      "fullName": "Dilma Vana Rousseff",
+      "birthDate": "1947-12-14",
+      "birthPlace": "Belo Horizonte, MG",
+      "profession": "Economista (graduada em Economia pela UFRGS)",
+      "previousOffices": [
+        "Ministra de Minas e Energia (2003-2005)",
+        "Ministra-chefe da Casa Civil (2005-2010)",
+        "Presidente da República (2011-2016; mandato interrompido em 31/08/2016)"
+      ],
+      "sources": [
+        {
+          "outlet": "Planalto / Biblioteca da Presidência",
+          "title": "Biografia — Dilma Vana Rousseff",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/dilma-vana-rousseff/biografia"
+        },
+        {
+          "outlet": "Secretaria-Geral / Biblioteca da PR",
+          "title": "Biografia Completa — Dilma Vana Rousseff",
+          "url": "https://www.gov.br/secretariageral/pt-br/centrais-de-conteudo/biblioteca-da-pr/galeria-dos-ex-presidentes/dilma-vana-rousseff/biografia-completa"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Dilma Vana Rousseff",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/205-dilma-vana-rousseff"
+        },
+        {
+          "outlet": "Assembleia Legislativa da Bahia",
+          "title": "Dilma Vana Rousseff",
+          "url": "https://www.al.ba.gov.br/historia-do-legislativo/titulos-e-condecoracoes/homenageados/551"
+        }
+      ]
+    },
+    {
+      "id": "temer",
+      "fullName": "Michel Miguel Elias Temer Lulia",
+      "birthDate": "1940-09-23",
+      "birthPlace": "Tietê, SP",
+      "profession": "Advogado e professor",
+      "previousOffices": [
+        "Deputado federal por São Paulo (1987-2010)",
+        "Presidente da Câmara dos Deputados (1997-1999, 1999-2001, 2009-2010)",
+        "Vice-presidente da República (2011-2016)",
+        "Presidente da República (2016-2018; interino desde 12/05/2016, efetivo a partir de 31/08/2016)"
+      ],
+      "sources": [
+        {
+          "outlet": "Planalto / Biblioteca da Presidência",
+          "title": "Biografia — Michel Miguel Elias Temer Lulia",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/michel-miguel-elias-temer-lulia/biografia"
+        },
+        {
+          "outlet": "Câmara dos Deputados",
+          "title": "Biografia Deputado Michel Temer",
+          "url": "https://www2.camara.leg.br/a-camara/presidencia/galeria-presidentes/michel-temer-2009-2010"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Michel Miguel Elias Temer Lulia - Período Eleitoral",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/201-michel-miguel-elias-temer-lulia"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro",
+      "fullName": "Jair Messias Bolsonaro",
+      "birthDate": "1955-03-21",
+      "birthPlace": "Glicério, SP",
+      "birthPlaceNote": "Some Agência Câmara reports say he was registered in Campinas (SP).",
+      "profession": "Militar (capitão do Exército, formado pela AMAN em 1977)",
+      "previousOffices": [
+        "Deputado federal pelo Rio de Janeiro (1991-2018, sete mandatos)",
+        "Presidente da República (2019-2022)"
+      ],
+      "sources": [
+        {
+          "outlet": "Câmara dos Deputados",
+          "title": "Biografia do(a) Deputado(a) Federal JAIR BOLSONARO",
+          "url": "https://www.camara.leg.br/deputados/74847/biografia"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Jair Messias Bolsonaro - Período Eleitoral",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/199-jair-messias-bolsonaro"
+        },
+        {
+          "outlet": "Agência Câmara",
+          "title": "Conheça perfil do presidente da República Jair Bolsonaro",
+          "url": "https://www.camara.leg.br/radio/radioagencia/550435-conheca-perfil-do-presidente-da-republica-jair-bolsonaro/"
+        }
+      ]
+    }
   ]
 }

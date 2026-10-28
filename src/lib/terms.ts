@@ -3,6 +3,9 @@ import type { Term, TermId } from "./types";
 export const TERMS: Term[] = [
   {
     id: "lula2",
+    person: "lula",
+    electionYear: 2006,
+    howTookOffice: "Reeleito no 2º turno de 2006.",
     president: "Luiz Inácio Lula da Silva",
     shortName: "Lula",
     label: "Lula · 2º mandato",
@@ -14,6 +17,9 @@ export const TERMS: Term[] = [
   },
   {
     id: "dilma1",
+    person: "dilma",
+    electionYear: 2010,
+    howTookOffice: "Eleita no 2º turno de 2010.",
     president: "Dilma Rousseff",
     shortName: "Dilma",
     label: "Dilma · 1º mandato",
@@ -25,6 +31,9 @@ export const TERMS: Term[] = [
   },
   {
     id: "dilma2",
+    person: "dilma",
+    electionYear: 2014,
+    howTookOffice: "Reeleita no 2º turno de 2014.",
     president: "Dilma Rousseff",
     shortName: "Dilma",
     label: "Dilma · 2º mandato",
@@ -37,6 +46,9 @@ export const TERMS: Term[] = [
   },
   {
     id: "temer",
+    person: "temer",
+    electionYear: null,
+    howTookOffice: "Vice eleito na chapa de Dilma em 2014; assumiu com o impeachment.",
     president: "Michel Temer",
     shortName: "Temer",
     label: "Temer",
@@ -49,6 +61,9 @@ export const TERMS: Term[] = [
   },
   {
     id: "bolsonaro",
+    person: "bolsonaro",
+    electionYear: 2018,
+    howTookOffice: "Eleito no 2º turno de 2018.",
     president: "Jair Messias Bolsonaro",
     shortName: "Bolsonaro",
     label: "Bolsonaro",
@@ -60,6 +75,9 @@ export const TERMS: Term[] = [
   },
   {
     id: "lula3",
+    person: "lula",
+    electionYear: 2022,
+    howTookOffice: "Eleito no 2º turno de 2022.",
     president: "Luiz Inácio Lula da Silva",
     shortName: "Lula",
     label: "Lula · 3º mandato",

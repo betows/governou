@@ -74,3 +74,38 @@ create table if not exists factcheck_source (
 
 create index if not exists gov_event_term_idx on gov_event (term_id, date);
 create index if not exists factcheck_date_idx on factcheck (date desc);
+
+-- Resultado do 2º turno por UF nas eleições que elegeram cada presidente
+create table if not exists election (
+  year        smallint not null,
+  round       smallint not null check (round in (1, 2)),
+  winner      text not null,
+  candidates  jsonb not null,           -- [{id, name, party}]
+  national    jsonb not null,           -- {candidato: % votos válidos}
+  source_url  text,
+  notes       text,
+  primary key (year, round)
+);
+
+create table if not exists election_state (
+  year        smallint not null,
+  round       smallint not null,
+  uf          char(2) not null,
+  shares      jsonb not null,           -- {candidato: % votos válidos}
+  source_url  text,
+  status      text not null default 'pendente' check (status in ('pendente', 'revisado')),
+  primary key (year, round, uf),
+  foreign key (year, round) references election (year, round) on delete cascade
+);
+
+-- Ficha biográfica de cada presidente
+create table if not exists president_bio (
+  id               text primary key,
+  full_name        text not null,
+  birth_date       date,
+  birth_place      text,
+  profession       text,
+  previous_offices text[] not null default '{}',
+  sources          jsonb not null default '[]',
+  status           text not null default 'pendente' check (status in ('pendente', 'revisado'))
+);

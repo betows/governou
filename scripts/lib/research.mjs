@@ -18,6 +18,7 @@ export const TERMS = {
   bolsonaro: ["2019-01-01", "2022-12-31"],
   lula3: ["2023-01-01", "2026-12-31"],
 };
+const UFS = new Set("AC AL AM AP BA CE DF ES GO MA MG MS MT PA PB PE PI PR RJ RN RO RR RS SC SE SP TO".split(" "));
 const IMPACTS = new Set(["positivo", "negativo", "misto"]);
 const VERDICTS = new Set(["falso", "enganoso", "exagerado", "sem-contexto", "verdadeiro", "impreciso"]);
 
@@ -116,8 +117,53 @@ export function loadResearch(dir = new URL("../../research/", import.meta.url)) 
   }
   factchecks.sort((a, b) => b.date.localeCompare(a.date));
 
+  // ---------- Eleições (2º turno por UF) ----------
+  const elections = [];
+  for (const f of files.filter((f) => f.startsWith("elections-"))) {
+    for (const el of read(f).elections ?? []) {
+      const ctx = `${f}#${el.year}`;
+      const ids = (el.candidates ?? []).map((c) => c.id);
+      if (ids.length !== 2 || !ids.includes(el.winner)) { warn(`${ctx}: candidatos ou vencedor inválidos`); continue; }
+      const states = {};
+      for (const [uf, row] of Object.entries(el.states ?? {})) {
+        const key = uf.toUpperCase();
+        if (!UFS.has(key)) { warn(`${ctx}: UF desconhecida ${uf}`); continue; }
+        const shares = Object.fromEntries(ids.map((id) => [id, Number(row[id])]));
+        const sum = ids.reduce((a, id) => a + shares[id], 0);
+        if (ids.some((id) => !Number.isFinite(shares[id])) || Math.abs(sum - 100) > 0.3) {
+          warn(`${ctx}/${key}: percentuais somam ${sum.toFixed(2)} — descartado`);
+          continue;
+        }
+        if (!row.source) { warn(`${ctx}/${key}: sem fonte — descartado`); continue; }
+        states[key] = { shares, source: row.source };
+      }
+      elections.push({
+        year: el.year, round: el.round ?? 2, winner: el.winner, candidates: el.candidates,
+        national: el.national ?? {}, nationalSource: el.nationalSource ?? "", notes: el.notes ?? "", states,
+      });
+    }
+  }
+  elections.sort((a, b) => a.year - b.year);
+
+  // ---------- Fichas biográficas ----------
+  const bios = [];
+  if (files.includes("bios.json")) {
+    for (const b of read("bios.json").bios ?? []) {
+      const sources = validSources(b.sources, `bios#${b.id}`);
+      if (!b.id || !b.fullName || sources.length === 0) { warn(`bios#${b.id}: incompleta ou sem fonte — descartada`); continue; }
+      bios.push({ ...b, previousOffices: b.previousOffices ?? [], sources });
+    }
+  }
+
   return {
-    dataset: { generatedAt: new Date().toISOString().slice(0, 10), indicators: [...indicators.values()], events, factchecks },
+    dataset: {
+      generatedAt: new Date().toISOString().slice(0, 10),
+      indicators: [...indicators.values()],
+      events,
+      factchecks,
+      elections,
+      bios,
+    },
     warnings,
   };
 }

@@ -8,6 +8,7 @@ import { MIN_COVERAGE, PILLARS, formatScore } from "@/lib/scoring";
 import { CURRENT_TERM, TERMS, formatPeriod } from "@/lib/terms";
 import { toneVar } from "@/lib/ui";
 import { Grade, Stamp } from "./Grade";
+import { Portrait } from "./Portrait";
 import { useScores } from "./ScoreProvider";
 import { WeightsPanel } from "./WeightsPanel";
 
@@ -36,8 +37,8 @@ export function HomeView() {
           <p className="label">Boletim dos governos federais · 2007 a 2026</p>
           <h1 className="font-display mt-3 text-6xl sm:text-8xl">Que nota cada governo tirou?</h1>
           <p className="mt-5 max-w-2xl text-lg text-muted">
-            Seis matérias, notas de 0 a 10 e a mesma régua da escola. Cada nota sai de dados oficiais do IBGE, Banco Central,
-            INPE e IPEA, e cada acerto ou erro vem com a notícia que o comprova.
+            Avaliamos os governos de 2007 até hoje com números oficiais: crescimento, emprego, inflação, contas públicas,
+            pobreza, desmatamento e violência. Cada nota mostra a conta e a fonte de cada dado.
           </p>
         </div>
         <dl className="grid grid-cols-3 gap-4 border-t-2 border-ink pt-3 text-sm lg:grid-cols-1 lg:gap-2 lg:border-l-2 lg:border-t-0 lg:pl-4 lg:pt-0">
@@ -184,6 +185,34 @@ export function HomeView() {
         </footer>
       </section>
 
+      {/* Fichas */}
+      <section className="mt-16">
+        <p className="label">Fichas</p>
+        <h2 className="font-display mt-2 text-5xl">Quem governou</h2>
+        <ul className="mt-8 grid grid-cols-2 gap-x-4 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
+          {TERMS.map((t) => {
+            const s = scores[t.id];
+            return (
+              <li key={t.id}>
+                <Link href={`/governo/${t.id}/`} className="group flex flex-col items-center gap-3 text-center">
+                  <span className="transition group-hover:-translate-y-1">
+                    <Portrait person={t.person} width={120} />
+                  </span>
+                  <span>
+                    <span className="block font-bold group-hover:text-pen group-hover:underline">{t.label}</span>
+                    <span className="tabular block text-xs text-muted">{formatPeriod(t)}</span>
+                  </span>
+                  <span className="flex items-center gap-2">
+                    <Grade score={s.score} provisional={s.provisional} size="sm" />
+                    <Stamp score={s.score} provisional={s.provisional} size="sm" />
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
       {/* Governo atual */}
       <section className="mt-16 grid gap-10 lg:grid-cols-[1fr_1.3fr]">
         <div>
@@ -202,24 +231,28 @@ export function HomeView() {
           </Link>
         </div>
 
-        <div className="sheet ruled px-5 pb-2 pt-4">
-          <div className="grid grid-cols-[1fr_4.5rem_5.5rem] items-end border-b-2 border-ink pb-2">
+        <div className="sheet self-start px-5 pb-1 pt-4">
+          <div className="grid grid-cols-[1fr_4rem_5rem_2rem] items-end gap-2 border-b-2 border-ink pb-2">
             <span className="label">Matéria</span>
             <span className="label text-right">Atual</span>
-            <span className="label text-right">Média ant.</span>
+            <span className="label text-right">Antes</span>
+            <span className="sr-only">Comparação</span>
           </div>
-          <ul>
+          <ul aria-label="Governo atual comparado com a média dos cinco anteriores">
             {PILLARS.map((p) => {
               const a = cur.pillars.find((x) => x.pillar.id === p.id)?.score ?? null;
               const b = avgOf((id) => scores[id].pillars.find((x) => x.pillar.id === p.id)?.score ?? null);
               return (
-                <li key={p.id} className="grid h-8 grid-cols-[1fr_4.5rem_5.5rem] items-center">
+                <li key={p.id} className="grid grid-cols-[1fr_4rem_5rem_2rem] items-center gap-2 border-b border-line py-2.5 last:border-0">
                   <span>{p.name}</span>
                   <span className="text-right">
                     {a === null ? <span className="tabular text-sm text-muted">s/n</span> : <Grade score={a} size="sm" />}
                   </span>
                   <span className="tabular text-right" style={{ color: b === null ? "var(--muted)" : toneVar(b) }}>
                     {b === null ? "s/n" : formatScore(b)}
+                  </span>
+                  <span className="tabular text-right text-sm" aria-label={a !== null && b !== null ? (a >= b ? "acima" : "abaixo") : undefined}>
+                    {a !== null && b !== null && (a >= b ? <span className="text-pen">▲</span> : <span className="text-red">▼</span>)}
                   </span>
                 </li>
               );

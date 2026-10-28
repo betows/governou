@@ -25,6 +25,14 @@ const check = (cond, msg) => cond || fail.push(msg);
 check(back.indicators.length === dataset.indicators.length, "número de indicadores");
 check(back.events.length === dataset.events.length, "número de fatos");
 check(back.factchecks.length === dataset.factchecks.length, "número de checagens");
+check(back.elections.length === dataset.elections.length, "número de eleições");
+for (const el of dataset.elections) {
+  const b = back.elections.find((x) => x.year === el.year);
+  for (const [uf, st] of Object.entries(el.states)) {
+    for (const [cand, v] of Object.entries(st.shares)) check(b?.states[uf]?.shares[cand] === v, `eleição ${el.year}/${uf}/${cand}`);
+  }
+}
+check(back.bios.length === dataset.bios.length, "número de fichas");
 for (const i of dataset.indicators) {
   const b = back.indicators.find((x) => x.id === i.id);
   for (const [y, v] of Object.entries(i.values)) check(b?.values[y] === v, `valor ${i.id}/${y}`);

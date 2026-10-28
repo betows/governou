@@ -21,6 +21,9 @@
   --red: #c4262e;        /* caneta vermelha */
   --ochre: #a86d12;      /* recuperação */
   --stamp-none: #7b838f;
+  /* Mapa do voto: cores neutras, sem relação com a escala de notas nem com cores de partido */
+  --vote-a: #2b6f69;
+  --vote-b: #7b4f8e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,6 +40,8 @@
     --red: #ff8c84;
     --ochre: #f0c26a;
     --stamp-none: #8d9a92;
+    --vote-a: #63bdb3;
+    --vote-b: #bb92d6;
   }
 }
 
@@ -52,6 +57,8 @@
   --color-pen: var(--pen);
   --color-red: var(--red);
   --color-ochre: var(--ochre);
+  --color-vote-a: var(--vote-a);
+  --color-vote-b: var(--vote-b);
   --color-great: var(--pen);
   --color-good: var(--pen);
   --color-mid: var(--ochre);
@@ -171,4 +178,61 @@ input[type="range"] { accent-color: var(--pen); }
 @media (prefers-reduced-motion: reduce) {
   .stamp.animate { animation: none; }
   html { scroll-behavior: auto; }
+}
+
+/* Foto 3x4 presa por clipe na ficha */
+.photo-3x4 {
+  position: relative;
+  background: var(--sheet);
+  padding: 6px 6px 22px;
+  border: 1px solid var(--rule);
+  box-shadow: 0 1px 0 var(--rule), 0 8px 18px -12px rgba(0, 0, 0, 0.35);
+  transform: rotate(-1.5deg);
+}
+.photo-3x4 img,
+.photo-3x4 .mono {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center 20%;
+  filter: grayscale(0.15) contrast(1.02);
+}
+.photo-3x4 img {
+  display: block;
+}
+
+/* Campo de formulário: rótulo pequeno e valor datilografado sobre a linha */
+.field {
+  border-bottom: 1px dotted var(--rule);
+  padding-block: 0.4rem 0.35rem;
+  min-width: 0;
+}
+.field dt {
+  font-family: var(--font-display);
+  font-stretch: 90%;
+  font-weight: 600;
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.field dd {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.uf-shape {
+  stroke: var(--sheet);
+  stroke-width: 0.8;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  outline: none;
+}
+.uf-shape:hover,
+.uf-shape:focus-visible,
+.uf-shape.active {
+  stroke: var(--ink);
+  stroke-width: 1.6;
 }

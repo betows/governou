@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const LINKS = [
   { href: "/", label: "Boletim" },
   { href: "/monitor/", label: "Governo atual" },
+  { href: "/mapa/", label: "Mapa do voto" },
   { href: "/comparar/", label: "Comparar" },
   { href: "/checagem/", label: "Checagem" },
   { href: "/metodologia/", label: "Metodologia" },

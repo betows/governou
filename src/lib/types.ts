@@ -26,8 +26,15 @@ export interface Source {
 /** 'pendente' = levantado por pesquisa, aguardando revisão humana. */
 export type ReviewStatus = "pendente" | "revisado";
 
+export type PersonId = "lula" | "dilma" | "temer" | "bolsonaro";
+
 export interface Term {
   id: TermId;
+  person: PersonId;
+  /** Ano da eleição que deu o mandato (2º turno); null quando assumiu sem eleição própria. */
+  electionYear: number | null;
+  /** Como chegou ao cargo, em uma frase. */
+  howTookOffice: string;
   president: string;
   shortName: string;
   label: string;
@@ -89,9 +96,46 @@ export interface FactCheck {
   status?: ReviewStatus;
 }
 
+export interface Candidate {
+  id: string;
+  name: string;
+  party: string;
+}
+
+/** 2º turno por UF: % dos votos válidos de cada candidato. */
+export interface Election {
+  year: number;
+  round: number;
+  winner: string;
+  candidates: Candidate[];
+  national: Record<string, number>;
+  nationalSource: string;
+  notes: string;
+  states: Record<string, { shares: Record<string, number>; source: string }>;
+}
+
+export interface Bio {
+  id: string;
+  fullName: string;
+  birthDate?: string;
+  birthPlace: string;
+  profession: string;
+  previousOffices: string[];
+  sources: Source[];
+}
+
+export interface Portrait {
+  src: string;
+  author: string;
+  license: string;
+  sourceUrl: string;
+}
+
 export interface Dataset {
   generatedAt: string;
   indicators: IndicatorSeries[];
   events: GovEvent[];
   factchecks: FactCheck[];
+  elections: Election[];
+  bios: Bio[];
 }

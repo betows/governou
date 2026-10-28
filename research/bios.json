@@ -1,0 +1,137 @@
+{
+  "bios": [
+    {
+      "id": "lula",
+      "fullName": "Luiz Inácio Lula da Silva",
+      "birthDate": "1945-10-27",
+      "birthPlace": "Garanhuns, PE",
+      "birthPlaceNote": "Born in Caetés, then a district of Garanhuns (Agência Câmara); Planalto gives Garanhuns.",
+      "profession": "Torneiro mecânico (metalúrgico), formado pelo Senai",
+      "previousOffices": [
+        "Deputado federal por São Paulo (1987-1991, Assembleia Nacional Constituinte)",
+        "Presidente da República (2003-2010)",
+        "Presidente da República (2023-, reeleito em 2026)"
+      ],
+      "sources": [
+        {
+          "outlet": "Planalto / Biblioteca da Presidência",
+          "title": "Biografia — Luiz Inácio Lula da Silva",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia"
+        },
+        {
+          "outlet": "Planalto",
+          "title": "Biografia do Presidente da República",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente"
+        },
+        {
+          "outlet": "Câmara dos Deputados",
+          "title": "Biografia do(a) Deputado(a) Federal LUIZ INÁCIO LULA DA SILVA",
+          "url": "https://www.camara.leg.br/deputados/139289/biografia"
+        },
+        {
+          "outlet": "Agência Câmara",
+          "title": "Veja o perfil de Lula, o presidente reeleito do Brasil",
+          "url": "https://www.camara.leg.br/noticias/91015-veja-o-perfil-de-lula-o-presidente-reeleito-do-brasil"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Luiz Inácio Lula da Silva - Período Eleitoral",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/204-luiz-inacio-lula-da-silva"
+        }
+      ]
+    },
+    {
+      "id": "dilma",
+      "fullName": "Dilma Vana Rousseff",
+      "birthDate": "1947-12-14",
+      "birthPlace": "Belo Horizonte, MG",
+      "profession": "Economista (graduada em Economia pela UFRGS)",
+      "previousOffices": [
+        "Ministra de Minas e Energia (2003-2005)",
+        "Ministra-chefe da Casa Civil (2005-2010)",
+        "Presidente da República (2011-2016; mandato interrompido em 31/08/2016)"
+      ],
+      "sources": [
+        {
+          "outlet": "Planalto / Biblioteca da Presidência",
+          "title": "Biografia — Dilma Vana Rousseff",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/dilma-vana-rousseff/biografia"
+        },
+        {
+          "outlet": "Secretaria-Geral / Biblioteca da PR",
+          "title": "Biografia Completa — Dilma Vana Rousseff",
+          "url": "https://www.gov.br/secretariageral/pt-br/centrais-de-conteudo/biblioteca-da-pr/galeria-dos-ex-presidentes/dilma-vana-rousseff/biografia-completa"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Dilma Vana Rousseff",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/205-dilma-vana-rousseff"
+        },
+        {
+          "outlet": "Assembleia Legislativa da Bahia",
+          "title": "Dilma Vana Rousseff",
+          "url": "https://www.al.ba.gov.br/historia-do-legislativo/titulos-e-condecoracoes/homenageados/551"
+        }
+      ]
+    },
+    {
+      "id": "temer",
+      "fullName": "Michel Miguel Elias Temer Lulia",
+      "birthDate": "1940-09-23",
+      "birthPlace": "Tietê, SP",
+      "profession": "Advogado e professor",
+      "previousOffices": [
+        "Deputado federal por São Paulo (1987-2010)",
+        "Presidente da Câmara dos Deputados (1997-1999, 1999-2001, 2009-2010)",
+        "Vice-presidente da República (2011-2016)",
+        "Presidente da República (2016-2018; interino desde 12/05/2016, efetivo a partir de 31/08/2016)"
+      ],
+      "sources": [
+        {
+          "outlet": "Planalto / Biblioteca da Presidência",
+          "title": "Biografia — Michel Miguel Elias Temer Lulia",
+          "url": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/michel-miguel-elias-temer-lulia/biografia"
+        },
+        {
+          "outlet": "Câmara dos Deputados",
+          "title": "Biografia Deputado Michel Temer",
+          "url": "https://www2.camara.leg.br/a-camara/presidencia/galeria-presidentes/michel-temer-2009-2010"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Michel Miguel Elias Temer Lulia - Período Eleitoral",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/201-michel-miguel-elias-temer-lulia"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro",
+      "fullName": "Jair Messias Bolsonaro",
+      "birthDate": "1955-03-21",
+      "birthPlace": "Glicério, SP",
+      "birthPlaceNote": "Some Agência Câmara reports say he was registered in Campinas (SP).",
+      "profession": "Militar (capitão do Exército, formado pela AMAN em 1977)",
+      "previousOffices": [
+        "Deputado federal pelo Rio de Janeiro (1991-2018, sete mandatos)",
+        "Presidente da República (2019-2022)"
+      ],
+      "sources": [
+        {
+          "outlet": "Câmara dos Deputados",
+          "title": "Biografia do(a) Deputado(a) Federal JAIR BOLSONARO",
+          "url": "https://www.camara.leg.br/deputados/74847/biografia"
+        },
+        {
+          "outlet": "Arquivo Nacional",
+          "title": "Jair Messias Bolsonaro - Período Eleitoral",
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/199-jair-messias-bolsonaro"
+        },
+        {
+          "outlet": "Agência Câmara",
+          "title": "Conheça perfil do presidente da República Jair Bolsonaro",
+          "url": "https://www.camara.leg.br/radio/radioagencia/550435-conheca-perfil-do-presidente-da-republica-jair-bolsonaro/"
+        }
+      ]
+    }
+  ]
+}

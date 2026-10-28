@@ -1,16 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { eventsFor, factchecksFor } from "@/lib/data";
+import { electionOf, eventsFor, factchecksFor } from "@/lib/data";
 import { MIN_EVENTS, eventsBalance, formatScore } from "@/lib/scoring";
-import { TERMS, TERM_BY_ID, formatPeriod } from "@/lib/terms";
+import { TERMS, TERM_BY_ID } from "@/lib/terms";
 import type { TermId } from "@/lib/types";
 import { toneVar } from "@/lib/ui";
 import { EventList } from "./EventList";
 import { FactCheckList } from "./FactCheckList";
 import { Grade, Stamp } from "./Grade";
 import { IndicatorTable } from "./IndicatorTable";
-import { Initials } from "./Initials";
+import { PersonFile } from "./PersonFile";
+import { ElectionMap } from "./ElectionMap";
 import { PillarBars } from "./PillarBars";
 import { useScores } from "./ScoreProvider";
 
@@ -24,42 +25,39 @@ export function TermDetail({ id }: { id: TermId }) {
   const idx = TERMS.findIndex((t) => t.id === id);
   const prev = TERMS[idx - 1];
   const next = TERMS[idx + 1];
+  const election = electionOf(term.electionYear);
   const totalWeight = s.pillars.reduce((a, p) => a + (p.score !== null ? options.weights[p.pillar.id] : 0), 0) || 1;
 
   return (
     <div className="mx-auto max-w-6xl px-4">
-      <section className="rise grid gap-8 border-b border-line py-12 lg:grid-cols-[1fr_auto] lg:items-center">
-        <div>
-          <Link href="/" className="text-sm text-muted hover:text-ink">
-            ← Todos os governos
-          </Link>
-          <div className="mt-6 flex items-center gap-4">
-            <Initials term={term} size={64} />
-            <div>
-              <h1 className="font-display text-4xl font-bold leading-none sm:text-6xl">{term.label}</h1>
-              <p className="mt-2 text-muted">
-                {term.president} · {term.party} · {formatPeriod(term)} · vice: {term.vice}
-              </p>
-            </div>
-          </div>
-          {s.provisional && (
-            <p className="mt-5 max-w-2xl rounded-xl border border-[color-mix(in_oklab,var(--mid)_45%,transparent)] bg-[color-mix(in_oklab,var(--mid)_10%,transparent)] px-4 py-3 text-sm">
-              <strong>Nota prévia.</strong> Só {Math.round(s.coverage * 100)}% dos indicadores oficiais deste mandato já foram
-              verificados. A nota definitiva aparece quando a cobertura passar de 60%.
-            </p>
-          )}
-          {term.note && <p className="mt-5 max-w-2xl rounded-xl bg-surface-2 px-4 py-3 text-sm text-muted">{term.note}</p>}
-        </div>
-        <div className="flex items-center gap-6">
-          <div className="flex flex-col items-center gap-4 border-l-2 border-ink pl-8">
-            <span className="label">Média final</span>
-            <Grade score={s.score} provisional={s.provisional} size="xl" />
-            <Stamp score={s.score} provisional={s.provisional} size="lg" animate />
-          </div>
-        </div>
+      <div className="pt-8">
+        <Link href="/" className="text-sm text-muted hover:text-ink">
+          ← Voltar ao boletim
+        </Link>
+        <h1 className="font-display mt-4 text-5xl sm:text-7xl">{term.label}</h1>
+      </div>
+
+      <section className="grid gap-8 border-b border-line py-8 lg:grid-cols-[1fr_17rem] lg:items-start">
+        <PersonFile
+          term={term}
+          number={idx + 1}
+          aside={term.note ? <p className="bg-surface-2 px-4 py-3 text-sm text-muted">{term.note}</p> : undefined}
+        />
+        <aside className="sheet flex flex-col items-center gap-4 p-6 text-center lg:sticky lg:top-20">
+          <span className="label">Média final</span>
+          <Grade score={s.score} provisional={s.provisional} size="xl" />
+          <Stamp score={s.score} provisional={s.provisional} size="lg" animate />
+          <p className="text-xs text-muted">
+            {Math.round(s.coverage * 100)}% dos indicadores com dado oficial verificado.
+            {s.provisional && " Abaixo de 60%, a média é só uma prévia."}
+          </p>
+          <a href="#nota" className="text-sm font-bold text-pen underline underline-offset-4">
+            Ver a conta
+          </a>
+        </aside>
       </section>
 
-      <section className="grid gap-10 py-12 lg:grid-cols-[1fr_1.5fr]">
+      <section id="nota" className="grid scroll-mt-20 gap-10 py-12 lg:grid-cols-[1fr_1.5fr]">
         <div>
           <h2 className="font-display text-3xl font-bold">Como a nota foi formada</h2>
           <p className="mt-2 text-sm text-muted">
@@ -141,6 +139,18 @@ export function TermDetail({ id }: { id: TermId }) {
           <EventList events={events} />
         </div>
       </section>
+
+      {election && (
+        <section className="border-t border-line py-12">
+          <h2 className="font-display text-3xl font-bold">Mapa do voto em {election.year}</h2>
+          <p className="mt-1 max-w-2xl text-sm text-muted">
+            Votos válidos no 2º turno que deu origem a este mandato, estado por estado.
+          </p>
+          <div className="mt-6">
+            <ElectionMap election={election} />
+          </div>
+        </section>
+      )}
 
       {checks.length > 0 && (
         <section className="border-t border-line py-12">
