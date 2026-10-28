@@ -44,7 +44,8 @@ for (const [id, page] of Object.entries(PEOPLE)) {
     const summary = await json(`https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`);
     const original = summary.originalimage?.source ?? summary.thumbnail?.source;
     if (!original) throw new Error("página sem imagem");
-    const file = decodeURIComponent(original.split("/").pop());
+    // A URL pode trazer parâmetros (?utm_source=...): o nome do arquivo é o último trecho do caminho.
+    const file = decodeURIComponent(new URL(original).pathname.split("/").pop());
 
     const q = await json(
       `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=480&titles=${encodeURIComponent(`File:${file}`)}`,
