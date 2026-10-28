@@ -164,6 +164,9 @@ export const RULES: IndicatorRule[] = [
   },
 ];
 
+/** Fração mínima de anos do mandato com dado para calcular uma média. */
+export const MIN_YEARS_SHARE = 0.75;
+
 export const CONTEXT_SERIES = { pib: "pib_mundo" } as const;
 
 export interface ScoreOptions {
@@ -229,12 +232,28 @@ function scoreIndicator(rule: IndicatorRule, term: Term, data: Dataset, opts: Sc
   const years = term.years.map((y) => (opts.lag ? y + 1 : y));
   const useContext = opts.globalContext && rule.id === "pib";
   const world = useContext ? byId(CONTEXT_SERIES.pib) : undefined;
-
-  // Escolhe a primeira série (principal ou alternativa) que tenha dados no período.
   const candidates = [rule.id, ...(rule.fallbacks ?? [])].map(byId).filter(Boolean) as IndicatorSeries[];
-  const series =
-    candidates.find((s) => years.some((y) => seriesValue(s, y) !== undefined)) ?? candidates[0];
+  if (candidates.length === 0) {
+    return { rule, value: null, score: null, yearsUsed: [], explanation: "Série ainda não disponível no conjunto de dados.", partial: true };
+  }
+  // Usa a primeira série (principal ou alternativa) que cubra o mandato; nunca mistura séries.
+  let fallback: IndicatorResult | undefined;
+  for (const series of candidates) {
+    const r = scoreWithSeries(rule, term, series, years, useContext ? world : undefined);
+    if (r.score !== null) return r;
+    fallback ??= r;
+  }
+  return fallback!;
+}
 
+function scoreWithSeries(
+  rule: IndicatorRule,
+  term: Term,
+  series: IndicatorSeries,
+  years: number[],
+  world: IndicatorSeries | undefined,
+): IndicatorResult {
+  const useContext = world !== undefined;
   const valueAt = (y: number) => {
     const v = seriesValue(series, y);
     if (v === undefined) return undefined;
@@ -247,12 +266,10 @@ function scoreIndicator(rule: IndicatorRule, term: Term, data: Dataset, opts: Sc
     rule, series, value: null, score: null, yearsUsed: [], explanation, partial: true,
   });
 
-  if (!series) return empty("Série ainda não disponível no conjunto de dados.");
-
   const available = years.filter((y) => valueAt(y) !== undefined);
   if (available.length === 0) return empty("Sem dado oficial para os anos deste mandato.");
 
-  const partial = available.length < years.length;
+  let partial = available.length < years.length;
   let value: number;
   let baselineYear: number | undefined;
   let explanation: string;
@@ -260,20 +277,30 @@ function scoreIndicator(rule: IndicatorRule, term: Term, data: Dataset, opts: Sc
   const unit = useContext ? "p.p. vs. mundo" : rule.unit;
 
   if (rule.aggregation === "media") {
+    // Média só vale se cobrir ao menos 75% dos anos do mandato.
+    const needed = Math.ceil(years.length * MIN_YEARS_SHARE);
+    if (available.length < needed)
+      return empty(`Só ${available.length} de ${years.length} anos com dado oficial (${span}); mínimo de ${needed} para calcular a média.`);
     value = available.reduce((a, y) => a + valueAt(y)!, 0) / available.length;
     const digits = Math.abs(value) >= 1000 ? 0 : 1;
     explanation = `Média de ${fmtNum(value, digits)} ${unit} em ${span}`;
   } else {
-    const before = years[0] - 1;
-    const last = available[available.length - 1];
-    let base = valueAt(before);
-    baselineYear = before;
-    if (base === undefined) {
-      // Sem o ano anterior à posse (ex.: quebra de série): usa o primeiro ano disponível.
-      baselineYear = available[0];
-      base = valueAt(available[0]);
+    // Variação só vale numa janela que represente o mandato inteiro: começa no ano
+    // anterior à posse (ou no primeiro ano) e termina no último ano (ou no penúltimo).
+    // No mandato em curso aceita-se o último dado publicado (até 2 anos de defasagem).
+    const first = years[0];
+    const lastYear = years[years.length - 1];
+    const lag = term.current ? 2 : 1;
+    baselineYear = [first - 1, first].find((y) => valueAt(y) !== undefined);
+    const last = Array.from({ length: lag + 1 }, (_, k) => lastYear - k).find((y) => valueAt(y) !== undefined);
+    if (baselineYear === undefined || last === undefined || last <= baselineYear) {
+      const have = [first - 1, ...years].filter((y) => valueAt(y) !== undefined);
+      return empty(
+        `Faltam dados no início ou no fim do mandato para medir a variação${have.length ? ` (há dado só para ${have.join(", ")})` : ""}.`,
+      );
     }
-    if (base === undefined || baselineYear === last) return empty("Dados insuficientes para medir a variação.");
+    if (last < lastYear) partial = true;
+    const base = valueAt(baselineYear)!;
     const end = valueAt(last)!;
     if (rule.aggregation === "variacao_pct") {
       value = ((end - base) / base) * 100;
