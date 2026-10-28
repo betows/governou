@@ -19,7 +19,12 @@ export interface Source {
   title: string;
   url: string;
   date?: string;
+  /** Título reconstruído do link ou data estimada: precisa de conferência. */
+  approx?: boolean;
 }
+
+/** 'pendente' = levantado por pesquisa, aguardando revisão humana. */
+export type ReviewStatus = "pendente" | "revisado";
 
 export interface Term {
   id: TermId;
@@ -46,6 +51,9 @@ export interface IndicatorSeries {
   values: Record<string, number>;
   notes?: string;
   yearSources?: Record<string, string>;
+  /** Origem de cada valor: API oficial ou pesquisa em publicação citada. */
+  origins?: Record<string, "api" | "pesquisa">;
+  reviewed?: Record<string, boolean>;
 }
 
 export type Impact = "positivo" | "negativo" | "misto";
@@ -61,6 +69,7 @@ export interface GovEvent {
   weight: 1 | 2 | 3;
   evidence: string;
   sources: Source[];
+  status?: ReviewStatus;
 }
 
 export type Verdict = "falso" | "enganoso" | "exagerado" | "sem-contexto" | "verdadeiro" | "impreciso";
@@ -77,6 +86,7 @@ export interface FactCheck {
   explanation: string;
   topic: Area;
   sources: Source[];
+  status?: ReviewStatus;
 }
 
 export interface Dataset {

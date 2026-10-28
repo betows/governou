@@ -8,6 +8,7 @@
       "higherIsBetter": true,
       "officialSource": "IBGE – Contas Nacionais Trimestrais / Sistema de Contas Nacionais (Referência 2010)",
       "sourceUrl": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+      "notes": "Latest revised IBGE series (Referência 2010). 2006 = 4.0 (revised; first releases said 2.9 old series / 3.7). 2014 first published as 0.1, revised to 0.5. 2016 revised -3.5 -> -3.3. 2018 first 1.1, revised 1.8. 2019 first 1.1/1.4, revised 1.2. 2020 first -4.1/-3.9, final -3.3. 2021 first 4.6, then 5.0, final 4.8 (Nov 2023). 2022 2.9 -> 3.0. 2023 2.9 -> 3.2 (confirmed final Nov 2025). 2024 (3.4) and 2025 (2.3, released 2026-03-03) are still quarterly-accounts estimates subject to revision. IBGE is preparing a new reference-2021 series (first results expected 2027-2028) that may revise the whole history. 2026 omitted: only Q1 2026 (+1.8% y/y) was confirmed in research; no annual figure exists.",
       "values": {
         "2006": 4,
         "2007": 6.1,
@@ -30,12 +31,42 @@
         "2024": 3.4,
         "2025": 2.3
       },
-      "notes": "Latest revised IBGE series (Referência 2010). 2006 = 4.0 (revised; first releases said 2.9 old series / 3.7). 2014 first published as 0.1, revised to 0.5. 2016 revised -3.5 -> -3.3. 2018 first 1.1, revised 1.8. 2019 first 1.1/1.4, revised 1.2. 2020 first -4.1/-3.9, final -3.3. 2021 first 4.6, then 5.0, final 4.8 (Nov 2023). 2022 2.9 -> 3.0. 2023 2.9 -> 3.2 (confirmed final Nov 2025). 2024 (3.4) and 2025 (2.3, released 2026-03-03) are still quarterly-accounts estimates subject to revision. IBGE is preparing a new reference-2021 series (first results expected 2027-2028) that may revise the whole history. 2026 omitted: only Q1 2026 (+1.8% y/y) was confirmed in research; no annual figure exists.",
+      "origins": {
+        "2006": "pesquisa",
+        "2007": "pesquisa",
+        "2008": "pesquisa",
+        "2009": "pesquisa",
+        "2010": "pesquisa",
+        "2011": "pesquisa",
+        "2012": "pesquisa",
+        "2013": "pesquisa",
+        "2014": "pesquisa",
+        "2015": "pesquisa",
+        "2016": "pesquisa",
+        "2017": "pesquisa",
+        "2018": "pesquisa",
+        "2019": "pesquisa",
+        "2020": "pesquisa",
+        "2021": "pesquisa",
+        "2022": "pesquisa",
+        "2023": "pesquisa",
+        "2024": "pesquisa",
+        "2025": "pesquisa"
+      },
       "yearSources": {
         "2006": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/11610-asi-gdp-increased-by-40-and-reached-r-237-trillion-in-2006.html?lang=en-GB",
         "2007": "https://infograficos.gazetadopovo.com.br/economia/pib-do-brasil/",
+        "2008": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+        "2009": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+        "2010": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+        "2011": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+        "2012": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+        "2013": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
         "2014": "https://infograficos.gazetadopovo.com.br/economia/pib-do-brasil/",
+        "2015": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
         "2016": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/22966-revisao-do-pib-de-2016-mostra-queda-de-3-3-em-relacao-ao-ano-anterior",
+        "2017": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+        "2018": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
         "2019": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/32092-em-2019-pib-cresce-1-2-e-chega-a-r-7-4-trilhoes",
         "2020": "https://agenciagov.ebc.com.br/noticias/202311/pib-cresce-4-8-e-totaliza-r-9-trilhoes-em-2021",
         "2021": "https://agenciagov.ebc.com.br/noticias/202311/pib-cresce-4-8-e-totaliza-r-9-trilhoes-em-2021",
@@ -52,6 +83,7 @@
       "higherIsBetter": false,
       "officialSource": "IBGE – Sistema Nacional de Índices de Preços ao Consumidor (IPCA)",
       "sourceUrl": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+      "notes": "December-to-December accumulated IPCA (not revised). 2006-2014 confirmed against compiled tables of the IBGE/BCB SGS 433 series; 2018, 2024, 2025 confirmed in IBGE's Jan-2026 release coverage. 2015-2017 and 2019-2023 were NOT verified in this session (web-search budget exhausted) and are omitted; they should be filled from SIDRA/IBGE in a follow-up. 2026 omitted (year not closed).",
       "values": {
         "2006": 3.14,
         "2007": 4.46,
@@ -66,9 +98,29 @@
         "2024": 4.83,
         "2025": 4.26
       },
-      "notes": "December-to-December accumulated IPCA (not revised). 2006-2014 confirmed against compiled tables of the IBGE/BCB SGS 433 series; 2018, 2024, 2025 confirmed in IBGE's Jan-2026 release coverage. 2015-2017 and 2019-2023 were NOT verified in this session (web-search budget exhausted) and are omitted; they should be filled from SIDRA/IBGE in a follow-up. 2026 omitted (year not closed).",
+      "origins": {
+        "2006": "pesquisa",
+        "2007": "pesquisa",
+        "2008": "pesquisa",
+        "2009": "pesquisa",
+        "2010": "pesquisa",
+        "2011": "pesquisa",
+        "2012": "pesquisa",
+        "2013": "pesquisa",
+        "2014": "pesquisa",
+        "2018": "pesquisa",
+        "2024": "pesquisa",
+        "2025": "pesquisa"
+      },
       "yearSources": {
         "2006": "https://www.numerando.com.br/indices/ipca/acumulado",
+        "2007": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+        "2008": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+        "2009": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+        "2010": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+        "2011": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+        "2012": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+        "2013": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
         "2014": "https://www.numerando.com.br/indices/ipca/acumulado",
         "2018": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html",
         "2024": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html",
@@ -82,8 +134,9 @@
       "higherIsBetter": false,
       "officialSource": "IBGE – PNAD Contínua",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Series starts 2012.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -93,8 +146,9 @@
       "higherIsBetter": false,
       "officialSource": "IBGE – Pesquisa Mensal de Emprego",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Different series from PNAD Contínua; not comparable. Covers 2006-2011 (PME discontinued Feb 2016).",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -104,8 +158,9 @@
       "higherIsBetter": false,
       "officialSource": "BCB – Copom",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -115,8 +170,9 @@
       "higherIsBetter": false,
       "officialSource": "BCB – Estatísticas Fiscais",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Current methodology from 2006/2008; earlier years use a different definition.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -126,8 +182,9 @@
       "higherIsBetter": true,
       "officialSource": "BCB – Estatísticas Fiscais",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Positive = surplus.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -137,8 +194,9 @@
       "higherIsBetter": true,
       "officialSource": "Decretos/MP do salário mínimo; deflator INPC (IBGE)",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -148,8 +206,9 @@
       "higherIsBetter": false,
       "officialSource": "INPE – PRODES",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. PRODES year = Aug-Jul.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -159,8 +218,9 @@
       "higherIsBetter": false,
       "officialSource": "IPEA/FBSP – Atlas da Violência (SIM/DataSUS)",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -170,8 +230,9 @@
       "higherIsBetter": false,
       "officialSource": "IBGE – Síntese de Indicadores Sociais (linha Banco Mundial US$ 2,15/3,00 PPC)",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -181,8 +242,9 @@
       "higherIsBetter": false,
       "officialSource": "IBGE – PNAD / PNAD Contínua",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -192,8 +254,9 @@
       "higherIsBetter": false,
       "officialSource": "BCB – PTAX venda, último dia útil",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -203,8 +266,9 @@
       "higherIsBetter": true,
       "officialSource": "INEP/MEC",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Biennial.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -214,8 +278,9 @@
       "higherIsBetter": true,
       "officialSource": "FMI – World Economic Outlook (edição mais recente)",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Requested late by coordinator; search budget already exhausted when request arrived.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     },
     {
@@ -225,8 +290,9 @@
       "higherIsBetter": true,
       "officialSource": "FMI – World Economic Outlook (EMDEs)",
       "sourceUrl": "",
-      "values": {},
       "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Requested late by coordinator; search budget already exhausted when request arrived.",
+      "values": {},
+      "origins": {},
       "yearSources": {}
     }
   ],
@@ -260,7 +326,8 @@
           "date": "2017-11-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-crise-aerea-tam",
@@ -285,7 +352,8 @@
           "date": "2007-07-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-mensalao-denuncia-stf",
@@ -304,7 +372,8 @@
           "date": "2007-08-28"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-pre-sal-tupi",
@@ -323,7 +392,8 @@
           "date": "2007-11-09"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-fim-cpmf",
@@ -348,7 +418,8 @@
           "date": "2007-12-13"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-cartoes-corporativos",
@@ -373,7 +444,8 @@
           "date": "2008-08-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-grau-investimento",
@@ -392,7 +464,8 @@
           "date": "2015-09-10"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-lei-seca",
@@ -411,7 +484,8 @@
           "date": "2025-06-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-crise-2008-recessao-2009",
@@ -436,7 +510,8 @@
           "date": "2013-03-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-minha-casa-minha-vida",
@@ -461,7 +536,8 @@
           "date": "2009-09-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-meta-clima-copenhague",
@@ -480,7 +556,8 @@
           "date": "2009-11-13"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-belo-monte",
@@ -505,7 +582,8 @@
           "date": "2010-02-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-declaracao-teera",
@@ -524,7 +602,8 @@
           "date": "2026-03-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-ficha-limpa",
@@ -549,7 +628,8 @@
           "date": "2025-06-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-erenice-guerra",
@@ -574,7 +654,8 @@
           "date": "2010-12-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-capitalizacao-petrobras-meta-fiscal",
@@ -599,7 +680,8 @@
           "date": "2010-10-10"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-desmatamento-minimo",
@@ -618,7 +700,8 @@
           "date": "2010-12-01"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-bolsa-familia-pobreza",
@@ -643,7 +726,8 @@
           "date": "2013-05-26"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "lula2-pib-2010",
@@ -662,7 +746,8 @@
           "date": "2011-03-03"
         }
       ],
-      "termId": "lula2"
+      "termId": "lula2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-tarifaco-energia",
@@ -687,7 +772,8 @@
           "date": "2015-03-31"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-lei-feminicidio",
@@ -712,7 +798,8 @@
           "date": "2015-03-09"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-ajuste-levy",
@@ -743,7 +830,8 @@
           "date": "2015-10-01"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-lei-inclusao",
@@ -768,7 +856,8 @@
           "date": "2015-07-01"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-perda-grau-investimento",
@@ -799,7 +888,8 @@
           "date": "2015-09-01"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-ndc-paris",
@@ -830,7 +920,8 @@
           "date": "2016-04-22"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-tcu-contas-2014",
@@ -855,7 +946,8 @@
           "date": "2015-10-10"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-zika",
@@ -880,7 +972,8 @@
           "date": "2016-05-10"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-desmatamento-2015",
@@ -905,7 +998,8 @@
           "date": "2016-10-01"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-inflacao-2015",
@@ -930,7 +1024,8 @@
           "date": "2016-01-08"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-desemprego-2015",
@@ -955,7 +1050,8 @@
           "date": "2015-08-01"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-mariana",
@@ -986,7 +1082,8 @@
           "date": "2016-11-01"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-recessao-2015",
@@ -1011,7 +1108,8 @@
           "date": "2016-03-03"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-lula-casa-civil",
@@ -1036,7 +1134,8 @@
           "date": "2016-04-05"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "dilma2-impeachment",
@@ -1061,7 +1160,8 @@
           "date": "2016-12-01"
         }
       ],
-      "termId": "dilma2"
+      "termId": "dilma2",
+      "status": "pendente"
     },
     {
       "id": "temer-lei-estatais",
@@ -1086,7 +1186,8 @@
           "date": "2016-07-01"
         }
       ],
-      "termId": "temer"
+      "termId": "temer",
+      "status": "pendente"
     },
     {
       "id": "temer-teto",
@@ -1117,7 +1218,8 @@
           "date": "2016-11-29"
         }
       ],
-      "termId": "temer"
+      "termId": "temer",
+      "status": "pendente"
     },
     {
       "id": "temer-recessao-2016",
@@ -1142,7 +1244,8 @@
           "date": "2017-03-07"
         }
       ],
-      "termId": "temer"
+      "termId": "temer",
+      "status": "pendente"
     },
     {
       "id": "temer-zika-fim-emergencia",
@@ -1161,7 +1264,8 @@
           "date": "2017-05-11"
         }
       ],
-      "termId": "temer"
+      "termId": "temer",
+      "status": "pendente"
     },
     {
       "id": "temer-reforma-trabalhista",
@@ -1186,7 +1290,8 @@
           "date": "2017-07-01"
         }
       ],
-      "termId": "temer"
+      "termId": "temer",
+      "status": "pendente"
     },
     {
       "id": "temer-inflacao-baixa",
@@ -1217,7 +1322,8 @@
           "date": "2018-01-10"
         }
       ],
-      "termId": "temer"
+      "termId": "temer",
+      "status": "pendente"
     },
     {
       "id": "temer-selic-minima",
@@ -1242,7 +1348,8 @@
           "date": "2018-02-07"
         }
       ],
-      "termId": "temer"
+      "termId": "temer",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-mercosul-ue",
@@ -1261,7 +1368,8 @@
           "date": "2019-06-28"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-fundo-amazonia",
@@ -1286,7 +1394,8 @@
           "date": "2019-08-19"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-previdencia",
@@ -1317,7 +1426,8 @@
           "date": "2019-11-12"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-auxilio-emergencial",
@@ -1342,7 +1452,8 @@
           "date": "2021-12-03"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-saneamento",
@@ -1367,7 +1478,8 @@
           "date": "2020-07-15"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-pix",
@@ -1392,7 +1504,8 @@
           "date": "2025-07-01"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-autonomia-bc",
@@ -1417,7 +1530,8 @@
           "date": "2021-02-24"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-5g",
@@ -1442,7 +1556,8 @@
           "date": "2021-12-01"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-desmatamento",
@@ -1467,7 +1582,8 @@
           "date": "2021-11-18"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-pec-precatorios",
@@ -1498,7 +1614,8 @@
           "date": "2021-11-09"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-inflacao-2021",
@@ -1529,7 +1646,8 @@
           "date": "2022-01-11"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-eletrobras",
@@ -1554,7 +1672,8 @@
           "date": "2022-06-09"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-mec-pastores",
@@ -1585,7 +1704,8 @@
           "date": "2022-06-22"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-teto-icms",
@@ -1610,7 +1730,8 @@
           "date": "2022-06-24"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-pec-kamikaze",
@@ -1641,7 +1762,8 @@
           "date": "2022-07-01"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-embaixadores",
@@ -1672,7 +1794,8 @@
           "date": "2023-06-30"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-desemprego-2022",
@@ -1697,7 +1820,8 @@
           "date": "2023-02-28"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-armas-violencia",
@@ -1728,7 +1852,8 @@
           "date": "2020-10-18"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-covid",
@@ -1759,7 +1884,8 @@
           "date": "2021-10-26"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-orcamento-secreto",
@@ -1784,7 +1910,8 @@
           "date": "2022-12-19"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-superavit-2022",
@@ -1815,7 +1942,8 @@
           "date": "2023-02-01"
         }
       ],
-      "termId": "bolsonaro"
+      "termId": "bolsonaro",
+      "status": "pendente"
     },
     {
       "id": "lula3-8-janeiro-intervencao",
@@ -1846,7 +1974,8 @@
           "date": "2023-01-08"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-yanomami-emergencia",
@@ -1871,7 +2000,8 @@
           "date": "2024-02-27"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-arcabouco-fiscal",
@@ -1902,7 +2032,8 @@
           "date": "2023-08-30"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-reforma-tributaria",
@@ -1933,7 +2064,8 @@
           "date": "2023-12-15"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-desenrola",
@@ -1958,7 +2090,8 @@
           "date": "2024-05-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-enchentes-rs",
@@ -1989,7 +2122,8 @@
           "date": "2024-12-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-dolar-recorde-2024",
@@ -2020,7 +2154,8 @@
           "date": "2024-12-18"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-dengue-2024",
@@ -2051,7 +2186,8 @@
           "date": "2025-01-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-ipca-2024-estouro",
@@ -2076,7 +2212,8 @@
           "date": "2025-01-10"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-pe-de-meia-tcu",
@@ -2107,7 +2244,8 @@
           "date": "2025-01-23"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-pib-2024",
@@ -2132,7 +2270,8 @@
           "date": "2025-03-07"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-fraude-inss",
@@ -2163,7 +2302,8 @@
           "date": "2026-07-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-selic-15",
@@ -2194,7 +2334,8 @@
           "date": "2026-03-18"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-iof-disputa",
@@ -2225,7 +2366,8 @@
           "date": "2025-07-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-mapa-da-fome",
@@ -2256,7 +2398,8 @@
           "date": "2026-07-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-tarifaco-eua",
@@ -2287,7 +2430,8 @@
           "date": "2026-01-06"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-carbono-oculto",
@@ -2318,7 +2462,8 @@
           "date": "2025-08-28"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-cop30",
@@ -2349,7 +2494,8 @@
           "date": "2025-11-22"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-isencao-ir-5mil",
@@ -2380,7 +2526,8 @@
           "date": "2025-11-26"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-meta-fiscal-2025",
@@ -2405,7 +2552,8 @@
           "date": "2026-01-29"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-desemprego-recorde",
@@ -2436,7 +2584,8 @@
           "date": "2026-02-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-desenrola-3-eleitoral",
@@ -2461,7 +2610,8 @@
           "date": "2026-09-01"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-divida-bruta",
@@ -2492,7 +2642,8 @@
           "date": "2026-09-30"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     },
     {
       "id": "lula3-desmatamento-minimo-historico",
@@ -2523,7 +2674,8 @@
           "date": "2023-11-09"
         }
       ],
-      "termId": "lula3"
+      "termId": "lula3",
+      "status": "pendente"
     }
   ],
   "factchecks": [
@@ -2552,7 +2704,8 @@
           "url": "https://www.boatos.org/politica/lula-vai-acabar-com-o-bolsa-familia-apos-as-eleicoes-de-2026.html",
           "date": "2026-10-27"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "gasolina-10-reais-pos-eleicao",
@@ -2573,7 +2726,8 @@
           "url": "https://www.boatos.org/politica/postos-vendem-gasolina-a-r-10-apos-vitoria-de-lula-nas-eleicoes-de-2026.html",
           "date": "2026-10-27"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-preso-desacato",
@@ -2594,7 +2748,8 @@
           "url": "https://www.aosfatos.org/noticias/jair-bolsonaro-nao-foi-preso-desacato/",
           "date": "2026-10-26"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-pib-3pct-desde-2010",
@@ -2615,7 +2770,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
           "date": "2026-10-23"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "flavio-lula-30-impostos",
@@ -2635,7 +2791,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
           "date": "2026-10-23"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-salario-minimo-900",
@@ -2657,7 +2814,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
           "date": "2026-10-23"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "flavio-casa-mulher-brasileira",
@@ -2678,7 +2836,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
           "date": "2026-10-23"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "flavio-ameaca-desistir-debate-checagem",
@@ -2699,7 +2858,8 @@
           "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-desistir-de-debate-da-globo-se-houver-checagem-de-fatos-em-tempo-real.html",
           "date": "2026-10-20"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "flavio-criminalidade-explodiu",
@@ -2719,7 +2879,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
           "date": "2026-10-18"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "flavio-73pct-presidiarios-lula",
@@ -2739,7 +2900,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
           "date": "2026-10-18"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "divida-11-trilhoes",
@@ -2759,7 +2921,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
           "date": "2026-10-18"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "flavio-recorde-falencias",
@@ -2780,7 +2943,8 @@
           "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-mente-recorde-falencias-empresas/",
           "date": "2026-10-15"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "flavio-deepfake-cortes-beneficios",
@@ -2807,7 +2971,8 @@
           "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-acabar-com-o-bolsa-familia-bpc-aposentadoria-e-pe-de-meia.html",
           "date": "2026-10-08"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "stf-impediu-beneficios-bolsonaro",
@@ -2829,7 +2994,8 @@
           "url": "https://www.aosfatos.org/noticias/stf-nao-impediu-aumento-beneficios-bolsonaro/",
           "date": "2026-09-18"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-asilo-maduro",
@@ -2856,7 +3022,8 @@
           "url": "https://www.boatos.org/politica/lula-vai-dar-asilo-politico-a-nicolas-maduro.html",
           "date": "2026-01-10"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "pix-imposto-275-2026",
@@ -2877,7 +3044,8 @@
           "url": "https://www.boatos.org/politica/73865governo-vai-cobrar-imposto-de-275-em-pix-acima-de-r-5-mil-a-partir-de-janeiro-de-2026.html",
           "date": "2025-12-15"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-onu-queda-desmatamento",
@@ -2898,7 +3066,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-discurso-lula-onu-2025/",
           "date": "2025-09-23"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "33-milhoes-fome-hoje",
@@ -2920,7 +3089,8 @@
           "url": "https://www.aosfatos.org/noticias/33-milhoes-passam-fome-brasil/",
           "date": "2025-06-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "pix-taxacao-2025",
@@ -2941,7 +3111,8 @@
           "url": "https://www.aosfatos.org/noticias/falso-pix-acima-de-5000-sera-taxado/",
           "date": "2025-01-10"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-fome-mapa-33-milhoes",
@@ -2963,7 +3134,8 @@
           "url": "https://www.aosfatos.org/noticias/lula-2024-desinformou-fome-educacao/",
           "date": "2025-01-02"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-reduzir-salario-minimo-2025",
@@ -2984,7 +3156,8 @@
           "url": "https://sbtnews.sbt.com.br/noticia/comprova/falso-e-falso-post-que-afirma-que-lula-vai-reduzir-o-salario-minimo-em-2025",
           "date": "2024-12-10"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-criticou-urna-venezuela",
@@ -3005,7 +3178,8 @@
           "url": "https://www.aosfatos.org/noticias/falso-lula-criticou-urna-eletronica-atas-eleitorais-venezuela/",
           "date": "2024-08-05"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "haddad-sem-novos-impostos",
@@ -3026,7 +3200,8 @@
           "url": "https://www.aosfatos.org/noticias/checamos-haddad-roda-viva/",
           "date": "2024-06-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "osso-de-patinho-crise-lula",
@@ -3047,7 +3222,8 @@
           "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/e-falso-que-osso-de-patinho-tenha-comecado-a-ser-comercializado-por-conta-de-suposta-crise-no-governo-lula/",
           "date": "2024-03-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-dilma-absolvida-pedaladas",
@@ -3068,7 +3244,8 @@
           "url": "https://www.aosfatos.org/noticias/lula-engana-ao-dizer-dilma-foi-absolvida-pedaladas/",
           "date": "2023-08-25"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-audio-vazado-uniao-falida",
@@ -3090,7 +3267,8 @@
           "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/declaracoes-vazadas-de-lula-sobre-crise-economica-sao-publicas-e-foram-feitas-em-2016/",
           "date": "2023-03-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-fabricas-vacina-5g",
@@ -3111,7 +3289,8 @@
           "url": "https://www.aosfatos.org/noticias/bolsonaro-nao-construiu-secretamente-industrias-de-vacina-e-de-tecnologia-5g/",
           "date": "2023-01-15"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-posse-desmatamento-80pct",
@@ -3137,7 +3316,8 @@
           "url": "https://www.aosfatos.org/noticias/lula-bolsonaro-e-ciro-falseiam-e-distorcem-informacoes-sobre-a-amazonia/",
           "date": "2022-09-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-gasolina-mais-barata",
@@ -3158,7 +3338,8 @@
           "url": "https://www.aosfatos.org/noticias/quais-desinformacoes-lula-bolsonaro-ciro-e-tebet-repetiram-durante-a-campanha/",
           "date": "2022-10-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "lula-divida-com-uniao",
@@ -3179,7 +3360,8 @@
           "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/divida-de-lula-com-a-uniao-e-real-mas-questionada-na-justica-apos-anulacao-de-processos-da-lava-jato/",
           "date": "2022-10-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "plano-lula-cpmf-pix-2022",
@@ -3201,7 +3383,8 @@
           "url": "https://www.cnnbrasil.com.br/nacional/plano-de-governo-de-lula-nao-propoe-medidas-como-nova-cpmf-e-tributacao-do-pix/",
           "date": "2022-09-15"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "bndes-desvio-716-bilhoes",
@@ -3223,7 +3406,8 @@
           "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-engana-sobre-emprestimos-do-bndes-no-governo-lula/",
           "date": "2022-09-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-vacina-aids",
@@ -3250,7 +3434,8 @@
           "url": "https://www.aosfatos.org/noticias/bolsonaro-mentiu-575-vezes-sobre-vacinas/",
           "date": "2024-03-19"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "bolsonaro-amazonia-umida-nao-pega-fogo",
@@ -3271,7 +3456,8 @@
           "url": "https://www.aosfatos.org/noticias/o-que-e-e-o-que-nao-e-fato-no-discurso-de-bolsonaro-na-abertura-da-assembleia-geral-da-onu/",
           "date": "2020-09-22"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "reforma-trabalhista-nao-criou-empregos",
@@ -3298,7 +3484,8 @@
           "url": "https://www.aosfatos.org/noticias/fato-e-ficcao-em-seis-declaracoes-sobre-reforma-trabalhista/",
           "date": "2017-12-01"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "temer-mensagem-congresso-distorce",
@@ -3319,7 +3506,8 @@
           "url": "https://www.aosfatos.org/noticias/mensagem-de-temer-ao-congresso-distorce-dados-sobre-economia-ambiente-e-bolsa-familia/",
           "date": "2018-02-02"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "temer-nao-sacrificou-area-social",
@@ -3346,7 +3534,8 @@
           "url": "https://www.aosfatos.org/noticias/veja-tudo-o-que-ja-checamos-sobre-temer/",
           "date": "2018-12-31"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "dilma-antecessores-pedalaram",
@@ -3373,7 +3562,8 @@
           "url": "https://www.aosfatos.org/noticias/dilma-pedalou-35-vezes-mais-que-lula-e-fhc-juntos/",
           "date": "2016-04-15"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "dilma-onu-2015-otimista",
@@ -3393,7 +3583,8 @@
           "url": "https://www.aosfatos.org/noticias/dilma-faz-balanco-otimista-de-clima-e-crise/",
           "date": "2015-09-28"
         }
-      ]
+      ],
+      "status": "pendente"
     },
     {
       "id": "dilma-governo-que-mais-reduziu-impostos",
@@ -3415,7 +3606,8 @@
           "url": "https://www.aosfatos.org/noticias/dilma-afirma-que-seu-governo-foi-o-que-mais-reduzi/",
           "date": "2015-06-01"
         }
-      ]
+      ],
+      "status": "pendente"
     }
   ]
 }

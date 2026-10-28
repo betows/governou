@@ -16,8 +16,8 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-30 border-b-2 border-ink bg-bg">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
-        <Link href="/" className="font-display shrink-0 text-2xl" aria-label="Raio-X do Planalto, página inicial">
-          RAIO-X <span className="text-pen">DO PLANALTO</span>
+        <Link href="/" className="font-display shrink-0 text-2xl" aria-label="Governou, página inicial">
+          GOVERNOU<span className="text-pen">?</span>
         </Link>
         <nav className="-mx-1 flex flex-1 gap-5 overflow-x-auto text-sm sm:justify-end">
           {LINKS.map((l) => {

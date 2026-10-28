@@ -1,4 +1,4 @@
-# Raio-X do Planalto
+# Governou
 
 Notas de 0 a 10 para cada governo brasileiro dos últimos 20 anos (Lula 2, Dilma 1 e 2, Temer, Bolsonaro, Lula 3),
 calculadas por um **algoritmo público** a partir de **dados oficiais**, com os acertos, os erros e as checagens de
@@ -12,16 +12,28 @@ npm run dev        # http://localhost:3000
 npm run build      # site estático em out/ (pode ir para Vercel, Netlify, GitHub Pages…)
 ```
 
-## Estrutura
+## Dados
+
+```
+research/*.json ──(npm run db:push)──▶ Neon (Postgres) ──(build)──▶ src/data/dataset.json ──▶ site estático
+API do Banco Central ─(npm run data:fetch)─┘
+```
+
+- **Neon é a fonte oficial.** Esquema em `db/schema.sql`: indicadores com valor **e fonte por ano**, fatos, fontes e
+  checagens. Tudo que vem de pesquisa nasce com `status = 'pendente'`; uma pessoa revisa e marca `'revisado'`, e daí em
+  diante nenhuma carga automática sobrescreve aquela linha (só a API oficial sobrescreve números).
+- `npm run db:push`: valida `research/` e faz upsert no banco (precisa de `DATABASE_URL`). Sempre grava `db/seed.sql`.
+- `npm run build`: com `DATABASE_URL`, lê do banco; sem ela, usa `research/` direto (desenvolvimento local).
+- `npm run db:test`: testa esquema, carga e leitura num Postgres em memória (PGlite), sem precisar do Neon.
+- `npm run data:fetch`: baixa séries do Banco Central (API SGS) para `research/official-bcb.json`.
 
 | Caminho | O que é |
 |---|---|
-| `research/*.json` | Dados brutos levantados: indicadores, fatos por mandato e checagens. **Toda entrada tem URL de fonte.** |
-| `scripts/fetch-official.mjs` | `npm run data:fetch`: baixa séries do Banco Central (API SGS) para `research/official-bcb.json`. |
-| `scripts/build-data.mjs` | `npm run data:build`: valida tudo (fonte obrigatória, data dentro do mandato, enums) e gera `src/data/dataset.json`. Roda sozinho antes de `dev`/`build`. |
-| `src/lib/scoring.ts` | O algoritmo de nota: faixas fixas por indicador, pilares e pesos. |
-| `src/lib/terms.ts` | Mandatos e atribuição de anos. |
-| `src/app/` | Páginas: início, `/governo/[id]`, `/monitor`, `/comparar`, `/checagem`, `/metodologia`. |
+| `research/*.json` | Levantamentos com fonte: `indicators*.json`, `events-<mandato>.json`, `factchecks.json`. |
+| `scripts/lib/research.mjs` | Validação: fonte obrigatória, data dentro do mandato, vereditos e impactos válidos. |
+| `scripts/lib/db.mjs` | Upsert para o banco e leitura de volta. |
+| `src/lib/scoring.ts` | O algoritmo de nota. |
+| `src/app/` | Páginas: boletim, `/governo/[id]`, `/monitor`, `/comparar`, `/checagem`, `/metodologia`. |
 
 ## Algoritmo (resumo)
 

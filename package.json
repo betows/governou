@@ -1,5 +1,5 @@
 {
-  "name": "raio-x-planalto",
+  "name": "governou",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,17 +10,21 @@
     "data:fetch": "node scripts/fetch-official.mjs",
     "data:build": "node scripts/build-data.mjs",
     "prebuild": "node scripts/build-data.mjs",
-    "predev": "node scripts/build-data.mjs"
+    "predev": "node scripts/build-data.mjs",
+    "db:push": "node scripts/db-push.mjs",
+    "db:test": "node scripts/test-db.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.3.0",
     "@fontsource-variable/libre-franklin": "^5.3.0",
     "@fontsource/courier-prime": "^5.3.0",
+    "@neondatabase/serverless": "^1.2.0",
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.12",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

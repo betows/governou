@@ -6,7 +6,7 @@ import { DATA } from "@/lib/data";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "Raio-X do Planalto — a nota de cada governo", template: "%s · Raio-X do Planalto" },
+  title: { default: "Governou", template: "%s · Governou" },
   description:
     "Notas para cada governo brasileiro dos últimos 20 anos, calculadas com dados oficiais (IBGE, Banco Central, INPE, IPEA), acertos e erros documentados e checagem de fake news — tudo com fontes.",
 };
