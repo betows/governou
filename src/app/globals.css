@@ -193,7 +193,7 @@ input[type="range"] { accent-color: var(--pen); }
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center top;
 }
 .photo-3x4 img {
   display: block;
