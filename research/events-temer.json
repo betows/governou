@@ -1,0 +1,179 @@
+{
+  "termId": "temer",
+  "events": [
+    {
+      "id": "temer-teto",
+      "date": "2016-12-15",
+      "title": "Promulgação do Teto de Gastos (EC 95)",
+      "summary": "O Congresso promulgou a Emenda Constitucional 95, que limitou por 20 anos o crescimento das despesas primárias federais à inflação do IPCA. Defensores apontaram ganho de credibilidade fiscal; críticos, compressão de investimentos e de gastos sociais. O teto foi alterado várias vezes e substituído pelo novo arcabouço fiscal em 2023.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Aprovada no Senado por 61 x 14 (1º turno) e 53 x 16 (2º turno); despesas corrigidas apenas pelo IPCA a partir de 2018.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Promulgada Emenda Constitucional do Teto de Gastos Públicos",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/12/15/promulgada-emenda-constitucional-do-teto-de-gastos",
+          "date": "2016-12-15"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Emenda do Teto dos Gastos Públicos é promulgada e entra em vigor",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-12/emenda-do-teto-dos-gastos-publicos-e-promulgada",
+          "date": "2016-12-15"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "PEC do teto dos gastos é aprovada no Senado em 1º turno; saiba aqui os votos",
+          "url": "https://www.poder360.com.br/congresso/pec-do-teto-dos-gastos-e-aprovada-no-senado-em-1o-turno-saiba-aqui-os-votos/",
+          "date": "2016-11-29"
+        }
+      ]
+    },
+    {
+      "id": "temer-lei-estatais",
+      "date": "2016-06-30",
+      "title": "Sanção da Lei de Responsabilidade das Estatais (Lei 13.303)",
+      "summary": "O presidente interino sancionou, com dez vetos, a lei que estabelece regras de governança e transparência para estatais e veda a indicação a diretorias e conselhos de dirigentes partidários e de quem atuou em campanhas nos três anos anteriores. A norma foi validada pelo STF anos depois.",
+      "impact": "positivo",
+      "area": "corrupcao",
+      "weight": 2,
+      "evidence": "Lei 13.303/2016: quarentena de 3 anos para indicações políticas em diretorias e conselhos de estatais.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Temer sanciona Lei das Estatais com dez vetos",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2016-06/temer-sanciona-lei-das-estatais-com-dez-vetos",
+          "date": "2016-06-30"
+        },
+        {
+          "outlet": "Senado Notícias",
+          "title": "Lei de Responsabilidade das Estatais é sancionada",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/07/01/lei-de-responsabilidade-das-estatais-e-sancionada",
+          "date": "2016-07-01"
+        }
+      ]
+    },
+    {
+      "id": "temer-recessao-2016",
+      "date": "2017-03-07",
+      "title": "PIB recua 3,6% em 2016 e confirma a maior recessão da série",
+      "summary": "O IBGE informou queda de 3,6% do PIB em 2016, após -3,8% em 2015, acumulando perda de cerca de 7,2% em dois anos. A recessão começou no governo anterior, mas se estendeu por boa parte do ano em que Temer já governava (interino a partir de maio).",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "PIB -3,6% em 2016; investimento -10,2%, terceiro ano seguido de queda.",
+      "sources": [
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "PIB recua 3,6% em 2016 e fecha ano em R$ 6,3 trilhões",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/9439-pib-recua-3-6-em-2016-e-fecha-ano-em-r-6-3-trilhoes",
+          "date": "2017-03-07"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "PIB do Brasil cai 3,6% e confirma mais longa recessão da história",
+          "url": "https://www.poder360.com.br/economia/pib-do-brasil-cai-36-e-registra-maior-recessao-da-historia/",
+          "date": "2017-03-07"
+        }
+      ]
+    },
+    {
+      "id": "temer-zika-fim-emergencia",
+      "date": "2017-05-11",
+      "title": "Governo encerra emergência nacional pelo vírus Zika",
+      "summary": "O Ministério da Saúde declarou o fim da Emergência em Saúde Pública de Importância Nacional pelo Zika, alegando que os casos deixaram de ser incomuns ou inesperados segundo critérios da OMS. A queda de notificações refletiu tanto ações de controle quanto a dinâmica natural da epidemia.",
+      "impact": "positivo",
+      "area": "saude",
+      "weight": 1,
+      "evidence": "Emergência declarada em 11/11/2015 e encerrada em 11/05/2017.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Governo declara fim de emergência nacional pelo vírus Zika",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2017-05/governo-declara-fim-de-emergencia-nacional-pelo-virus-zika",
+          "date": "2017-05-11"
+        }
+      ]
+    },
+    {
+      "id": "temer-reforma-trabalhista",
+      "date": "2017-07-13",
+      "title": "Sanção da reforma trabalhista (Lei 13.467/2017)",
+      "summary": "A reforma alterou mais de cem pontos da CLT: prevalência do acordado sobre o legislado em temas como jornada e banco de horas, criação do trabalho intermitente e fim da obrigatoriedade da contribuição sindical. Defensores apontaram redução da litigiosidade e flexibilização; críticos, precarização, e os efeitos sobre o emprego seguem debatidos entre economistas.",
+      "impact": "misto",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Lei 13.467/2017 sancionada em 13/07/2017, em vigor desde novembro de 2017.",
+      "sources": [
+        {
+          "outlet": "InfoMoney",
+          "title": "Temer sanciona reforma trabalhista; confira o que muda",
+          "url": "https://www.infomoney.com.br/carreira/temer-sanciona-reforma-trabalhista-confira-o-que-muda/",
+          "date": "2017-07-13"
+        },
+        {
+          "outlet": "InfoMoney",
+          "title": "Reforma trabalhista: em quais pontos da \"nova CLT\" o acordado vale mais que o legislado",
+          "url": "https://www.infomoney.com.br/carreira/reforma-trabalhista-em-quais-pontos-da-nova-clt-o-acordado-vale-mais-que-o-legislado/",
+          "date": "2017-07-01"
+        }
+      ]
+    },
+    {
+      "id": "temer-inflacao-baixa",
+      "date": "2018-01-10",
+      "title": "Inflação cai a 2,95% em 2017, menor taxa desde 1998",
+      "summary": "O IPCA fechou 2017 em 2,95%, abaixo do piso da meta (3%) pela primeira vez, e o Banco Central publicou carta aberta atribuindo o resultado sobretudo à deflação de alimentos. Em 2018, a inflação ficou em 3,75%, abaixo do centro da meta.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "IPCA: 10,67% (2015) para 2,95% (2017) e 3,75% (2018); alimentação no domicílio -4,85% em 2017.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Inflação acumula 2,95% em 2017 e fica abaixo do piso da meta pela 1ª vez",
+          "url": "https://www.poder360.com.br/economia/inflacao-acumula-295-em-2017-e-fica-abaixo-do-piso-da-meta-pela-1a-vez/",
+          "date": "2018-01-10"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Inflação oficial pelo IPCA em 2017 é de 2,95%, a menor taxa desde 1998",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-01/inflacao-oficial-pelo-ipca-em-2017-e-de-295-menor-taxa-desde-1998",
+          "date": "2018-01-10"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Inflação anual fica abaixo do piso da meta pela primeira vez",
+          "url": "https://exame.com/economia/inflacao-fecha-2017-abaixo-do-piso-da-meta/",
+          "date": "2018-01-10"
+        }
+      ]
+    },
+    {
+      "id": "temer-selic-minima",
+      "date": "2018-03-21",
+      "title": "Selic cai a 6,5%, menor nível da série histórica",
+      "summary": "Com a inflação em queda, o Copom fez o 12º corte consecutivo e reduziu a Selic de 6,75% para 6,5% ao ano, menor nível desde o início da série em 1986. A taxa vinha de 14,25% em 2016 e permaneceu em 6,5% até julho de 2019.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Selic em 6,5% ao ano a partir de 21/03/2018, 12º corte seguido.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Banco Central reduz juros básicos da economia para 6,5% ao ano",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/banco-central-reduz-juros-basicos-da-economia-para-65-ao-ano",
+          "date": "2018-03-21"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Taxa Selic fica abaixo de 7% ao ano pela primeira vez na história",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-02/taxa-selic-fica-abaixo-de-7-ao-ano-pela-primeira-vez-na-historia",
+          "date": "2018-02-07"
+        }
+      ]
+    }
+  ]
+}

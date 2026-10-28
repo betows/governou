@@ -1,0 +1,359 @@
+{
+  "termId": "lula3",
+  "events": [
+    {
+      "id": "lula3-8-janeiro-intervencao",
+      "date": "2023-01-08",
+      "title": "Resposta federal aos ataques de 8 de janeiro: intervenção na segurança do DF",
+      "summary": "Após a invasão e depredação das sedes dos Três Poderes por apoiadores de Jair Bolsonaro, Lula decretou intervenção federal na segurança pública do Distrito Federal, com Ricardo Cappelli como interventor, até 31 de janeiro. A ordem foi restabelecida no mesmo dia e as instituições mantiveram o funcionamento, embora a falha de segurança em Brasília tenha sido amplamente apontada.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "Decreto de intervenção federal na Secretaria de Segurança Pública do DF assinado às 17h50 de 8/1/2023, com vigência até 31/1/2023; prédios desocupados e centenas de presos no mesmo dia.",
+      "sources": [
+        { "outlet": "Poder360", "title": "Lula decreta intervenção federal em Brasília depois de falha de segurança", "url": "https://www.poder360.com.br/governo/lula-decreta-intervencao-federal-em-brasilia-depois-de-falha-de-seguranca/", "date": "2023-01-08" },
+        { "outlet": "Agência Brasil", "title": "Relembre o passo a passo da tentativa de golpe no 8/1", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2024-01/relembre-o-passo-passo-da-tentativa-de-golpe-no-81", "date": "2024-01-08" },
+        { "outlet": "CNN Brasil", "title": "Entenda o que significa a intervenção federal no DF", "url": "https://www.cnnbrasil.com.br/politica/entenda-o-que-significa-a-intervencao-federal-no-df/", "date": "2023-01-08" }
+      ]
+    },
+    {
+      "id": "lula3-yanomami-emergencia",
+      "date": "2023-01-20",
+      "title": "Emergência em saúde pública no território Yanomami",
+      "summary": "O Ministério da Saúde declarou Emergência em Saúde Pública de Importância Nacional na Terra Indígena Yanomami (RR), diante de desnutrição grave e surto de malária associados ao garimpo ilegal, e montou um centro de operações de emergência. A resposta mobilizou atendimento e operações contra o garimpo, mas dados do próprio ministério mostraram aumento do número de mortes de indígenas em 2023 e a emergência seguiu sem prazo de encerramento.",
+      "impact": "misto",
+      "area": "saude",
+      "weight": 2,
+      "evidence": "Portaria de 20/1/2023 declarou ESPIN; segundo dados do Ministério da Saúde citados pelo IHU, 363 Yanomami morreram em 2023, 20 a mais que em 2022.",
+      "sources": [
+        { "outlet": "Exame", "title": "Ministério da Saúde declara emergência em saúde em território yanomami", "url": "https://exame.com/brasil/ministerio-da-saude-declara-emergencia-em-saude-em-territorio-yanomami/", "date": "2023-01-21" },
+        { "outlet": "IHU Unisinos", "title": "Genocídio Yanomami é tema de debate no IHU", "url": "https://ihu.unisinos.br/categorias/636876-genocidio-yanomami-e-tema-de-debate-no-ihu", "date": "2024-02-27" }
+      ]
+    },
+    {
+      "id": "lula3-arcabouco-fiscal",
+      "date": "2023-08-31",
+      "title": "Sanção do novo arcabouço fiscal (LC 200/2023)",
+      "summary": "Lula sancionou, com dois vetos, a Lei Complementar 200, que substituiu o teto de gastos por uma regra que limita o crescimento real da despesa a 70% do crescimento da receita, entre 0,6% e 2,5% ao ano, combinada a metas de resultado primário. A regra deu previsibilidade ao gasto, mas sua capacidade de estabilizar a dívida passou a ser questionada nos anos seguintes.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Despesa limitada a 70% do crescimento real da receita, com piso de 0,6% e teto de 2,5% de crescimento real ao ano.",
+      "sources": [
+        { "outlet": "Agência Gov", "title": "Presidente Lula sanciona a lei do novo arcabouço fiscal", "url": "https://agenciagov.ebc.com.br/noticias/202308/presidente-lula-sanciona-a-lei-do-novo-arcabouco-fiscal", "date": "2023-08-31" },
+        { "outlet": "Suno", "title": "Arcabouço fiscal: Lula sanciona novo regime com dois vetos", "url": "https://www.suno.com.br/noticias/?p=449688", "date": "2023-08-31" },
+        { "outlet": "Senado Federal", "title": "Lei Complementar nº 200 de 30/08/2023", "url": "https://legis.senado.leg.br/norma/37553820", "date": "2023-08-30" }
+      ]
+    },
+    {
+      "id": "lula3-reforma-tributaria",
+      "date": "2023-12-20",
+      "title": "Promulgação da Reforma Tributária (EC 132)",
+      "summary": "O Congresso promulgou a Emenda Constitucional 132, primeira reforma ampla da tributação sobre o consumo desde 1988, criando o IVA dual (CBS federal e IBS estadual/municipal) em substituição a PIS, Cofins, IPI, ICMS e ISS. A transição começa em 2026 e vai até 2033; há críticas de municípios sobre perda de autonomia e quanto ao número de regimes favorecidos.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "PEC 45/2019 aprovada na Câmara em 2º turno por 365 a 116; cinco tributos substituídos por CBS e IBS, com transição 2026–2033.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Congresso promulga emenda constitucional da reforma tributária", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/congresso-promulga-emenda-constitucional-da-reforma-tributaria", "date": "2023-12-20" },
+        { "outlet": "Poder360", "title": "Ao vivo: Congresso Nacional promulga a reforma tributária", "url": "https://www.poder360.com.br/congresso/ao-vivo-congresso-nacional-promulga-a-reforma-tributaria/", "date": "2023-12-20" },
+        { "outlet": "Agência Brasil", "title": "Câmara aprova reforma tributária em segundo turno", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/camara-aprova-reforma-tributaria-em-segundo-turno", "date": "2023-12-15" }
+      ]
+    },
+    {
+      "id": "lula3-desenrola",
+      "date": "2024-05-01",
+      "title": "Desenrola Brasil renegocia R$ 53 bilhões em dívidas",
+      "summary": "O programa de renegociação de dívidas lançado em 2023 foi encerrado em maio de 2024 com cerca de 15 milhões de pessoas atendidas, segundo o Ministério da Fazenda. Os descontos médios informados foram de 83%.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 2,
+      "evidence": "Mais de 15 milhões de pessoas renegociaram cerca de R$ 53 bilhões em dívidas, com desconto médio de 83% (dados da Fazenda).",
+      "sources": [
+        { "outlet": "CNN Brasil", "title": "Mais de 15 milhões de pessoas negociaram R$ 53 bi em dívidas pelo Desenrola, diz governo", "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/mais-de-15-milhoes-de-pessoas-negociaram-r-53-bi-em-dividas-pelo-desenrola-diz-governo/", "date": "2024-05-01" },
+        { "outlet": "Agência Brasil", "title": "Desenrola Brasil beneficiou 15 milhões de pessoas, informa Fazenda", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2024-05/desenrola-brasil-beneficiou-15-milhoes-de-pessoas-informa-fazenda", "date": "2024-05-01" }
+      ]
+    },
+    {
+      "id": "lula3-enchentes-rs",
+      "date": "2024-05-01",
+      "title": "Resposta federal às enchentes no Rio Grande do Sul",
+      "summary": "As enchentes de 2024 deixaram 183 mortos no RS; o governo federal anunciou pacote de socorro e reconstrução que incluiu Auxílio Reconstrução de R$ 5.100 por família, créditos extraordinários, linhas de financiamento e suspensão da dívida do estado com a União. O volume anunciado foi grande, mas boa parte era crédito e postergação de dívida, e o valor efetivamente pago foi bem menor que o total divulgado.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Em agosto de 2024 o governo contabilizava R$ 98,7 bilhões em medidas, dos quais R$ 42,3 bilhões efetivamente pagos; Auxílio Reconstrução atendeu cerca de 370 mil famílias.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Mais de R$ 85 bilhões foram investidos no RS desde início de enchentes", "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-06/mais-de-rs-85-bilhoes-foram-investidos-no-rs-desde-inicio-de-enchentes", "date": "2024-06-01" },
+        { "outlet": "Agência Brasil (Radioagência)", "title": "RS: auxílio reconstrução atendeu cerca de 370 mil famílias", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2024-09/rs-auxilio-reconstrucao-atendeu-cerca-de-370-mil-familias", "date": "2024-09-01" },
+        { "outlet": "CNN Brasil", "title": "Alagamentos, destruição e 183 mortes: relembre a tragédia das chuvas no RS que marcou 2024", "url": "https://www.cnnbrasil.com.br/nacional/sul/rs/alagamentos-destruicao-e-183-mortes-relembre-a-tragedia-das-chuvas-no-rs-que-marcou-2024/", "date": "2024-12-01" }
+      ]
+    },
+    {
+      "id": "lula3-dengue-2024",
+      "date": "2024-12-28",
+      "title": "Epidemia recorde de dengue em 2024",
+      "summary": "O Brasil registrou em 2024 a pior epidemia de dengue da série histórica, com mais de 6,4 milhões de casos prováveis e cerca de 6 mil mortes, alta de mais de 400% nos óbitos em relação a 2023. O Ministério da Saúde atribuiu parte do agravamento à volta do sorotipo DENV-3; a epidemia teve forte componente climático, mas expôs limites da prevenção e da rede de atendimento.",
+      "impact": "negativo",
+      "area": "saude",
+      "weight": 2,
+      "evidence": "6.484.890 casos prováveis e 5.972 mortes confirmadas até 28/12/2024 (painel do Ministério da Saúde), contra 1.179 mortes em 2023.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Casos de dengue em 2024 passam de 6,4 milhões; mortes somam 5,9 mil", "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2025-01/casos-de-dengue-em-2024-passam-de-64-milhoes-mortes-somam-59-mil", "date": "2025-01-01" },
+        { "outlet": "Poder360", "title": "Dengue bate recorde em 2024 com 6,6 mi de casos e 6.022 mortes", "url": "https://www.poder360.com.br/poder-saude/dengue-bate-recorde-em-2024-com-66-milhoes-de-casos-e-6-022-mortes/", "date": "2024-12-30" },
+        { "outlet": "Gazeta do Povo", "title": "Dengue supera covid-19 em número de mortes no Brasil em 2024", "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/dengue-supera-covid-19-em-numero-de-mortes-no-brasil-em-2024/", "date": "2025-01-01" }
+      ]
+    },
+    {
+      "id": "lula3-dolar-recorde-2024",
+      "date": "2024-12-18",
+      "title": "Dólar bate R$ 6,30 em crise de confiança fiscal",
+      "summary": "O anúncio do pacote de corte de gastos, junto com a proposta de isenção do IR, foi mal recebido pelo mercado e o dólar passou de R$ 6 pela primeira vez em 2 de dezembro de 2024, chegando a R$ 6,30 em 18 e 19 de dezembro. O Banco Central vendeu US$ 8 bilhões no mercado à vista em um único dia, a maior intervenção do tipo desde 1999.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Dólar comercial chegou a R$ 6,30 (máxima nominal histórica) e o BC fez leilão de US$ 8 bilhões no spot em 19/12/2024.",
+      "sources": [
+        { "outlet": "Poder360", "title": "Dólar atinge R$ 6,30 e recua após novo leilão do BC", "url": "https://www.poder360.com.br/poder-economia/dolar-atinge-r-630-mas-cai-depois-de-novo-leilao-do-bc/", "date": "2024-12-19" },
+        { "outlet": "CNN Brasil", "title": "Dólar renova máxima histórica e fecha acima de R$ 6 com temor fiscal; Ibovespa cai", "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/mercado-hoje-ibovespa-dolar-02-dezembro-2024/", "date": "2024-12-02" },
+        { "outlet": "InfoMoney", "title": "Pandemia, Joesley Day, eleição: relembre os maiores sustos do Tesouro Direto", "url": "https://infomoney.com.br/onde-investir/tesouro-direto-maiores-sustos-serie-historica", "date": "2024-12-18" }
+      ]
+    },
+    {
+      "id": "lula3-ipca-2024-estouro",
+      "date": "2025-01-10",
+      "title": "Inflação de 2024 estoura o teto da meta",
+      "summary": "O IPCA fechou 2024 em 4,83%, acima do teto de 4,5% da meta, e o Banco Central teve de enviar carta aberta ao ministro da Fazenda. O BC atribuiu o desvio principalmente à alta do dólar e à economia aquecida.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "IPCA de 4,83% em 2024, contra meta de 3% e teto de 4,5%; oitavo descumprimento desde 1999.",
+      "sources": [
+        { "outlet": "CNN Brasil", "title": "IPCA fecha 2024 em 4,83% e estoura a meta de inflação", "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/ipca-fecha-2024-em-483-e-estoura-a-meta-de-inflacao/", "date": "2025-01-10" },
+        { "outlet": "Poder360", "title": "Inflação ficou fora da meta por dólar e economia aquecida, diz BC", "url": "https://www.poder360.com.br/poder-economia/inflacao-ficou-fora-da-meta-por-dolar-e-economia-aquecida-diz-bc/", "date": "2025-01-10" }
+      ]
+    },
+    {
+      "id": "lula3-pe-de-meia-tcu",
+      "date": "2025-01-22",
+      "title": "TCU bloqueia recursos do Pé-de-Meia operados fora do Orçamento",
+      "summary": "O programa Pé-de-Meia, que paga incentivo para estudantes de baixa renda permanecerem no ensino médio, teve recursos bloqueados pelo TCU por ser financiado por fundos privados fora da Lei Orçamentária. O MEC defendeu a legalidade e a AGU recorreu, mas admitiu que parte do programa era financiada fora do Orçamento; o plenário manteve a cautelar por unanimidade.",
+      "impact": "misto",
+      "area": "educacao",
+      "weight": 2,
+      "evidence": "TCU suspendeu cerca de R$ 6 bilhões do programa em janeiro de 2025 por pagamentos via Fipem não previstos na LOA.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "TCU suspende R$ 6 bilhões do Pé de Meia; MEC nega irregularidades", "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-01/tcu-suspende-r-6-bilhoes-do-pe-de-meia-mec-nega-irregularidades", "date": "2025-01-22" },
+        { "outlet": "CNN Brasil", "title": "Plenário do TCU determina bloqueio de recursos destinados ao Pé-de-Meia", "url": "https://www.cnnbrasil.com.br/politica/plenario-do-tcu-determina-bloqueio-de-recursos-destinados-ao-pe-de-meia/", "date": "2025-01-29" },
+        { "outlet": "Gazeta do Povo", "title": "Governo cogita acionar Justiça contra bloqueio do Pé-de-Meia", "url": "https://www.gazetadopovo.com.br/republica/governo-defende-pe-de-meia-no-tcu-e-cogita-acionar-justica-contra-bloqueio/", "date": "2025-01-23" }
+      ]
+    },
+    {
+      "id": "lula3-pib-2024",
+      "date": "2025-03-07",
+      "title": "PIB cresce 3,4% em 2024",
+      "summary": "O IBGE informou crescimento de 3,4% do PIB em 2024, a maior taxa desde 2021, com serviços (+3,7%) e indústria (+3,3%) compensando a queda da agropecuária. O Brasil teve o 4º maior crescimento do G20 no ano.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "PIB +3,4% em 2024 (R$ 11,7 trilhões); PIB per capita +3,0% real.",
+      "sources": [
+        { "outlet": "IBGE", "title": "PIB cresce 3,4% em 2024 e fecha o ano em R$ 11,7 trilhões", "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/42774-pib-cresce-3-4-em-2024-e-fecha-o-ano-em-r-11-7-trilhoes", "date": "2025-03-07" },
+        { "outlet": "Poder360", "title": "Brasil tem o 4º maior crescimento entre países do G20", "url": "https://www.poder360.com.br/poder-economia/brasil-tem-o-4o-maior-crescimento-entre-maiores-economias/", "date": "2025-03-07" }
+      ]
+    },
+    {
+      "id": "lula3-fraude-inss",
+      "date": "2025-04-23",
+      "title": "Escândalo dos descontos indevidos em aposentadorias do INSS",
+      "summary": "A Operação Sem Desconto, da PF com a CGU, revelou esquema de descontos associativos não autorizados em aposentadorias e pensões, estimados em R$ 6,3 bilhões entre 2019 e 2024. O esquema começou antes do governo, mas cresceu no período; o presidente do INSS foi demitido, o ministro da Previdência caiu e, em 2026, a PF indiciou 48 pessoas, incluindo o ex-presidente do órgão.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 3,
+      "evidence": "R$ 6,3 bilhões descontados de aposentados e pensionistas entre 2019 e 2024; 97% dos beneficiários entrevistados pela CGU disseram não ter autorizado os descontos.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Operação da PF investiga descontos irregulares em benefícios do INSS", "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-04/operacao-da-pf-investiga-descontos-irregulares-em-beneficios-do-inss", "date": "2025-04-23" },
+        { "outlet": "CNN Brasil", "title": "Entenda como funcionava a fraude de R$ 6 bilhões em benefícios do INSS", "url": "https://www.cnnbrasil.com.br/politica/entenda-como-funcionava-a-fraude-de-r-6-bilhoes-em-beneficios-do-inss/", "date": "2025-04-24" },
+        { "outlet": "Agência Brasil", "title": "PF indicia Careca do INSS e mais 47 por esquema de descontos ilegais", "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pf-indicia-careca-do-inss-e-mais-47-por-esquema-de-descontos-ilegais", "date": "2026-07-01" }
+      ]
+    },
+    {
+      "id": "lula3-selic-15",
+      "date": "2025-06-18",
+      "title": "Selic chega a 15%, maior nível desde 2006",
+      "summary": "O Copom elevou a Selic pela sétima vez seguida, para 15% ao ano, e sinalizou manutenção por período prolongado diante de inflação acima da meta e expectativas desancoradas. Os juros altos encareceram o crédito e o custo da dívida pública.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Selic em 15% ao ano a partir de 18/6/2025, o maior patamar desde 2006; mantida até março de 2026.",
+      "sources": [
+        { "outlet": "CNN Brasil", "title": "BC sobe juros para 15% ao ano e sinaliza fim do ciclo de alta", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-junho-2025/", "date": "2025-06-18" },
+        { "outlet": "InfoMoney", "title": "Copom eleva a Selic em 0,25 ponto, para 15%, e anuncia \"parada\" no ciclo de alta", "url": "https://www.infomoney.com.br/economia/copom-eleva-a-selic-em-025-ponto-para-15-e-anuncia-parada-no-ciclo-de-alta/", "date": "2025-06-18" },
+        { "outlet": "Poder360", "title": "Copom reduz Selic para 14,75% e inicia ciclo de corte com cautela", "url": "https://www.poder360.com.br/poder-economia/copom-reduz-selic-para-1475-inicia-ciclo-de-corte/", "date": "2026-03-18" }
+      ]
+    },
+    {
+      "id": "lula3-iof-disputa",
+      "date": "2025-06-25",
+      "title": "Congresso derruba decreto do IOF e STF restabelece maior parte",
+      "summary": "O aumento do IOF por decreto, usado para reforçar a arrecadação, foi derrubado pelo Congresso (383 a 98 na Câmara), a primeira derrubada de decreto do Executivo desde 1992. Após conciliação sem acordo, o ministro Alexandre de Moraes validou a maior parte do decreto, excluindo a cobrança sobre o risco sacado, o que preservou receita mas aprofundou o atrito entre Poderes.",
+      "impact": "misto",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "Decreto legislativo aprovado por 383 a 98 na Câmara em 25/6/2025; decisão de Moraes em julho de 2025 manteve o decreto exceto sobre risco sacado.",
+      "sources": [
+        { "outlet": "InfoMoney", "title": "Linha do tempo da batalha do IOF: entenda discussão entre Executivo, Congresso e STF", "url": "https://www.infomoney.com.br/politica/linha-do-tempo-da-batalha-do-iof-entenda-discussao-entre-executivo-congresso-e-stf/", "date": "2025-07-16" },
+        { "outlet": "Agência Brasil", "title": "STF: Alexandre de Moraes decide validar decreto do IOF", "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-alexandre-de-moraes-decide-validar-decreto-do-iof", "date": "2025-07-16" },
+        { "outlet": "Gazeta do Povo", "title": "Governo desafia Congresso e recorre ao STF para subir IOF novamente", "url": "https://www.gazetadopovo.com.br/economia/governo-desafia-congresso-e-recorre-ao-stf-para-subir-iof-novamente/", "date": "2025-07-01" }
+      ]
+    },
+    {
+      "id": "lula3-mapa-da-fome",
+      "date": "2025-07-28",
+      "title": "Brasil sai novamente do Mapa da Fome da ONU",
+      "summary": "O relatório SOFI 2025 da FAO indicou que a subalimentação no Brasil ficou abaixo de 2,5% da população na média 2022–2024, retirando o país do Mapa da Fome, do qual havia saído em 2014 e voltado no triênio 2018–2020. O relatório seguinte manteve o Brasil fora do mapa.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "Subalimentação abaixo do limiar de 2,5% na média trienal 2022–2024 (FAO/SOFI 2025).",
+      "sources": [
+        { "outlet": "gov.br (Ministério da Previdência Social)", "title": "Brasil sai do Mapa da Fome da ONU: conquista histórica reflete políticas públicas eficazes", "url": "https://www.gov.br/previdencia/pt-br/noticias/2025/julho/brasil-sai-do-mapa-da-fome-da-onu-conquista-historica-reflete-politicas-publicas-eficazes", "date": "2025-07-28" },
+        { "outlet": "O Povo", "title": "Brasil sai do mapa da fome após três anos", "url": "https://www.opovo.com.br/noticias/brasil/2025/07/28/brasil-sai-do-mapa-da-fome-anuncia-onu.html", "date": "2025-07-28" },
+        { "outlet": "CNN Brasil", "title": "Brasil se mantém fora do Mapa da Fome e melhora indicadores, aponta ONU", "url": "https://www.cnnbrasil.com.br/politica/brasil-se-mantem-fora-do-mapa-da-fome-e-melhora-indicadores-aponta-onu/", "date": "2026-07-01" }
+      ]
+    },
+    {
+      "id": "lula3-tarifaco-eua",
+      "date": "2025-08-06",
+      "title": "Tarifa de 50% dos EUA sobre produtos brasileiros e Plano Brasil Soberano",
+      "summary": "Os EUA impuseram sobretaxa de 50% a parte das exportações brasileiras, a maior aplicada a qualquer país, em medida ligada por Trump ao julgamento de Jair Bolsonaro. O governo respondeu com o Plano Brasil Soberano (R$ 30 bilhões em crédito, Reintegra e compras públicas) e negociação diplomática; em novembro de 2025 os EUA retiraram a sobretaxa de 40% de 238 produtos agrícolas, mas o impasse comercial seguiu aberto.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 3,
+      "evidence": "Tarifa de 50% atingiu 35,9% das exportações brasileiras aos EUA (MDIC); cerca de 700 produtos ficaram de fora; R$ 30 bilhões em crédito pela MP 1.309.",
+      "sources": [
+        { "outlet": "InfoMoney", "title": "Tarifa de 50% sobre o Brasil é a maior do mundo imposta pelos EUA; veja lista", "url": "https://www.infomoney.com.br/mercados/tarifa-de-50-deixa-brasil-com-a-maior-taxa-do-mundo-imposta-pelos-eua-veja-lista/", "date": "2025-08-01" },
+        { "outlet": "InfoMoney", "title": "Governo anuncia plano contra tarifaço com Reintegra, crédito e compras governamentais", "url": "https://www.infomoney.com.br/economia/governo-anuncia-pacote-contra-tarifaco-13-08-2025/", "date": "2025-08-13" },
+        { "outlet": "Poder360", "title": "Tarifaço completa 5 meses; negociação continua em aberto", "url": "https://www.poder360.com.br/poder-internacional/tarifaco-completa-5-meses-e-negociacao-brasil-eua-continua-em-aberto/", "date": "2026-01-06" }
+      ]
+    },
+    {
+      "id": "lula3-carbono-oculto",
+      "date": "2025-08-28",
+      "title": "Operação Carbono Oculto contra o PCC no setor de combustíveis",
+      "summary": "Força-tarefa com Receita Federal, Polícia Federal e Ministério Público de SP cumpriu cerca de 350 mandados em oito estados contra esquema do PCC no setor de combustíveis e no mercado financeiro da Faria Lima. Foi a maior ofensiva contra a lavagem de dinheiro da facção, mirando fintechs e fundos de investimento.",
+      "impact": "positivo",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Cerca de mil postos movimentaram R$ 52 bilhões entre 2020 e 2024; Receita identificou ao menos 40 fundos com patrimônio estimado de R$ 30 bilhões ligados à facção.",
+      "sources": [
+        { "outlet": "CNN Brasil", "title": "PCC, Faria Lima e combustíveis: o que sabemos sobre três operações de hoje", "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/pcc-faria-lima-e-combustiveis-o-que-sabemos-sobre-tres-operacoes-de-hoje/", "date": "2025-08-28" },
+        { "outlet": "CNN Brasil", "title": "PCC na Faria Lima: Facção geria 40 fundos de investimentos, diz Receita", "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/pcc-na-faria-lima-faccao-geria-40-fundos-de-investimentos-diz-receita/", "date": "2025-08-28" },
+        { "outlet": "CNN Brasil", "title": "Esquema com PCC: Mil postos de combustíveis movimentaram R$ 52 bilhões", "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/esquema-com-pcc-mil-postos-de-combustiveis-movimentaram-r-52-bilhoes/", "date": "2025-08-28" }
+      ]
+    },
+    {
+      "id": "lula3-cop30",
+      "date": "2025-11-22",
+      "title": "COP30 em Belém: fundo florestal lançado, fósseis fora do texto final",
+      "summary": "O Brasil sediou a COP30 em Belém e lançou o Fundo Florestas Tropicais para Sempre (TFFF), que reuniu promessas de cerca de US$ 5,6 bilhões e apoio de 53 países, abaixo da meta inicial de US$ 10 bilhões. O texto final (Mutirão Global) previu triplicar o financiamento para adaptação até 2035, mas deixou de fora o mapa do caminho para abandonar combustíveis fósseis, prioridade da presidência brasileira.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "TFFF somou promessas de US$ 5,58 bilhões na cúpula de líderes; documento final sem menção explícita a petróleo, gás ou carvão.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "COP30: Acordo climático deixa de fora combustíveis fósseis", "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-11/cop30-acordo-climatico-deixa-de-fora-combustiveis-fosseis", "date": "2025-11-22" },
+        { "outlet": "Poder360", "title": "Fundo florestal liderado pelo Brasil soma promessas de US$ 5,58 bi", "url": "https://www.poder360.com.br/cop30/fundo-florestal-liderado-pelo-brasil-reune-53-paises-e-us-558-bi/", "date": "2025-11-07" },
+        { "outlet": "CNN Brasil", "title": "Análise: Brasil está frustrado com texto final da COP30", "url": "https://www.cnnbrasil.com.br/internacional/analise-brasil-esta-frustrado-com-texto-final-da-cop30/", "date": "2025-11-22" }
+      ]
+    },
+    {
+      "id": "lula3-isencao-ir-5mil",
+      "date": "2025-11-26",
+      "title": "Sanção da isenção do IR para quem ganha até R$ 5 mil",
+      "summary": "Lula sancionou lei aprovada por unanimidade na Câmara e no Senado que isenta do Imposto de Renda quem ganha até R$ 5 mil por mês a partir de 2026, com desconto parcial até R$ 7.350. A perda de arrecadação é compensada por tributação mínima de rendas acima de R$ 600 mil por ano.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Cerca de 20 milhões de contribuintes deixam de pagar IR (Fazenda); compensação via imposto mínimo sobre rendas acima de R$ 50 mil mensais.",
+      "sources": [
+        { "outlet": "CNN Brasil", "title": "Lula sanciona isenção do IR para quem ganha até R$ 5 mil", "url": "https://www.cnnbrasil.com.br/politica/lula-sanciona-isencao-do-ir-para-quem-ganha-ate-r-5-mil/", "date": "2025-11-26" },
+        { "outlet": "Gazeta do Povo", "title": "Lula sanciona isenção do IR até R$ 5 mil sem Motta e Alcolumbre em meio à crise entre poderes", "url": "https://www.gazetadopovo.com.br/republica/lula-sanciona-isencao-ir-ate-5-mil-sem-motta-alcolumbre/", "date": "2025-11-26" },
+        { "outlet": "Poder360", "title": "Lula sanciona lei que isenta de IR quem ganha até R$ 5.000 por mês", "url": "https://www.poder360.com.br/poder-governo/lula-sanciona-lei-que-isenta-de-irpf-ate-r-5-000-por-mes/", "date": "2025-11-26" }
+      ]
+    },
+    {
+      "id": "lula3-meta-fiscal-2025",
+      "date": "2026-01-29",
+      "title": "Governo central fecha 2025 com déficit de R$ 61,7 bi e cumpre meta com deduções",
+      "summary": "O governo central registrou déficit primário de R$ 61,7 bilhões (0,48% do PIB) em 2025, melhor que o previsto pelo mercado. Descontadas despesas excluídas da regra, como precatórios excedentes, o déficit para fins de meta foi de 0,10% do PIB, dentro da tolerância da meta de déficit zero; críticos apontam que as exclusões enfraquecem a regra.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Déficit bruto de R$ 61,7 bi (0,48% do PIB); R$ 13 bi (0,10% do PIB) após deduções, dentro da banda de 0,25 p.p.; despesas cresceram 3,4% reais contra 2,8% das receitas.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Déficit primário do Governo Central totaliza R$ 61,7 bilhões em 2025", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/deficit-primario-do-governo-central-totaliza-r-617-bilhoes-em-2025", "date": "2026-01-29" },
+        { "outlet": "CNN Brasil", "title": "Tesouro: déficit primário após deduções é de 0,1%, acima do limite inferior da meta", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/tesouro-deficit-primario-apos-deducoes-e-de-010-do-pib-acima-do-limite-inferior-da-meta/", "date": "2026-01-29" }
+      ]
+    },
+    {
+      "id": "lula3-desemprego-recorde",
+      "date": "2026-01-30",
+      "title": "Desemprego de 2025 é o menor da série histórica",
+      "summary": "A Pnad Contínua mostrou taxa média de desocupação de 5,6% em 2025, a menor desde o início da série em 2012, e 5,1% no trimestre encerrado em dezembro. O nível de ocupação foi recorde, embora a informalidade tenha seguido elevada, em 38,1%.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Desocupação média de 5,6% em 2025 (6,6% em 2024) e 5,1% no 4º trimestre, mínimas da série iniciada em 2012 (IBGE).",
+      "sources": [
+        { "outlet": "IBGE", "title": "PNAD Contínua: em 2025, taxa anual de desocupação foi de 5,6% enquanto taxa de subutilização foi 14,5%", "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45759-pnad-continua-em-2025-taxa-anual-de-desocupacao-foi-de-5-6-enquanto-taxa-de-subutilizacao-foi-14-5", "date": "2026-01-30" },
+        { "outlet": "Poder360", "title": "Taxa de desemprego cai para 5,1% em 2025, a menor da história", "url": "https://www.poder360.com.br/poder-economia/taxa-de-desemprego-cai-para-51-em-2025-a-menor-da-historia/", "date": "2026-01-30" },
+        { "outlet": "Agência Brasil", "title": "Dezenove estados e DF têm em 2025 o menor desemprego já registrado", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-02/dezenove-estados-e-df-tem-em-2025-o-menor-desemprego-ja-registrado", "date": "2026-02-01" }
+      ]
+    },
+    {
+      "id": "lula3-desenrola-3-eleitoral",
+      "date": "2026-09-01",
+      "title": "Desenrola 3.0 e medidas de estímulo às vésperas da eleição",
+      "summary": "A poucas semanas do primeiro turno, o governo criou uma terceira fase do Desenrola em que a União compra dívidas de famílias com desconto, com custo limitado a R$ 15 bilhões e meta de até 15 milhões de beneficiados. O governo defende o combate ao endividamento; economistas e editoriais criticaram a concentração de estímulos e operações parafiscais em ano eleitoral, com custos empurrados para os anos seguintes.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Até R$ 150 bilhões em dívidas elegíveis, cerca de R$ 75 bilhões a renegociar e custo para a União limitado a R$ 15 bilhões.",
+      "sources": [
+        { "outlet": "InfoMoney", "title": "Desenrola 3.0: saiba como vai funcionar novo programa de renegociação de dívidas", "url": "https://www.infomoney.com.br/minhas-financas/desenrola-3-0-saiba-como-vai-funcionar-novo-programa-de-renegociacao-de-dividas/", "date": "2026-09-01" },
+        { "outlet": "Brazil Journal", "title": "‘Bondade eleitoral’ ou compra de voto? A conta não para de crescer", "url": "https://braziljournal.com/bondade-eleitoral-ou-compra-de-voto-a-conta-nao-para-de-crescer", "date": "2026-09-01" }
+      ]
+    },
+    {
+      "id": "lula3-divida-bruta",
+      "date": "2026-09-30",
+      "title": "Dívida bruta chega a 82,9% do PIB",
+      "summary": "A dívida bruta do governo geral atingiu R$ 11,1 trilhões, ou 82,9% do PIB, em agosto de 2026, o maior patamar desde 2021, segundo o Banco Central. O avanço foi puxado principalmente pelos juros nominais, e o boletim Focus projeta a dívida perto de 90% do PIB em 2027.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "DBGG de 82,9% do PIB (R$ 11,1 tri) em agosto de 2026, maior nível desde março de 2021; dívida líquida em recorde da série iniciada em 2001.",
+      "sources": [
+        { "outlet": "CNN Brasil", "title": "BC: Dívida bruta do governo geral avança para 82,9% do PIB em agosto", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/bc-divida-bruta-do-governo-geral-avanca-para-829-do-pib-em-agosto/", "date": "2026-09-30" },
+        { "outlet": "Gazeta do Povo", "title": "Dívida pública brasileira alcança R$ 11 trilhões e chega a 82,9% do PIB", "url": "https://www.gazetadopovo.com.br/economia/divida-publica-brasileira-alcanca-11-trilhoes-chega-82-9-pib/", "date": "2026-09-30" },
+        { "outlet": "Poder360", "title": "Dívida bruta atinge 82,9% do PIB em agosto, diz Banco Central", "url": "https://www.poder360.com.br/poder-economia/divida-bruta-atinge-829-do-pib-em-agosto-diz-banco-central/", "date": "2026-09-30" }
+      ]
+    },
+    {
+      "id": "lula3-desmatamento-minimo-historico",
+      "date": "2026-10-16",
+      "title": "Desmatamento na Amazônia e no Cerrado atinge mínima histórica (Prodes 2026)",
+      "summary": "O Prodes/Inpe estimou 3.335 km² de desmatamento na Amazônia entre agosto de 2025 e julho de 2026, a menor taxa desde o início da série em 1988 e queda de cerca de 42% ante 2025; o Cerrado também teve o menor nível de sua série. Foi a continuação de uma trajetória de queda iniciada em 2023, quando a taxa amazônica caiu 22% para cerca de 9 mil km².",
+      "impact": "positivo",
+      "area": "meio-ambiente",
+      "weight": 3,
+      "evidence": "Amazônia: 9.001 km² (Prodes 2023, −22,3%) → 5.731 km² (2025) → 3.335 km² (2026, −41,8%); Cerrado 5.516 km² em 2026, mínima da série iniciada em 2001.",
+      "sources": [
+        { "outlet": "INPE (gov.br)", "title": "Brasil alcança menores taxas de desmatamento da série histórica na Amazônia e no Cerrado", "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/brasil-alcanca-menores-taxas-de-desmatamento-da-serie-historica-na-amazonia-e-no-cerrado", "date": "2026-10-16" },
+        { "outlet": "Poder360", "title": "Desmatamento cai na Amazônia e no Cerrado em 2026", "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-cai-na-amazonia-e-no-cerrado-em-2026/", "date": "2026-10-16" },
+        { "outlet": "Diário do Nordeste", "title": "Desmatamento na Amazônia cai 22,3% no período de um ano", "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/desmatamento-na-amazonia-cai-223-no-periodo-de-um-ano-1.3441412", "date": "2023-11-09" }
+      ]
+    }
+  ]
+}

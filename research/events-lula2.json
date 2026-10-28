@@ -1,0 +1,264 @@
+{
+  "termId": "lula2",
+  "events": [
+    {
+      "id": "lula2-pac",
+      "date": "2007-01-22",
+      "title": "Lançamento do PAC",
+      "summary": "O governo lançou o Programa de Aceleração do Crescimento, com previsão de R$ 503,9 bilhões em infraestrutura (transporte, energia, saneamento, habitação e recursos hídricos) entre 2007 e 2010, dos quais R$ 67,8 bilhões do Orçamento da União. O programa elevou o volume de investimento contratado, mas levantamentos posteriores apontaram atrasos de anos nas maiores obras.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 3,
+      "evidence": "Previsão de R$ 503,9 bi (R$ 436,1 bi de estatais e setor privado); levantamento de 2012 indicou que só duas das maiores obras do PAC haviam sido concluídas, com atrasos de até 54 meses.",
+      "sources": [
+        { "outlet": "Congresso em Foco", "title": "O que prevê o PAC", "url": "https://www.congressoemfoco.com.br/projeto-bula/reportagem/o-que-preve-o-pac/", "date": "2007-01-22" },
+        { "outlet": "Congresso em Foco", "title": "Só duas das maiores obras do PAC foram concluídas", "url": "https://www.congressoemfoco.com.br/noticia/46948/so-duas-das-maiores-obras-do-pac-foram-concluidas", "date": "2012-04-01" },
+        { "outlet": "CBIC", "title": "PAC: Radiografia dos Resultados 2007-2015", "url": "https://cbic.org.br/wp-content/uploads/2017/11/PAC_Radiografia_dos_Resultados_2007_2015_2016.pdf", "date": "2017-11-01" }
+      ]
+    },
+    {
+      "id": "lula2-pre-sal-tupi",
+      "date": "2007-11-08",
+      "title": "Anúncio da descoberta de Tupi no pré-sal",
+      "summary": "A Petrobras anunciou que o campo de Tupi, na camada pré-sal da Bacia de Santos, teria volume recuperável estimado entre 5 e 8 bilhões de barris de óleo equivalente, o que poderia ampliar em mais de 50% as reservas da empresa. A descoberta abriu a nova fronteira de produção que viria a se tornar a principal fonte de petróleo do país.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Estimativa inicial de 5 a 8 bilhões de barris, frente a reservas totais da Petrobras de cerca de 14 bilhões de barris na época.",
+      "sources": [
+        { "outlet": "Investe SP", "title": "New oil reserve may be worth US$ 48 billion", "url": "https://www.en.investe.sp.gov.br/news/post/new-oil-reserve-may-be-worth-us-48-billion", "date": "2007-11-09" }
+      ]
+    },
+    {
+      "id": "lula2-fim-cpmf",
+      "date": "2007-12-13",
+      "title": "Senado rejeita prorrogação da CPMF",
+      "summary": "O Senado rejeitou a PEC que prorrogava a CPMF: o governo obteve 45 votos, quatro a menos que os 49 necessários, e o tributo deixou de ser cobrado em 31 de dezembro de 2007. Para críticos do tributo, a medida reduziu a carga tributária e um imposto cumulativo; para o governo, significou perda relevante de arrecadação, em parte compensada por aumento de outros tributos.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Placar de 45 votos favoráveis contra 34, abaixo dos 49 exigidos para aprovar a PEC; fim da cobrança em 31/12/2007.",
+      "sources": [
+        { "outlet": "Agência Senado", "title": "Sete horas de intenso debate para votar a CPMF", "url": "https://www12.senado.leg.br/noticias/materias/2007/12/13/sete-horas-de-intenso-debate-para-votar-a-cpmf", "date": "2007-12-13" },
+        { "outlet": "Congresso em Foco", "title": "Senado rejeita prorrogação da CPMF e aprova DRU", "url": "https://congressoemfoco.com.br/noticias/senado-rejeita-prorrogacao-da-cpmf-e-aprova-dru", "date": "2007-12-13" }
+      ]
+    },
+    {
+      "id": "lula2-crise-aerea-tam",
+      "date": "2007-07-17",
+      "title": "Crise aérea e acidente da TAM em Congonhas",
+      "summary": "Após meses de atrasos, greves de controladores de voo e congestionamento nos aeroportos desde o fim de 2006, o voo TAM 3054 não conseguiu frear em Congonhas e matou 199 pessoas. O Cenipa apontou falhas da tripulação somadas a outros fatores, e parlamentares de governo e oposição responsabilizaram a Anac pela gestão da malha aérea durante a crise.",
+      "impact": "negativo",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "199 mortos, maior acidente da aviação brasileira até então; crise operacional nos principais aeroportos de novembro de 2006 a meados de 2007.",
+      "sources": [
+        { "outlet": "Congresso em Foco", "title": "Deputados culpam Anac por crise aérea", "url": "https://www.congressoemfoco.com.br/noticia/81714/deputados-culpam-anac-por-crise-aerea", "date": "2007-07-01" },
+        { "outlet": "Congresso em Foco", "title": "Tragédia acirra guerra entre governo e oposição", "url": "https://www.congressoemfoco.com.br/noticia/65702/tragedia-acirra-guerra-entre-governo-e-oposicao", "date": "2007-07-01" }
+      ]
+    },
+    {
+      "id": "lula2-mensalao-denuncia-stf",
+      "date": "2007-08-28",
+      "title": "STF torna réus os 40 denunciados do mensalão",
+      "summary": "Após cinco sessões, o Supremo Tribunal Federal recebeu a denúncia da Procuradoria-Geral da República e tornou réus os 40 acusados do esquema do mensalão, entre eles ex-ministro e ex-dirigentes do PT. A decisão manteve o escândalo do primeiro mandato no centro do debate e abriu a ação penal que seria julgada em 2012.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 2,
+      "evidence": "Denúncia recebida contra todos os 40 acusados no Inquérito 2245, na maioria dos crimes apontados pela PGR.",
+      "sources": [
+        { "outlet": "STF", "title": "STF conclui julgamento do inquérito do mensalão e recebe denúncia contra os 40 acusados", "url": "https://noticias.stf.jus.br/postsnoticias/stf-conclui-julgamento-do-inquerito-do-mensalao-e-recebe-denuncia-contra-os-40-acusados/", "date": "2007-08-28" }
+      ]
+    },
+    {
+      "id": "lula2-cartoes-corporativos",
+      "date": "2008-02-01",
+      "title": "Escândalo dos cartões corporativos",
+      "summary": "A ministra da Igualdade Racial, Matilde Ribeiro, deixou o cargo após revelação de gastos de mais de R$ 171 mil no cartão corporativo em 2007, os maiores entre ministros. O governo editou decreto limitando saques com os cartões, e o MPF depois a processou por improbidade pedindo a devolução de R$ 160 mil.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 1,
+      "evidence": "Auditoria da CGU mostrou que R$ 127 mil dos R$ 171 mil foram gastos com locação de veículos; Decreto 6.370/2008 limitou saques.",
+      "sources": [
+        { "outlet": "Congresso em Foco", "title": "Cartão corporativo: Matilde Ribeiro renuncia ao cargo", "url": "https://www.congressoemfoco.com.br/noticia/3787/cartao-corporativo-matilde-ribeiro-renuncia-ao-cargo", "date": "2008-02-01" },
+        { "outlet": "Congresso em Foco", "title": "MPF denuncia Matilde Ribeiro por uso de corporativos", "url": "https://www.congressoemfoco.com.br/noticia/90217/mpf-denuncia-matilde-ribeiro-por-uso-de-corporativos", "date": "2008-08-01" }
+      ]
+    },
+    {
+      "id": "lula2-grau-investimento",
+      "date": "2008-04-30",
+      "title": "Brasil recebe grau de investimento",
+      "summary": "A Standard & Poor's elevou a nota da dívida brasileira em moeda estrangeira de BB+ para BBB-, concedendo ao país o grau de investimento pela primeira vez. A Fitch seguiu no mês seguinte e a Moody's em 2009, o que reduziu o custo de captação e ampliou o acesso a investidores institucionais.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Rating S&P de BB+ para BBB- com perspectiva estável em 30/04/2008; o selo seria perdido em setembro de 2015.",
+      "sources": [
+        { "outlet": "Jornal do Brasil", "title": "Brasil perde grau de investimento que recebeu também em uma quarta-feira do ano de 2008", "url": "https://www.jb.com.br/opiniao/noticias/2015/09/10/amp/brasil-perde-grau-de-investimento-que-recebeu-tambem-em-uma-quarta-feira-do-ano-de-2008.html", "date": "2015-09-10" }
+      ]
+    },
+    {
+      "id": "lula2-lei-seca",
+      "date": "2008-06-19",
+      "title": "Sanção da Lei Seca",
+      "summary": "A Lei 11.705/2008 instituiu tolerância zero ao álcool para motoristas, com multa gravíssima e suspensão do direito de dirigir por 12 meses. Houve queda imediata de acidentes, mas estudos registram recuperação parcial depois, atribuída à fiscalização irregular; ainda assim, a taxa de mortalidade em acidentes associados ao álcool caiu ao longo da década seguinte.",
+      "impact": "positivo",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Tolerância zero para álcool ao volante, multa de R$ 2.934,70 e suspensão de 12 meses (valores atualizados); mortalidade em acidentes ligados ao álcool caiu 32% em dez anos segundo o CISA.",
+      "sources": [
+        { "outlet": "Agência Gov", "title": "Lei Seca completa 17 anos: um marco na segurança viária brasileira", "url": "https://agenciagov.ebc.com.br/noticias/202506/lei-seca-completa-17-anos-um-marco-na-seguranca-viaria-brasileira", "date": "2025-06-01" }
+      ]
+    },
+    {
+      "id": "lula2-crise-2008-recessao-2009",
+      "date": "2008-12-11",
+      "title": "Resposta à crise de 2008 e recessão de 2009",
+      "summary": "Diante da crise financeira global, o governo reduziu o IPI de automóveis (a zero para carros 1.0, via MP 451/2008) e adotou outras medidas anticíclicas; o PIB ainda recuou em 2009 (-0,2% na primeira divulgação, depois revisado para cerca de -0,3%). A recuperação foi rápida, mas parte dos especialistas questiona a eficácia e o custo fiscal das desonerações setoriais.",
+      "impact": "misto",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "PIB de 2009 em -0,2% (primeira estimativa do IBGE), primeira queda anual da série iniciada em 1996, seguida de alta de 7,5% em 2010.",
+      "sources": [
+        { "outlet": "Congresso em Foco", "title": "Nos jornais: Lula teve em 2009 primeiro PIB negativo desde Collor", "url": "https://www.congressoemfoco.com.br/noticia/82990/nos-jornais-lula-teve-em-2009-primeiro-pib-negativo-desde-collor", "date": "2010-03-01" },
+        { "outlet": "Exame", "title": "Desde 2009, desempenho do PIB do Brasil não era tão baixo", "url": "https://exame.com/economia/desde-2009-desempenho-do-pib-do-brasil-nao-era-tao-baixo/", "date": "2013-03-01" }
+      ]
+    },
+    {
+      "id": "lula2-minha-casa-minha-vida",
+      "date": "2009-03-25",
+      "title": "Lançamento do Minha Casa, Minha Vida",
+      "summary": "O programa habitacional foi lançado com meta de 1 milhão de moradias e cerca de R$ 34 bilhões em subsídios, com parte voltada a famílias de até três salários mínimos. O início foi lento (4% das obras iniciadas em agosto de 2009), mas a meta de contratação da primeira fase foi atingida.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "1.005.128 unidades contratadas na primeira fase, segundo a CBIC.",
+      "sources": [
+        { "outlet": "CBIC", "title": "Minha Casa Minha Vida já contratou mais de 1 milhão de moradias desde o seu lançamento", "url": "https://cbic.org.br/en_US/minha-casa-minha-vida-ja-contratou-mais-de-1-milhao-de-moradias-desde-o-seu-lancamento/", "date": "2011-01-01" },
+        { "outlet": "Sinduscon-PR (reprodução Agência Brasil)", "title": "Só 4% das obras do Minha Casa foram iniciadas", "url": "https://sindusconpr.com.br/so-4-das-obras-do-minha-casa-foram-iniciadas/", "date": "2009-09-01" }
+      ]
+    },
+    {
+      "id": "lula2-meta-clima-copenhague",
+      "date": "2009-11-13",
+      "title": "Meta voluntária de redução de emissões",
+      "summary": "Antes da COP-15 em Copenhague, o governo anunciou compromisso voluntário de reduzir entre 36,1% e 38,9% as emissões projetadas para 2020, sobretudo com o controle do desmatamento (24,7 pontos percentuais). O compromisso foi depois incorporado em lei pelo Congresso.",
+      "impact": "positivo",
+      "area": "meio-ambiente",
+      "weight": 1,
+      "evidence": "Corte de 36,1% a 38,9% sobre a trajetória projetada de emissões até 2020.",
+      "sources": [
+        { "outlet": "Congresso em Foco", "title": "Brasil define meta de 38,9% de redução de CO2", "url": "https://congressoemfoco.com.br/noticia/72912/brasil-define-meta-de-38-9-de-reducao-de-co2", "date": "2009-11-13" }
+      ]
+    },
+    {
+      "id": "lula2-belo-monte",
+      "date": "2010-04-20",
+      "title": "Leilão da usina de Belo Monte",
+      "summary": "Após licença prévia do Ibama com 40 condicionantes e R$ 1,5 bilhão em contrapartidas, o leilão da hidrelétrica no Rio Xingu foi realizado depois que a AGU derrubou liminares obtidas pelo MPF. O governo defendia a obra pela oferta de energia; MPF, ambientalistas e lideranças indígenas apontavam redução da vazão em 100 km do Xingu e impactos sobre terras indígenas.",
+      "impact": "misto",
+      "area": "meio-ambiente",
+      "weight": 2,
+      "evidence": "Licença prévia em fevereiro de 2010 com 40 condicionantes; ações do MPF contestando a licença e a redução de vazão na Volta Grande do Xingu.",
+      "sources": [
+        { "outlet": "Congresso em Foco", "title": "Justiça libera leilão da usina de Belo Monte", "url": "https://www.congressoemfoco.com.br/noticia/71883/justica-libera-leilao-da-usina-de-belo-monte", "date": "2010-04-01" },
+        { "outlet": "KHL", "title": "Brazil's Belo Monte dam given environmental licence", "url": "https://www.khl.com/news/brazil-s-belo-monte-dam-given-environmental-licence/1051156.article", "date": "2010-02-01" }
+      ]
+    },
+    {
+      "id": "lula2-declaracao-teera",
+      "date": "2010-05-17",
+      "title": "Declaração de Teerã sobre programa nuclear iraniano",
+      "summary": "Brasil e Turquia firmaram com o Irã acordo para troca de urânio levemente enriquecido por combustível nuclear de uso médico. Os EUA rejeitaram a proposta e o Conselho de Segurança aprovou novas sanções em junho de 2010, com votos contrários de Brasil e Turquia; analistas divergem entre desgaste diplomático e oportunidade perdida, já que o acordo de 2015 teve desenho semelhante.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 1,
+      "evidence": "Acordo previa depósito de cerca de 1.200 kg de urânio na Turquia; sanções aprovadas pelo CSNU em 9/6/2010 apesar do acordo.",
+      "sources": [
+        { "outlet": "Poder360", "title": "Em conversa com Amorim, Lula resgata mediação brasileira com o Irã", "url": "https://www.poder360.com.br/poder-governo/em-conversa-com-amorim-lula-resgata-mediacao-brasileira-com-o-ira/", "date": "2026-03-01" }
+      ]
+    },
+    {
+      "id": "lula2-ficha-limpa",
+      "date": "2010-06-04",
+      "title": "Sanção da Lei da Ficha Limpa",
+      "summary": "Lula sancionou a Lei Complementar 135/2010, originada de iniciativa popular com mais de 1,5 milhão de assinaturas, que torna inelegíveis por oito anos condenados por órgão colegiado. O STF decidiu que a lei não valeria para 2010, mas a aplicou a partir de 2012 e depois reconheceu sua constitucionalidade.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "LC 135/2010; inelegibilidade de 8 anos para condenados em segunda instância por crimes como corrupção.",
+      "sources": [
+        { "outlet": "Jornal do Brasil", "title": "Lei da Ficha Limpa só valerá para as eleições de 2012", "url": "https://www.jb.com.br/pais/noticias/2011/03/23/amp/lei-da-ficha-limpa-so-valera-para-as-eleicoes-de-2012.html", "date": "2011-03-23" },
+        { "outlet": "Congresso em Foco", "title": "15 anos de Ficha Limpa: a lei popular que sacudiu a política", "url": "https://www.congressoemfoco.com.br/noticia/109828/15-anos-de-ficha-limpa-a-lei-popular-que-sacudiu-a-politica", "date": "2025-06-01" }
+      ]
+    },
+    {
+      "id": "lula2-erenice-guerra",
+      "date": "2010-09-16",
+      "title": "Queda de Erenice Guerra da Casa Civil",
+      "summary": "A ministra-chefe da Casa Civil deixou o cargo após reportagens sobre suposto tráfico de influência de seu filho em negócios com o governo, incluindo Correios e pedido de empréstimo ao BNDES. A Comissão de Ética da Presidência aplicou censura ética e a CGU apontou graves irregularidades em três de nove processos examinados; Erenice negou as acusações.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 2,
+      "evidence": "Demissão em 16/9/2010; CGU identificou irregularidades graves em 3 de 9 processos analisados.",
+      "sources": [
+        { "outlet": "Congresso em Foco", "title": "Após denúncia de lobby, Erenice deixa Casa Civil", "url": "https://www.congressoemfoco.com.br/noticia/76887/apos-denuncia-de-lobby-erenice-deixa-casa-civil", "date": "2010-09-16" },
+        { "outlet": "Congresso em Foco", "title": "Comissão de Ética pune Erenice Guerra com censura", "url": "https://www.congressoemfoco.com.br/noticia/76871/comissao-de-etica-pune-erenice-guerra-com-censura", "date": "2010-12-01" }
+      ]
+    },
+    {
+      "id": "lula2-capitalizacao-petrobras-meta-fiscal",
+      "date": "2010-09-30",
+      "title": "Capitalização da Petrobras usada para cumprir meta fiscal",
+      "summary": "Na capitalização da Petrobras, o Tesouro pagou sua parte com títulos e recebeu R$ 74,8 bilhões pela cessão onerosa de 5 bilhões de barris, registrando a diferença como receita primária. Sem os R$ 31,9 bilhões da operação, o superávit de 2010 teria ficado em cerca de R$ 47 bilhões, abaixo da meta de R$ 76,3 bilhões; economistas classificaram a manobra como contabilidade criativa.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Superávit primário de R$ 78,9 bi em 2010, dos quais R$ 31,9 bi vieram da operação com a Petrobras.",
+      "sources": [
+        { "outlet": "Gazeta do Povo", "title": "Com artifício contábil, governo cumpre meta fiscal de 2010", "url": "https://www.gazetadopovo.com.br/economia/com-artificio-contabil-governo-cumpre-meta-fiscal-de-2010-dsnleswdoaxw068cdplwa99ou", "date": "2011-01-01" },
+        { "outlet": "Exame", "title": "Lula sanciona lei de capitalização da Petrobras", "url": "https://exame.com/economia/lula-sanciona-lei-capitalizacao-petrobras-574424/", "date": "2010-10-10" }
+      ]
+    },
+    {
+      "id": "lula2-bolsa-familia-pobreza",
+      "date": "2010-12-31",
+      "title": "Expansão do Bolsa Família e queda da pobreza",
+      "summary": "Ao fim de 2010, o Bolsa Família atendia cerca de 12,78 milhões de famílias, 98,33% da estimativa de famílias pobres, segundo o TCU. O índice de Gini atingiu 0,538 em 2009, o menor em mais de três décadas; estudos atribuem ao programa parcela relevante, mas minoritária, da queda da desigualdade de renda (cerca de 12-13% na decomposição 2001-2009), e efeito pequeno sobre a concentração de riqueza.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "12,78 milhões de famílias atendidas em dez/2010; cerca de 27,9 milhões de pessoas saíram da pobreza entre 2003 e 2009 (TCU).",
+      "sources": [
+        { "outlet": "TCU", "title": "Contas do Governo 2010 – Ficha 6.3", "url": "https://sites.tcu.gov.br/contas-do-governo-2010/fichas/Ficha%206.3_cor.pdf", "date": "2011-06-01" },
+        { "outlet": "Estado de Minas", "title": "Pesquisa mostra que Bolsa Família é irrelevante para reduzir desigualdade", "url": "https://www.em.com.br/app/noticia/politica/2013/05/26/interna_politica,395061/pesquisa-mostra-que-bolsa-familia-e-irrelevante-para-reduzir-desigualdade.shtml", "date": "2013-05-26" }
+      ]
+    },
+    {
+      "id": "lula2-desmatamento-minimo",
+      "date": "2010-12-01",
+      "title": "Desmatamento na Amazônia atinge mínima histórica",
+      "summary": "O Inpe anunciou que o desmatamento na Amazônia Legal em 2010 foi o menor desde o início do Prodes em 1988, com estimativa de 6.451 km² (depois consolidada em cerca de 7.000 km²), queda de 14% sobre 2009. A redução seguiu queda de 45% no ano anterior e foi atribuída a fiscalização, crédito condicionado e áreas protegidas.",
+      "impact": "positivo",
+      "area": "meio-ambiente",
+      "weight": 3,
+      "evidence": "Prodes 2010: cerca de 7.000 km² (consolidado), menor taxa da série iniciada em 1988 até então.",
+      "sources": [
+        { "outlet": "((o))eco", "title": "Amazônia: baixa recorde do desmatamento", "url": "https://oeco.org.br/reportagens/24607-amazonia-baixa-recorde-do-desmatamento/", "date": "2010-12-01" }
+      ]
+    },
+    {
+      "id": "lula2-pib-2010",
+      "date": "2011-03-03",
+      "title": "PIB cresce 7,5% em 2010",
+      "summary": "O IBGE informou que o PIB cresceu 7,5% em 2010, maior taxa desde 1986, com indústria em alta de 10,1%. O resultado foi favorecido pela base fraca de 2009 e por estímulos fiscais e de crédito, que também pressionaram a inflação nos anos seguintes.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Crescimento de 7,5% (revisado depois para 7,6%); PIB de R$ 3,675 trilhões e taxa de investimento de 18,4% do PIB.",
+      "sources": [
+        { "outlet": "Exame", "title": "PIB brasileiro cresce 0,7% no 4º tri e encerra 2010 com expansão de 7,5%", "url": "https://exame.com/brasil/pib-brasileiro-cresce-0-7-no-4o-tri-e-encerra-2010-com-expansao-de-7-5/", "date": "2011-03-03" }
+      ]
+    }
+  ]
+}

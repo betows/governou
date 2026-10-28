@@ -1,0 +1,3421 @@
+{
+  "generatedAt": "2026-10-28",
+  "indicators": [
+    {
+      "id": "pib",
+      "name": "Crescimento do PIB",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "IBGE – Contas Nacionais Trimestrais / Sistema de Contas Nacionais (Referência 2010)",
+      "sourceUrl": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+      "values": {
+        "2006": 4,
+        "2007": 6.1,
+        "2008": 5.1,
+        "2009": -0.1,
+        "2010": 7.5,
+        "2011": 4,
+        "2012": 1.9,
+        "2013": 3,
+        "2014": 0.5,
+        "2015": -3.5,
+        "2016": -3.3,
+        "2017": 1.3,
+        "2018": 1.8,
+        "2019": 1.2,
+        "2020": -3.3,
+        "2021": 4.8,
+        "2022": 3,
+        "2023": 3.2,
+        "2024": 3.4,
+        "2025": 2.3
+      },
+      "notes": "Latest revised IBGE series (Referência 2010). 2006 = 4.0 (revised; first releases said 2.9 old series / 3.7). 2014 first published as 0.1, revised to 0.5. 2016 revised -3.5 -> -3.3. 2018 first 1.1, revised 1.8. 2019 first 1.1/1.4, revised 1.2. 2020 first -4.1/-3.9, final -3.3. 2021 first 4.6, then 5.0, final 4.8 (Nov 2023). 2022 2.9 -> 3.0. 2023 2.9 -> 3.2 (confirmed final Nov 2025). 2024 (3.4) and 2025 (2.3, released 2026-03-03) are still quarterly-accounts estimates subject to revision. IBGE is preparing a new reference-2021 series (first results expected 2027-2028) that may revise the whole history. 2026 omitted: only Q1 2026 (+1.8% y/y) was confirmed in research; no annual figure exists.",
+      "yearSources": {
+        "2006": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/11610-asi-gdp-increased-by-40-and-reached-r-237-trillion-in-2006.html?lang=en-GB",
+        "2007": "https://infograficos.gazetadopovo.com.br/economia/pib-do-brasil/",
+        "2014": "https://infograficos.gazetadopovo.com.br/economia/pib-do-brasil/",
+        "2016": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/22966-revisao-do-pib-de-2016-mostra-queda-de-3-3-em-relacao-ao-ano-anterior",
+        "2019": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/32092-em-2019-pib-cresce-1-2-e-chega-a-r-7-4-trilhoes",
+        "2020": "https://agenciagov.ebc.com.br/noticias/202311/pib-cresce-4-8-e-totaliza-r-9-trilhoes-em-2021",
+        "2021": "https://agenciagov.ebc.com.br/noticias/202311/pib-cresce-4-8-e-totaliza-r-9-trilhoes-em-2021",
+        "2022": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/ibge-revisa-para-3-o-pib-de-2022",
+        "2023": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-11/ibge-confirma-crescimento-de-32-da-economia-em-2023",
+        "2024": "https://www.band.com.br/economia/noticias/pib-cresce-23-em-2025-202603030908",
+        "2025": "https://www.band.com.br/economia/noticias/pib-cresce-23-em-2025-202603030908"
+      }
+    },
+    {
+      "id": "ipca",
+      "name": "Inflação (IPCA)",
+      "unit": "% no ano",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Sistema Nacional de Índices de Preços ao Consumidor (IPCA)",
+      "sourceUrl": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+      "values": {
+        "2006": 3.14,
+        "2007": 4.46,
+        "2008": 5.9,
+        "2009": 4.31,
+        "2010": 5.91,
+        "2011": 6.5,
+        "2012": 5.84,
+        "2013": 5.91,
+        "2014": 6.41,
+        "2018": 3.75,
+        "2024": 4.83,
+        "2025": 4.26
+      },
+      "notes": "December-to-December accumulated IPCA (not revised). 2006-2014 confirmed against compiled tables of the IBGE/BCB SGS 433 series; 2018, 2024, 2025 confirmed in IBGE's Jan-2026 release coverage. 2015-2017 and 2019-2023 were NOT verified in this session (web-search budget exhausted) and are omitted; they should be filled from SIDRA/IBGE in a follow-up. 2026 omitted (year not closed).",
+      "yearSources": {
+        "2006": "https://www.numerando.com.br/indices/ipca/acumulado",
+        "2014": "https://www.numerando.com.br/indices/ipca/acumulado",
+        "2018": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html",
+        "2024": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html",
+        "2025": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html"
+      }
+    },
+    {
+      "id": "desemprego",
+      "name": "Taxa de desemprego (PNAD Contínua)",
+      "unit": "% média anual",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – PNAD Contínua",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Series starts 2012.",
+      "yearSources": {}
+    },
+    {
+      "id": "desemprego_pme",
+      "name": "Taxa de desemprego (PME, 6 regiões metropolitanas)",
+      "unit": "% média anual",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Pesquisa Mensal de Emprego",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Different series from PNAD Contínua; not comparable. Covers 2006-2011 (PME discontinued Feb 2016).",
+      "yearSources": {}
+    },
+    {
+      "id": "selic",
+      "name": "Meta Selic no fim do ano",
+      "unit": "% a.a.",
+      "higherIsBetter": false,
+      "officialSource": "BCB – Copom",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "divida_bruta",
+      "name": "Dívida Bruta do Governo Geral",
+      "unit": "% do PIB, dez.",
+      "higherIsBetter": false,
+      "officialSource": "BCB – Estatísticas Fiscais",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Current methodology from 2006/2008; earlier years use a different definition.",
+      "yearSources": {}
+    },
+    {
+      "id": "resultado_primario",
+      "name": "Resultado primário do setor público consolidado",
+      "unit": "% do PIB",
+      "higherIsBetter": true,
+      "officialSource": "BCB – Estatísticas Fiscais",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Positive = surplus.",
+      "yearSources": {}
+    },
+    {
+      "id": "salario_minimo_real",
+      "name": "Ganho real do salário mínimo",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "Decretos/MP do salário mínimo; deflator INPC (IBGE)",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "desmatamento",
+      "name": "Desmatamento na Amazônia Legal (PRODES)",
+      "unit": "km²",
+      "higherIsBetter": false,
+      "officialSource": "INPE – PRODES",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. PRODES year = Aug-Jul.",
+      "yearSources": {}
+    },
+    {
+      "id": "homicidios",
+      "name": "Taxa de homicídios",
+      "unit": "por 100 mil hab.",
+      "higherIsBetter": false,
+      "officialSource": "IPEA/FBSP – Atlas da Violência (SIM/DataSUS)",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "pobreza_extrema",
+      "name": "Extrema pobreza",
+      "unit": "% da população",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Síntese de Indicadores Sociais (linha Banco Mundial US$ 2,15/3,00 PPC)",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "gini",
+      "name": "Índice de Gini do rendimento domiciliar per capita",
+      "unit": "índice 0-1",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – PNAD / PNAD Contínua",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "cambio",
+      "name": "Câmbio R$/US$ (PTAX fim de ano)",
+      "unit": "R$ por US$",
+      "higherIsBetter": false,
+      "officialSource": "BCB – PTAX venda, último dia útil",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "ideb",
+      "name": "IDEB anos iniciais (rede pública)",
+      "unit": "índice 0-10",
+      "higherIsBetter": true,
+      "officialSource": "INEP/MEC",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Biennial.",
+      "yearSources": {}
+    },
+    {
+      "id": "pib_mundo",
+      "name": "Crescimento do PIB mundial",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "FMI – World Economic Outlook (edição mais recente)",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Requested late by coordinator; search budget already exhausted when request arrived.",
+      "yearSources": {}
+    },
+    {
+      "id": "pib_emergentes",
+      "name": "Crescimento do PIB – economias emergentes e em desenvolvimento",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "FMI – World Economic Outlook (EMDEs)",
+      "sourceUrl": "",
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Requested late by coordinator; search budget already exhausted when request arrived.",
+      "yearSources": {}
+    }
+  ],
+  "events": [
+    {
+      "id": "lula2-pac",
+      "date": "2007-01-22",
+      "title": "Lançamento do PAC",
+      "summary": "O governo lançou o Programa de Aceleração do Crescimento, com previsão de R$ 503,9 bilhões em infraestrutura (transporte, energia, saneamento, habitação e recursos hídricos) entre 2007 e 2010, dos quais R$ 67,8 bilhões do Orçamento da União. O programa elevou o volume de investimento contratado, mas levantamentos posteriores apontaram atrasos de anos nas maiores obras.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 3,
+      "evidence": "Previsão de R$ 503,9 bi (R$ 436,1 bi de estatais e setor privado); levantamento de 2012 indicou que só duas das maiores obras do PAC haviam sido concluídas, com atrasos de até 54 meses.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "O que prevê o PAC",
+          "url": "https://www.congressoemfoco.com.br/projeto-bula/reportagem/o-que-preve-o-pac/",
+          "date": "2007-01-22"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Só duas das maiores obras do PAC foram concluídas",
+          "url": "https://www.congressoemfoco.com.br/noticia/46948/so-duas-das-maiores-obras-do-pac-foram-concluidas",
+          "date": "2012-04-01"
+        },
+        {
+          "outlet": "CBIC",
+          "title": "PAC: Radiografia dos Resultados 2007-2015",
+          "url": "https://cbic.org.br/wp-content/uploads/2017/11/PAC_Radiografia_dos_Resultados_2007_2015_2016.pdf",
+          "date": "2017-11-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-crise-aerea-tam",
+      "date": "2007-07-17",
+      "title": "Crise aérea e acidente da TAM em Congonhas",
+      "summary": "Após meses de atrasos, greves de controladores de voo e congestionamento nos aeroportos desde o fim de 2006, o voo TAM 3054 não conseguiu frear em Congonhas e matou 199 pessoas. O Cenipa apontou falhas da tripulação somadas a outros fatores, e parlamentares de governo e oposição responsabilizaram a Anac pela gestão da malha aérea durante a crise.",
+      "impact": "negativo",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "199 mortos, maior acidente da aviação brasileira até então; crise operacional nos principais aeroportos de novembro de 2006 a meados de 2007.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Deputados culpam Anac por crise aérea",
+          "url": "https://www.congressoemfoco.com.br/noticia/81714/deputados-culpam-anac-por-crise-aerea",
+          "date": "2007-07-01"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Tragédia acirra guerra entre governo e oposição",
+          "url": "https://www.congressoemfoco.com.br/noticia/65702/tragedia-acirra-guerra-entre-governo-e-oposicao",
+          "date": "2007-07-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-mensalao-denuncia-stf",
+      "date": "2007-08-28",
+      "title": "STF torna réus os 40 denunciados do mensalão",
+      "summary": "Após cinco sessões, o Supremo Tribunal Federal recebeu a denúncia da Procuradoria-Geral da República e tornou réus os 40 acusados do esquema do mensalão, entre eles ex-ministro e ex-dirigentes do PT. A decisão manteve o escândalo do primeiro mandato no centro do debate e abriu a ação penal que seria julgada em 2012.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 2,
+      "evidence": "Denúncia recebida contra todos os 40 acusados no Inquérito 2245, na maioria dos crimes apontados pela PGR.",
+      "sources": [
+        {
+          "outlet": "STF",
+          "title": "STF conclui julgamento do inquérito do mensalão e recebe denúncia contra os 40 acusados",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-conclui-julgamento-do-inquerito-do-mensalao-e-recebe-denuncia-contra-os-40-acusados/",
+          "date": "2007-08-28"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-pre-sal-tupi",
+      "date": "2007-11-08",
+      "title": "Anúncio da descoberta de Tupi no pré-sal",
+      "summary": "A Petrobras anunciou que o campo de Tupi, na camada pré-sal da Bacia de Santos, teria volume recuperável estimado entre 5 e 8 bilhões de barris de óleo equivalente, o que poderia ampliar em mais de 50% as reservas da empresa. A descoberta abriu a nova fronteira de produção que viria a se tornar a principal fonte de petróleo do país.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Estimativa inicial de 5 a 8 bilhões de barris, frente a reservas totais da Petrobras de cerca de 14 bilhões de barris na época.",
+      "sources": [
+        {
+          "outlet": "Investe SP",
+          "title": "New oil reserve may be worth US$ 48 billion",
+          "url": "https://www.en.investe.sp.gov.br/news/post/new-oil-reserve-may-be-worth-us-48-billion",
+          "date": "2007-11-09"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-fim-cpmf",
+      "date": "2007-12-13",
+      "title": "Senado rejeita prorrogação da CPMF",
+      "summary": "O Senado rejeitou a PEC que prorrogava a CPMF: o governo obteve 45 votos, quatro a menos que os 49 necessários, e o tributo deixou de ser cobrado em 31 de dezembro de 2007. Para críticos do tributo, a medida reduziu a carga tributária e um imposto cumulativo; para o governo, significou perda relevante de arrecadação, em parte compensada por aumento de outros tributos.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Placar de 45 votos favoráveis contra 34, abaixo dos 49 exigidos para aprovar a PEC; fim da cobrança em 31/12/2007.",
+      "sources": [
+        {
+          "outlet": "Agência Senado",
+          "title": "Sete horas de intenso debate para votar a CPMF",
+          "url": "https://www12.senado.leg.br/noticias/materias/2007/12/13/sete-horas-de-intenso-debate-para-votar-a-cpmf",
+          "date": "2007-12-13"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Senado rejeita prorrogação da CPMF e aprova DRU",
+          "url": "https://congressoemfoco.com.br/noticias/senado-rejeita-prorrogacao-da-cpmf-e-aprova-dru",
+          "date": "2007-12-13"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-cartoes-corporativos",
+      "date": "2008-02-01",
+      "title": "Escândalo dos cartões corporativos",
+      "summary": "A ministra da Igualdade Racial, Matilde Ribeiro, deixou o cargo após revelação de gastos de mais de R$ 171 mil no cartão corporativo em 2007, os maiores entre ministros. O governo editou decreto limitando saques com os cartões, e o MPF depois a processou por improbidade pedindo a devolução de R$ 160 mil.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 1,
+      "evidence": "Auditoria da CGU mostrou que R$ 127 mil dos R$ 171 mil foram gastos com locação de veículos; Decreto 6.370/2008 limitou saques.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Cartão corporativo: Matilde Ribeiro renuncia ao cargo",
+          "url": "https://www.congressoemfoco.com.br/noticia/3787/cartao-corporativo-matilde-ribeiro-renuncia-ao-cargo",
+          "date": "2008-02-01"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "MPF denuncia Matilde Ribeiro por uso de corporativos",
+          "url": "https://www.congressoemfoco.com.br/noticia/90217/mpf-denuncia-matilde-ribeiro-por-uso-de-corporativos",
+          "date": "2008-08-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-grau-investimento",
+      "date": "2008-04-30",
+      "title": "Brasil recebe grau de investimento",
+      "summary": "A Standard & Poor's elevou a nota da dívida brasileira em moeda estrangeira de BB+ para BBB-, concedendo ao país o grau de investimento pela primeira vez. A Fitch seguiu no mês seguinte e a Moody's em 2009, o que reduziu o custo de captação e ampliou o acesso a investidores institucionais.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Rating S&P de BB+ para BBB- com perspectiva estável em 30/04/2008; o selo seria perdido em setembro de 2015.",
+      "sources": [
+        {
+          "outlet": "Jornal do Brasil",
+          "title": "Brasil perde grau de investimento que recebeu também em uma quarta-feira do ano de 2008",
+          "url": "https://www.jb.com.br/opiniao/noticias/2015/09/10/amp/brasil-perde-grau-de-investimento-que-recebeu-tambem-em-uma-quarta-feira-do-ano-de-2008.html",
+          "date": "2015-09-10"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-lei-seca",
+      "date": "2008-06-19",
+      "title": "Sanção da Lei Seca",
+      "summary": "A Lei 11.705/2008 instituiu tolerância zero ao álcool para motoristas, com multa gravíssima e suspensão do direito de dirigir por 12 meses. Houve queda imediata de acidentes, mas estudos registram recuperação parcial depois, atribuída à fiscalização irregular; ainda assim, a taxa de mortalidade em acidentes associados ao álcool caiu ao longo da década seguinte.",
+      "impact": "positivo",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Tolerância zero para álcool ao volante, multa de R$ 2.934,70 e suspensão de 12 meses (valores atualizados); mortalidade em acidentes ligados ao álcool caiu 32% em dez anos segundo o CISA.",
+      "sources": [
+        {
+          "outlet": "Agência Gov",
+          "title": "Lei Seca completa 17 anos: um marco na segurança viária brasileira",
+          "url": "https://agenciagov.ebc.com.br/noticias/202506/lei-seca-completa-17-anos-um-marco-na-seguranca-viaria-brasileira",
+          "date": "2025-06-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-crise-2008-recessao-2009",
+      "date": "2008-12-11",
+      "title": "Resposta à crise de 2008 e recessão de 2009",
+      "summary": "Diante da crise financeira global, o governo reduziu o IPI de automóveis (a zero para carros 1.0, via MP 451/2008) e adotou outras medidas anticíclicas; o PIB ainda recuou em 2009 (-0,2% na primeira divulgação, depois revisado para cerca de -0,3%). A recuperação foi rápida, mas parte dos especialistas questiona a eficácia e o custo fiscal das desonerações setoriais.",
+      "impact": "misto",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "PIB de 2009 em -0,2% (primeira estimativa do IBGE), primeira queda anual da série iniciada em 1996, seguida de alta de 7,5% em 2010.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Nos jornais: Lula teve em 2009 primeiro PIB negativo desde Collor",
+          "url": "https://www.congressoemfoco.com.br/noticia/82990/nos-jornais-lula-teve-em-2009-primeiro-pib-negativo-desde-collor",
+          "date": "2010-03-01"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Desde 2009, desempenho do PIB do Brasil não era tão baixo",
+          "url": "https://exame.com/economia/desde-2009-desempenho-do-pib-do-brasil-nao-era-tao-baixo/",
+          "date": "2013-03-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-minha-casa-minha-vida",
+      "date": "2009-03-25",
+      "title": "Lançamento do Minha Casa, Minha Vida",
+      "summary": "O programa habitacional foi lançado com meta de 1 milhão de moradias e cerca de R$ 34 bilhões em subsídios, com parte voltada a famílias de até três salários mínimos. O início foi lento (4% das obras iniciadas em agosto de 2009), mas a meta de contratação da primeira fase foi atingida.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "1.005.128 unidades contratadas na primeira fase, segundo a CBIC.",
+      "sources": [
+        {
+          "outlet": "CBIC",
+          "title": "Minha Casa Minha Vida já contratou mais de 1 milhão de moradias desde o seu lançamento",
+          "url": "https://cbic.org.br/en_US/minha-casa-minha-vida-ja-contratou-mais-de-1-milhao-de-moradias-desde-o-seu-lancamento/",
+          "date": "2011-01-01"
+        },
+        {
+          "outlet": "Sinduscon-PR (reprodução Agência Brasil)",
+          "title": "Só 4% das obras do Minha Casa foram iniciadas",
+          "url": "https://sindusconpr.com.br/so-4-das-obras-do-minha-casa-foram-iniciadas/",
+          "date": "2009-09-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-meta-clima-copenhague",
+      "date": "2009-11-13",
+      "title": "Meta voluntária de redução de emissões",
+      "summary": "Antes da COP-15 em Copenhague, o governo anunciou compromisso voluntário de reduzir entre 36,1% e 38,9% as emissões projetadas para 2020, sobretudo com o controle do desmatamento (24,7 pontos percentuais). O compromisso foi depois incorporado em lei pelo Congresso.",
+      "impact": "positivo",
+      "area": "meio-ambiente",
+      "weight": 1,
+      "evidence": "Corte de 36,1% a 38,9% sobre a trajetória projetada de emissões até 2020.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Brasil define meta de 38,9% de redução de CO2",
+          "url": "https://congressoemfoco.com.br/noticia/72912/brasil-define-meta-de-38-9-de-reducao-de-co2",
+          "date": "2009-11-13"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-belo-monte",
+      "date": "2010-04-20",
+      "title": "Leilão da usina de Belo Monte",
+      "summary": "Após licença prévia do Ibama com 40 condicionantes e R$ 1,5 bilhão em contrapartidas, o leilão da hidrelétrica no Rio Xingu foi realizado depois que a AGU derrubou liminares obtidas pelo MPF. O governo defendia a obra pela oferta de energia; MPF, ambientalistas e lideranças indígenas apontavam redução da vazão em 100 km do Xingu e impactos sobre terras indígenas.",
+      "impact": "misto",
+      "area": "meio-ambiente",
+      "weight": 2,
+      "evidence": "Licença prévia em fevereiro de 2010 com 40 condicionantes; ações do MPF contestando a licença e a redução de vazão na Volta Grande do Xingu.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Justiça libera leilão da usina de Belo Monte",
+          "url": "https://www.congressoemfoco.com.br/noticia/71883/justica-libera-leilao-da-usina-de-belo-monte",
+          "date": "2010-04-01"
+        },
+        {
+          "outlet": "KHL",
+          "title": "Brazil's Belo Monte dam given environmental licence",
+          "url": "https://www.khl.com/news/brazil-s-belo-monte-dam-given-environmental-licence/1051156.article",
+          "date": "2010-02-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-declaracao-teera",
+      "date": "2010-05-17",
+      "title": "Declaração de Teerã sobre programa nuclear iraniano",
+      "summary": "Brasil e Turquia firmaram com o Irã acordo para troca de urânio levemente enriquecido por combustível nuclear de uso médico. Os EUA rejeitaram a proposta e o Conselho de Segurança aprovou novas sanções em junho de 2010, com votos contrários de Brasil e Turquia; analistas divergem entre desgaste diplomático e oportunidade perdida, já que o acordo de 2015 teve desenho semelhante.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 1,
+      "evidence": "Acordo previa depósito de cerca de 1.200 kg de urânio na Turquia; sanções aprovadas pelo CSNU em 9/6/2010 apesar do acordo.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Em conversa com Amorim, Lula resgata mediação brasileira com o Irã",
+          "url": "https://www.poder360.com.br/poder-governo/em-conversa-com-amorim-lula-resgata-mediacao-brasileira-com-o-ira/",
+          "date": "2026-03-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-ficha-limpa",
+      "date": "2010-06-04",
+      "title": "Sanção da Lei da Ficha Limpa",
+      "summary": "Lula sancionou a Lei Complementar 135/2010, originada de iniciativa popular com mais de 1,5 milhão de assinaturas, que torna inelegíveis por oito anos condenados por órgão colegiado. O STF decidiu que a lei não valeria para 2010, mas a aplicou a partir de 2012 e depois reconheceu sua constitucionalidade.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "LC 135/2010; inelegibilidade de 8 anos para condenados em segunda instância por crimes como corrupção.",
+      "sources": [
+        {
+          "outlet": "Jornal do Brasil",
+          "title": "Lei da Ficha Limpa só valerá para as eleições de 2012",
+          "url": "https://www.jb.com.br/pais/noticias/2011/03/23/amp/lei-da-ficha-limpa-so-valera-para-as-eleicoes-de-2012.html",
+          "date": "2011-03-23"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "15 anos de Ficha Limpa: a lei popular que sacudiu a política",
+          "url": "https://www.congressoemfoco.com.br/noticia/109828/15-anos-de-ficha-limpa-a-lei-popular-que-sacudiu-a-politica",
+          "date": "2025-06-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-erenice-guerra",
+      "date": "2010-09-16",
+      "title": "Queda de Erenice Guerra da Casa Civil",
+      "summary": "A ministra-chefe da Casa Civil deixou o cargo após reportagens sobre suposto tráfico de influência de seu filho em negócios com o governo, incluindo Correios e pedido de empréstimo ao BNDES. A Comissão de Ética da Presidência aplicou censura ética e a CGU apontou graves irregularidades em três de nove processos examinados; Erenice negou as acusações.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 2,
+      "evidence": "Demissão em 16/9/2010; CGU identificou irregularidades graves em 3 de 9 processos analisados.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Após denúncia de lobby, Erenice deixa Casa Civil",
+          "url": "https://www.congressoemfoco.com.br/noticia/76887/apos-denuncia-de-lobby-erenice-deixa-casa-civil",
+          "date": "2010-09-16"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Comissão de Ética pune Erenice Guerra com censura",
+          "url": "https://www.congressoemfoco.com.br/noticia/76871/comissao-de-etica-pune-erenice-guerra-com-censura",
+          "date": "2010-12-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-capitalizacao-petrobras-meta-fiscal",
+      "date": "2010-09-30",
+      "title": "Capitalização da Petrobras usada para cumprir meta fiscal",
+      "summary": "Na capitalização da Petrobras, o Tesouro pagou sua parte com títulos e recebeu R$ 74,8 bilhões pela cessão onerosa de 5 bilhões de barris, registrando a diferença como receita primária. Sem os R$ 31,9 bilhões da operação, o superávit de 2010 teria ficado em cerca de R$ 47 bilhões, abaixo da meta de R$ 76,3 bilhões; economistas classificaram a manobra como contabilidade criativa.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Superávit primário de R$ 78,9 bi em 2010, dos quais R$ 31,9 bi vieram da operação com a Petrobras.",
+      "sources": [
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Com artifício contábil, governo cumpre meta fiscal de 2010",
+          "url": "https://www.gazetadopovo.com.br/economia/com-artificio-contabil-governo-cumpre-meta-fiscal-de-2010-dsnleswdoaxw068cdplwa99ou",
+          "date": "2011-01-01"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Lula sanciona lei de capitalização da Petrobras",
+          "url": "https://exame.com/economia/lula-sanciona-lei-capitalizacao-petrobras-574424/",
+          "date": "2010-10-10"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-desmatamento-minimo",
+      "date": "2010-12-01",
+      "title": "Desmatamento na Amazônia atinge mínima histórica",
+      "summary": "O Inpe anunciou que o desmatamento na Amazônia Legal em 2010 foi o menor desde o início do Prodes em 1988, com estimativa de 6.451 km² (depois consolidada em cerca de 7.000 km²), queda de 14% sobre 2009. A redução seguiu queda de 45% no ano anterior e foi atribuída a fiscalização, crédito condicionado e áreas protegidas.",
+      "impact": "positivo",
+      "area": "meio-ambiente",
+      "weight": 3,
+      "evidence": "Prodes 2010: cerca de 7.000 km² (consolidado), menor taxa da série iniciada em 1988 até então.",
+      "sources": [
+        {
+          "outlet": "((o))eco",
+          "title": "Amazônia: baixa recorde do desmatamento",
+          "url": "https://oeco.org.br/reportagens/24607-amazonia-baixa-recorde-do-desmatamento/",
+          "date": "2010-12-01"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-bolsa-familia-pobreza",
+      "date": "2010-12-31",
+      "title": "Expansão do Bolsa Família e queda da pobreza",
+      "summary": "Ao fim de 2010, o Bolsa Família atendia cerca de 12,78 milhões de famílias, 98,33% da estimativa de famílias pobres, segundo o TCU. O índice de Gini atingiu 0,538 em 2009, o menor em mais de três décadas; estudos atribuem ao programa parcela relevante, mas minoritária, da queda da desigualdade de renda (cerca de 12-13% na decomposição 2001-2009), e efeito pequeno sobre a concentração de riqueza.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "12,78 milhões de famílias atendidas em dez/2010; cerca de 27,9 milhões de pessoas saíram da pobreza entre 2003 e 2009 (TCU).",
+      "sources": [
+        {
+          "outlet": "TCU",
+          "title": "Contas do Governo 2010 – Ficha 6.3",
+          "url": "https://sites.tcu.gov.br/contas-do-governo-2010/fichas/Ficha%206.3_cor.pdf",
+          "date": "2011-06-01"
+        },
+        {
+          "outlet": "Estado de Minas",
+          "title": "Pesquisa mostra que Bolsa Família é irrelevante para reduzir desigualdade",
+          "url": "https://www.em.com.br/app/noticia/politica/2013/05/26/interna_politica,395061/pesquisa-mostra-que-bolsa-familia-e-irrelevante-para-reduzir-desigualdade.shtml",
+          "date": "2013-05-26"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "lula2-pib-2010",
+      "date": "2011-03-03",
+      "title": "PIB cresce 7,5% em 2010",
+      "summary": "O IBGE informou que o PIB cresceu 7,5% em 2010, maior taxa desde 1986, com indústria em alta de 10,1%. O resultado foi favorecido pela base fraca de 2009 e por estímulos fiscais e de crédito, que também pressionaram a inflação nos anos seguintes.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Crescimento de 7,5% (revisado depois para 7,6%); PIB de R$ 3,675 trilhões e taxa de investimento de 18,4% do PIB.",
+      "sources": [
+        {
+          "outlet": "Exame",
+          "title": "PIB brasileiro cresce 0,7% no 4º tri e encerra 2010 com expansão de 7,5%",
+          "url": "https://exame.com/brasil/pib-brasileiro-cresce-0-7-no-4o-tri-e-encerra-2010-com-expansao-de-7-5/",
+          "date": "2011-03-03"
+        }
+      ],
+      "termId": "lula2"
+    },
+    {
+      "id": "dilma2-tarifaco-energia",
+      "date": "2015-03-01",
+      "title": "Revisão extraordinária e bandeiras elevam conta de luz em cerca de 50% em 2015",
+      "summary": "Após a redução artificial de tarifas de 2013, o governo autorizou revisão extraordinária em fevereiro de 2015 e aplicou bandeiras tarifárias, elevando a conta de luz em quase 50% no ano. A medida recompôs o equilíbrio financeiro das distribuidoras, mas foi o principal fator de pressão sobre a inflação de 2015.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Energia elétrica acumulou alta de 49,03% de janeiro a outubro de 2015 e respondeu por 1,44 p.p. do IPCA no período (IBGE).",
+      "sources": [
+        {
+          "outlet": "Tribuna PR",
+          "title": "Energia elétrica voltará a impactar IPCA em novembro, diz IBGE",
+          "url": "https://www.tribunapr.com.br/noticias/economia/energia-eletrica-voltara-a-impactar-ipca-em-novembro-diz-ibge/",
+          "date": "2015-11-01"
+        },
+        {
+          "outlet": "UOL (reprodução Instituto Acende Brasil)",
+          "title": "Ao contrário do que diz governo, luz mais cara veio para ficar",
+          "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20150331_PortalUOL_AoContrarioDoQueDizGovernoLuzMaisCaraVeioParaFicar.pdf",
+          "date": "2015-03-31"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-lei-feminicidio",
+      "date": "2015-03-09",
+      "title": "Sanção da Lei do Feminicídio (Lei 13.104/2015)",
+      "summary": "A presidente sancionou lei que inclui o feminicídio como qualificadora do homicídio e o classifica como crime hediondo, com aumento de pena em casos como gestação ou vítima menor de 14 anos. O texto veio de recomendação da CPMI da Violência contra a Mulher.",
+      "impact": "positivo",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Lei 13.104/2015: feminicídio passa a ser homicídio qualificado e crime hediondo, com pena aumentada de 1/3 até a metade em situações específicas.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Dilma sanciona lei que torna feminicídio hediondo e defende direitos da mulher",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-03/em-briga-de-marido-e-mulher-se-mete-colher-sim-defende-dilma",
+          "date": "2015-03-09"
+        },
+        {
+          "outlet": "Casa Civil (gov.br)",
+          "title": "Sancionada lei que torna hediondo o crime de feminicídio",
+          "url": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2015/marco/presidenta-sanciona-lei-que-torna-hediondo-o-crime-de-feminicidio",
+          "date": "2015-03-09"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-ajuste-levy",
+      "date": "2015-05-22",
+      "title": "Ajuste fiscal de Joaquim Levy e contingenciamento de R$ 69,9 bilhões",
+      "summary": "O governo anunciou contingenciamento de R$ 69,9 bilhões no Orçamento de 2015 para buscar superávit primário de 1,2% do PIB, atingindo PAC, educação e saúde. A medida foi vista como sinal de compromisso fiscal, mas a queda de arrecadação e a resistência no Congresso fizeram a meta ser abandonada, e o ano terminou com déficit primário.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Corte de R$ 69,946 bi para meta de 1,2% do PIB; meta depois revista para déficit (estimativa oficial de R$ 48,9 bi sem as pedaladas).",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Contingenciamento de R$ 69,9 bilhões ajudará governo a atingir meta de superávit",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2015-05/cotingencimento-de-r-ajudara-governo-atingir-12-de-superavit-em-2015",
+          "date": "2015-05-22"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Governo corta R$69,9 bilhões, mas pode adotar mais medidas",
+          "url": "https://exame.com/economia/governo-corta-r-69-9-bilhoes-mas-pode-adotar-mais-medidas/",
+          "date": "2015-05-22"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Déficit primário será de R$48,9 bi em 2015, diz governo",
+          "url": "https://exame.com/economia/deficit-primario-sera-de-r-48-9-bi-em-2015-diz-governo/",
+          "date": "2015-10-01"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-lei-inclusao",
+      "date": "2015-07-06",
+      "title": "Sanção da Lei Brasileira de Inclusão da Pessoa com Deficiência",
+      "summary": "Foi sancionada a Lei 13.146/2015 (Estatuto da Pessoa com Deficiência), após mais de uma década de tramitação, consolidando direitos de acessibilidade, educação inclusiva e trabalho. A presidente vetou sete pontos, entre eles a cota para empresas de 50 a 99 empregados.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 2,
+      "evidence": "Lei 13.146/2015, em vigor 180 dias após a publicação; sete vetos.",
+      "sources": [
+        {
+          "outlet": "Planalto",
+          "title": "Lei nº 13.146, de 6 de julho de 2015",
+          "url": "http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+          "date": "2015-07-06"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Dilma veta sete pontos do Estatuto da Pessoa com Deficiência",
+          "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2015-07/dilma-veta-sete-pontos-do-estatuto-da-pessoa-com-deficiencia",
+          "date": "2015-07-01"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-perda-grau-investimento",
+      "date": "2015-09-09",
+      "title": "Brasil perde grau de investimento (S&P, depois Fitch e Moody's)",
+      "summary": "A Standard & Poor's rebaixou a nota soberana de BBB- para BB+ em 9/9/2015, citando a proposta de Orçamento de 2016 com déficit e menor convicção fiscal do governo. A Fitch seguiu em dezembro de 2015 e a Moody's em fevereiro de 2016, levando a nota a Ba2.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "S&P: BBB- para BB+ (09/09/2015); Moody's: Baa3 para Ba2 (24/02/2016), projetando dívida acima de 80% do PIB.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Standard&Poor's rebaixa Brasil e país perde grau de investimento",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2015-09/standardpoors-rebaixa-brasil-e-pais-perde-grau-de-investimento",
+          "date": "2015-09-09"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Agência Moody's retira grau de investimento do Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-02/agencia-moodys-retira-grau-de-investimento-do-brasil",
+          "date": "2016-02-24"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Brasil volta ao grau especulativo e crise alcança Levy",
+          "url": "https://exame.com/economia/brasil-volta-ao-grau-especulativo-e-crise-alcanca-levy",
+          "date": "2015-09-01"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-ndc-paris",
+      "date": "2015-09-27",
+      "title": "Brasil anuncia na ONU meta absoluta de corte de emissões para o Acordo de Paris",
+      "summary": "Na ONU, Dilma Rousseff apresentou a contribuição brasileira ao Acordo de Paris: redução de 37% das emissões de gases de efeito estufa até 2025 e indicação de 43% até 2030, ambas em relação a 2005. O Brasil foi um dos poucos países em desenvolvimento a adotar meta absoluta; Dilma assinou o acordo em Nova York em abril de 2016.",
+      "impact": "positivo",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "Meta de -37% em 2025 e -43% (indicativa) em 2030 sobre os níveis de 2005.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Meta do Brasil é reduzir emissão de gases em 43% até 2030, anuncia Dilma",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-09/meta-do-brasil-e-reduzir-emissao-de-gases-em-43-ate-2030-anuncia-dilma",
+          "date": "2015-09-27"
+        },
+        {
+          "outlet": "Ministério do Meio Ambiente (gov.br)",
+          "title": "Brasil reduzirá 43% das emissões até 2030",
+          "url": "https://www.gov.br/mma/pt-br/noticias/noticia-acom-2015-09-1163",
+          "date": "2015-09-27"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Dilma: sem redução da pobreza, será impossível combater mudanças do clima",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2016-04/dilma-sem-reducao-da-pobreza-nao-sera-possivel-vencer-combate-mudanca",
+          "date": "2016-04-22"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-tcu-contas-2014",
+      "date": "2015-10-07",
+      "title": "TCU recomenda, por unanimidade, rejeição das contas de 2014",
+      "summary": "O Tribunal de Contas da União recomendou ao Congresso a rejeição das contas de 2014 do governo, apontando atrasos em repasses a bancos públicos (as chamadas pedaladas fiscais) e decretos de crédito suplementar sem autorização legislativa. Foi a primeira recomendação desse tipo desde 1937; o governo sustentava que as operações não eram empréstimos.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "Decisão unânime do plenário do TCU; primeira recomendação de rejeição de contas presidenciais desde 1937.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "TCU recomenda rejeição das contas de 2014 do governo Dilma",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-10/tcu-recomenda-rejeicao-das-contas-de-2014-do-governo-dilma",
+          "date": "2015-10-07"
+        },
+        {
+          "outlet": "Consultor Jurídico",
+          "title": "Decisão do TCU sobre contas do governo foi destaque da semana",
+          "url": "https://www.conjur.com.br/2015-out-10/decisao-tcu-contas-governo-foi-destaque-semana//?print=1",
+          "date": "2015-10-10"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-zika",
+      "date": "2015-11-11",
+      "title": "Emergência nacional por microcefalia associada ao vírus Zika",
+      "summary": "O Ministério da Saúde declarou Emergência em Saúde Pública de Importância Nacional (Portaria 1.813) após aumento de casos de microcefalia no Nordeste, e o Instituto Evandro Chagas isolou o vírus no cérebro de um recém-nascido. A rápida notificação levou a OMS a declarar emergência internacional em 2016; por outro lado, o combate ao Aedes aegypti não conteve a epidemia e o governo foi criticado por afirmar o nexo causal antes do consenso científico.",
+      "impact": "misto",
+      "area": "saude",
+      "weight": 2,
+      "evidence": "1.608 casos de microcefalia em 2015 (nove vezes a média dos 5 anos anteriores); 1.113 casos confirmados até abril de 2016.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Microcefalia associada ao vírus Zika assusta gestantes em todo país",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-12/microcefalia-causada-pelo-virus-zika-marcou-saude-brasileira-em-2015",
+          "date": "2015-12-01"
+        },
+        {
+          "outlet": "Casa Civil (gov.br)",
+          "title": "Estratégia de Resposta ao Vírus Zika",
+          "url": "https://www.gov.br/casacivil/pt-br/.arquivos/estrategia-de-resposta-ao-virus-zika.pdf/@@download/file",
+          "date": "2016-05-10"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-desmatamento-2015",
+      "date": "2015-11-26",
+      "title": "Desmatamento na Amazônia volta a subir em 2015",
+      "summary": "Dados do Prodes/Inpe mostraram aumento do desmatamento na Amazônia Legal entre agosto de 2014 e julho de 2015. A estimativa inicial era de alta de 16%; o dado consolidado, divulgado em 2016, apontou 6.207 km², alta de 24%.",
+      "impact": "negativo",
+      "area": "meio-ambiente",
+      "weight": 2,
+      "evidence": "Prodes consolidado: 6.207 km² desmatados (+24% sobre o período anterior).",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Desmatamento na Amazônia Legal aumentou 16% em um ano, diz ministra",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-11/desmatamento-na-amazonia-legal-aumentou-16-em-um-ano-diz-ministra",
+          "date": "2015-11-26"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Desmatamento na Amazônia sobe 24% em 2015, mostram dados do Inpe",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-10/desmatamento-na-amazonia-sobe-24-em-2015-mostram-dados-do-inpe",
+          "date": "2016-10-01"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-inflacao-2015",
+      "date": "2016-01-08",
+      "title": "Inflação de 2015 fecha em 10,67%, acima do teto da meta",
+      "summary": "O IPCA acumulou 10,67% em 2015, contra 6,41% em 2014, a maior taxa anual desde 2002. O resultado ficou 4,16 pontos percentuais acima do teto da meta de 6,5%, puxado em grande parte pela alta de preços administrados, como energia elétrica.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "IPCA 2015 = 10,67%, maior desde 2002 (12,53%); teto da meta era 6,5%.",
+      "sources": [
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "In December, IPCA stays at 0.96% and closes 2015 at 10.67%",
+          "url": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/2185-news-agency/releases-en/15625-in-december-ipca-stays-at-0-96-and-closes-2015-at-10-67",
+          "date": "2016-01-08"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Inflação chega a 10,67% em 2015, maior índice desde 2002",
+          "url": "https://congressoemfoco.com.br/noticia/42907/inflacao-chega-a-1067-em-2015-maior-indice-desde-2002",
+          "date": "2016-01-08"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-desemprego-2015",
+      "date": "2016-03-01",
+      "title": "Desemprego sobe ao longo de 2015 e chega a 9% no 4º trimestre",
+      "summary": "A taxa de desocupação medida pela PNAD Contínua subiu de 7,9% no 1º trimestre para 9% no 4º trimestre de 2015, a maior da série iniciada em 2012. A média anual foi de 8,5%, ante 6,8% em 2014.",
+      "impact": "negativo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "Desocupação média de 8,5% em 2015 (6,8% em 2014); 9% no 4º trimestre.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Desemprego cresce e fecha 4º trimestre de 2015 em 9%",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-03/desemprego-cresce-e-fecha-4o-trimestre-de-2015-em-9",
+          "date": "2016-03-01"
+        },
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "PNAD Contínua mostra desocupação de 8,3% no 2º tri de 2015",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/9651-pnad-continua-mostra-desocupacao-de-8-3-no-2-tri-de-2015",
+          "date": "2015-08-01"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-mariana",
+      "date": "2016-03-02",
+      "title": "Acordo com Samarco, Vale e BHP após rompimento da barragem de Mariana",
+      "summary": "Após o desastre de 5/11/2015, a União e os estados de MG e ES ajuizaram ação de R$ 20,2 bilhões contra as mineradoras e, em março de 2016, firmaram acordo que criou a Fundação Renova, com reparação estimada entre R$ 18 bi e R$ 26 bi. A homologação foi derrubada pelo TRF-1 em agosto de 2016 e o modelo foi criticado pela lentidão, sendo substituído por novo acordo homologado pelo STF em 2024.",
+      "impact": "misto",
+      "area": "meio-ambiente",
+      "weight": 2,
+      "evidence": "Ação civil pública de R$ 20,2 bi; acordo com custo estimado de R$ 18–26 bi; homologação anulada pelo TRF-1 em 2016.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "União, Minas Gerais e Espírito Santo vão processar Samarco e Vale em R$ 20 bi",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-11/uniao-minas-gera-e-espirito-santo-vao-processar-samarco-e-vale-em-r-20-bilhoes",
+          "date": "2015-11-01"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Samarco poderá desembolsar mais de R$ 20 bilhões por tragédia em Mariana",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2016-03/samarco-podera-desembolsar-mais-de-r-20-bilhoes-por-tragedia-em-mariana",
+          "date": "2016-03-02"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Acordo entre Samarco e governos para reparação de danos ainda aguarda Justiça",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-11/acordo-entre-samarco-e-governos-para-reparacao-de-danos-ainda-aguarda-decisao",
+          "date": "2016-11-01"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-recessao-2015",
+      "date": "2016-03-03",
+      "title": "PIB recua 3,8% em 2015, maior queda da série iniciada em 1996",
+      "summary": "O IBGE divulgou que a economia encolheu 3,8% em 2015, com queda de 14,1% na formação bruta de capital fixo e de 6,2% na indústria. Foi a maior retração da série atual; na série ampliada, só fica atrás de 1990. Revisões posteriores do IBGE suavizaram a queda para cerca de 3,5%.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "PIB -3,8% em 2015 (divulgação inicial do IBGE), PIB per capita -4,6%, investimento -14,1%.",
+      "sources": [
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "Em 2015, PIB cai 3,8% e totaliza R$ 5,9 trilhões",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/9610-em-2015-pib-cai-3-8-e-totaliza-r-5-9-trilhoes",
+          "date": "2016-03-03"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "IBGE: PIB fecha 2015 com queda de 3,8%",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-03/ibge-pib-fecha-2015-com-queda-de-38",
+          "date": "2016-03-03"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-lula-casa-civil",
+      "date": "2016-03-18",
+      "title": "STF suspende nomeação de Lula para a Casa Civil",
+      "summary": "Dilma nomeou o ex-presidente Lula ministro-chefe da Casa Civil em março de 2016. O ministro Gilmar Mendes, do STF, suspendeu a posse por entender que houve desvio de finalidade para deslocar investigações da Lava Jato ao Supremo; a defesa sustentava que a nomeação visava recompor a base aliada, e o plenário nunca julgou o mérito.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 1,
+      "evidence": "Liminar do STF de 18/03/2016 suspendeu a nomeação; Lula não assumiu o cargo até o afastamento de Dilma.",
+      "sources": [
+        {
+          "outlet": "Consultor Jurídico",
+          "title": "Gilmar Mendes suspende nomeação de Lula para a Casa Civil",
+          "url": "https://www.conjur.com.br/2016-mar-18/gilmar-mendes-suspende-nomeacao-lula-casa-civil//?print=1",
+          "date": "2016-03-18"
+        },
+        {
+          "outlet": "Estado de Minas",
+          "title": "Posse de ex-presidente Lula deve ser julgada semana que vem, diz Gilmar",
+          "url": "https://www.em.com.br/app/noticia/politica/2016/04/05/interna_politica,750216/posse-de-ex-presidente-lula-deve-ser-julgada-semana-que-vem-diz-gilma.shtml",
+          "date": "2016-04-05"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "dilma2-impeachment",
+      "date": "2016-05-12",
+      "title": "Senado abre processo de impeachment e afasta Dilma Rousseff",
+      "summary": "A Câmara autorizou o processo por 367 votos a 137 em 17/4/2016 e o Senado o instaurou por 55 a 22 em 12/5/2016, afastando a presidente. A acusação baseou-se nas pedaladas fiscais e em decretos de crédito suplementar; a defesa e parte dos juristas contestaram a existência de crime de responsabilidade. A condenação definitiva ocorreu em 31/8/2016, por 61 a 20, mantidos os direitos políticos.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "Câmara: 367 x 137; Senado (admissibilidade): 55 x 22; julgamento final: 61 x 20.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Senado abre processo de impeachment contra Dilma Rousseff",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/05/12/senado-abre-processo-de-impeachment-contra-dilma-rousseff",
+          "date": "2016-05-12"
+        },
+        {
+          "outlet": "Rádio Câmara",
+          "title": "Retrospectiva: 2016 fica marcado como o ano do impeachment de Dilma Rousseff",
+          "url": "https://www.camara.leg.br/radio/radioagencia/505701-retrospectiva-2016-fica-marcado-como-o-ano-do-impeachment-de-dilma-rousseff/",
+          "date": "2016-12-01"
+        }
+      ],
+      "termId": "dilma2"
+    },
+    {
+      "id": "temer-lei-estatais",
+      "date": "2016-06-30",
+      "title": "Sanção da Lei de Responsabilidade das Estatais (Lei 13.303)",
+      "summary": "O presidente interino sancionou, com dez vetos, a lei que estabelece regras de governança e transparência para estatais e veda a indicação a diretorias e conselhos de dirigentes partidários e de quem atuou em campanhas nos três anos anteriores. A norma foi validada pelo STF anos depois.",
+      "impact": "positivo",
+      "area": "corrupcao",
+      "weight": 2,
+      "evidence": "Lei 13.303/2016: quarentena de 3 anos para indicações políticas em diretorias e conselhos de estatais.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Temer sanciona Lei das Estatais com dez vetos",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2016-06/temer-sanciona-lei-das-estatais-com-dez-vetos",
+          "date": "2016-06-30"
+        },
+        {
+          "outlet": "Senado Notícias",
+          "title": "Lei de Responsabilidade das Estatais é sancionada",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/07/01/lei-de-responsabilidade-das-estatais-e-sancionada",
+          "date": "2016-07-01"
+        }
+      ],
+      "termId": "temer"
+    },
+    {
+      "id": "temer-teto",
+      "date": "2016-12-15",
+      "title": "Promulgação do Teto de Gastos (EC 95)",
+      "summary": "O Congresso promulgou a Emenda Constitucional 95, que limitou por 20 anos o crescimento das despesas primárias federais à inflação do IPCA. Defensores apontaram ganho de credibilidade fiscal; críticos, compressão de investimentos e de gastos sociais. O teto foi alterado várias vezes e substituído pelo novo arcabouço fiscal em 2023.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Aprovada no Senado por 61 x 14 (1º turno) e 53 x 16 (2º turno); despesas corrigidas apenas pelo IPCA a partir de 2018.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Promulgada Emenda Constitucional do Teto de Gastos Públicos",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/12/15/promulgada-emenda-constitucional-do-teto-de-gastos",
+          "date": "2016-12-15"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Emenda do Teto dos Gastos Públicos é promulgada e entra em vigor",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-12/emenda-do-teto-dos-gastos-publicos-e-promulgada",
+          "date": "2016-12-15"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "PEC do teto dos gastos é aprovada no Senado em 1º turno; saiba aqui os votos",
+          "url": "https://www.poder360.com.br/congresso/pec-do-teto-dos-gastos-e-aprovada-no-senado-em-1o-turno-saiba-aqui-os-votos/",
+          "date": "2016-11-29"
+        }
+      ],
+      "termId": "temer"
+    },
+    {
+      "id": "temer-recessao-2016",
+      "date": "2017-03-07",
+      "title": "PIB recua 3,6% em 2016 e confirma a maior recessão da série",
+      "summary": "O IBGE informou queda de 3,6% do PIB em 2016, após -3,8% em 2015, acumulando perda de cerca de 7,2% em dois anos. A recessão começou no governo anterior, mas se estendeu por boa parte do ano em que Temer já governava (interino a partir de maio).",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "PIB -3,6% em 2016; investimento -10,2%, terceiro ano seguido de queda.",
+      "sources": [
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "PIB recua 3,6% em 2016 e fecha ano em R$ 6,3 trilhões",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/9439-pib-recua-3-6-em-2016-e-fecha-ano-em-r-6-3-trilhoes",
+          "date": "2017-03-07"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "PIB do Brasil cai 3,6% e confirma mais longa recessão da história",
+          "url": "https://www.poder360.com.br/economia/pib-do-brasil-cai-36-e-registra-maior-recessao-da-historia/",
+          "date": "2017-03-07"
+        }
+      ],
+      "termId": "temer"
+    },
+    {
+      "id": "temer-zika-fim-emergencia",
+      "date": "2017-05-11",
+      "title": "Governo encerra emergência nacional pelo vírus Zika",
+      "summary": "O Ministério da Saúde declarou o fim da Emergência em Saúde Pública de Importância Nacional pelo Zika, alegando que os casos deixaram de ser incomuns ou inesperados segundo critérios da OMS. A queda de notificações refletiu tanto ações de controle quanto a dinâmica natural da epidemia.",
+      "impact": "positivo",
+      "area": "saude",
+      "weight": 1,
+      "evidence": "Emergência declarada em 11/11/2015 e encerrada em 11/05/2017.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Governo declara fim de emergência nacional pelo vírus Zika",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2017-05/governo-declara-fim-de-emergencia-nacional-pelo-virus-zika",
+          "date": "2017-05-11"
+        }
+      ],
+      "termId": "temer"
+    },
+    {
+      "id": "temer-reforma-trabalhista",
+      "date": "2017-07-13",
+      "title": "Sanção da reforma trabalhista (Lei 13.467/2017)",
+      "summary": "A reforma alterou mais de cem pontos da CLT: prevalência do acordado sobre o legislado em temas como jornada e banco de horas, criação do trabalho intermitente e fim da obrigatoriedade da contribuição sindical. Defensores apontaram redução da litigiosidade e flexibilização; críticos, precarização, e os efeitos sobre o emprego seguem debatidos entre economistas.",
+      "impact": "misto",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Lei 13.467/2017 sancionada em 13/07/2017, em vigor desde novembro de 2017.",
+      "sources": [
+        {
+          "outlet": "InfoMoney",
+          "title": "Temer sanciona reforma trabalhista; confira o que muda",
+          "url": "https://www.infomoney.com.br/carreira/temer-sanciona-reforma-trabalhista-confira-o-que-muda/",
+          "date": "2017-07-13"
+        },
+        {
+          "outlet": "InfoMoney",
+          "title": "Reforma trabalhista: em quais pontos da \"nova CLT\" o acordado vale mais que o legislado",
+          "url": "https://www.infomoney.com.br/carreira/reforma-trabalhista-em-quais-pontos-da-nova-clt-o-acordado-vale-mais-que-o-legislado/",
+          "date": "2017-07-01"
+        }
+      ],
+      "termId": "temer"
+    },
+    {
+      "id": "temer-inflacao-baixa",
+      "date": "2018-01-10",
+      "title": "Inflação cai a 2,95% em 2017, menor taxa desde 1998",
+      "summary": "O IPCA fechou 2017 em 2,95%, abaixo do piso da meta (3%) pela primeira vez, e o Banco Central publicou carta aberta atribuindo o resultado sobretudo à deflação de alimentos. Em 2018, a inflação ficou em 3,75%, abaixo do centro da meta.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "IPCA: 10,67% (2015) para 2,95% (2017) e 3,75% (2018); alimentação no domicílio -4,85% em 2017.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Inflação acumula 2,95% em 2017 e fica abaixo do piso da meta pela 1ª vez",
+          "url": "https://www.poder360.com.br/economia/inflacao-acumula-295-em-2017-e-fica-abaixo-do-piso-da-meta-pela-1a-vez/",
+          "date": "2018-01-10"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Inflação oficial pelo IPCA em 2017 é de 2,95%, a menor taxa desde 1998",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-01/inflacao-oficial-pelo-ipca-em-2017-e-de-295-menor-taxa-desde-1998",
+          "date": "2018-01-10"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Inflação anual fica abaixo do piso da meta pela primeira vez",
+          "url": "https://exame.com/economia/inflacao-fecha-2017-abaixo-do-piso-da-meta/",
+          "date": "2018-01-10"
+        }
+      ],
+      "termId": "temer"
+    },
+    {
+      "id": "temer-selic-minima",
+      "date": "2018-03-21",
+      "title": "Selic cai a 6,5%, menor nível da série histórica",
+      "summary": "Com a inflação em queda, o Copom fez o 12º corte consecutivo e reduziu a Selic de 6,75% para 6,5% ao ano, menor nível desde o início da série em 1986. A taxa vinha de 14,25% em 2016 e permaneceu em 6,5% até julho de 2019.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Selic em 6,5% ao ano a partir de 21/03/2018, 12º corte seguido.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Banco Central reduz juros básicos da economia para 6,5% ao ano",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-03/banco-central-reduz-juros-basicos-da-economia-para-65-ao-ano",
+          "date": "2018-03-21"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Taxa Selic fica abaixo de 7% ao ano pela primeira vez na história",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-02/taxa-selic-fica-abaixo-de-7-ao-ano-pela-primeira-vez-na-historia",
+          "date": "2018-02-07"
+        }
+      ],
+      "termId": "temer"
+    },
+    {
+      "id": "bolsonaro-mercosul-ue",
+      "date": "2019-06-28",
+      "title": "Conclusão política do acordo Mercosul-União Europeia",
+      "summary": "Após cerca de duas décadas de negociação, Mercosul e União Europeia anunciaram em Bruxelas a conclusão política do acordo comercial, abrangendo tarifas, serviços, compras governamentais e propriedade intelectual. O texto, porém, não foi assinado nem ratificado durante o mandato, travado em parte por preocupações europeias com o desmatamento.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "Acordo político anunciado em 28/06/2019, sem assinatura ou ratificação até o fim de 2022.",
+      "sources": [
+        {
+          "outlet": "Governo Federal (via Poder360)",
+          "title": "Factsheet sobre Acordo MERCOSUL UE 2019 06 28",
+          "url": "https://static.poder360.com.br/2019/06/Factsheet-sobre-Acordo-MERCOSUL-UE-2019-06-28.pdf",
+          "date": "2019-06-28"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-fundo-amazonia",
+      "date": "2019-08-15",
+      "title": "Noruega e Alemanha congelam repasses ao Fundo Amazônia",
+      "summary": "A Noruega suspendeu cerca de R$ 133 milhões ao Fundo Amazônia após o governo extinguir o comitê orientador do fundo (Cofa) e diante da alta do desmatamento; a Alemanha bloqueou € 35 milhões em projetos ambientais. O presidente reagiu com críticas públicas aos dois países, e o fundo ficou paralisado durante o mandato.",
+      "impact": "negativo",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "Suspensão de 300 milhões de coroas norueguesas (mais de R$ 130 milhões) e bloqueio alemão de € 35 milhões em agosto de 2019.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Noruega congela repasse de verbas ao Fundo Amazônia",
+          "url": "https://www.poder360.com.br/governo/noruega-congela-repasse-de-verbas-ao-fundo-amazonia/",
+          "date": "2019-08-15"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Estados querem negociar diretamente com países doadores do Fundo Amazônia",
+          "url": "https://exame.com/brasil/estados-querem-negociar-diretamente-com-paises-doadores-do-fundo-amazonia/",
+          "date": "2019-08-19"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-previdencia",
+      "date": "2019-11-12",
+      "title": "Promulgação da Reforma da Previdência",
+      "summary": "O Congresso promulgou a Emenda Constitucional 103, originada da PEC 6/2019 enviada pelo Executivo em fevereiro de 2019. A reforma instituiu idade mínima de 65 anos para homens e 62 para mulheres no regime geral e novas alíquotas de contribuição. A economia estimada caiu de R$ 1,2 trilhão (proposta original) para cerca de R$ 800 bilhões em dez anos após mudanças no Congresso.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Economia estimada de cerca de R$ 800 bilhões em 10 anos; déficit previdenciário da União havia sido de R$ 264,4 bilhões em 2018.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Promulgada Emenda Constitucional da reforma da Previdência",
+          "url": "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia",
+          "date": "2019-11-12"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Sem Bolsonaro, Congresso promulga reforma da Previdência",
+          "url": "https://www.poder360.com.br/congresso/sem-bolsonaro-congresso-promulga-reforma-da-previdencia",
+          "date": "2019-11-12"
+        },
+        {
+          "outlet": "Agência Câmara",
+          "title": "Congresso promulga reforma da Previdência; novas regras da aposentadoria estão em vigor",
+          "url": "https://www.camara.leg.br/noticias/613230-congresso-promulga-reforma-da-previdencia-novas-regras-da-aposentadoria-estao-em-vigor/",
+          "date": "2019-11-12"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-auxilio-emergencial",
+      "date": "2020-04-01",
+      "title": "Criação do Auxílio Emergencial na pandemia",
+      "summary": "O presidente sancionou a lei aprovada pelo Congresso que criou a renda básica emergencial de R$ 600 para trabalhadores informais, autônomos e pessoas sem renda fixa durante a pandemia (o governo havia proposto inicialmente R$ 200). Segundo o IBGE, os benefícios fizeram a extrema pobreza cair de 6,8% em 2019 para 5,7% em 2020; sem eles, teria chegado a 12,9%.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "IBGE (SIS 2021): extrema pobreza de 5,7% em 2020 com os programas sociais versus 12,9% sem eles; pobreza seria de 32,1% sem os benefícios.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Bolsonaro sanciona MP da renda básica emergencial",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2020-04/bolsonaro-sanciona-lei-da-renda-basica-emergencial",
+          "date": "2020-04-01"
+        },
+        {
+          "outlet": "IBGE",
+          "title": "Síntese de Indicadores Sociais: em 2020, sem programas sociais, 32,1% da população do país estariam em situação de pobreza",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/32418-sintese-de-indicadores-sociais-em-2020-sem-programas-sociais-32-1-da-populacao-do-pais-estariam-em-situacao-de-pobreza",
+          "date": "2021-12-03"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-saneamento",
+      "date": "2020-07-15",
+      "title": "Sanção do novo Marco Legal do Saneamento",
+      "summary": "O presidente sancionou, com 11 vetos, a Lei 14.026/2020, que tornou obrigatória a licitação para concessão dos serviços e acabou com os contratos de programa sem concorrência com estatais. A lei fixou meta de 99% da população com água potável e 90% com coleta e tratamento de esgoto até o fim de 2033, buscando atrair investimento privado.",
+      "impact": "positivo",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Metas legais de universalização até 2033 (99% água, 90% esgoto); aprovado no Senado por 65 a 13.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Bolsonaro sanciona, com vetos, novo marco do saneamento",
+          "url": "https://www.poder360.com.br/governo/bolsonaro-sanciona-com-vetos-novo-marco-do-saneamento/",
+          "date": "2020-07-15"
+        },
+        {
+          "outlet": "Diário do Nordeste",
+          "title": "Bolsonaro sanciona lei do novo Marco Legal do Saneamento Básico",
+          "url": "https://diariodonordeste.verdesmares.com.br/politica/bolsonaro-sanciona-lei-do-novo-marco-legal-do-saneamento-basico-1.2966499",
+          "date": "2020-07-15"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-pix",
+      "date": "2020-11-16",
+      "title": "Lançamento do Pix pelo Banco Central",
+      "summary": "O sistema de pagamentos instantâneos Pix entrou em operação plena, 24 horas por dia, após fase restrita iniciada em 3 de novembro. O projeto foi desenvolvido pelo corpo técnico do Banco Central, com bases lançadas em 2018, ainda no governo Temer, e implantado durante o mandato.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "734 instituições ofereciam o Pix a toda a sua base de clientes no dia do lançamento; documentos do BC mostram que as bases do projeto são de 2018.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Pix: novo sistema de pagamento instantâneo entra em funcionamento",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2020-11/pix-novo-sistema-de-pagamento-instantaneo-entra-em-funcionamento",
+          "date": "2020-11-16"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Documentos do BC mostram que bases do Pix foram lançadas em 2018",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-07/documentos-do-bc-mostram-que-bases-do-pix-foram-lancadas-em-2018",
+          "date": "2025-07-01"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-autonomia-bc",
+      "date": "2021-02-24",
+      "title": "Lei de autonomia do Banco Central",
+      "summary": "Foi sancionada a Lei Complementar 179/2021, que fixou mandatos de quatro anos para presidente e diretores do Banco Central, não coincidentes com o mandato do presidente da República, e definiu a estabilidade de preços como objetivo central. O STF confirmou a constitucionalidade da lei em agosto de 2021, por 8 votos a 2.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "LC 179/2021: mandatos fixos e não coincidentes para a diretoria do BC; validada pelo STF por 8 a 2.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Bolsonaro sanciona lei que dá autonomia ao Banco Central",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2021-02/bolsonaro-sanciona-lei-que-da-autonomia-ao-banco-central",
+          "date": "2021-02-24"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Bolsonaro sanciona autonomia do Banco Central com vetos; veja íntegra da lei",
+          "url": "https://congressoemfoco.com.br/economia/bolsonaro-sanciona-autonomia-do-banco-central-com-vetos-veja-integra-da-lei",
+          "date": "2021-02-24"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-5g",
+      "date": "2021-11-05",
+      "title": "Leilão do 5G",
+      "summary": "A Anatel realizou o leilão de frequências do 5G, que movimentou cerca de R$ 47 bilhões, a maior parte convertida em compromissos de investimento das vencedoras. Seis empresas entraram pela primeira vez no mercado móvel; o governo classificou o certame como o maior de radiofrequência da América Latina.",
+      "impact": "positivo",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Leilão movimentou R$ 46,79 bilhões (revisado para R$ 47,2 bi), com ágio de cerca de R$ 5 bilhões e 6 novas operadoras.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Primeiro leilão do 5G movimenta R$ 46,79 bilhões",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-11/primeiro-leilao-do-5g-movimenta-r-4679-bilhoes",
+          "date": "2021-11-05"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Leilão do 5G foi maior certame de radiofrequência da América Latina",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2021-12/leilao-do-5g-foi-maior-certame-de-radiofrequencia-da-america-latina",
+          "date": "2021-12-01"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-desmatamento",
+      "date": "2021-11-18",
+      "title": "Desmatamento na Amazônia atinge maior nível desde 2006",
+      "summary": "O Prodes/Inpe estimou 13.235 km² de desmatamento na Amazônia Legal entre agosto de 2020 e julho de 2021, alta de 21,97% sobre o período anterior e a maior taxa desde 2006. Foi o terceiro aumento anual consecutivo sob o governo; o Ministério do Meio Ambiente afirmou que o dado não refletia suas ações recentes.",
+      "impact": "negativo",
+      "area": "meio-ambiente",
+      "weight": 3,
+      "evidence": "Inpe/Prodes 2021: 13.235 km², +21,97% sobre os 10.851 km² de 2020.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Inpe: desmatamento na Amazônia Legal tem aumento de 21,97% em 2021",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2021-11/desmatamento-na-amazonia-legal-tem-aumento-de-2197-em-2021",
+          "date": "2021-11-18"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Dados de desmatamento não refletem a atuação do governo, diz ministério",
+          "url": "https://www.cnnbrasil.com.br/nacional/dados-de-desmatamento-nao-refletem-a-atuacao-do-governo-diz-ministerio/",
+          "date": "2021-11-18"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-pec-precatorios",
+      "date": "2021-12-08",
+      "title": "PEC dos Precatórios altera o teto de gastos",
+      "summary": "O Congresso promulgou, em duas etapas (8 e 16 de dezembro), a PEC que mudou a fórmula de correção do teto de gastos e limitou o pagamento anual de precatórios, adiando dívidas judiciais da União. A medida abriu espaço para o Auxílio Brasil de R$ 400 em 2022; críticos apontaram drible ao teto e acúmulo de passivos, enquanto o relator negou que se tratasse de furo.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Ministério da Economia estimou R$ 91,6 bilhões de espaço adicional no Orçamento de 2022, dos quais cerca de R$ 43,6 bilhões vindos do adiamento de precatórios.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "PEC dos Precatórios abrirá R$ 91,6 bilhões no teto de gastos em 2022",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-10/pec-dos-precatorios-abrira-r-916-bi-no-teto-de-gastos-em-2022",
+          "date": "2021-10-01"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Entenda as novas regras para pagamento de precatórios",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2021-12/o-que-muda-com-pec-dos-precatorios",
+          "date": "2021-12-01"
+        },
+        {
+          "outlet": "InfoMoney",
+          "title": "Câmara aprova texto-base da PEC dos Precatórios em segundo turno, por 323 votos a 172",
+          "url": "https://www.infomoney.com.br/politica/camara-aprova-texto-base-da-pec-dos-precatorios-em-segundo-turno-por-323-votos-a-172/",
+          "date": "2021-11-09"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-inflacao-2021",
+      "date": "2021-12-31",
+      "title": "Inflação de 10,06% estoura a meta em 2021",
+      "summary": "O IPCA fechou 2021 em 10,06%, a maior taxa anual desde 2015 e quase o dobro do teto da meta (5,25%). Transportes (21,03%) e habitação (13,05%) lideraram as altas; o Banco Central atribuiu o estouro à pandemia, à alta das commodities e à crise hídrica, fatores parcialmente externos.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "IBGE: IPCA de 10,06% em 2021, contra meta de 3,75% e teto de 5,25%.",
+      "sources": [
+        {
+          "outlet": "IBGE",
+          "title": "Inflação sobe 0,73% em dezembro e fecha 2021 com alta de 10,06%",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/32725-inflacao-sobe-0-73-em-dezembro-e-fecha-2021-com-alta-de-10-06",
+          "date": "2022-01-11"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Inflação fecha 2021 a 10,06%, acima do teto da meta e no maior nível em 6 anos",
+          "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/inflacao-fecha-2021-a-1006-acima-do-teto-da-meta-e-no-maior-nivel-em-6-anos/",
+          "date": "2022-01-11"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Pandemia e crise hídrica fizeram inflação estourar meta, diz BC",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-01/pandemia-e-crise-hidrica-fizeram-inflacao-estourar-meta-diz-bc",
+          "date": "2022-01-11"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-eletrobras",
+      "date": "2022-06-09",
+      "title": "Privatização da Eletrobras",
+      "summary": "A Eletrobras foi desestatizada por meio de oferta de ações na B3 que movimentou R$ 33,7 bilhões, reduzindo a participação da União e do BNDES para cerca de 35%. Defensores destacam a maior operação de desestatização em duas décadas e a capacidade de investimento da empresa; críticos questionam a perda de controle estatal sobre ativo estratégico e condições incluídas na lei de capitalização.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Oferta de R$ 33,7 bilhões a R$ 42 por ação; maior operação da B3 desde a capitalização da Petrobras em 2012.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Bolsonaro privatiza Eletrobras por R$ 33,7 bilhões",
+          "url": "https://www.poder360.com.br/economia/bolsonaro-privatiza-eletrobras-por-r-337-bilhoes/",
+          "date": "2022-06-09"
+        },
+        {
+          "outlet": "Diário do Nordeste",
+          "title": "Eletrobras é privatizada com oferta de R$ 33,7 bilhões na Bolsa",
+          "url": "https://diariodonordeste.verdesmares.com.br/negocios/eletrobras-e-privatizada-com-oferta-de-r-337-bilhoes-na-bolsa-1.3242098",
+          "date": "2022-06-09"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-mec-pastores",
+      "date": "2022-06-22",
+      "title": "Ex-ministro da Educação preso no caso dos pastores do MEC",
+      "summary": "A Polícia Federal prendeu o ex-ministro da Educação Milton Ribeiro na operação Acesso Pago, que investiga tráfico de influência e corrupção na liberação de recursos do FNDE intermediada por pastores sem cargo público. Ribeiro havia deixado o cargo em março de 2022, após a revelação do chamado gabinete paralelo; ele negou favorecimento e disse seguir critérios técnicos.",
+      "impact": "negativo",
+      "area": "educacao",
+      "weight": 2,
+      "evidence": "Operação da PF com 5 mandados de prisão e 13 de busca e apreensão sobre a liberação de verbas do FNDE.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Ex-ministro da Educação, Milton Ribeiro, é preso pela Polícia Federal",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2022-06/ex-ministro-da-educacao-milton-ribeiro-e-preso-pela-policia-federal",
+          "date": "2022-06-22"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Quem é Milton Ribeiro, ex-ministro da Educação preso pela PF",
+          "url": "https://exame.com/brasil/quem-e-milton-ribeiro-ex-ministro-da-educacao-preso-pela-pf/",
+          "date": "2022-06-22"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Em março, Milton Ribeiro negou à CNN o favorecimento de pastores no MEC",
+          "url": "https://www.cnnbrasil.com.br/politica/em-marco-milton-ribeiro-negou-a-cnn-o-favorecimento-de-pastores-no-mec/",
+          "date": "2022-06-22"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-teto-icms",
+      "date": "2022-06-23",
+      "title": "Teto do ICMS sobre combustíveis e energia",
+      "summary": "Foi sancionada a Lei Complementar 194/2022, que classificou combustíveis, energia elétrica, comunicações e transporte coletivo como essenciais, impedindo alíquotas de ICMS acima da alíquota geral (cerca de 17%). A medida reduziu preços ao consumidor às vésperas da eleição, mas o presidente vetou a compensação aos estados pela perda de arrecadação, gerando disputa federativa.",
+      "impact": "misto",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "LC 194/2022 limitou o ICMS desses itens à alíquota geral (17% na maioria dos estados); nove trechos vetados, incluindo a compensação aos estados.",
+      "sources": [
+        {
+          "outlet": "Agência Câmara",
+          "title": "Bolsonaro sanciona lei que limita ICMS de combustíveis, mas veta compensação a estados",
+          "url": "https://www.camara.leg.br/noticias/890296-BOLSONARO-SANCIONA-LEI-QUE-LIMITA-ICMS-DE-COMBUSTIVEIS,-MAS-VETA-COMPENSACAO-A-ESTADOS",
+          "date": "2022-06-24"
+        },
+        {
+          "outlet": "Fenacon",
+          "title": "Bolsonaro sanciona lei que limita ICMS de combustíveis, mas veta compensação a estados",
+          "url": "https://fenacon.org.br/noticias/bolsonaro-sanciona-lei-que-limita-icms-de-combustiveis-mas-veta-compensacao-a-estados/",
+          "date": "2022-06-24"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-pec-kamikaze",
+      "date": "2022-07-14",
+      "title": "PEC \"Kamikaze\" libera R$ 41 bilhões em ano eleitoral",
+      "summary": "O Congresso promulgou a PEC que reconheceu estado de emergência até 31 de dezembro de 2022, permitindo cerca de R$ 41 bilhões em gastos fora do teto a três meses da eleição. O texto elevou o Auxílio Brasil de R$ 400 para R$ 600, ampliou o vale-gás e criou auxílios a caminhoneiros e taxistas; o estado de emergência foi usado para contornar a vedação da lei eleitoral a novos benefícios em ano de eleição.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Cerca de R$ 41,25 bilhões fora do teto de gastos, com benefícios válidos apenas até o fim de 2022; aprovada por 469 a 17 na Câmara e 67 a 1 no Senado.",
+      "sources": [
+        {
+          "outlet": "InfoMoney",
+          "title": "Congresso promulga PEC que decreta emergência para ampliar benefícios",
+          "url": "https://www.infomoney.com.br/politica/congresso-promulga-pec-que-decreta-emergencia-para-ampliar-beneficios/",
+          "date": "2022-07-14"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Congresso promulga a PEC que estabelece estado de emergência no Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2022-07/congresso-promulga-pec-que-estabelece-estado-de-emergencia-no-brasil",
+          "date": "2022-07-14"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Autor da \"PEC Kamikaze\" diz que proposta é \"minimizar impactos\" em combustíveis",
+          "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/autor-da-pec-kamikaze-diz-que-proposta-e-minimizar-impactos-em-combustiveis/",
+          "date": "2022-07-01"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-embaixadores",
+      "date": "2022-07-18",
+      "title": "Reunião com embaixadores contra as urnas eletrônicas",
+      "summary": "No Palácio da Alvorada, com transmissão pela TV Brasil, o presidente reuniu embaixadores estrangeiros e questionou, sem apresentar provas, a segurança das urnas eletrônicas; o TSE rebateu as alegações. Em junho de 2023, o TSE declarou Bolsonaro inelegível até 2030 por abuso de poder político e uso indevido dos meios de comunicação.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "TSE, por 5 votos a 2, declarou a inelegibilidade por oito anos em razão da reunião.",
+      "sources": [
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Bolsonaro questiona segurança do sistema eleitoral brasileiro em reunião com embaixadores",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2022/bolsonaro-questiona-seguranca-do-sistema-eleitoral-brasileiro-reuniao-embaixadores/",
+          "date": "2022-07-18"
+        },
+        {
+          "outlet": "InfoMoney",
+          "title": "TSE torna Bolsonaro inelegível até 2030 por abuso de poder político em reunião com embaixadores",
+          "url": "https://www.infomoney.com.br/politica/tse-forma-maioria-e-torna-bolsonaro-inelegivel-ate-2030-por-abuso-de-poder-politico-em-reuniao-com-embaixadores/amp/",
+          "date": "2023-06-30"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "TSE forma maioria pela inelegibilidade de Bolsonaro",
+          "url": "https://www.poder360.com.br/justica/tse-forma-maioria-pela-inelegibilidade-de-bolsonaro/",
+          "date": "2023-06-30"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-desemprego-2022",
+      "date": "2022-12-01",
+      "title": "Recuperação do mercado de trabalho em 2022",
+      "summary": "A taxa de desocupação caiu para 7,9% no trimestre encerrado em dezembro de 2022, ante 11,1% um ano antes. A média anual de 2022 ficou em 9,3%, a menor desde 2015, após o pico da pandemia; analistas apontaram que parte da queda veio também da redução da força de trabalho disponível.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "IBGE/PNAD Contínua: desocupação de 7,9% no 4º tri de 2022 (11,1% no 4º tri de 2021); média anual de 9,3% contra 13,2% em 2021.",
+      "sources": [
+        {
+          "outlet": "IBGE",
+          "title": "PNAD Contínua: taxa de desocupação é de 7,9% e taxa de subutilização, de 18,5% no trimestre encerrado em dezembro",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/36334-pnad-continua-taxa-de-desocupacao-e-de-7-9-e-taxa-de-subutilizacao-de-18-5-no-trimestre-encerrado-em-dezembro",
+          "date": "2023-02-28"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Taxa de desemprego cai a 9,3% em 2022, menor patamar desde 2015, diz IBGE",
+          "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/empreendedorismo-e-trabalho/taxa-de-desemprego-cai-a-93-em-2022-menor-patamar-desde-2015-diz-ibge/",
+          "date": "2023-02-28"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-armas-violencia",
+      "date": "2022-12-01",
+      "title": "Flexibilização de armas e trajetória da violência",
+      "summary": "Decretos do governo flexibilizaram aquisição, registro e porte de armas, e o número de CACs (caçadores, atiradores e colecionadores) passou de 117 mil em 2018 para 783 mil em 2022, enquanto apreensões de armas caíram. As mortes violentas intencionais, que vinham caindo desde 2018, subiram 4% em 2020 e voltaram a cair depois; especialistas atribuem a variação sobretudo a dinâmicas estaduais e do crime organizado, e o efeito da política de armas segue em disputa.",
+      "impact": "misto",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Anuário Brasileiro de Segurança Pública: CACs de 117.467 (2018) para 783.385 (2022); 904,8 mil registros de armas liberados a CACs em quatro anos; MVI +7,1% no 1º semestre de 2020.",
+      "sources": [
+        {
+          "outlet": "CNN Brasil",
+          "title": "Brasil registrou aumento de CACs e armas de fogo em 2022; apreensões caíram",
+          "url": "https://www.cnnbrasil.com.br/nacional/brasil-registrou-aumento-de-cacs-e-armas-de-fogo-em-2022-apreensoes-cairam/",
+          "date": "2023-07-20"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Governo Bolsonaro liberou 904 mil registros para compra de armas",
+          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/governo-bolsonaro-liberou-904-mil-registros-para-compra-de-armas-26-armas-por-hora/",
+          "date": "2023-01-01"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Número de mortes violentas aumenta 7,1% no 1º semestre, diz anuário",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2020-10/numero-de-mortes-violentas-aumenta-71-no-1o-semestre-diz-anuario",
+          "date": "2020-10-18"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-covid",
+      "date": "2022-12-10",
+      "title": "Gestão da pandemia: cerca de 690 mil mortes e atraso nas vacinas",
+      "summary": "Até o fim do mandato, o Brasil registrou cerca de 690 mil mortes por covid-19. Documentos obtidos pela CPI mostraram que o governo deixou sem resposta ofertas e e-mails da Pfizer em 2020 (o Ministério da Saúde alegou preço e cláusulas contratuais), e a vacinação só começou em janeiro de 2021. A CPI da Pandemia aprovou relatório pedindo o indiciamento do presidente — conclusão de caráter político, que não resultou em denúncia.",
+      "impact": "negativo",
+      "area": "saude",
+      "weight": 3,
+      "evidence": "Ministério da Saúde: 690.747 mortes acumuladas em 10/12/2022; 10 e-mails da Pfizer sem resposta entre 14/08 e 12/09/2020, segundo documentos da CPI.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Brasil registra 70 mortes e 39 mil novos casos de covid-19 em 24h",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2022-12/brasil-registra-70-mortes-e-39-mil-novos-casos-de-covid-19-em-24h",
+          "date": "2022-12-10"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Governo ignorou 10 e-mails da Pfizer em 1 mês, mostram documentos da CPI",
+          "url": "https://www.poder360.com.br/governo/governo-ignorou-10-e-mails-da-pfizer-em-1-mes-mostram-documentos-da-cpi/",
+          "date": "2021-06-01"
+        },
+        {
+          "outlet": "Senado Notícias",
+          "title": "CPI da Pandemia aprova relatório final e pede indiciamento do presidente Jair Bolsonaro",
+          "url": "https://www12.senado.leg.br/noticias/videos/2021/10/cpi-da-pandemia-aprova-relatorio-final-e-pede-indiciamento-do-presidente-jair-bolsonaro",
+          "date": "2021-10-26"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-orcamento-secreto",
+      "date": "2022-12-19",
+      "title": "STF declara inconstitucional o \"orçamento secreto\"",
+      "summary": "Por 6 votos a 5, o STF declarou inconstitucionais as emendas de relator (RP9), usadas de 2020 a 2022 para distribuir verbas a parlamentares sem identificação do autor, em acordo entre o governo e a base no Congresso. A Corte entendeu que o mecanismo violava transparência, publicidade e impessoalidade e determinou a divulgação dos dados das despesas.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 3,
+      "evidence": "Decisão do STF por 6 a 5; determinação de publicar em 90 dias os dados de obras, serviços e compras feitos com as emendas entre 2020 e 2022.",
+      "sources": [
+        {
+          "outlet": "Diário do Nordeste",
+          "title": "STF decide por inconstitucionalidade do orçamento secreto",
+          "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/stf-forma-maioria-e-considera-orcamento-secreto-inconstitucional-1.3314025",
+          "date": "2022-12-19"
+        },
+        {
+          "outlet": "Jornal Opção",
+          "title": "STF derruba orçamento secreto, sem considerar mudanças feitas pelo Congresso",
+          "url": "https://www.jornalopcao.com.br/justica/stf-derruba-orcamento-secreto-sem-considerar-mudancas-feitas-pelo-congresso-450295/",
+          "date": "2022-12-19"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "bolsonaro-superavit-2022",
+      "date": "2022-12-31",
+      "title": "Governo Central volta a ter superávit primário em 2022",
+      "summary": "O Governo Central encerrou 2022 com superávit primário de R$ 54,1 bilhões, o primeiro resultado positivo desde 2013, interrompendo oito anos de déficits. O resultado foi impulsionado por arrecadação recorde e royalties de petróleo, mas também pela postergação de despesas, como o parcelamento de precatórios.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Tesouro Nacional: superávit de R$ 54,086 bilhões em 2022 (cerca de 0,5% do PIB, segundo o Ipea), primeiro desde 2013.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Governo Central registra superávit de R$ 54,086 bi em 2022",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-01/governo-central-registra-superavit-de-r-54086-bi-em-2022",
+          "date": "2023-01-27"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Governo fecha 2022 com superavit de R$ 54 bi, o 1º em 9 anos",
+          "url": "https://www.poder360.com.br/economia/governo-fecha-2022-com-superavit-de-r-54-bi-o-maior-em-9-anos/",
+          "date": "2023-01-27"
+        },
+        {
+          "outlet": "Ipea",
+          "title": "Panorama fiscal: Destaques de 2022 e perspectivas",
+          "url": "https://www.ipea.gov.br/cartadeconjuntura/index.php/2023/02/panorama-fiscal-destaques-de-2022-e-perspectivas/",
+          "date": "2023-02-01"
+        }
+      ],
+      "termId": "bolsonaro"
+    },
+    {
+      "id": "lula3-8-janeiro-intervencao",
+      "date": "2023-01-08",
+      "title": "Resposta federal aos ataques de 8 de janeiro: intervenção na segurança do DF",
+      "summary": "Após a invasão e depredação das sedes dos Três Poderes por apoiadores de Jair Bolsonaro, Lula decretou intervenção federal na segurança pública do Distrito Federal, com Ricardo Cappelli como interventor, até 31 de janeiro. A ordem foi restabelecida no mesmo dia e as instituições mantiveram o funcionamento, embora a falha de segurança em Brasília tenha sido amplamente apontada.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "Decreto de intervenção federal na Secretaria de Segurança Pública do DF assinado às 17h50 de 8/1/2023, com vigência até 31/1/2023; prédios desocupados e centenas de presos no mesmo dia.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Lula decreta intervenção federal em Brasília depois de falha de segurança",
+          "url": "https://www.poder360.com.br/governo/lula-decreta-intervencao-federal-em-brasilia-depois-de-falha-de-seguranca/",
+          "date": "2023-01-08"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Relembre o passo a passo da tentativa de golpe no 8/1",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2024-01/relembre-o-passo-passo-da-tentativa-de-golpe-no-81",
+          "date": "2024-01-08"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Entenda o que significa a intervenção federal no DF",
+          "url": "https://www.cnnbrasil.com.br/politica/entenda-o-que-significa-a-intervencao-federal-no-df/",
+          "date": "2023-01-08"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-yanomami-emergencia",
+      "date": "2023-01-20",
+      "title": "Emergência em saúde pública no território Yanomami",
+      "summary": "O Ministério da Saúde declarou Emergência em Saúde Pública de Importância Nacional na Terra Indígena Yanomami (RR), diante de desnutrição grave e surto de malária associados ao garimpo ilegal, e montou um centro de operações de emergência. A resposta mobilizou atendimento e operações contra o garimpo, mas dados do próprio ministério mostraram aumento do número de mortes de indígenas em 2023 e a emergência seguiu sem prazo de encerramento.",
+      "impact": "misto",
+      "area": "saude",
+      "weight": 2,
+      "evidence": "Portaria de 20/1/2023 declarou ESPIN; segundo dados do Ministério da Saúde citados pelo IHU, 363 Yanomami morreram em 2023, 20 a mais que em 2022.",
+      "sources": [
+        {
+          "outlet": "Exame",
+          "title": "Ministério da Saúde declara emergência em saúde em território yanomami",
+          "url": "https://exame.com/brasil/ministerio-da-saude-declara-emergencia-em-saude-em-territorio-yanomami/",
+          "date": "2023-01-21"
+        },
+        {
+          "outlet": "IHU Unisinos",
+          "title": "Genocídio Yanomami é tema de debate no IHU",
+          "url": "https://ihu.unisinos.br/categorias/636876-genocidio-yanomami-e-tema-de-debate-no-ihu",
+          "date": "2024-02-27"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-arcabouco-fiscal",
+      "date": "2023-08-31",
+      "title": "Sanção do novo arcabouço fiscal (LC 200/2023)",
+      "summary": "Lula sancionou, com dois vetos, a Lei Complementar 200, que substituiu o teto de gastos por uma regra que limita o crescimento real da despesa a 70% do crescimento da receita, entre 0,6% e 2,5% ao ano, combinada a metas de resultado primário. A regra deu previsibilidade ao gasto, mas sua capacidade de estabilizar a dívida passou a ser questionada nos anos seguintes.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Despesa limitada a 70% do crescimento real da receita, com piso de 0,6% e teto de 2,5% de crescimento real ao ano.",
+      "sources": [
+        {
+          "outlet": "Agência Gov",
+          "title": "Presidente Lula sanciona a lei do novo arcabouço fiscal",
+          "url": "https://agenciagov.ebc.com.br/noticias/202308/presidente-lula-sanciona-a-lei-do-novo-arcabouco-fiscal",
+          "date": "2023-08-31"
+        },
+        {
+          "outlet": "Suno",
+          "title": "Arcabouço fiscal: Lula sanciona novo regime com dois vetos",
+          "url": "https://www.suno.com.br/noticias/?p=449688",
+          "date": "2023-08-31"
+        },
+        {
+          "outlet": "Senado Federal",
+          "title": "Lei Complementar nº 200 de 30/08/2023",
+          "url": "https://legis.senado.leg.br/norma/37553820",
+          "date": "2023-08-30"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-reforma-tributaria",
+      "date": "2023-12-20",
+      "title": "Promulgação da Reforma Tributária (EC 132)",
+      "summary": "O Congresso promulgou a Emenda Constitucional 132, primeira reforma ampla da tributação sobre o consumo desde 1988, criando o IVA dual (CBS federal e IBS estadual/municipal) em substituição a PIS, Cofins, IPI, ICMS e ISS. A transição começa em 2026 e vai até 2033; há críticas de municípios sobre perda de autonomia e quanto ao número de regimes favorecidos.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "PEC 45/2019 aprovada na Câmara em 2º turno por 365 a 116; cinco tributos substituídos por CBS e IBS, com transição 2026–2033.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Congresso promulga emenda constitucional da reforma tributária",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/congresso-promulga-emenda-constitucional-da-reforma-tributaria",
+          "date": "2023-12-20"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Ao vivo: Congresso Nacional promulga a reforma tributária",
+          "url": "https://www.poder360.com.br/congresso/ao-vivo-congresso-nacional-promulga-a-reforma-tributaria/",
+          "date": "2023-12-20"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Câmara aprova reforma tributária em segundo turno",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2023-12/camara-aprova-reforma-tributaria-em-segundo-turno",
+          "date": "2023-12-15"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-desenrola",
+      "date": "2024-05-01",
+      "title": "Desenrola Brasil renegocia R$ 53 bilhões em dívidas",
+      "summary": "O programa de renegociação de dívidas lançado em 2023 foi encerrado em maio de 2024 com cerca de 15 milhões de pessoas atendidas, segundo o Ministério da Fazenda. Os descontos médios informados foram de 83%.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 2,
+      "evidence": "Mais de 15 milhões de pessoas renegociaram cerca de R$ 53 bilhões em dívidas, com desconto médio de 83% (dados da Fazenda).",
+      "sources": [
+        {
+          "outlet": "CNN Brasil",
+          "title": "Mais de 15 milhões de pessoas negociaram R$ 53 bi em dívidas pelo Desenrola, diz governo",
+          "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/mais-de-15-milhoes-de-pessoas-negociaram-r-53-bi-em-dividas-pelo-desenrola-diz-governo/",
+          "date": "2024-05-01"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Desenrola Brasil beneficiou 15 milhões de pessoas, informa Fazenda",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2024-05/desenrola-brasil-beneficiou-15-milhoes-de-pessoas-informa-fazenda",
+          "date": "2024-05-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-enchentes-rs",
+      "date": "2024-05-01",
+      "title": "Resposta federal às enchentes no Rio Grande do Sul",
+      "summary": "As enchentes de 2024 deixaram 183 mortos no RS; o governo federal anunciou pacote de socorro e reconstrução que incluiu Auxílio Reconstrução de R$ 5.100 por família, créditos extraordinários, linhas de financiamento e suspensão da dívida do estado com a União. O volume anunciado foi grande, mas boa parte era crédito e postergação de dívida, e o valor efetivamente pago foi bem menor que o total divulgado.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Em agosto de 2024 o governo contabilizava R$ 98,7 bilhões em medidas, dos quais R$ 42,3 bilhões efetivamente pagos; Auxílio Reconstrução atendeu cerca de 370 mil famílias.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Mais de R$ 85 bilhões foram investidos no RS desde início de enchentes",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-06/mais-de-rs-85-bilhoes-foram-investidos-no-rs-desde-inicio-de-enchentes",
+          "date": "2024-06-01"
+        },
+        {
+          "outlet": "Agência Brasil (Radioagência)",
+          "title": "RS: auxílio reconstrução atendeu cerca de 370 mil famílias",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2024-09/rs-auxilio-reconstrucao-atendeu-cerca-de-370-mil-familias",
+          "date": "2024-09-01"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Alagamentos, destruição e 183 mortes: relembre a tragédia das chuvas no RS que marcou 2024",
+          "url": "https://www.cnnbrasil.com.br/nacional/sul/rs/alagamentos-destruicao-e-183-mortes-relembre-a-tragedia-das-chuvas-no-rs-que-marcou-2024/",
+          "date": "2024-12-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-dolar-recorde-2024",
+      "date": "2024-12-18",
+      "title": "Dólar bate R$ 6,30 em crise de confiança fiscal",
+      "summary": "O anúncio do pacote de corte de gastos, junto com a proposta de isenção do IR, foi mal recebido pelo mercado e o dólar passou de R$ 6 pela primeira vez em 2 de dezembro de 2024, chegando a R$ 6,30 em 18 e 19 de dezembro. O Banco Central vendeu US$ 8 bilhões no mercado à vista em um único dia, a maior intervenção do tipo desde 1999.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Dólar comercial chegou a R$ 6,30 (máxima nominal histórica) e o BC fez leilão de US$ 8 bilhões no spot em 19/12/2024.",
+      "sources": [
+        {
+          "outlet": "Poder360",
+          "title": "Dólar atinge R$ 6,30 e recua após novo leilão do BC",
+          "url": "https://www.poder360.com.br/poder-economia/dolar-atinge-r-630-mas-cai-depois-de-novo-leilao-do-bc/",
+          "date": "2024-12-19"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Dólar renova máxima histórica e fecha acima de R$ 6 com temor fiscal; Ibovespa cai",
+          "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/mercado-hoje-ibovespa-dolar-02-dezembro-2024/",
+          "date": "2024-12-02"
+        },
+        {
+          "outlet": "InfoMoney",
+          "title": "Pandemia, Joesley Day, eleição: relembre os maiores sustos do Tesouro Direto",
+          "url": "https://infomoney.com.br/onde-investir/tesouro-direto-maiores-sustos-serie-historica",
+          "date": "2024-12-18"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-dengue-2024",
+      "date": "2024-12-28",
+      "title": "Epidemia recorde de dengue em 2024",
+      "summary": "O Brasil registrou em 2024 a pior epidemia de dengue da série histórica, com mais de 6,4 milhões de casos prováveis e cerca de 6 mil mortes, alta de mais de 400% nos óbitos em relação a 2023. O Ministério da Saúde atribuiu parte do agravamento à volta do sorotipo DENV-3; a epidemia teve forte componente climático, mas expôs limites da prevenção e da rede de atendimento.",
+      "impact": "negativo",
+      "area": "saude",
+      "weight": 2,
+      "evidence": "6.484.890 casos prováveis e 5.972 mortes confirmadas até 28/12/2024 (painel do Ministério da Saúde), contra 1.179 mortes em 2023.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Casos de dengue em 2024 passam de 6,4 milhões; mortes somam 5,9 mil",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2025-01/casos-de-dengue-em-2024-passam-de-64-milhoes-mortes-somam-59-mil",
+          "date": "2025-01-01"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Dengue bate recorde em 2024 com 6,6 mi de casos e 6.022 mortes",
+          "url": "https://www.poder360.com.br/poder-saude/dengue-bate-recorde-em-2024-com-66-milhoes-de-casos-e-6-022-mortes/",
+          "date": "2024-12-30"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Dengue supera covid-19 em número de mortes no Brasil em 2024",
+          "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/dengue-supera-covid-19-em-numero-de-mortes-no-brasil-em-2024/",
+          "date": "2025-01-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-ipca-2024-estouro",
+      "date": "2025-01-10",
+      "title": "Inflação de 2024 estoura o teto da meta",
+      "summary": "O IPCA fechou 2024 em 4,83%, acima do teto de 4,5% da meta, e o Banco Central teve de enviar carta aberta ao ministro da Fazenda. O BC atribuiu o desvio principalmente à alta do dólar e à economia aquecida.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "IPCA de 4,83% em 2024, contra meta de 3% e teto de 4,5%; oitavo descumprimento desde 1999.",
+      "sources": [
+        {
+          "outlet": "CNN Brasil",
+          "title": "IPCA fecha 2024 em 4,83% e estoura a meta de inflação",
+          "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/ipca-fecha-2024-em-483-e-estoura-a-meta-de-inflacao/",
+          "date": "2025-01-10"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Inflação ficou fora da meta por dólar e economia aquecida, diz BC",
+          "url": "https://www.poder360.com.br/poder-economia/inflacao-ficou-fora-da-meta-por-dolar-e-economia-aquecida-diz-bc/",
+          "date": "2025-01-10"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-pe-de-meia-tcu",
+      "date": "2025-01-22",
+      "title": "TCU bloqueia recursos do Pé-de-Meia operados fora do Orçamento",
+      "summary": "O programa Pé-de-Meia, que paga incentivo para estudantes de baixa renda permanecerem no ensino médio, teve recursos bloqueados pelo TCU por ser financiado por fundos privados fora da Lei Orçamentária. O MEC defendeu a legalidade e a AGU recorreu, mas admitiu que parte do programa era financiada fora do Orçamento; o plenário manteve a cautelar por unanimidade.",
+      "impact": "misto",
+      "area": "educacao",
+      "weight": 2,
+      "evidence": "TCU suspendeu cerca de R$ 6 bilhões do programa em janeiro de 2025 por pagamentos via Fipem não previstos na LOA.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "TCU suspende R$ 6 bilhões do Pé de Meia; MEC nega irregularidades",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-01/tcu-suspende-r-6-bilhoes-do-pe-de-meia-mec-nega-irregularidades",
+          "date": "2025-01-22"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Plenário do TCU determina bloqueio de recursos destinados ao Pé-de-Meia",
+          "url": "https://www.cnnbrasil.com.br/politica/plenario-do-tcu-determina-bloqueio-de-recursos-destinados-ao-pe-de-meia/",
+          "date": "2025-01-29"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Governo cogita acionar Justiça contra bloqueio do Pé-de-Meia",
+          "url": "https://www.gazetadopovo.com.br/republica/governo-defende-pe-de-meia-no-tcu-e-cogita-acionar-justica-contra-bloqueio/",
+          "date": "2025-01-23"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-pib-2024",
+      "date": "2025-03-07",
+      "title": "PIB cresce 3,4% em 2024",
+      "summary": "O IBGE informou crescimento de 3,4% do PIB em 2024, a maior taxa desde 2021, com serviços (+3,7%) e indústria (+3,3%) compensando a queda da agropecuária. O Brasil teve o 4º maior crescimento do G20 no ano.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "PIB +3,4% em 2024 (R$ 11,7 trilhões); PIB per capita +3,0% real.",
+      "sources": [
+        {
+          "outlet": "IBGE",
+          "title": "PIB cresce 3,4% em 2024 e fecha o ano em R$ 11,7 trilhões",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/42774-pib-cresce-3-4-em-2024-e-fecha-o-ano-em-r-11-7-trilhoes",
+          "date": "2025-03-07"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Brasil tem o 4º maior crescimento entre países do G20",
+          "url": "https://www.poder360.com.br/poder-economia/brasil-tem-o-4o-maior-crescimento-entre-maiores-economias/",
+          "date": "2025-03-07"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-fraude-inss",
+      "date": "2025-04-23",
+      "title": "Escândalo dos descontos indevidos em aposentadorias do INSS",
+      "summary": "A Operação Sem Desconto, da PF com a CGU, revelou esquema de descontos associativos não autorizados em aposentadorias e pensões, estimados em R$ 6,3 bilhões entre 2019 e 2024. O esquema começou antes do governo, mas cresceu no período; o presidente do INSS foi demitido, o ministro da Previdência caiu e, em 2026, a PF indiciou 48 pessoas, incluindo o ex-presidente do órgão.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 3,
+      "evidence": "R$ 6,3 bilhões descontados de aposentados e pensionistas entre 2019 e 2024; 97% dos beneficiários entrevistados pela CGU disseram não ter autorizado os descontos.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Operação da PF investiga descontos irregulares em benefícios do INSS",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-04/operacao-da-pf-investiga-descontos-irregulares-em-beneficios-do-inss",
+          "date": "2025-04-23"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Entenda como funcionava a fraude de R$ 6 bilhões em benefícios do INSS",
+          "url": "https://www.cnnbrasil.com.br/politica/entenda-como-funcionava-a-fraude-de-r-6-bilhoes-em-beneficios-do-inss/",
+          "date": "2025-04-24"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "PF indicia Careca do INSS e mais 47 por esquema de descontos ilegais",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pf-indicia-careca-do-inss-e-mais-47-por-esquema-de-descontos-ilegais",
+          "date": "2026-07-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-selic-15",
+      "date": "2025-06-18",
+      "title": "Selic chega a 15%, maior nível desde 2006",
+      "summary": "O Copom elevou a Selic pela sétima vez seguida, para 15% ao ano, e sinalizou manutenção por período prolongado diante de inflação acima da meta e expectativas desancoradas. Os juros altos encareceram o crédito e o custo da dívida pública.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Selic em 15% ao ano a partir de 18/6/2025, o maior patamar desde 2006; mantida até março de 2026.",
+      "sources": [
+        {
+          "outlet": "CNN Brasil",
+          "title": "BC sobe juros para 15% ao ano e sinaliza fim do ciclo de alta",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-junho-2025/",
+          "date": "2025-06-18"
+        },
+        {
+          "outlet": "InfoMoney",
+          "title": "Copom eleva a Selic em 0,25 ponto, para 15%, e anuncia \"parada\" no ciclo de alta",
+          "url": "https://www.infomoney.com.br/economia/copom-eleva-a-selic-em-025-ponto-para-15-e-anuncia-parada-no-ciclo-de-alta/",
+          "date": "2025-06-18"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Copom reduz Selic para 14,75% e inicia ciclo de corte com cautela",
+          "url": "https://www.poder360.com.br/poder-economia/copom-reduz-selic-para-1475-inicia-ciclo-de-corte/",
+          "date": "2026-03-18"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-iof-disputa",
+      "date": "2025-06-25",
+      "title": "Congresso derruba decreto do IOF e STF restabelece maior parte",
+      "summary": "O aumento do IOF por decreto, usado para reforçar a arrecadação, foi derrubado pelo Congresso (383 a 98 na Câmara), a primeira derrubada de decreto do Executivo desde 1992. Após conciliação sem acordo, o ministro Alexandre de Moraes validou a maior parte do decreto, excluindo a cobrança sobre o risco sacado, o que preservou receita mas aprofundou o atrito entre Poderes.",
+      "impact": "misto",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "Decreto legislativo aprovado por 383 a 98 na Câmara em 25/6/2025; decisão de Moraes em julho de 2025 manteve o decreto exceto sobre risco sacado.",
+      "sources": [
+        {
+          "outlet": "InfoMoney",
+          "title": "Linha do tempo da batalha do IOF: entenda discussão entre Executivo, Congresso e STF",
+          "url": "https://www.infomoney.com.br/politica/linha-do-tempo-da-batalha-do-iof-entenda-discussao-entre-executivo-congresso-e-stf/",
+          "date": "2025-07-16"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "STF: Alexandre de Moraes decide validar decreto do IOF",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-07/stf-alexandre-de-moraes-decide-validar-decreto-do-iof",
+          "date": "2025-07-16"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Governo desafia Congresso e recorre ao STF para subir IOF novamente",
+          "url": "https://www.gazetadopovo.com.br/economia/governo-desafia-congresso-e-recorre-ao-stf-para-subir-iof-novamente/",
+          "date": "2025-07-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-mapa-da-fome",
+      "date": "2025-07-28",
+      "title": "Brasil sai novamente do Mapa da Fome da ONU",
+      "summary": "O relatório SOFI 2025 da FAO indicou que a subalimentação no Brasil ficou abaixo de 2,5% da população na média 2022–2024, retirando o país do Mapa da Fome, do qual havia saído em 2014 e voltado no triênio 2018–2020. O relatório seguinte manteve o Brasil fora do mapa.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "Subalimentação abaixo do limiar de 2,5% na média trienal 2022–2024 (FAO/SOFI 2025).",
+      "sources": [
+        {
+          "outlet": "gov.br (Ministério da Previdência Social)",
+          "title": "Brasil sai do Mapa da Fome da ONU: conquista histórica reflete políticas públicas eficazes",
+          "url": "https://www.gov.br/previdencia/pt-br/noticias/2025/julho/brasil-sai-do-mapa-da-fome-da-onu-conquista-historica-reflete-politicas-publicas-eficazes",
+          "date": "2025-07-28"
+        },
+        {
+          "outlet": "O Povo",
+          "title": "Brasil sai do mapa da fome após três anos",
+          "url": "https://www.opovo.com.br/noticias/brasil/2025/07/28/brasil-sai-do-mapa-da-fome-anuncia-onu.html",
+          "date": "2025-07-28"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Brasil se mantém fora do Mapa da Fome e melhora indicadores, aponta ONU",
+          "url": "https://www.cnnbrasil.com.br/politica/brasil-se-mantem-fora-do-mapa-da-fome-e-melhora-indicadores-aponta-onu/",
+          "date": "2026-07-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-tarifaco-eua",
+      "date": "2025-08-06",
+      "title": "Tarifa de 50% dos EUA sobre produtos brasileiros e Plano Brasil Soberano",
+      "summary": "Os EUA impuseram sobretaxa de 50% a parte das exportações brasileiras, a maior aplicada a qualquer país, em medida ligada por Trump ao julgamento de Jair Bolsonaro. O governo respondeu com o Plano Brasil Soberano (R$ 30 bilhões em crédito, Reintegra e compras públicas) e negociação diplomática; em novembro de 2025 os EUA retiraram a sobretaxa de 40% de 238 produtos agrícolas, mas o impasse comercial seguiu aberto.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 3,
+      "evidence": "Tarifa de 50% atingiu 35,9% das exportações brasileiras aos EUA (MDIC); cerca de 700 produtos ficaram de fora; R$ 30 bilhões em crédito pela MP 1.309.",
+      "sources": [
+        {
+          "outlet": "InfoMoney",
+          "title": "Tarifa de 50% sobre o Brasil é a maior do mundo imposta pelos EUA; veja lista",
+          "url": "https://www.infomoney.com.br/mercados/tarifa-de-50-deixa-brasil-com-a-maior-taxa-do-mundo-imposta-pelos-eua-veja-lista/",
+          "date": "2025-08-01"
+        },
+        {
+          "outlet": "InfoMoney",
+          "title": "Governo anuncia plano contra tarifaço com Reintegra, crédito e compras governamentais",
+          "url": "https://www.infomoney.com.br/economia/governo-anuncia-pacote-contra-tarifaco-13-08-2025/",
+          "date": "2025-08-13"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Tarifaço completa 5 meses; negociação continua em aberto",
+          "url": "https://www.poder360.com.br/poder-internacional/tarifaco-completa-5-meses-e-negociacao-brasil-eua-continua-em-aberto/",
+          "date": "2026-01-06"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-carbono-oculto",
+      "date": "2025-08-28",
+      "title": "Operação Carbono Oculto contra o PCC no setor de combustíveis",
+      "summary": "Força-tarefa com Receita Federal, Polícia Federal e Ministério Público de SP cumpriu cerca de 350 mandados em oito estados contra esquema do PCC no setor de combustíveis e no mercado financeiro da Faria Lima. Foi a maior ofensiva contra a lavagem de dinheiro da facção, mirando fintechs e fundos de investimento.",
+      "impact": "positivo",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Cerca de mil postos movimentaram R$ 52 bilhões entre 2020 e 2024; Receita identificou ao menos 40 fundos com patrimônio estimado de R$ 30 bilhões ligados à facção.",
+      "sources": [
+        {
+          "outlet": "CNN Brasil",
+          "title": "PCC, Faria Lima e combustíveis: o que sabemos sobre três operações de hoje",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/pcc-faria-lima-e-combustiveis-o-que-sabemos-sobre-tres-operacoes-de-hoje/",
+          "date": "2025-08-28"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "PCC na Faria Lima: Facção geria 40 fundos de investimentos, diz Receita",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/pcc-na-faria-lima-faccao-geria-40-fundos-de-investimentos-diz-receita/",
+          "date": "2025-08-28"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Esquema com PCC: Mil postos de combustíveis movimentaram R$ 52 bilhões",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/esquema-com-pcc-mil-postos-de-combustiveis-movimentaram-r-52-bilhoes/",
+          "date": "2025-08-28"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-cop30",
+      "date": "2025-11-22",
+      "title": "COP30 em Belém: fundo florestal lançado, fósseis fora do texto final",
+      "summary": "O Brasil sediou a COP30 em Belém e lançou o Fundo Florestas Tropicais para Sempre (TFFF), que reuniu promessas de cerca de US$ 5,6 bilhões e apoio de 53 países, abaixo da meta inicial de US$ 10 bilhões. O texto final (Mutirão Global) previu triplicar o financiamento para adaptação até 2035, mas deixou de fora o mapa do caminho para abandonar combustíveis fósseis, prioridade da presidência brasileira.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "TFFF somou promessas de US$ 5,58 bilhões na cúpula de líderes; documento final sem menção explícita a petróleo, gás ou carvão.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "COP30: Acordo climático deixa de fora combustíveis fósseis",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-11/cop30-acordo-climatico-deixa-de-fora-combustiveis-fosseis",
+          "date": "2025-11-22"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Fundo florestal liderado pelo Brasil soma promessas de US$ 5,58 bi",
+          "url": "https://www.poder360.com.br/cop30/fundo-florestal-liderado-pelo-brasil-reune-53-paises-e-us-558-bi/",
+          "date": "2025-11-07"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Análise: Brasil está frustrado com texto final da COP30",
+          "url": "https://www.cnnbrasil.com.br/internacional/analise-brasil-esta-frustrado-com-texto-final-da-cop30/",
+          "date": "2025-11-22"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-isencao-ir-5mil",
+      "date": "2025-11-26",
+      "title": "Sanção da isenção do IR para quem ganha até R$ 5 mil",
+      "summary": "Lula sancionou lei aprovada por unanimidade na Câmara e no Senado que isenta do Imposto de Renda quem ganha até R$ 5 mil por mês a partir de 2026, com desconto parcial até R$ 7.350. A perda de arrecadação é compensada por tributação mínima de rendas acima de R$ 600 mil por ano.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Cerca de 20 milhões de contribuintes deixam de pagar IR (Fazenda); compensação via imposto mínimo sobre rendas acima de R$ 50 mil mensais.",
+      "sources": [
+        {
+          "outlet": "CNN Brasil",
+          "title": "Lula sanciona isenção do IR para quem ganha até R$ 5 mil",
+          "url": "https://www.cnnbrasil.com.br/politica/lula-sanciona-isencao-do-ir-para-quem-ganha-ate-r-5-mil/",
+          "date": "2025-11-26"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Lula sanciona isenção do IR até R$ 5 mil sem Motta e Alcolumbre em meio à crise entre poderes",
+          "url": "https://www.gazetadopovo.com.br/republica/lula-sanciona-isencao-ir-ate-5-mil-sem-motta-alcolumbre/",
+          "date": "2025-11-26"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Lula sanciona lei que isenta de IR quem ganha até R$ 5.000 por mês",
+          "url": "https://www.poder360.com.br/poder-governo/lula-sanciona-lei-que-isenta-de-irpf-ate-r-5-000-por-mes/",
+          "date": "2025-11-26"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-meta-fiscal-2025",
+      "date": "2026-01-29",
+      "title": "Governo central fecha 2025 com déficit de R$ 61,7 bi e cumpre meta com deduções",
+      "summary": "O governo central registrou déficit primário de R$ 61,7 bilhões (0,48% do PIB) em 2025, melhor que o previsto pelo mercado. Descontadas despesas excluídas da regra, como precatórios excedentes, o déficit para fins de meta foi de 0,10% do PIB, dentro da tolerância da meta de déficit zero; críticos apontam que as exclusões enfraquecem a regra.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Déficit bruto de R$ 61,7 bi (0,48% do PIB); R$ 13 bi (0,10% do PIB) após deduções, dentro da banda de 0,25 p.p.; despesas cresceram 3,4% reais contra 2,8% das receitas.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Déficit primário do Governo Central totaliza R$ 61,7 bilhões em 2025",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/deficit-primario-do-governo-central-totaliza-r-617-bilhoes-em-2025",
+          "date": "2026-01-29"
+        },
+        {
+          "outlet": "CNN Brasil",
+          "title": "Tesouro: déficit primário após deduções é de 0,1%, acima do limite inferior da meta",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/tesouro-deficit-primario-apos-deducoes-e-de-010-do-pib-acima-do-limite-inferior-da-meta/",
+          "date": "2026-01-29"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-desemprego-recorde",
+      "date": "2026-01-30",
+      "title": "Desemprego de 2025 é o menor da série histórica",
+      "summary": "A Pnad Contínua mostrou taxa média de desocupação de 5,6% em 2025, a menor desde o início da série em 2012, e 5,1% no trimestre encerrado em dezembro. O nível de ocupação foi recorde, embora a informalidade tenha seguido elevada, em 38,1%.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "Desocupação média de 5,6% em 2025 (6,6% em 2024) e 5,1% no 4º trimestre, mínimas da série iniciada em 2012 (IBGE).",
+      "sources": [
+        {
+          "outlet": "IBGE",
+          "title": "PNAD Contínua: em 2025, taxa anual de desocupação foi de 5,6% enquanto taxa de subutilização foi 14,5%",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45759-pnad-continua-em-2025-taxa-anual-de-desocupacao-foi-de-5-6-enquanto-taxa-de-subutilizacao-foi-14-5",
+          "date": "2026-01-30"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Taxa de desemprego cai para 5,1% em 2025, a menor da história",
+          "url": "https://www.poder360.com.br/poder-economia/taxa-de-desemprego-cai-para-51-em-2025-a-menor-da-historia/",
+          "date": "2026-01-30"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Dezenove estados e DF têm em 2025 o menor desemprego já registrado",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-02/dezenove-estados-e-df-tem-em-2025-o-menor-desemprego-ja-registrado",
+          "date": "2026-02-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-desenrola-3-eleitoral",
+      "date": "2026-09-01",
+      "title": "Desenrola 3.0 e medidas de estímulo às vésperas da eleição",
+      "summary": "A poucas semanas do primeiro turno, o governo criou uma terceira fase do Desenrola em que a União compra dívidas de famílias com desconto, com custo limitado a R$ 15 bilhões e meta de até 15 milhões de beneficiados. O governo defende o combate ao endividamento; economistas e editoriais criticaram a concentração de estímulos e operações parafiscais em ano eleitoral, com custos empurrados para os anos seguintes.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Até R$ 150 bilhões em dívidas elegíveis, cerca de R$ 75 bilhões a renegociar e custo para a União limitado a R$ 15 bilhões.",
+      "sources": [
+        {
+          "outlet": "InfoMoney",
+          "title": "Desenrola 3.0: saiba como vai funcionar novo programa de renegociação de dívidas",
+          "url": "https://www.infomoney.com.br/minhas-financas/desenrola-3-0-saiba-como-vai-funcionar-novo-programa-de-renegociacao-de-dividas/",
+          "date": "2026-09-01"
+        },
+        {
+          "outlet": "Brazil Journal",
+          "title": "‘Bondade eleitoral’ ou compra de voto? A conta não para de crescer",
+          "url": "https://braziljournal.com/bondade-eleitoral-ou-compra-de-voto-a-conta-nao-para-de-crescer",
+          "date": "2026-09-01"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-divida-bruta",
+      "date": "2026-09-30",
+      "title": "Dívida bruta chega a 82,9% do PIB",
+      "summary": "A dívida bruta do governo geral atingiu R$ 11,1 trilhões, ou 82,9% do PIB, em agosto de 2026, o maior patamar desde 2021, segundo o Banco Central. O avanço foi puxado principalmente pelos juros nominais, e o boletim Focus projeta a dívida perto de 90% do PIB em 2027.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "DBGG de 82,9% do PIB (R$ 11,1 tri) em agosto de 2026, maior nível desde março de 2021; dívida líquida em recorde da série iniciada em 2001.",
+      "sources": [
+        {
+          "outlet": "CNN Brasil",
+          "title": "BC: Dívida bruta do governo geral avança para 82,9% do PIB em agosto",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/bc-divida-bruta-do-governo-geral-avanca-para-829-do-pib-em-agosto/",
+          "date": "2026-09-30"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Dívida pública brasileira alcança R$ 11 trilhões e chega a 82,9% do PIB",
+          "url": "https://www.gazetadopovo.com.br/economia/divida-publica-brasileira-alcanca-11-trilhoes-chega-82-9-pib/",
+          "date": "2026-09-30"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Dívida bruta atinge 82,9% do PIB em agosto, diz Banco Central",
+          "url": "https://www.poder360.com.br/poder-economia/divida-bruta-atinge-829-do-pib-em-agosto-diz-banco-central/",
+          "date": "2026-09-30"
+        }
+      ],
+      "termId": "lula3"
+    },
+    {
+      "id": "lula3-desmatamento-minimo-historico",
+      "date": "2026-10-16",
+      "title": "Desmatamento na Amazônia e no Cerrado atinge mínima histórica (Prodes 2026)",
+      "summary": "O Prodes/Inpe estimou 3.335 km² de desmatamento na Amazônia entre agosto de 2025 e julho de 2026, a menor taxa desde o início da série em 1988 e queda de cerca de 42% ante 2025; o Cerrado também teve o menor nível de sua série. Foi a continuação de uma trajetória de queda iniciada em 2023, quando a taxa amazônica caiu 22% para cerca de 9 mil km².",
+      "impact": "positivo",
+      "area": "meio-ambiente",
+      "weight": 3,
+      "evidence": "Amazônia: 9.001 km² (Prodes 2023, −22,3%) → 5.731 km² (2025) → 3.335 km² (2026, −41,8%); Cerrado 5.516 km² em 2026, mínima da série iniciada em 2001.",
+      "sources": [
+        {
+          "outlet": "INPE (gov.br)",
+          "title": "Brasil alcança menores taxas de desmatamento da série histórica na Amazônia e no Cerrado",
+          "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/brasil-alcanca-menores-taxas-de-desmatamento-da-serie-historica-na-amazonia-e-no-cerrado",
+          "date": "2026-10-16"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Desmatamento cai na Amazônia e no Cerrado em 2026",
+          "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-cai-na-amazonia-e-no-cerrado-em-2026/",
+          "date": "2026-10-16"
+        },
+        {
+          "outlet": "Diário do Nordeste",
+          "title": "Desmatamento na Amazônia cai 22,3% no período de um ano",
+          "url": "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/desmatamento-na-amazonia-cai-223-no-periodo-de-um-ano-1.3441412",
+          "date": "2023-11-09"
+        }
+      ],
+      "termId": "lula3"
+    }
+  ],
+  "factchecks": [
+    {
+      "id": "lula-fim-bolsa-familia-pos-eleicao",
+      "claim": "Governo Lula vai acabar com o Bolsa Família depois das eleições de 2026.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-27",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Os posts usam uma reportagem da CNN Brasil de 16 de abril de 2025 que tratava da regra de transição para famílias que aumentam a renda, sem mencionar extinção. A mudança implementada em maio de 2025 não encerrou o programa.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que governo Lula avalia extinguir Bolsa Família",
+          "url": "https://www.aosfatos.org/noticias/governo-lula-extinguir-bolsa-familia/",
+          "date": "2026-10-27"
+        },
+        {
+          "outlet": "Boatos.org",
+          "title": "Lula vai acabar com o Bolsa Família após as eleições de 2026?",
+          "url": "https://www.boatos.org/politica/lula-vai-acabar-com-o-bolsa-familia-apos-as-eleicoes-de-2026.html",
+          "date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "gasolina-10-reais-pos-eleicao",
+      "claim": "Postos já vendem gasolina a R$ 10 após a vitória de Lula nas eleições de 2026.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-27",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O Boatos.org classificou a mensagem como falsa e a incluiu entre os conteúdos que reaproveitam imagens e notícias antigas após o segundo turno. Não houve reajuste que levasse o preço médio da gasolina a R$ 10.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Boatos.org",
+          "title": "Postos vendem gasolina a R$ 10 após vitória de Lula nas eleições de 2026?",
+          "url": "https://www.boatos.org/politica/postos-vendem-gasolina-a-r-10-apos-vitoria-de-lula-nas-eleicoes-de-2026.html",
+          "date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-preso-desacato",
+      "claim": "Jair Bolsonaro foi preso por desacato após o resultado das eleições e voltará para a Papuda.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2026-10-26",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O episódio envolveu outro homem, detido após discutir com policiais militares que fazem a guarda da casa do ex-presidente. Jair Bolsonaro segue em prisão domiciliar e não foi preso por desacato.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Jair Bolsonaro não foi preso por desacato após resultado das eleições",
+          "url": "https://www.aosfatos.org/noticias/jair-bolsonaro-nao-foi-preso-desacato/",
+          "date": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "lula-pib-3pct-desde-2010",
+      "claim": "A economia brasileira não cresceu acima de 3% desde 2010, fim do meu segundo mandato.",
+      "claimant": "Lula",
+      "about": [
+        "dilma1",
+        "bolsonaro"
+      ],
+      "date": "2026-10-23",
+      "verdict": "falso",
+      "explanation": "Segundo o IBGE, o PIB superou 3% depois de 2010: cresceu 3,9% em 2011 (governo Dilma) e também acima de 3% em 2021 e 2022 (governo Bolsonaro). A afirmação foi feita no debate da TV Globo do segundo turno de 2026.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "flavio-lula-30-impostos",
+      "claim": "Lula criou 30 novos impostos.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-23",
+      "verdict": "exagerado",
+      "explanation": "A contagem de 30 itens mistura diferentes tipos de medida tributária, como a reoneração da folha de pagamentos e mudanças de alíquotas, e não apenas criação de impostos novos. O governo de fato aumentou a arrecadação com medidas como a taxação de apostas e de fundos exclusivos, mas o número apresentado como 'novos impostos' infla o quadro.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "lula-salario-minimo-900",
+      "claim": "Sem a política de valorização, o salário mínimo hoje seria de cerca de R$ 900.",
+      "claimant": "Lula",
+      "about": [
+        "lula3",
+        "temer",
+        "bolsonaro"
+      ],
+      "date": "2026-10-23",
+      "verdict": "verdadeiro",
+      "explanation": "A estimativa do Aos Fatos para o valor do mínimo corrigido apenas pela inflação ficou em torno de R$ 852, ordem de grandeza compatível com a fala do presidente. A checadora classificou a afirmação como correta no debate da Globo do segundo turno.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "flavio-casa-mulher-brasileira",
+      "claim": "Vou criar a Casa da Mulher Brasileira.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "dilma2",
+        "lula3"
+      ],
+      "date": "2026-10-23",
+      "verdict": "enganoso",
+      "explanation": "A Casa da Mulher Brasileira já existe: o programa federal foi criado em 2015, no governo Dilma Rousseff, e tem unidades em funcionamento em várias capitais. Apresentá-lo como proposta nova omite essa informação.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "flavio-ameaca-desistir-debate-checagem",
+      "claim": "Flávio Bolsonaro disse que vai desistir do debate da Globo se houver checagem de fatos em tempo real.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-20",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Não há declaração pública de Flávio Bolsonaro com essa ameaça. O fato verificável é que a campanha de Lula pediu à Globo checagem em tempo real, o que foi confirmado pelo coordenador da campanha petista.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Boatos.org",
+          "title": "Flávio Bolsonaro disse que vai desistir de debate da Globo se houver checagem de fatos em tempo real?",
+          "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-desistir-de-debate-da-globo-se-houver-checagem-de-fatos-em-tempo-real.html",
+          "date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "flavio-criminalidade-explodiu",
+      "claim": "A criminalidade explodiu no Brasil no governo Lula.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-18",
+      "verdict": "falso",
+      "explanation": "Os indicadores oficiais de violência não mostram explosão da criminalidade no período; o Aos Fatos classificou a afirmação feita no debate da Band como falsa. Os dados nacionais de mortes violentas intencionais vinham em tendência de queda.",
+      "topic": "seguranca",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "date": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "flavio-73pct-presidiarios-lula",
+      "claim": "73% dos presidiários votaram em Lula.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-18",
+      "verdict": "enganoso",
+      "explanation": "O Aos Fatos concluiu que o senador distorce uma informação ao atribuir a Lula o voto de 73% dos presidiários: o dado não representa o conjunto da população carcerária, já que a maioria dos presos (os condenados) tem os direitos políticos suspensos e não vota.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "date": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "divida-11-trilhoes",
+      "claim": "O governo atual vai deixar uma dívida pública de R$ 11 trilhões.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-18",
+      "verdict": "verdadeiro",
+      "explanation": "O Aos Fatos considerou correta a afirmação, feita no debate da Band, sobre o tamanho da dívida pública bruta ao fim do terceiro mandato de Lula, com base nos dados oficiais de endividamento do governo geral.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "date": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "flavio-recorde-falencias",
+      "claim": "O Brasil vive recorde de falências de empresas no governo Lula.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Segundo o Aos Fatos, os dados disponíveis sobre pedidos e decretações de falência contrariam a ideia de recorde histórico; a checadora classificou a fala como mentirosa.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Na contramão dos dados, Flávio Bolsonaro mente ao falar em recorde de falências de empresas",
+          "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-mente-recorde-falencias-empresas/",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "flavio-deepfake-cortes-beneficios",
+      "claim": "Flávio Bolsonaro anunciou em vídeo que vai acabar com Bolsa Família, BPC, aposentadorias, 13º e Pé-de-Meia.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-08",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O vídeo é um deepfake: as imagens vêm de um pronunciamento real do candidato, mas o áudio foi alterado com inteligência artificial. A gravação original não contém o anúncio de cortes, e a campanha negou essas propostas.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Vídeo em que Flávio anuncia cortes em pensões, 13º e Pé-de-Meia é ‘deepfake’",
+          "url": "https://www.aosfatos.org/noticias/flavio-cortes-pensoes-deepfake/",
+          "date": "2026-10-08"
+        },
+        {
+          "outlet": "Boatos.org",
+          "title": "Flávio Bolsonaro disse que vai acabar com o Bolsa Família, BPC, aposentadoria e Pé-de-Meia?",
+          "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-acabar-com-o-bolsa-familia-bpc-aposentadoria-e-pe-de-meia.html",
+          "date": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "stf-impediu-beneficios-bolsonaro",
+      "claim": "O STF impediu Bolsonaro de aumentar benefícios em ano eleitoral, mas deixou Lula reajustar o Bolsa Família.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro",
+        "lula3"
+      ],
+      "date": "2026-09-18",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "As medidas de 2022 (como o Auxílio Brasil de R$ 600) entraram em vigor em julho daquele ano e foram pagas durante a eleição. O STF só declarou inconstitucionais partes delas em agosto de 2024, quando já não produziam efeito eleitoral.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "STF não impediu aumento de benefícios por Bolsonaro em ano eleitoral",
+          "url": "https://www.aosfatos.org/noticias/stf-nao-impediu-aumento-beneficios-bolsonaro/",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "lula-asilo-maduro",
+      "claim": "Lula anunciou asilo político a Nicolás Maduro e disse que 'o protegerá a qualquer custo'.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-01-10",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Não há registro de declaração do tipo na imprensa nem nos canais oficiais do governo, e a Secom negou a informação. O áudio usado nas publicações foi gerado por inteligência artificial.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que Lula anunciou asilo político a Maduro e disse que ‘o protegerá a qualquer custo’",
+          "url": "https://www.aosfatos.org/noticias/e-falso-que-lula-anunciou-asilo-politico-a-maduro-e-disse-que-o-protegera-a-qualquer-custo/",
+          "date": "2026-01-10"
+        },
+        {
+          "outlet": "Boatos.org",
+          "title": "Lula vai dar asilo político a Nicolás Maduro?",
+          "url": "https://www.boatos.org/politica/lula-vai-dar-asilo-politico-a-nicolas-maduro.html",
+          "date": "2026-01-10"
+        }
+      ]
+    },
+    {
+      "id": "pix-imposto-275-2026",
+      "claim": "Governo vai cobrar imposto de 27,5% sobre Pix acima de R$ 5 mil a partir de janeiro de 2026.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2025-12-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Nenhuma lei ou norma cria cobrança sobre transferências Pix. A própria Receita Federal divulgou em outubro de 2025 que não monitora transações individuais de Pix. O percentual de 27,5% é a alíquota máxima do Imposto de Renda, que incide sobre renda (como pagamento por serviços), independentemente do meio de transferência.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Boatos.org",
+          "title": "Governo vai cobrar imposto de 27,5% em Pix acima de R$ 5 mil a partir de janeiro de 2026?",
+          "url": "https://www.boatos.org/politica/73865governo-vai-cobrar-imposto-de-275-em-pix-acima-de-r-5-mil-a-partir-de-janeiro-de-2026.html",
+          "date": "2025-12-15"
+        }
+      ]
+    },
+    {
+      "id": "lula-onu-queda-desmatamento",
+      "claim": "Reduzimos pela metade o desmatamento na Amazônia.",
+      "claimant": "Lula",
+      "about": [
+        "lula3"
+      ],
+      "date": "2025-09-23",
+      "dateApprox": true,
+      "verdict": "verdadeiro",
+      "explanation": "Considerando o ano-calendário, o desmatamento detectado na Amazônia caiu cerca de 50%: de 10.278 km² em 2022 para 5.154 km² em 2023, segundo dados do Inpe citados pelo Aos Fatos na checagem do discurso na Assembleia Geral da ONU.",
+      "topic": "meio-ambiente",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos o discurso de Lula na Assembleia Geral da ONU",
+          "url": "https://www.aosfatos.org/noticias/checamos-discurso-lula-onu-2025/",
+          "date": "2025-09-23"
+        }
+      ]
+    },
+    {
+      "id": "33-milhoes-fome-hoje",
+      "claim": "Número de pessoas passando fome subiu para 33 milhões no governo Lula.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3",
+        "bolsonaro"
+      ],
+      "date": "2025-06-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O vídeo usado é uma reportagem do Jornal Nacional de junho de 2022, durante o governo Bolsonaro, sobre a pesquisa da Rede Penssan (33,1 milhões em insegurança alimentar grave). O dado mais recente do IBGE apontava 6,4 milhões de pessoas em insegurança alimentar grave em 2024.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que 33 milhões passam fome no Brasil hoje; reportagem do JN é antiga",
+          "url": "https://www.aosfatos.org/noticias/33-milhoes-passam-fome-brasil/",
+          "date": "2025-06-01"
+        }
+      ]
+    },
+    {
+      "id": "pix-taxacao-2025",
+      "claim": "Transferências via Pix acima de R$ 5.000 passarão a ser taxadas pela Receita Federal a partir de janeiro de 2025.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2025-01-10",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "A norma da Receita (IN 2219/2024) apenas ampliava a obrigação de bancos e fintechs informarem ao Fisco movimentações totais acima de R$ 5 mil por mês (pessoa física) ou R$ 15 mil (pessoa jurídica), sem discriminar cada transação ou o meio usado. Não criava imposto nem taxa sobre o Pix. Diante da onda de desinformação, o governo revogou a instrução normativa em 15 de janeiro de 2025.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que Pix acima de R$ 5.000 será taxado pela Receita Federal",
+          "url": "https://www.aosfatos.org/noticias/falso-pix-acima-de-5000-sera-taxado/",
+          "date": "2025-01-10"
+        }
+      ]
+    },
+    {
+      "id": "lula-fome-mapa-33-milhoes",
+      "claim": "Tiramos o Brasil do Mapa da Fome em 2014 e, quando voltei, havia 33 milhões passando fome.",
+      "claimant": "Lula",
+      "about": [
+        "lula3",
+        "bolsonaro"
+      ],
+      "date": "2025-01-02",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "Lula compara indicadores diferentes: a saída do Mapa da Fome em 2014 se refere ao indicador de subalimentação da FAO/ONU, enquanto os 33 milhões vêm da pesquisa da Rede Penssan, baseada na escala Ebia de insegurança alimentar grave. O Aos Fatos listou a fala entre as desinformações mais repetidas por Lula em 2024; a Secom contestou a avaliação.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "No segundo ano de governo, Lula desinformou mais sobre fome e educação",
+          "url": "https://www.aosfatos.org/noticias/lula-2024-desinformou-fome-educacao/",
+          "date": "2025-01-02"
+        }
+      ]
+    },
+    {
+      "id": "lula-reduzir-salario-minimo-2025",
+      "claim": "Lula vai reduzir o salário mínimo em 2025.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-12-10",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O pacote fiscal de fim de 2024 limitou o ganho real do salário mínimo ao teto de crescimento do arcabouço fiscal, mas não previa redução nominal. O mínimo subiu de R$ 1.412 para R$ 1.518 em janeiro de 2025.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova (via SBT News)",
+          "title": "Falso: é falso post que afirma que Lula vai reduzir o salário mínimo em 2025",
+          "url": "https://sbtnews.sbt.com.br/noticia/comprova/falso-e-falso-post-que-afirma-que-lula-vai-reduzir-o-salario-minimo-em-2025",
+          "date": "2024-12-10"
+        }
+      ]
+    },
+    {
+      "id": "lula-criticou-urna-venezuela",
+      "claim": "Lula criticou a urna eletrônica brasileira.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-08-05",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O trecho que circula foi editado. Na entrevista original, Lula cobrava a divulgação das atas eleitorais da eleição na Venezuela, sem pôr em dúvida o sistema de votação brasileiro.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que Lula criticou urna eletrônica ao cobrar divulgação de atas eleitorais na Venezuela",
+          "url": "https://www.aosfatos.org/noticias/falso-lula-criticou-urna-eletronica-atas-eleitorais-venezuela/",
+          "date": "2024-08-05"
+        }
+      ]
+    },
+    {
+      "id": "haddad-sem-novos-impostos",
+      "claim": "O governo Lula não criou nenhum imposto novo.",
+      "claimant": "Fernando Haddad",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-06-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O governo instituiu a tributação de apostas esportivas online, mudou a tributação de fundos exclusivos e offshores e criou imposto temporário sobre exportação de petróleo por medida provisória. A checagem considerou corretos outros trechos, como os relativos ao novo arcabouço fiscal.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "No Roda Viva, Haddad desinforma ao dizer que governo Lula não criou novos impostos",
+          "url": "https://www.aosfatos.org/noticias/checamos-haddad-roda-viva/",
+          "date": "2024-06-01"
+        }
+      ]
+    },
+    {
+      "id": "osso-de-patinho-crise-lula",
+      "claim": "Osso de patinho começou a ser vendido por causa da crise no governo Lula.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-03-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O osso de patinho é comercializado no varejo há mais de dez anos e não surgiu por crise econômica. Além disso, o preço da carne caiu cerca de 10% no primeiro ano do mandato, segundo o Projeto Comprova.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "É falso que osso de patinho tenha começado a ser comercializado por conta de suposta crise no governo Lula",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/e-falso-que-osso-de-patinho-tenha-comecado-a-ser-comercializado-por-conta-de-suposta-crise-no-governo-lula/",
+          "date": "2024-03-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-dilma-absolvida-pedaladas",
+      "claim": "A Justiça absolveu Dilma no caso das pedaladas fiscais.",
+      "claimant": "Lula",
+      "about": [
+        "dilma2"
+      ],
+      "date": "2023-08-25",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "O TRF-1 apenas manteve o arquivamento de uma ação de improbidade, sem julgar o mérito sobre se a ex-presidente cometeu ou não irregularidade. Especialistas ouvidos pelo Aos Fatos afirmam que não é correto, juridicamente, dizer que Dilma foi absolvida ou inocentada.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Lula engana ao dizer que Dilma foi absolvida no caso das ‘pedaladas fiscais’",
+          "url": "https://www.aosfatos.org/noticias/lula-engana-ao-dizer-dilma-foi-absolvida-pedaladas/",
+          "date": "2023-08-25"
+        }
+      ]
+    },
+    {
+      "id": "lula-audio-vazado-uniao-falida",
+      "claim": "Áudio vazado mostra Lula admitindo que a União está falida.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "dilma2",
+        "lula3"
+      ],
+      "date": "2023-03-01",
+      "dateApprox": true,
+      "verdict": "sem-contexto",
+      "explanation": "As declarações não foram vazadas: são públicas e foram feitas em 2016, quando Lula criticava a política de desonerações do governo Dilma. Circularam sem data, como se fossem uma avaliação atual sobre as contas do governo.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "Declarações \"vazadas\" de Lula sobre crise econômica são públicas e foram feitas em 2016",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/declaracoes-vazadas-de-lula-sobre-crise-economica-sao-publicas-e-foram-feitas-em-2016/",
+          "date": "2023-03-01"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-fabricas-vacina-5g",
+      "claim": "Bolsonaro construiu secretamente indústrias de vacina e de tecnologia 5G no Brasil.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2023-01-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Não há registro de fábricas de vacinas ou de tecnologia 5G construídas 'secretamente' pelo governo Bolsonaro. Obras e contratos federais desse porte são públicos, e a produção nacional de vacinas contra a Covid-19 ficou a cargo de instituições como Fiocruz e Butantan.",
+      "topic": "saude",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Bolsonaro não construiu secretamente indústrias de vacina e de tecnologia 5G",
+          "url": "https://www.aosfatos.org/noticias/bolsonaro-nao-construiu-secretamente-industrias-de-vacina-e-de-tecnologia-5g/",
+          "date": "2023-01-15"
+        }
+      ]
+    },
+    {
+      "id": "lula-posse-desmatamento-80pct",
+      "claim": "Nos nossos governos reduzimos o desmatamento na Amazônia em mais de 80%.",
+      "claimant": "Lula",
+      "about": [
+        "lula2"
+      ],
+      "date": "2023-01-01",
+      "verdict": "exagerado",
+      "explanation": "Pelos dados do Prodes/Inpe, em 2010, último ano do segundo mandato de Lula, foram desmatados cerca de 7.000 km², uma redução de 72,4% em relação a 2002. Em outra fala de campanha, Lula citou 87%, mas a queda no período petista medida pelo Inpe foi de 71,3%. A redução foi grande, mas menor do que a anunciada.",
+      "topic": "meio-ambiente",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos o discurso de Lula no parlatório do Palácio do Planalto",
+          "url": "https://www.aosfatos.org/noticias/discurso-posse-lula-parlatorio-planalto/",
+          "date": "2023-01-01"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Lula, Bolsonaro e Ciro falseiam e distorcem informações sobre a Amazônia",
+          "url": "https://www.aosfatos.org/noticias/lula-bolsonaro-e-ciro-falseiam-e-distorcem-informacoes-sobre-a-amazonia/",
+          "date": "2022-09-01"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-gasolina-mais-barata",
+      "claim": "Temos uma das gasolinas mais baratas do mundo.",
+      "claimant": "Jair Bolsonaro",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2022-10-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Segundo o site Global Petrol Prices, citado pelo Aos Fatos, o Brasil tinha à época a 31ª gasolina mais barata entre 168 países, a cerca de US$ 0,97 por litro, acima de vizinhos como Bolívia e Colômbia. O preço estava abaixo da média mundial, mas longe de estar entre os mais baixos.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Quais desinformações Lula, Bolsonaro, Ciro e Tebet repetiram durante a campanha",
+          "url": "https://www.aosfatos.org/noticias/quais-desinformacoes-lula-bolsonaro-ciro-e-tebet-repetiram-durante-a-campanha/",
+          "date": "2022-10-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-divida-com-uniao",
+      "claim": "Lula e o Instituto Lula têm dívidas com a União.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula2"
+      ],
+      "date": "2022-10-01",
+      "dateApprox": true,
+      "verdict": "verdadeiro",
+      "explanation": "As dívidas existem, mas o Comprova ressalta que as cobranças estão sendo questionadas na Justiça após a anulação dos processos da Lava Jato contra Lula. Trata-se de débito pessoal e do instituto, não de dívida pública.",
+      "topic": "corrupcao",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "Dívida de Lula com a União é real, mas questionada na Justiça após anulação de processos da Lava Jato",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/divida-de-lula-com-a-uniao-e-real-mas-questionada-na-justica-apos-anulacao-de-processos-da-lava-jato/",
+          "date": "2022-10-01"
+        }
+      ]
+    },
+    {
+      "id": "plano-lula-cpmf-pix-2022",
+      "claim": "Plano de governo de Lula prevê nova CPMF, tributação do Pix e congelamento da poupança.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro",
+        "lula3"
+      ],
+      "date": "2022-09-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O plano de governo registrado no TSE pela candidatura de Lula em 2022 não propõe nova CPMF, tributação do Pix nem congelamento da poupança. O boato antecipou o tema que voltaria a circular em janeiro de 2025.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova (via CNN Brasil)",
+          "title": "Plano de governo de Lula não propõe medidas como nova CPMF e tributação do Pix",
+          "url": "https://www.cnnbrasil.com.br/nacional/plano-de-governo-de-lula-nao-propoe-medidas-como-nova-cpmf-e-tributacao-do-pix/",
+          "date": "2022-09-15"
+        }
+      ]
+    },
+    {
+      "id": "bndes-desvio-716-bilhoes",
+      "claim": "Governo Lula desviou R$ 716 bilhões por meio de empréstimos do BNDES.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula2",
+        "dilma1"
+      ],
+      "date": "2022-09-01",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "Segundo o BNDES, o banco recebeu R$ 570 bilhões em recursos do Tesouro entre 2008 e 2014, valor diferente do citado. Os aportes foram empréstimos registrados e com retorno ao Tesouro, e o volume em si não comprova desvio, como sugeria o vídeo.",
+      "topic": "corrupcao",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "Vídeo engana sobre empréstimos do BNDES no governo Lula",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-engana-sobre-emprestimos-do-bndes-no-governo-lula/",
+          "date": "2022-09-01"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-vacina-aids",
+      "claim": "Relatórios do governo do Reino Unido mostram que vacinados contra a Covid-19 estão desenvolvendo Aids.",
+      "claimant": "Jair Bolsonaro",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2021-10-25",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Os relatórios britânicos nunca mencionam Aids; a alegação se baseava em uma coluna inventada sobre dados da Pfizer. A Sociedade Brasileira de Infectologia afirmou que não há relação conhecida entre vacinas contra a Covid-19 e Aids. A fala, feita em live em outubro de 2021, levou à abertura de inquérito no STF, e o Aos Fatos contou 575 declarações falsas de Bolsonaro sobre vacinas no mandato.",
+      "topic": "saude",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "'Exame' não caiu em contradição ao chamar de mentira fala de Bolsonaro sobre vacinas e Aids",
+          "url": "https://www.aosfatos.org/noticias/exame-nao-caiu-em-contradicao-ao-chamar-de-mentira-fala-de-bolsonaro-sobre-vacinas-e-aids/",
+          "date": "2021-10-25"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Indiciado por fraude em certificado de vacinação, Bolsonaro mentiu 575 vezes sobre vacinas durante mandato",
+          "url": "https://www.aosfatos.org/noticias/bolsonaro-mentiu-575-vezes-sobre-vacinas/",
+          "date": "2024-03-19"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-amazonia-umida-nao-pega-fogo",
+      "claim": "A Floresta Amazônica, por ser úmida, não pega fogo; as queimadas de 2019 ficaram abaixo da média.",
+      "claimant": "Jair Bolsonaro",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2020-09-22",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Embora úmida, a floresta pode queimar e é pouco adaptada ao fogo, segundo especialistas consultados pelo Aos Fatos. Dados do Ipam e da Nasa indicavam que os focos ocorriam em áreas recém-desmatadas, e o número de queimadas de 2019 não ficou abaixo da média, ao contrário do que o presidente repetiu.",
+      "topic": "meio-ambiente",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "O que é e o que não é fato no discurso de Bolsonaro na abertura da Assembleia Geral da ONU",
+          "url": "https://www.aosfatos.org/noticias/o-que-e-e-o-que-nao-e-fato-no-discurso-de-bolsonaro-na-abertura-da-assembleia-geral-da-onu/",
+          "date": "2020-09-22"
+        }
+      ]
+    },
+    {
+      "id": "reforma-trabalhista-nao-criou-empregos",
+      "claim": "Não houve criação de empregos depois da reforma trabalhista.",
+      "claimant": "Parlamentares de oposição",
+      "about": [
+        "temer"
+      ],
+      "date": "2018-11-11",
+      "dateApprox": true,
+      "verdict": "exagerado",
+      "explanation": "Nos 12 meses após a entrada em vigor da reforma, o Caged registrou 15,34 milhões de admissões e 14,82 milhões de desligamentos formais, saldo positivo de 517.733 vagas. A taxa de desemprego da Pnad seguiu alta, e estudos posteriores divergem sobre o efeito da reforma; a promessa do governo Temer de mais de 6 milhões de empregos também nunca se comprovou.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Oposição omite contexto ao relacionar reforma trabalhista e desemprego",
+          "url": "https://www.aosfatos.org/noticias/oposicao-omite-contexto-ao-relacionar-reforma-trabalhista-e-desemprego/",
+          "date": "2018-11-11"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Fato e ficção em sete declarações sobre a reforma trabalhista",
+          "url": "https://www.aosfatos.org/noticias/fato-e-ficcao-em-seis-declaracoes-sobre-reforma-trabalhista/",
+          "date": "2017-12-01"
+        }
+      ]
+    },
+    {
+      "id": "temer-mensagem-congresso-distorce",
+      "claim": "Mensagem presidencial ao Congresso apresenta avanços na economia, no meio ambiente e no Bolsa Família.",
+      "claimant": "Michel Temer",
+      "about": [
+        "temer"
+      ],
+      "date": "2018-02-02",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "O Aos Fatos apontou que a mensagem enviada por Temer na abertura do ano legislativo distorcia dados sobre economia, meio ambiente e Bolsa Família, apresentando números de forma seletiva para inflar o desempenho do governo.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Mensagem de Temer ao Congresso distorce dados sobre economia, ambiente e Bolsa Família",
+          "url": "https://www.aosfatos.org/noticias/mensagem-de-temer-ao-congresso-distorce-dados-sobre-economia-ambiente-e-bolsa-familia/",
+          "date": "2018-02-02"
+        }
+      ]
+    },
+    {
+      "id": "temer-nao-sacrificou-area-social",
+      "claim": "O governo não sacrificou em nada a área social.",
+      "claimant": "Michel Temer",
+      "about": [
+        "temer"
+      ],
+      "date": "2017-05-12",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Os orçamentos de Saúde e Educação subiram de 2016 para 2017, mas esses valores não consideravam o contingenciamento aplicado todo ano pelo Executivo. Com o teto de gastos (EC 95/2016), as despesas totais passaram a ser corrigidas apenas pela inflação, pressionando áreas sociais.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos o balanço do primeiro ano de Temer na Presidência",
+          "url": "https://www.aosfatos.org/noticias/checamos-o-balanco-do-primeiro-ano-de-temer-na-presidencia/",
+          "date": "2017-05-12"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Veja tudo o que já checamos sobre Temer",
+          "url": "https://www.aosfatos.org/noticias/veja-tudo-o-que-ja-checamos-sobre-temer/",
+          "date": "2018-12-31"
+        }
+      ]
+    },
+    {
+      "id": "dilma-antecessores-pedalaram",
+      "claim": "Meus antecessores também fizeram as chamadas pedaladas fiscais.",
+      "claimant": "Dilma Rousseff",
+      "about": [
+        "dilma1"
+      ],
+      "date": "2016-04-15",
+      "dateApprox": true,
+      "verdict": "exagerado",
+      "explanation": "É verdade que FHC e Lula também atrasaram repasses a bancos públicos, mas Dilma omite a escala: o montante das operações em seu governo (cerca de R$ 33 bilhões) foi 35 vezes maior que o dos dois antecessores juntos (R$ 933 milhões), com pico no fim do primeiro mandato.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma omite ter 'pedalado' mais que Lula e FHC juntos",
+          "url": "https://www.aosfatos.org/noticias/dilma-omite-ter-pedalado-mais-que-lula-e-fhc/",
+          "date": "2016-04-15"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma 'pedalou' 35 vezes mais que Lula e FHC juntos",
+          "url": "https://www.aosfatos.org/noticias/dilma-pedalou-35-vezes-mais-que-lula-e-fhc-juntos/",
+          "date": "2016-04-15"
+        }
+      ]
+    },
+    {
+      "id": "dilma-onu-2015-otimista",
+      "claim": "O Brasil tem condições de superar as dificuldades atuais.",
+      "claimant": "Dilma Rousseff",
+      "about": [
+        "dilma2"
+      ],
+      "date": "2015-09-28",
+      "verdict": "exagerado",
+      "explanation": "No discurso à Assembleia Geral da ONU em 2015, Dilma fez um balanço otimista da economia em plena recessão. O Aos Fatos avaliou que, sem a aprovação do pacote fiscal então travado no Congresso, a promessa de superar rapidamente as dificuldades era exageradamente otimista.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma faz balanço otimista de clima e crise",
+          "url": "https://www.aosfatos.org/noticias/dilma-faz-balanco-otimista-de-clima-e-crise/",
+          "date": "2015-09-28"
+        }
+      ]
+    },
+    {
+      "id": "dilma-governo-que-mais-reduziu-impostos",
+      "claim": "Meu governo foi o que mais reduziu impostos.",
+      "claimant": "Dilma Rousseff",
+      "about": [
+        "dilma1",
+        "dilma2"
+      ],
+      "date": "2015-06-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Segundo o Aos Fatos, a afirmação não encontra amparo nos dados do próprio governo nem em levantamentos internacionais. As desonerações do primeiro mandato existiram, mas não sustentam o título de governo que mais reduziu impostos.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma afirma que seu governo foi o que mais reduziu impostos, mas não é verdade",
+          "url": "https://www.aosfatos.org/noticias/dilma-afirma-que-seu-governo-foi-o-que-mais-reduzi/",
+          "date": "2015-06-01"
+        }
+      ]
+    }
+  ]
+}

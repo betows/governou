@@ -1,0 +1,307 @@
+{
+  "termId": "bolsonaro",
+  "events": [
+    {
+      "id": "bolsonaro-previdencia",
+      "date": "2019-11-12",
+      "title": "Promulgação da Reforma da Previdência",
+      "summary": "O Congresso promulgou a Emenda Constitucional 103, originada da PEC 6/2019 enviada pelo Executivo em fevereiro de 2019. A reforma instituiu idade mínima de 65 anos para homens e 62 para mulheres no regime geral e novas alíquotas de contribuição. A economia estimada caiu de R$ 1,2 trilhão (proposta original) para cerca de R$ 800 bilhões em dez anos após mudanças no Congresso.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Economia estimada de cerca de R$ 800 bilhões em 10 anos; déficit previdenciário da União havia sido de R$ 264,4 bilhões em 2018.",
+      "sources": [
+        { "outlet": "Senado Notícias", "title": "Promulgada Emenda Constitucional da reforma da Previdência", "url": "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia", "date": "2019-11-12" },
+        { "outlet": "Poder360", "title": "Sem Bolsonaro, Congresso promulga reforma da Previdência", "url": "https://www.poder360.com.br/congresso/sem-bolsonaro-congresso-promulga-reforma-da-previdencia", "date": "2019-11-12" },
+        { "outlet": "Agência Câmara", "title": "Congresso promulga reforma da Previdência; novas regras da aposentadoria estão em vigor", "url": "https://www.camara.leg.br/noticias/613230-congresso-promulga-reforma-da-previdencia-novas-regras-da-aposentadoria-estao-em-vigor/", "date": "2019-11-12" }
+      ]
+    },
+    {
+      "id": "bolsonaro-saneamento",
+      "date": "2020-07-15",
+      "title": "Sanção do novo Marco Legal do Saneamento",
+      "summary": "O presidente sancionou, com 11 vetos, a Lei 14.026/2020, que tornou obrigatória a licitação para concessão dos serviços e acabou com os contratos de programa sem concorrência com estatais. A lei fixou meta de 99% da população com água potável e 90% com coleta e tratamento de esgoto até o fim de 2033, buscando atrair investimento privado.",
+      "impact": "positivo",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Metas legais de universalização até 2033 (99% água, 90% esgoto); aprovado no Senado por 65 a 13.",
+      "sources": [
+        { "outlet": "Poder360", "title": "Bolsonaro sanciona, com vetos, novo marco do saneamento", "url": "https://www.poder360.com.br/governo/bolsonaro-sanciona-com-vetos-novo-marco-do-saneamento/", "date": "2020-07-15" },
+        { "outlet": "Diário do Nordeste", "title": "Bolsonaro sanciona lei do novo Marco Legal do Saneamento Básico", "url": "https://diariodonordeste.verdesmares.com.br/politica/bolsonaro-sanciona-lei-do-novo-marco-legal-do-saneamento-basico-1.2966499", "date": "2020-07-15" }
+      ]
+    },
+    {
+      "id": "bolsonaro-pix",
+      "date": "2020-11-16",
+      "title": "Lançamento do Pix pelo Banco Central",
+      "summary": "O sistema de pagamentos instantâneos Pix entrou em operação plena, 24 horas por dia, após fase restrita iniciada em 3 de novembro. O projeto foi desenvolvido pelo corpo técnico do Banco Central, com bases lançadas em 2018, ainda no governo Temer, e implantado durante o mandato.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "734 instituições ofereciam o Pix a toda a sua base de clientes no dia do lançamento; documentos do BC mostram que as bases do projeto são de 2018.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Pix: novo sistema de pagamento instantâneo entra em funcionamento", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2020-11/pix-novo-sistema-de-pagamento-instantaneo-entra-em-funcionamento", "date": "2020-11-16" },
+        { "outlet": "Agência Brasil", "title": "Documentos do BC mostram que bases do Pix foram lançadas em 2018", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-07/documentos-do-bc-mostram-que-bases-do-pix-foram-lancadas-em-2018", "date": "2025-07-01" }
+      ]
+    },
+    {
+      "id": "bolsonaro-autonomia-bc",
+      "date": "2021-02-24",
+      "title": "Lei de autonomia do Banco Central",
+      "summary": "Foi sancionada a Lei Complementar 179/2021, que fixou mandatos de quatro anos para presidente e diretores do Banco Central, não coincidentes com o mandato do presidente da República, e definiu a estabilidade de preços como objetivo central. O STF confirmou a constitucionalidade da lei em agosto de 2021, por 8 votos a 2.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "LC 179/2021: mandatos fixos e não coincidentes para a diretoria do BC; validada pelo STF por 8 a 2.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Bolsonaro sanciona lei que dá autonomia ao Banco Central", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2021-02/bolsonaro-sanciona-lei-que-da-autonomia-ao-banco-central", "date": "2021-02-24" },
+        { "outlet": "Congresso em Foco", "title": "Bolsonaro sanciona autonomia do Banco Central com vetos; veja íntegra da lei", "url": "https://congressoemfoco.com.br/economia/bolsonaro-sanciona-autonomia-do-banco-central-com-vetos-veja-integra-da-lei", "date": "2021-02-24" }
+      ]
+    },
+    {
+      "id": "bolsonaro-auxilio-emergencial",
+      "date": "2020-04-01",
+      "title": "Criação do Auxílio Emergencial na pandemia",
+      "summary": "O presidente sancionou a lei aprovada pelo Congresso que criou a renda básica emergencial de R$ 600 para trabalhadores informais, autônomos e pessoas sem renda fixa durante a pandemia (o governo havia proposto inicialmente R$ 200). Segundo o IBGE, os benefícios fizeram a extrema pobreza cair de 6,8% em 2019 para 5,7% em 2020; sem eles, teria chegado a 12,9%.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "IBGE (SIS 2021): extrema pobreza de 5,7% em 2020 com os programas sociais versus 12,9% sem eles; pobreza seria de 32,1% sem os benefícios.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Bolsonaro sanciona MP da renda básica emergencial", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2020-04/bolsonaro-sanciona-lei-da-renda-basica-emergencial", "date": "2020-04-01" },
+        { "outlet": "IBGE", "title": "Síntese de Indicadores Sociais: em 2020, sem programas sociais, 32,1% da população do país estariam em situação de pobreza", "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/32418-sintese-de-indicadores-sociais-em-2020-sem-programas-sociais-32-1-da-populacao-do-pais-estariam-em-situacao-de-pobreza", "date": "2021-12-03" }
+      ]
+    },
+    {
+      "id": "bolsonaro-5g",
+      "date": "2021-11-05",
+      "title": "Leilão do 5G",
+      "summary": "A Anatel realizou o leilão de frequências do 5G, que movimentou cerca de R$ 47 bilhões, a maior parte convertida em compromissos de investimento das vencedoras. Seis empresas entraram pela primeira vez no mercado móvel; o governo classificou o certame como o maior de radiofrequência da América Latina.",
+      "impact": "positivo",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Leilão movimentou R$ 46,79 bilhões (revisado para R$ 47,2 bi), com ágio de cerca de R$ 5 bilhões e 6 novas operadoras.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Primeiro leilão do 5G movimenta R$ 46,79 bilhões", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-11/primeiro-leilao-do-5g-movimenta-r-4679-bilhoes", "date": "2021-11-05" },
+        { "outlet": "Agência Brasil", "title": "Leilão do 5G foi maior certame de radiofrequência da América Latina", "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2021-12/leilao-do-5g-foi-maior-certame-de-radiofrequencia-da-america-latina", "date": "2021-12-01" }
+      ]
+    },
+    {
+      "id": "bolsonaro-desemprego-2022",
+      "date": "2022-12-01",
+      "title": "Recuperação do mercado de trabalho em 2022",
+      "summary": "A taxa de desocupação caiu para 7,9% no trimestre encerrado em dezembro de 2022, ante 11,1% um ano antes. A média anual de 2022 ficou em 9,3%, a menor desde 2015, após o pico da pandemia; analistas apontaram que parte da queda veio também da redução da força de trabalho disponível.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "IBGE/PNAD Contínua: desocupação de 7,9% no 4º tri de 2022 (11,1% no 4º tri de 2021); média anual de 9,3% contra 13,2% em 2021.",
+      "sources": [
+        { "outlet": "IBGE", "title": "PNAD Contínua: taxa de desocupação é de 7,9% e taxa de subutilização, de 18,5% no trimestre encerrado em dezembro", "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/36334-pnad-continua-taxa-de-desocupacao-e-de-7-9-e-taxa-de-subutilizacao-de-18-5-no-trimestre-encerrado-em-dezembro", "date": "2023-02-28" },
+        { "outlet": "CNN Brasil", "title": "Taxa de desemprego cai a 9,3% em 2022, menor patamar desde 2015, diz IBGE", "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/empreendedorismo-e-trabalho/taxa-de-desemprego-cai-a-93-em-2022-menor-patamar-desde-2015-diz-ibge/", "date": "2023-02-28" }
+      ]
+    },
+    {
+      "id": "bolsonaro-superavit-2022",
+      "date": "2022-12-31",
+      "title": "Governo Central volta a ter superávit primário em 2022",
+      "summary": "O Governo Central encerrou 2022 com superávit primário de R$ 54,1 bilhões, o primeiro resultado positivo desde 2013, interrompendo oito anos de déficits. O resultado foi impulsionado por arrecadação recorde e royalties de petróleo, mas também pela postergação de despesas, como o parcelamento de precatórios.",
+      "impact": "positivo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Tesouro Nacional: superávit de R$ 54,086 bilhões em 2022 (cerca de 0,5% do PIB, segundo o Ipea), primeiro desde 2013.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Governo Central registra superávit de R$ 54,086 bi em 2022", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-01/governo-central-registra-superavit-de-r-54086-bi-em-2022", "date": "2023-01-27" },
+        { "outlet": "Poder360", "title": "Governo fecha 2022 com superavit de R$ 54 bi, o 1º em 9 anos", "url": "https://www.poder360.com.br/economia/governo-fecha-2022-com-superavit-de-r-54-bi-o-maior-em-9-anos/", "date": "2023-01-27" },
+        { "outlet": "Ipea", "title": "Panorama fiscal: Destaques de 2022 e perspectivas", "url": "https://www.ipea.gov.br/cartadeconjuntura/index.php/2023/02/panorama-fiscal-destaques-de-2022-e-perspectivas/", "date": "2023-02-01" }
+      ]
+    },
+    {
+      "id": "bolsonaro-inflacao-2021",
+      "date": "2021-12-31",
+      "title": "Inflação de 10,06% estoura a meta em 2021",
+      "summary": "O IPCA fechou 2021 em 10,06%, a maior taxa anual desde 2015 e quase o dobro do teto da meta (5,25%). Transportes (21,03%) e habitação (13,05%) lideraram as altas; o Banco Central atribuiu o estouro à pandemia, à alta das commodities e à crise hídrica, fatores parcialmente externos.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "IBGE: IPCA de 10,06% em 2021, contra meta de 3,75% e teto de 5,25%.",
+      "sources": [
+        { "outlet": "IBGE", "title": "Inflação sobe 0,73% em dezembro e fecha 2021 com alta de 10,06%", "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/32725-inflacao-sobe-0-73-em-dezembro-e-fecha-2021-com-alta-de-10-06", "date": "2022-01-11" },
+        { "outlet": "CNN Brasil", "title": "Inflação fecha 2021 a 10,06%, acima do teto da meta e no maior nível em 6 anos", "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/inflacao-fecha-2021-a-1006-acima-do-teto-da-meta-e-no-maior-nivel-em-6-anos/", "date": "2022-01-11" },
+        { "outlet": "Agência Brasil", "title": "Pandemia e crise hídrica fizeram inflação estourar meta, diz BC", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2022-01/pandemia-e-crise-hidrica-fizeram-inflacao-estourar-meta-diz-bc", "date": "2022-01-11" }
+      ]
+    },
+    {
+      "id": "bolsonaro-pec-precatorios",
+      "date": "2021-12-08",
+      "title": "PEC dos Precatórios altera o teto de gastos",
+      "summary": "O Congresso promulgou, em duas etapas (8 e 16 de dezembro), a PEC que mudou a fórmula de correção do teto de gastos e limitou o pagamento anual de precatórios, adiando dívidas judiciais da União. A medida abriu espaço para o Auxílio Brasil de R$ 400 em 2022; críticos apontaram drible ao teto e acúmulo de passivos, enquanto o relator negou que se tratasse de furo.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Ministério da Economia estimou R$ 91,6 bilhões de espaço adicional no Orçamento de 2022, dos quais cerca de R$ 43,6 bilhões vindos do adiamento de precatórios.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "PEC dos Precatórios abrirá R$ 91,6 bilhões no teto de gastos em 2022", "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2021-10/pec-dos-precatorios-abrira-r-916-bi-no-teto-de-gastos-em-2022", "date": "2021-10-01" },
+        { "outlet": "Agência Brasil", "title": "Entenda as novas regras para pagamento de precatórios", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2021-12/o-que-muda-com-pec-dos-precatorios", "date": "2021-12-01" },
+        { "outlet": "InfoMoney", "title": "Câmara aprova texto-base da PEC dos Precatórios em segundo turno, por 323 votos a 172", "url": "https://www.infomoney.com.br/politica/camara-aprova-texto-base-da-pec-dos-precatorios-em-segundo-turno-por-323-votos-a-172/", "date": "2021-11-09" }
+      ]
+    },
+    {
+      "id": "bolsonaro-pec-kamikaze",
+      "date": "2022-07-14",
+      "title": "PEC \"Kamikaze\" libera R$ 41 bilhões em ano eleitoral",
+      "summary": "O Congresso promulgou a PEC que reconheceu estado de emergência até 31 de dezembro de 2022, permitindo cerca de R$ 41 bilhões em gastos fora do teto a três meses da eleição. O texto elevou o Auxílio Brasil de R$ 400 para R$ 600, ampliou o vale-gás e criou auxílios a caminhoneiros e taxistas; o estado de emergência foi usado para contornar a vedação da lei eleitoral a novos benefícios em ano de eleição.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Cerca de R$ 41,25 bilhões fora do teto de gastos, com benefícios válidos apenas até o fim de 2022; aprovada por 469 a 17 na Câmara e 67 a 1 no Senado.",
+      "sources": [
+        { "outlet": "InfoMoney", "title": "Congresso promulga PEC que decreta emergência para ampliar benefícios", "url": "https://www.infomoney.com.br/politica/congresso-promulga-pec-que-decreta-emergencia-para-ampliar-beneficios/", "date": "2022-07-14" },
+        { "outlet": "Agência Brasil", "title": "Congresso promulga a PEC que estabelece estado de emergência no Brasil", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2022-07/congresso-promulga-pec-que-estabelece-estado-de-emergencia-no-brasil", "date": "2022-07-14" },
+        { "outlet": "CNN Brasil", "title": "Autor da \"PEC Kamikaze\" diz que proposta é \"minimizar impactos\" em combustíveis", "url": "https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/autor-da-pec-kamikaze-diz-que-proposta-e-minimizar-impactos-em-combustiveis/", "date": "2022-07-01" }
+      ]
+    },
+    {
+      "id": "bolsonaro-teto-icms",
+      "date": "2022-06-23",
+      "title": "Teto do ICMS sobre combustíveis e energia",
+      "summary": "Foi sancionada a Lei Complementar 194/2022, que classificou combustíveis, energia elétrica, comunicações e transporte coletivo como essenciais, impedindo alíquotas de ICMS acima da alíquota geral (cerca de 17%). A medida reduziu preços ao consumidor às vésperas da eleição, mas o presidente vetou a compensação aos estados pela perda de arrecadação, gerando disputa federativa.",
+      "impact": "misto",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "LC 194/2022 limitou o ICMS desses itens à alíquota geral (17% na maioria dos estados); nove trechos vetados, incluindo a compensação aos estados.",
+      "sources": [
+        { "outlet": "Agência Câmara", "title": "Bolsonaro sanciona lei que limita ICMS de combustíveis, mas veta compensação a estados", "url": "https://www.camara.leg.br/noticias/890296-BOLSONARO-SANCIONA-LEI-QUE-LIMITA-ICMS-DE-COMBUSTIVEIS,-MAS-VETA-COMPENSACAO-A-ESTADOS", "date": "2022-06-24" },
+        { "outlet": "Fenacon", "title": "Bolsonaro sanciona lei que limita ICMS de combustíveis, mas veta compensação a estados", "url": "https://fenacon.org.br/noticias/bolsonaro-sanciona-lei-que-limita-icms-de-combustiveis-mas-veta-compensacao-a-estados/", "date": "2022-06-24" }
+      ]
+    },
+    {
+      "id": "bolsonaro-eletrobras",
+      "date": "2022-06-09",
+      "title": "Privatização da Eletrobras",
+      "summary": "A Eletrobras foi desestatizada por meio de oferta de ações na B3 que movimentou R$ 33,7 bilhões, reduzindo a participação da União e do BNDES para cerca de 35%. Defensores destacam a maior operação de desestatização em duas décadas e a capacidade de investimento da empresa; críticos questionam a perda de controle estatal sobre ativo estratégico e condições incluídas na lei de capitalização.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Oferta de R$ 33,7 bilhões a R$ 42 por ação; maior operação da B3 desde a capitalização da Petrobras em 2012.",
+      "sources": [
+        { "outlet": "Poder360", "title": "Bolsonaro privatiza Eletrobras por R$ 33,7 bilhões", "url": "https://www.poder360.com.br/economia/bolsonaro-privatiza-eletrobras-por-r-337-bilhoes/", "date": "2022-06-09" },
+        { "outlet": "Diário do Nordeste", "title": "Eletrobras é privatizada com oferta de R$ 33,7 bilhões na Bolsa", "url": "https://diariodonordeste.verdesmares.com.br/negocios/eletrobras-e-privatizada-com-oferta-de-r-337-bilhoes-na-bolsa-1.3242098", "date": "2022-06-09" }
+      ]
+    },
+    {
+      "id": "bolsonaro-mercosul-ue",
+      "date": "2019-06-28",
+      "title": "Conclusão política do acordo Mercosul-União Europeia",
+      "summary": "Após cerca de duas décadas de negociação, Mercosul e União Europeia anunciaram em Bruxelas a conclusão política do acordo comercial, abrangendo tarifas, serviços, compras governamentais e propriedade intelectual. O texto, porém, não foi assinado nem ratificado durante o mandato, travado em parte por preocupações europeias com o desmatamento.",
+      "impact": "misto",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "Acordo político anunciado em 28/06/2019, sem assinatura ou ratificação até o fim de 2022.",
+      "sources": [
+        { "outlet": "Governo Federal (via Poder360)", "title": "Factsheet sobre Acordo MERCOSUL UE 2019 06 28", "url": "https://static.poder360.com.br/2019/06/Factsheet-sobre-Acordo-MERCOSUL-UE-2019-06-28.pdf", "date": "2019-06-28" }
+      ]
+    },
+    {
+      "id": "bolsonaro-fundo-amazonia",
+      "date": "2019-08-15",
+      "title": "Noruega e Alemanha congelam repasses ao Fundo Amazônia",
+      "summary": "A Noruega suspendeu cerca de R$ 133 milhões ao Fundo Amazônia após o governo extinguir o comitê orientador do fundo (Cofa) e diante da alta do desmatamento; a Alemanha bloqueou € 35 milhões em projetos ambientais. O presidente reagiu com críticas públicas aos dois países, e o fundo ficou paralisado durante o mandato.",
+      "impact": "negativo",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "Suspensão de 300 milhões de coroas norueguesas (mais de R$ 130 milhões) e bloqueio alemão de € 35 milhões em agosto de 2019.",
+      "sources": [
+        { "outlet": "Poder360", "title": "Noruega congela repasse de verbas ao Fundo Amazônia", "url": "https://www.poder360.com.br/governo/noruega-congela-repasse-de-verbas-ao-fundo-amazonia/", "date": "2019-08-15" },
+        { "outlet": "Exame", "title": "Estados querem negociar diretamente com países doadores do Fundo Amazônia", "url": "https://exame.com/brasil/estados-querem-negociar-diretamente-com-paises-doadores-do-fundo-amazonia/", "date": "2019-08-19" }
+      ]
+    },
+    {
+      "id": "bolsonaro-desmatamento",
+      "date": "2021-11-18",
+      "title": "Desmatamento na Amazônia atinge maior nível desde 2006",
+      "summary": "O Prodes/Inpe estimou 13.235 km² de desmatamento na Amazônia Legal entre agosto de 2020 e julho de 2021, alta de 21,97% sobre o período anterior e a maior taxa desde 2006. Foi o terceiro aumento anual consecutivo sob o governo; o Ministério do Meio Ambiente afirmou que o dado não refletia suas ações recentes.",
+      "impact": "negativo",
+      "area": "meio-ambiente",
+      "weight": 3,
+      "evidence": "Inpe/Prodes 2021: 13.235 km², +21,97% sobre os 10.851 km² de 2020.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Inpe: desmatamento na Amazônia Legal tem aumento de 21,97% em 2021", "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2021-11/desmatamento-na-amazonia-legal-tem-aumento-de-2197-em-2021", "date": "2021-11-18" },
+        { "outlet": "CNN Brasil", "title": "Dados de desmatamento não refletem a atuação do governo, diz ministério", "url": "https://www.cnnbrasil.com.br/nacional/dados-de-desmatamento-nao-refletem-a-atuacao-do-governo-diz-ministerio/", "date": "2021-11-18" }
+      ]
+    },
+    {
+      "id": "bolsonaro-covid",
+      "date": "2022-12-10",
+      "title": "Gestão da pandemia: cerca de 690 mil mortes e atraso nas vacinas",
+      "summary": "Até o fim do mandato, o Brasil registrou cerca de 690 mil mortes por covid-19. Documentos obtidos pela CPI mostraram que o governo deixou sem resposta ofertas e e-mails da Pfizer em 2020 (o Ministério da Saúde alegou preço e cláusulas contratuais), e a vacinação só começou em janeiro de 2021. A CPI da Pandemia aprovou relatório pedindo o indiciamento do presidente — conclusão de caráter político, que não resultou em denúncia.",
+      "impact": "negativo",
+      "area": "saude",
+      "weight": 3,
+      "evidence": "Ministério da Saúde: 690.747 mortes acumuladas em 10/12/2022; 10 e-mails da Pfizer sem resposta entre 14/08 e 12/09/2020, segundo documentos da CPI.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Brasil registra 70 mortes e 39 mil novos casos de covid-19 em 24h", "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2022-12/brasil-registra-70-mortes-e-39-mil-novos-casos-de-covid-19-em-24h", "date": "2022-12-10" },
+        { "outlet": "Poder360", "title": "Governo ignorou 10 e-mails da Pfizer em 1 mês, mostram documentos da CPI", "url": "https://www.poder360.com.br/governo/governo-ignorou-10-e-mails-da-pfizer-em-1-mes-mostram-documentos-da-cpi/", "date": "2021-06-01" },
+        { "outlet": "Senado Notícias", "title": "CPI da Pandemia aprova relatório final e pede indiciamento do presidente Jair Bolsonaro", "url": "https://www12.senado.leg.br/noticias/videos/2021/10/cpi-da-pandemia-aprova-relatorio-final-e-pede-indiciamento-do-presidente-jair-bolsonaro", "date": "2021-10-26" }
+      ]
+    },
+    {
+      "id": "bolsonaro-orcamento-secreto",
+      "date": "2022-12-19",
+      "title": "STF declara inconstitucional o \"orçamento secreto\"",
+      "summary": "Por 6 votos a 5, o STF declarou inconstitucionais as emendas de relator (RP9), usadas de 2020 a 2022 para distribuir verbas a parlamentares sem identificação do autor, em acordo entre o governo e a base no Congresso. A Corte entendeu que o mecanismo violava transparência, publicidade e impessoalidade e determinou a divulgação dos dados das despesas.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 3,
+      "evidence": "Decisão do STF por 6 a 5; determinação de publicar em 90 dias os dados de obras, serviços e compras feitos com as emendas entre 2020 e 2022.",
+      "sources": [
+        { "outlet": "Diário do Nordeste", "title": "STF decide por inconstitucionalidade do orçamento secreto", "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/stf-forma-maioria-e-considera-orcamento-secreto-inconstitucional-1.3314025", "date": "2022-12-19" },
+        { "outlet": "Jornal Opção", "title": "STF derruba orçamento secreto, sem considerar mudanças feitas pelo Congresso", "url": "https://www.jornalopcao.com.br/justica/stf-derruba-orcamento-secreto-sem-considerar-mudancas-feitas-pelo-congresso-450295/", "date": "2022-12-19" }
+      ]
+    },
+    {
+      "id": "bolsonaro-embaixadores",
+      "date": "2022-07-18",
+      "title": "Reunião com embaixadores contra as urnas eletrônicas",
+      "summary": "No Palácio da Alvorada, com transmissão pela TV Brasil, o presidente reuniu embaixadores estrangeiros e questionou, sem apresentar provas, a segurança das urnas eletrônicas; o TSE rebateu as alegações. Em junho de 2023, o TSE declarou Bolsonaro inelegível até 2030 por abuso de poder político e uso indevido dos meios de comunicação.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "TSE, por 5 votos a 2, declarou a inelegibilidade por oito anos em razão da reunião.",
+      "sources": [
+        { "outlet": "Gazeta do Povo", "title": "Bolsonaro questiona segurança do sistema eleitoral brasileiro em reunião com embaixadores", "url": "https://www.gazetadopovo.com.br/eleicoes/2022/bolsonaro-questiona-seguranca-do-sistema-eleitoral-brasileiro-reuniao-embaixadores/", "date": "2022-07-18" },
+        { "outlet": "InfoMoney", "title": "TSE torna Bolsonaro inelegível até 2030 por abuso de poder político em reunião com embaixadores", "url": "https://www.infomoney.com.br/politica/tse-forma-maioria-e-torna-bolsonaro-inelegivel-ate-2030-por-abuso-de-poder-politico-em-reuniao-com-embaixadores/amp/", "date": "2023-06-30" },
+        { "outlet": "Poder360", "title": "TSE forma maioria pela inelegibilidade de Bolsonaro", "url": "https://www.poder360.com.br/justica/tse-forma-maioria-pela-inelegibilidade-de-bolsonaro/", "date": "2023-06-30" }
+      ]
+    },
+    {
+      "id": "bolsonaro-mec-pastores",
+      "date": "2022-06-22",
+      "title": "Ex-ministro da Educação preso no caso dos pastores do MEC",
+      "summary": "A Polícia Federal prendeu o ex-ministro da Educação Milton Ribeiro na operação Acesso Pago, que investiga tráfico de influência e corrupção na liberação de recursos do FNDE intermediada por pastores sem cargo público. Ribeiro havia deixado o cargo em março de 2022, após a revelação do chamado gabinete paralelo; ele negou favorecimento e disse seguir critérios técnicos.",
+      "impact": "negativo",
+      "area": "educacao",
+      "weight": 2,
+      "evidence": "Operação da PF com 5 mandados de prisão e 13 de busca e apreensão sobre a liberação de verbas do FNDE.",
+      "sources": [
+        { "outlet": "Agência Brasil", "title": "Ex-ministro da Educação, Milton Ribeiro, é preso pela Polícia Federal", "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2022-06/ex-ministro-da-educacao-milton-ribeiro-e-preso-pela-policia-federal", "date": "2022-06-22" },
+        { "outlet": "Exame", "title": "Quem é Milton Ribeiro, ex-ministro da Educação preso pela PF", "url": "https://exame.com/brasil/quem-e-milton-ribeiro-ex-ministro-da-educacao-preso-pela-pf/", "date": "2022-06-22" },
+        { "outlet": "CNN Brasil", "title": "Em março, Milton Ribeiro negou à CNN o favorecimento de pastores no MEC", "url": "https://www.cnnbrasil.com.br/politica/em-marco-milton-ribeiro-negou-a-cnn-o-favorecimento-de-pastores-no-mec/", "date": "2022-06-22" }
+      ]
+    },
+    {
+      "id": "bolsonaro-armas-violencia",
+      "date": "2022-12-01",
+      "title": "Flexibilização de armas e trajetória da violência",
+      "summary": "Decretos do governo flexibilizaram aquisição, registro e porte de armas, e o número de CACs (caçadores, atiradores e colecionadores) passou de 117 mil em 2018 para 783 mil em 2022, enquanto apreensões de armas caíram. As mortes violentas intencionais, que vinham caindo desde 2018, subiram 4% em 2020 e voltaram a cair depois; especialistas atribuem a variação sobretudo a dinâmicas estaduais e do crime organizado, e o efeito da política de armas segue em disputa.",
+      "impact": "misto",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Anuário Brasileiro de Segurança Pública: CACs de 117.467 (2018) para 783.385 (2022); 904,8 mil registros de armas liberados a CACs em quatro anos; MVI +7,1% no 1º semestre de 2020.",
+      "sources": [
+        { "outlet": "CNN Brasil", "title": "Brasil registrou aumento de CACs e armas de fogo em 2022; apreensões caíram", "url": "https://www.cnnbrasil.com.br/nacional/brasil-registrou-aumento-de-cacs-e-armas-de-fogo-em-2022-apreensoes-cairam/", "date": "2023-07-20" },
+        { "outlet": "Gazeta do Povo", "title": "Governo Bolsonaro liberou 904 mil registros para compra de armas", "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/governo-bolsonaro-liberou-904-mil-registros-para-compra-de-armas-26-armas-por-hora/", "date": "2023-01-01" },
+        { "outlet": "Agência Brasil", "title": "Número de mortes violentas aumenta 7,1% no 1º semestre, diz anuário", "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2020-10/numero-de-mortes-violentas-aumenta-71-no-1o-semestre-diz-anuario", "date": "2020-10-18" }
+      ]
+    }
+  ]
+}

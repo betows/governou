@@ -1,0 +1,389 @@
+{
+  "termId": "dilma2",
+  "events": [
+    {
+      "id": "dilma2-recessao-2015",
+      "date": "2016-03-03",
+      "title": "PIB recua 3,8% em 2015, maior queda da série iniciada em 1996",
+      "summary": "O IBGE divulgou que a economia encolheu 3,8% em 2015, com queda de 14,1% na formação bruta de capital fixo e de 6,2% na indústria. Foi a maior retração da série atual; na série ampliada, só fica atrás de 1990. Revisões posteriores do IBGE suavizaram a queda para cerca de 3,5%.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "PIB -3,8% em 2015 (divulgação inicial do IBGE), PIB per capita -4,6%, investimento -14,1%.",
+      "sources": [
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "Em 2015, PIB cai 3,8% e totaliza R$ 5,9 trilhões",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/9610-em-2015-pib-cai-3-8-e-totaliza-r-5-9-trilhoes",
+          "date": "2016-03-03"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "IBGE: PIB fecha 2015 com queda de 3,8%",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-03/ibge-pib-fecha-2015-com-queda-de-38",
+          "date": "2016-03-03"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-inflacao-2015",
+      "date": "2016-01-08",
+      "title": "Inflação de 2015 fecha em 10,67%, acima do teto da meta",
+      "summary": "O IPCA acumulou 10,67% em 2015, contra 6,41% em 2014, a maior taxa anual desde 2002. O resultado ficou 4,16 pontos percentuais acima do teto da meta de 6,5%, puxado em grande parte pela alta de preços administrados, como energia elétrica.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 3,
+      "evidence": "IPCA 2015 = 10,67%, maior desde 2002 (12,53%); teto da meta era 6,5%.",
+      "sources": [
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "In December, IPCA stays at 0.96% and closes 2015 at 10.67%",
+          "url": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/2185-news-agency/releases-en/15625-in-december-ipca-stays-at-0-96-and-closes-2015-at-10-67",
+          "date": "2016-01-08"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Inflação chega a 10,67% em 2015, maior índice desde 2002",
+          "url": "https://congressoemfoco.com.br/noticia/42907/inflacao-chega-a-1067-em-2015-maior-indice-desde-2002",
+          "date": "2016-01-08"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-desemprego-2015",
+      "date": "2016-03-01",
+      "title": "Desemprego sobe ao longo de 2015 e chega a 9% no 4º trimestre",
+      "summary": "A taxa de desocupação medida pela PNAD Contínua subiu de 7,9% no 1º trimestre para 9% no 4º trimestre de 2015, a maior da série iniciada em 2012. A média anual foi de 8,5%, ante 6,8% em 2014.",
+      "impact": "negativo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "Desocupação média de 8,5% em 2015 (6,8% em 2014); 9% no 4º trimestre.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Desemprego cresce e fecha 4º trimestre de 2015 em 9%",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-03/desemprego-cresce-e-fecha-4o-trimestre-de-2015-em-9",
+          "date": "2016-03-01"
+        },
+        {
+          "outlet": "IBGE Agência de Notícias",
+          "title": "PNAD Contínua mostra desocupação de 8,3% no 2º tri de 2015",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/9651-pnad-continua-mostra-desocupacao-de-8-3-no-2-tri-de-2015",
+          "date": "2015-08-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-ajuste-levy",
+      "date": "2015-05-22",
+      "title": "Ajuste fiscal de Joaquim Levy e contingenciamento de R$ 69,9 bilhões",
+      "summary": "O governo anunciou contingenciamento de R$ 69,9 bilhões no Orçamento de 2015 para buscar superávit primário de 1,2% do PIB, atingindo PAC, educação e saúde. A medida foi vista como sinal de compromisso fiscal, mas a queda de arrecadação e a resistência no Congresso fizeram a meta ser abandonada, e o ano terminou com déficit primário.",
+      "impact": "misto",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Corte de R$ 69,946 bi para meta de 1,2% do PIB; meta depois revista para déficit (estimativa oficial de R$ 48,9 bi sem as pedaladas).",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Contingenciamento de R$ 69,9 bilhões ajudará governo a atingir meta de superávit",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2015-05/cotingencimento-de-r-ajudara-governo-atingir-12-de-superavit-em-2015",
+          "date": "2015-05-22"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Governo corta R$69,9 bilhões, mas pode adotar mais medidas",
+          "url": "https://exame.com/economia/governo-corta-r-69-9-bilhoes-mas-pode-adotar-mais-medidas/",
+          "date": "2015-05-22"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Déficit primário será de R$48,9 bi em 2015, diz governo",
+          "url": "https://exame.com/economia/deficit-primario-sera-de-r-48-9-bi-em-2015-diz-governo/",
+          "date": "2015-10-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-perda-grau-investimento",
+      "date": "2015-09-09",
+      "title": "Brasil perde grau de investimento (S&P, depois Fitch e Moody's)",
+      "summary": "A Standard & Poor's rebaixou a nota soberana de BBB- para BB+ em 9/9/2015, citando a proposta de Orçamento de 2016 com déficit e menor convicção fiscal do governo. A Fitch seguiu em dezembro de 2015 e a Moody's em fevereiro de 2016, levando a nota a Ba2.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "S&P: BBB- para BB+ (09/09/2015); Moody's: Baa3 para Ba2 (24/02/2016), projetando dívida acima de 80% do PIB.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Standard&Poor's rebaixa Brasil e país perde grau de investimento",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2015-09/standardpoors-rebaixa-brasil-e-pais-perde-grau-de-investimento",
+          "date": "2015-09-09"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Agência Moody's retira grau de investimento do Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2016-02/agencia-moodys-retira-grau-de-investimento-do-brasil",
+          "date": "2016-02-24"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Brasil volta ao grau especulativo e crise alcança Levy",
+          "url": "https://exame.com/economia/brasil-volta-ao-grau-especulativo-e-crise-alcanca-levy",
+          "date": "2015-09-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-tcu-contas-2014",
+      "date": "2015-10-07",
+      "title": "TCU recomenda, por unanimidade, rejeição das contas de 2014",
+      "summary": "O Tribunal de Contas da União recomendou ao Congresso a rejeição das contas de 2014 do governo, apontando atrasos em repasses a bancos públicos (as chamadas pedaladas fiscais) e decretos de crédito suplementar sem autorização legislativa. Foi a primeira recomendação desse tipo desde 1937; o governo sustentava que as operações não eram empréstimos.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "Decisão unânime do plenário do TCU; primeira recomendação de rejeição de contas presidenciais desde 1937.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "TCU recomenda rejeição das contas de 2014 do governo Dilma",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-10/tcu-recomenda-rejeicao-das-contas-de-2014-do-governo-dilma",
+          "date": "2015-10-07"
+        },
+        {
+          "outlet": "Consultor Jurídico",
+          "title": "Decisão do TCU sobre contas do governo foi destaque da semana",
+          "url": "https://www.conjur.com.br/2015-out-10/decisao-tcu-contas-governo-foi-destaque-semana//?print=1",
+          "date": "2015-10-10"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-tarifaco-energia",
+      "date": "2015-03-01",
+      "title": "Revisão extraordinária e bandeiras elevam conta de luz em cerca de 50% em 2015",
+      "summary": "Após a redução artificial de tarifas de 2013, o governo autorizou revisão extraordinária em fevereiro de 2015 e aplicou bandeiras tarifárias, elevando a conta de luz em quase 50% no ano. A medida recompôs o equilíbrio financeiro das distribuidoras, mas foi o principal fator de pressão sobre a inflação de 2015.",
+      "impact": "misto",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Energia elétrica acumulou alta de 49,03% de janeiro a outubro de 2015 e respondeu por 1,44 p.p. do IPCA no período (IBGE).",
+      "sources": [
+        {
+          "outlet": "Tribuna PR",
+          "title": "Energia elétrica voltará a impactar IPCA em novembro, diz IBGE",
+          "url": "https://www.tribunapr.com.br/noticias/economia/energia-eletrica-voltara-a-impactar-ipca-em-novembro-diz-ibge/",
+          "date": "2015-11-01"
+        },
+        {
+          "outlet": "UOL (reprodução Instituto Acende Brasil)",
+          "title": "Ao contrário do que diz governo, luz mais cara veio para ficar",
+          "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20150331_PortalUOL_AoContrarioDoQueDizGovernoLuzMaisCaraVeioParaFicar.pdf",
+          "date": "2015-03-31"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-zika",
+      "date": "2015-11-11",
+      "title": "Emergência nacional por microcefalia associada ao vírus Zika",
+      "summary": "O Ministério da Saúde declarou Emergência em Saúde Pública de Importância Nacional (Portaria 1.813) após aumento de casos de microcefalia no Nordeste, e o Instituto Evandro Chagas isolou o vírus no cérebro de um recém-nascido. A rápida notificação levou a OMS a declarar emergência internacional em 2016; por outro lado, o combate ao Aedes aegypti não conteve a epidemia e o governo foi criticado por afirmar o nexo causal antes do consenso científico.",
+      "impact": "misto",
+      "area": "saude",
+      "weight": 2,
+      "evidence": "1.608 casos de microcefalia em 2015 (nove vezes a média dos 5 anos anteriores); 1.113 casos confirmados até abril de 2016.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Microcefalia associada ao vírus Zika assusta gestantes em todo país",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-12/microcefalia-causada-pelo-virus-zika-marcou-saude-brasileira-em-2015",
+          "date": "2015-12-01"
+        },
+        {
+          "outlet": "Casa Civil (gov.br)",
+          "title": "Estratégia de Resposta ao Vírus Zika",
+          "url": "https://www.gov.br/casacivil/pt-br/.arquivos/estrategia-de-resposta-ao-virus-zika.pdf/@@download/file",
+          "date": "2016-05-10"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-mariana",
+      "date": "2016-03-02",
+      "title": "Acordo com Samarco, Vale e BHP após rompimento da barragem de Mariana",
+      "summary": "Após o desastre de 5/11/2015, a União e os estados de MG e ES ajuizaram ação de R$ 20,2 bilhões contra as mineradoras e, em março de 2016, firmaram acordo que criou a Fundação Renova, com reparação estimada entre R$ 18 bi e R$ 26 bi. A homologação foi derrubada pelo TRF-1 em agosto de 2016 e o modelo foi criticado pela lentidão, sendo substituído por novo acordo homologado pelo STF em 2024.",
+      "impact": "misto",
+      "area": "meio-ambiente",
+      "weight": 2,
+      "evidence": "Ação civil pública de R$ 20,2 bi; acordo com custo estimado de R$ 18–26 bi; homologação anulada pelo TRF-1 em 2016.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "União, Minas Gerais e Espírito Santo vão processar Samarco e Vale em R$ 20 bi",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-11/uniao-minas-gera-e-espirito-santo-vao-processar-samarco-e-vale-em-r-20-bilhoes",
+          "date": "2015-11-01"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Samarco poderá desembolsar mais de R$ 20 bilhões por tragédia em Mariana",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2016-03/samarco-podera-desembolsar-mais-de-r-20-bilhoes-por-tragedia-em-mariana",
+          "date": "2016-03-02"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Acordo entre Samarco e governos para reparação de danos ainda aguarda Justiça",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-11/acordo-entre-samarco-e-governos-para-reparacao-de-danos-ainda-aguarda-decisao",
+          "date": "2016-11-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-desmatamento-2015",
+      "date": "2015-11-26",
+      "title": "Desmatamento na Amazônia volta a subir em 2015",
+      "summary": "Dados do Prodes/Inpe mostraram aumento do desmatamento na Amazônia Legal entre agosto de 2014 e julho de 2015. A estimativa inicial era de alta de 16%; o dado consolidado, divulgado em 2016, apontou 6.207 km², alta de 24%.",
+      "impact": "negativo",
+      "area": "meio-ambiente",
+      "weight": 2,
+      "evidence": "Prodes consolidado: 6.207 km² desmatados (+24% sobre o período anterior).",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Desmatamento na Amazônia Legal aumentou 16% em um ano, diz ministra",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-11/desmatamento-na-amazonia-legal-aumentou-16-em-um-ano-diz-ministra",
+          "date": "2015-11-26"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Desmatamento na Amazônia sobe 24% em 2015, mostram dados do Inpe",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-10/desmatamento-na-amazonia-sobe-24-em-2015-mostram-dados-do-inpe",
+          "date": "2016-10-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-ndc-paris",
+      "date": "2015-09-27",
+      "title": "Brasil anuncia na ONU meta absoluta de corte de emissões para o Acordo de Paris",
+      "summary": "Na ONU, Dilma Rousseff apresentou a contribuição brasileira ao Acordo de Paris: redução de 37% das emissões de gases de efeito estufa até 2025 e indicação de 43% até 2030, ambas em relação a 2005. O Brasil foi um dos poucos países em desenvolvimento a adotar meta absoluta; Dilma assinou o acordo em Nova York em abril de 2016.",
+      "impact": "positivo",
+      "area": "relacoes-exteriores",
+      "weight": 2,
+      "evidence": "Meta de -37% em 2025 e -43% (indicativa) em 2030 sobre os níveis de 2005.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Meta do Brasil é reduzir emissão de gases em 43% até 2030, anuncia Dilma",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-09/meta-do-brasil-e-reduzir-emissao-de-gases-em-43-ate-2030-anuncia-dilma",
+          "date": "2015-09-27"
+        },
+        {
+          "outlet": "Ministério do Meio Ambiente (gov.br)",
+          "title": "Brasil reduzirá 43% das emissões até 2030",
+          "url": "https://www.gov.br/mma/pt-br/noticias/noticia-acom-2015-09-1163",
+          "date": "2015-09-27"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Dilma: sem redução da pobreza, será impossível combater mudanças do clima",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2016-04/dilma-sem-reducao-da-pobreza-nao-sera-possivel-vencer-combate-mudanca",
+          "date": "2016-04-22"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-lei-feminicidio",
+      "date": "2015-03-09",
+      "title": "Sanção da Lei do Feminicídio (Lei 13.104/2015)",
+      "summary": "A presidente sancionou lei que inclui o feminicídio como qualificadora do homicídio e o classifica como crime hediondo, com aumento de pena em casos como gestação ou vítima menor de 14 anos. O texto veio de recomendação da CPMI da Violência contra a Mulher.",
+      "impact": "positivo",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Lei 13.104/2015: feminicídio passa a ser homicídio qualificado e crime hediondo, com pena aumentada de 1/3 até a metade em situações específicas.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "Dilma sanciona lei que torna feminicídio hediondo e defende direitos da mulher",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-03/em-briga-de-marido-e-mulher-se-mete-colher-sim-defende-dilma",
+          "date": "2015-03-09"
+        },
+        {
+          "outlet": "Casa Civil (gov.br)",
+          "title": "Sancionada lei que torna hediondo o crime de feminicídio",
+          "url": "https://www.gov.br/casacivil/pt-br/assuntos/noticias/2015/marco/presidenta-sanciona-lei-que-torna-hediondo-o-crime-de-feminicidio",
+          "date": "2015-03-09"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-lei-inclusao",
+      "date": "2015-07-06",
+      "title": "Sanção da Lei Brasileira de Inclusão da Pessoa com Deficiência",
+      "summary": "Foi sancionada a Lei 13.146/2015 (Estatuto da Pessoa com Deficiência), após mais de uma década de tramitação, consolidando direitos de acessibilidade, educação inclusiva e trabalho. A presidente vetou sete pontos, entre eles a cota para empresas de 50 a 99 empregados.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 2,
+      "evidence": "Lei 13.146/2015, em vigor 180 dias após a publicação; sete vetos.",
+      "sources": [
+        {
+          "outlet": "Planalto",
+          "title": "Lei nº 13.146, de 6 de julho de 2015",
+          "url": "http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+          "date": "2015-07-06"
+        },
+        {
+          "outlet": "Agência Brasil",
+          "title": "Dilma veta sete pontos do Estatuto da Pessoa com Deficiência",
+          "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2015-07/dilma-veta-sete-pontos-do-estatuto-da-pessoa-com-deficiencia",
+          "date": "2015-07-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-lula-casa-civil",
+      "date": "2016-03-18",
+      "title": "STF suspende nomeação de Lula para a Casa Civil",
+      "summary": "Dilma nomeou o ex-presidente Lula ministro-chefe da Casa Civil em março de 2016. O ministro Gilmar Mendes, do STF, suspendeu a posse por entender que houve desvio de finalidade para deslocar investigações da Lava Jato ao Supremo; a defesa sustentava que a nomeação visava recompor a base aliada, e o plenário nunca julgou o mérito.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 1,
+      "evidence": "Liminar do STF de 18/03/2016 suspendeu a nomeação; Lula não assumiu o cargo até o afastamento de Dilma.",
+      "sources": [
+        {
+          "outlet": "Consultor Jurídico",
+          "title": "Gilmar Mendes suspende nomeação de Lula para a Casa Civil",
+          "url": "https://www.conjur.com.br/2016-mar-18/gilmar-mendes-suspende-nomeacao-lula-casa-civil//?print=1",
+          "date": "2016-03-18"
+        },
+        {
+          "outlet": "Estado de Minas",
+          "title": "Posse de ex-presidente Lula deve ser julgada semana que vem, diz Gilmar",
+          "url": "https://www.em.com.br/app/noticia/politica/2016/04/05/interna_politica,750216/posse-de-ex-presidente-lula-deve-ser-julgada-semana-que-vem-diz-gilma.shtml",
+          "date": "2016-04-05"
+        }
+      ]
+    },
+    {
+      "id": "dilma2-impeachment",
+      "date": "2016-05-12",
+      "title": "Senado abre processo de impeachment e afasta Dilma Rousseff",
+      "summary": "A Câmara autorizou o processo por 367 votos a 137 em 17/4/2016 e o Senado o instaurou por 55 a 22 em 12/5/2016, afastando a presidente. A acusação baseou-se nas pedaladas fiscais e em decretos de crédito suplementar; a defesa e parte dos juristas contestaram a existência de crime de responsabilidade. A condenação definitiva ocorreu em 31/8/2016, por 61 a 20, mantidos os direitos políticos.",
+      "impact": "negativo",
+      "area": "institucional",
+      "weight": 3,
+      "evidence": "Câmara: 367 x 137; Senado (admissibilidade): 55 x 22; julgamento final: 61 x 20.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Senado abre processo de impeachment contra Dilma Rousseff",
+          "url": "https://www12.senado.leg.br/noticias/materias/2016/05/12/senado-abre-processo-de-impeachment-contra-dilma-rousseff",
+          "date": "2016-05-12"
+        },
+        {
+          "outlet": "Rádio Câmara",
+          "title": "Retrospectiva: 2016 fica marcado como o ano do impeachment de Dilma Rousseff",
+          "url": "https://www.camara.leg.br/radio/radioagencia/505701-retrospectiva-2016-fica-marcado-como-o-ano-do-impeachment-de-dilma-rousseff/",
+          "date": "2016-12-01"
+        }
+      ]
+    }
+  ]
+}

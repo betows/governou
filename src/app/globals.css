@@ -1,26 +1,91 @@
 @import "tailwindcss";
+@import "@fontsource-variable/inter-tight";
+@import "@fontsource/instrument-serif";
+@import "@fontsource/instrument-serif/400-italic.css";
+@import "@fontsource-variable/jetbrains-mono";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --bg: #f4f2ec;
+  --surface: #ffffff;
+  --surface-2: #ece9e1;
+  --ink: #0e1116;
+  --muted: #5b6270;
+  --line: #dfdbd1;
+  --accent: #1f5eff;
+  --accent-soft: #e3eaff;
+  --great: #16925a;
+  --good: #5e9f22;
+  --mid: #c98a06;
+  --bad: #dd5f22;
+  --awful: #d23434;
+  --none: #9aa1ad;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --bg: #0a0c10;
+    --surface: #12151c;
+    --surface-2: #191d26;
+    --ink: #eceef2;
+    --muted: #8d95a5;
+    --line: #232834;
+    --accent: #7aa2ff;
+    --accent-soft: #18213a;
+    --great: #34c07c;
+    --good: #8cc63f;
+    --mid: #f0b429;
+    --bad: #f07a3c;
+    --awful: #f05252;
+    --none: #5b6270;
   }
 }
 
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-great: var(--great);
+  --color-good: var(--good);
+  --color-mid: var(--mid);
+  --color-bad: var(--bad);
+  --color-awful: var(--awful);
+  --font-sans: "Inter Tight Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.grain {
+  background-image: radial-gradient(circle at 1px 1px, color-mix(in oklab, var(--ink) 9%, transparent) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .rise { animation: none; }
+  html { scroll-behavior: auto; }
 }

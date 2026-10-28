@@ -1,0 +1,898 @@
+{
+  "meta": {
+    "generated": "2026-10-28",
+    "note": "Todas as URLs foram vistas em resultados de busca. Itens com dateApprox=true têm data de checagem estimada (mês/ano do episódio), pois as páginas não puderam ser abertas para confirmar a data exata."
+  },
+  "factchecks": [
+    {
+      "id": "pix-taxacao-2025",
+      "claim": "Transferências via Pix acima de R$ 5.000 passarão a ser taxadas pela Receita Federal a partir de janeiro de 2025.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2025-01-10",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "A norma da Receita (IN 2219/2024) apenas ampliava a obrigação de bancos e fintechs informarem ao Fisco movimentações totais acima de R$ 5 mil por mês (pessoa física) ou R$ 15 mil (pessoa jurídica), sem discriminar cada transação ou o meio usado. Não criava imposto nem taxa sobre o Pix. Diante da onda de desinformação, o governo revogou a instrução normativa em 15 de janeiro de 2025.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que Pix acima de R$ 5.000 será taxado pela Receita Federal",
+          "url": "https://www.aosfatos.org/noticias/falso-pix-acima-de-5000-sera-taxado/",
+          "date": "2025-01-10"
+        }
+      ]
+    },
+    {
+      "id": "pix-imposto-275-2026",
+      "claim": "Governo vai cobrar imposto de 27,5% sobre Pix acima de R$ 5 mil a partir de janeiro de 2026.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2025-12-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Nenhuma lei ou norma cria cobrança sobre transferências Pix. A própria Receita Federal divulgou em outubro de 2025 que não monitora transações individuais de Pix. O percentual de 27,5% é a alíquota máxima do Imposto de Renda, que incide sobre renda (como pagamento por serviços), independentemente do meio de transferência.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Boatos.org",
+          "title": "Governo vai cobrar imposto de 27,5% em Pix acima de R$ 5 mil a partir de janeiro de 2026?",
+          "url": "https://www.boatos.org/politica/73865governo-vai-cobrar-imposto-de-275-em-pix-acima-de-r-5-mil-a-partir-de-janeiro-de-2026.html",
+          "date": "2025-12-15"
+        }
+      ]
+    },
+    {
+      "id": "lula-pib-3pct-desde-2010",
+      "claim": "A economia brasileira não cresceu acima de 3% desde 2010, fim do meu segundo mandato.",
+      "claimant": "Lula",
+      "about": [
+        "dilma1",
+        "bolsonaro"
+      ],
+      "date": "2026-10-23",
+      "verdict": "falso",
+      "explanation": "Segundo o IBGE, o PIB superou 3% depois de 2010: cresceu 3,9% em 2011 (governo Dilma) e também acima de 3% em 2021 e 2022 (governo Bolsonaro). A afirmação foi feita no debate da TV Globo do segundo turno de 2026.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "flavio-lula-30-impostos",
+      "claim": "Lula criou 30 novos impostos.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-23",
+      "verdict": "exagerado",
+      "explanation": "A contagem de 30 itens mistura diferentes tipos de medida tributária, como a reoneração da folha de pagamentos e mudanças de alíquotas, e não apenas criação de impostos novos. O governo de fato aumentou a arrecadação com medidas como a taxação de apostas e de fundos exclusivos, mas o número apresentado como 'novos impostos' infla o quadro.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "lula-salario-minimo-900",
+      "claim": "Sem a política de valorização, o salário mínimo hoje seria de cerca de R$ 900.",
+      "claimant": "Lula",
+      "about": [
+        "lula3",
+        "temer",
+        "bolsonaro"
+      ],
+      "date": "2026-10-23",
+      "verdict": "verdadeiro",
+      "explanation": "A estimativa do Aos Fatos para o valor do mínimo corrigido apenas pela inflação ficou em torno de R$ 852, ordem de grandeza compatível com a fala do presidente. A checadora classificou a afirmação como correta no debate da Globo do segundo turno.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "flavio-criminalidade-explodiu",
+      "claim": "A criminalidade explodiu no Brasil no governo Lula.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-18",
+      "verdict": "falso",
+      "explanation": "Os indicadores oficiais de violência não mostram explosão da criminalidade no período; o Aos Fatos classificou a afirmação feita no debate da Band como falsa. Os dados nacionais de mortes violentas intencionais vinham em tendência de queda.",
+      "topic": "seguranca",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "date": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "flavio-73pct-presidiarios-lula",
+      "claim": "73% dos presidiários votaram em Lula.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-18",
+      "verdict": "enganoso",
+      "explanation": "O Aos Fatos concluiu que o senador distorce uma informação ao atribuir a Lula o voto de 73% dos presidiários: o dado não representa o conjunto da população carcerária, já que a maioria dos presos (os condenados) tem os direitos políticos suspensos e não vota.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "date": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "divida-11-trilhoes",
+      "claim": "O governo atual vai deixar uma dívida pública de R$ 11 trilhões.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-18",
+      "verdict": "verdadeiro",
+      "explanation": "O Aos Fatos considerou correta a afirmação, feita no debate da Band, sobre o tamanho da dívida pública bruta ao fim do terceiro mandato de Lula, com base nos dados oficiais de endividamento do governo geral.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+          "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
+          "date": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "flavio-recorde-falencias",
+      "claim": "O Brasil vive recorde de falências de empresas no governo Lula.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Segundo o Aos Fatos, os dados disponíveis sobre pedidos e decretações de falência contrariam a ideia de recorde histórico; a checadora classificou a fala como mentirosa.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Na contramão dos dados, Flávio Bolsonaro mente ao falar em recorde de falências de empresas",
+          "url": "https://www.aosfatos.org/noticias/flavio-bolsonaro-mente-recorde-falencias-empresas/",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "flavio-casa-mulher-brasileira",
+      "claim": "Vou criar a Casa da Mulher Brasileira.",
+      "claimant": "Flávio Bolsonaro",
+      "about": [
+        "dilma2",
+        "lula3"
+      ],
+      "date": "2026-10-23",
+      "verdict": "enganoso",
+      "explanation": "A Casa da Mulher Brasileira já existe: o programa federal foi criado em 2015, no governo Dilma Rousseff, e tem unidades em funcionamento em várias capitais. Apresentá-lo como proposta nova omite essa informação.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos Flávio Bolsonaro e Lula no debate da Globo",
+          "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-lula-debate-globo/",
+          "date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "flavio-deepfake-cortes-beneficios",
+      "claim": "Flávio Bolsonaro anunciou em vídeo que vai acabar com Bolsa Família, BPC, aposentadorias, 13º e Pé-de-Meia.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-08",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O vídeo é um deepfake: as imagens vêm de um pronunciamento real do candidato, mas o áudio foi alterado com inteligência artificial. A gravação original não contém o anúncio de cortes, e a campanha negou essas propostas.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Vídeo em que Flávio anuncia cortes em pensões, 13º e Pé-de-Meia é ‘deepfake’",
+          "url": "https://www.aosfatos.org/noticias/flavio-cortes-pensoes-deepfake/",
+          "date": "2026-10-08"
+        },
+        {
+          "outlet": "Boatos.org",
+          "title": "Flávio Bolsonaro disse que vai acabar com o Bolsa Família, BPC, aposentadoria e Pé-de-Meia?",
+          "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-acabar-com-o-bolsa-familia-bpc-aposentadoria-e-pe-de-meia.html",
+          "date": "2026-10-08"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-preso-desacato",
+      "claim": "Jair Bolsonaro foi preso por desacato após o resultado das eleições e voltará para a Papuda.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2026-10-26",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O episódio envolveu outro homem, detido após discutir com policiais militares que fazem a guarda da casa do ex-presidente. Jair Bolsonaro segue em prisão domiciliar e não foi preso por desacato.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Jair Bolsonaro não foi preso por desacato após resultado das eleições",
+          "url": "https://www.aosfatos.org/noticias/jair-bolsonaro-nao-foi-preso-desacato/",
+          "date": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "stf-impediu-beneficios-bolsonaro",
+      "claim": "O STF impediu Bolsonaro de aumentar benefícios em ano eleitoral, mas deixou Lula reajustar o Bolsa Família.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro",
+        "lula3"
+      ],
+      "date": "2026-09-18",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "As medidas de 2022 (como o Auxílio Brasil de R$ 600) entraram em vigor em julho daquele ano e foram pagas durante a eleição. O STF só declarou inconstitucionais partes delas em agosto de 2024, quando já não produziam efeito eleitoral.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "STF não impediu aumento de benefícios por Bolsonaro em ano eleitoral",
+          "url": "https://www.aosfatos.org/noticias/stf-nao-impediu-aumento-beneficios-bolsonaro/",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-gasolina-mais-barata",
+      "claim": "Temos uma das gasolinas mais baratas do mundo.",
+      "claimant": "Jair Bolsonaro",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2022-10-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Segundo o site Global Petrol Prices, citado pelo Aos Fatos, o Brasil tinha à época a 31ª gasolina mais barata entre 168 países, a cerca de US$ 0,97 por litro, acima de vizinhos como Bolívia e Colômbia. O preço estava abaixo da média mundial, mas longe de estar entre os mais baixos.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Quais desinformações Lula, Bolsonaro, Ciro e Tebet repetiram durante a campanha",
+          "url": "https://www.aosfatos.org/noticias/quais-desinformacoes-lula-bolsonaro-ciro-e-tebet-repetiram-durante-a-campanha/",
+          "date": "2022-10-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-posse-desmatamento-80pct",
+      "claim": "Nos nossos governos reduzimos o desmatamento na Amazônia em mais de 80%.",
+      "claimant": "Lula",
+      "about": [
+        "lula2"
+      ],
+      "date": "2023-01-01",
+      "verdict": "exagerado",
+      "explanation": "Pelos dados do Prodes/Inpe, em 2010, último ano do segundo mandato de Lula, foram desmatados cerca de 7.000 km², uma redução de 72,4% em relação a 2002. Em outra fala de campanha, Lula citou 87%, mas a queda no período petista medida pelo Inpe foi de 71,3%. A redução foi grande, mas menor do que a anunciada.",
+      "topic": "meio-ambiente",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos o discurso de Lula no parlatório do Palácio do Planalto",
+          "url": "https://www.aosfatos.org/noticias/discurso-posse-lula-parlatorio-planalto/",
+          "date": "2023-01-01"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Lula, Bolsonaro e Ciro falseiam e distorcem informações sobre a Amazônia",
+          "url": "https://www.aosfatos.org/noticias/lula-bolsonaro-e-ciro-falseiam-e-distorcem-informacoes-sobre-a-amazonia/",
+          "date": "2022-09-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-onu-queda-desmatamento",
+      "claim": "Reduzimos pela metade o desmatamento na Amazônia.",
+      "claimant": "Lula",
+      "about": [
+        "lula3"
+      ],
+      "date": "2025-09-23",
+      "dateApprox": true,
+      "verdict": "verdadeiro",
+      "explanation": "Considerando o ano-calendário, o desmatamento detectado na Amazônia caiu cerca de 50%: de 10.278 km² em 2022 para 5.154 km² em 2023, segundo dados do Inpe citados pelo Aos Fatos na checagem do discurso na Assembleia Geral da ONU.",
+      "topic": "meio-ambiente",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos o discurso de Lula na Assembleia Geral da ONU",
+          "url": "https://www.aosfatos.org/noticias/checamos-discurso-lula-onu-2025/",
+          "date": "2025-09-23"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-amazonia-umida-nao-pega-fogo",
+      "claim": "A Floresta Amazônica, por ser úmida, não pega fogo; as queimadas de 2019 ficaram abaixo da média.",
+      "claimant": "Jair Bolsonaro",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2020-09-22",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Embora úmida, a floresta pode queimar e é pouco adaptada ao fogo, segundo especialistas consultados pelo Aos Fatos. Dados do Ipam e da Nasa indicavam que os focos ocorriam em áreas recém-desmatadas, e o número de queimadas de 2019 não ficou abaixo da média, ao contrário do que o presidente repetiu.",
+      "topic": "meio-ambiente",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "O que é e o que não é fato no discurso de Bolsonaro na abertura da Assembleia Geral da ONU",
+          "url": "https://www.aosfatos.org/noticias/o-que-e-e-o-que-nao-e-fato-no-discurso-de-bolsonaro-na-abertura-da-assembleia-geral-da-onu/",
+          "date": "2020-09-22"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-vacina-aids",
+      "claim": "Relatórios do governo do Reino Unido mostram que vacinados contra a Covid-19 estão desenvolvendo Aids.",
+      "claimant": "Jair Bolsonaro",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2021-10-25",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Os relatórios britânicos nunca mencionam Aids; a alegação se baseava em uma coluna inventada sobre dados da Pfizer. A Sociedade Brasileira de Infectologia afirmou que não há relação conhecida entre vacinas contra a Covid-19 e Aids. A fala, feita em live em outubro de 2021, levou à abertura de inquérito no STF, e o Aos Fatos contou 575 declarações falsas de Bolsonaro sobre vacinas no mandato.",
+      "topic": "saude",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "'Exame' não caiu em contradição ao chamar de mentira fala de Bolsonaro sobre vacinas e Aids",
+          "url": "https://www.aosfatos.org/noticias/exame-nao-caiu-em-contradicao-ao-chamar-de-mentira-fala-de-bolsonaro-sobre-vacinas-e-aids/",
+          "date": "2021-10-25"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Indiciado por fraude em certificado de vacinação, Bolsonaro mentiu 575 vezes sobre vacinas durante mandato",
+          "url": "https://www.aosfatos.org/noticias/bolsonaro-mentiu-575-vezes-sobre-vacinas/",
+          "date": "2024-03-19"
+        }
+      ]
+    },
+    {
+      "id": "bolsonaro-fabricas-vacina-5g",
+      "claim": "Bolsonaro construiu secretamente indústrias de vacina e de tecnologia 5G no Brasil.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro"
+      ],
+      "date": "2023-01-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Não há registro de fábricas de vacinas ou de tecnologia 5G construídas 'secretamente' pelo governo Bolsonaro. Obras e contratos federais desse porte são públicos, e a produção nacional de vacinas contra a Covid-19 ficou a cargo de instituições como Fiocruz e Butantan.",
+      "topic": "saude",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Bolsonaro não construiu secretamente indústrias de vacina e de tecnologia 5G",
+          "url": "https://www.aosfatos.org/noticias/bolsonaro-nao-construiu-secretamente-industrias-de-vacina-e-de-tecnologia-5g/",
+          "date": "2023-01-15"
+        }
+      ]
+    },
+    {
+      "id": "lula-fim-bolsa-familia-pos-eleicao",
+      "claim": "Governo Lula vai acabar com o Bolsa Família depois das eleições de 2026.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-27",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Os posts usam uma reportagem da CNN Brasil de 16 de abril de 2025 que tratava da regra de transição para famílias que aumentam a renda, sem mencionar extinção. A mudança implementada em maio de 2025 não encerrou o programa.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que governo Lula avalia extinguir Bolsa Família",
+          "url": "https://www.aosfatos.org/noticias/governo-lula-extinguir-bolsa-familia/",
+          "date": "2026-10-27"
+        },
+        {
+          "outlet": "Boatos.org",
+          "title": "Lula vai acabar com o Bolsa Família após as eleições de 2026?",
+          "url": "https://www.boatos.org/politica/lula-vai-acabar-com-o-bolsa-familia-apos-as-eleicoes-de-2026.html",
+          "date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "gasolina-10-reais-pos-eleicao",
+      "claim": "Postos já vendem gasolina a R$ 10 após a vitória de Lula nas eleições de 2026.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-27",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O Boatos.org classificou a mensagem como falsa e a incluiu entre os conteúdos que reaproveitam imagens e notícias antigas após o segundo turno. Não houve reajuste que levasse o preço médio da gasolina a R$ 10.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Boatos.org",
+          "title": "Postos vendem gasolina a R$ 10 após vitória de Lula nas eleições de 2026?",
+          "url": "https://www.boatos.org/politica/postos-vendem-gasolina-a-r-10-apos-vitoria-de-lula-nas-eleicoes-de-2026.html",
+          "date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "lula-dilma-absolvida-pedaladas",
+      "claim": "A Justiça absolveu Dilma no caso das pedaladas fiscais.",
+      "claimant": "Lula",
+      "about": [
+        "dilma2"
+      ],
+      "date": "2023-08-25",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "O TRF-1 apenas manteve o arquivamento de uma ação de improbidade, sem julgar o mérito sobre se a ex-presidente cometeu ou não irregularidade. Especialistas ouvidos pelo Aos Fatos afirmam que não é correto, juridicamente, dizer que Dilma foi absolvida ou inocentada.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Lula engana ao dizer que Dilma foi absolvida no caso das ‘pedaladas fiscais’",
+          "url": "https://www.aosfatos.org/noticias/lula-engana-ao-dizer-dilma-foi-absolvida-pedaladas/",
+          "date": "2023-08-25"
+        }
+      ]
+    },
+    {
+      "id": "dilma-antecessores-pedalaram",
+      "claim": "Meus antecessores também fizeram as chamadas pedaladas fiscais.",
+      "claimant": "Dilma Rousseff",
+      "about": [
+        "dilma1"
+      ],
+      "date": "2016-04-15",
+      "dateApprox": true,
+      "verdict": "exagerado",
+      "explanation": "É verdade que FHC e Lula também atrasaram repasses a bancos públicos, mas Dilma omite a escala: o montante das operações em seu governo (cerca de R$ 33 bilhões) foi 35 vezes maior que o dos dois antecessores juntos (R$ 933 milhões), com pico no fim do primeiro mandato.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma omite ter 'pedalado' mais que Lula e FHC juntos",
+          "url": "https://www.aosfatos.org/noticias/dilma-omite-ter-pedalado-mais-que-lula-e-fhc/",
+          "date": "2016-04-15"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma 'pedalou' 35 vezes mais que Lula e FHC juntos",
+          "url": "https://www.aosfatos.org/noticias/dilma-pedalou-35-vezes-mais-que-lula-e-fhc-juntos/",
+          "date": "2016-04-15"
+        }
+      ]
+    },
+    {
+      "id": "dilma-governo-que-mais-reduziu-impostos",
+      "claim": "Meu governo foi o que mais reduziu impostos.",
+      "claimant": "Dilma Rousseff",
+      "about": [
+        "dilma1",
+        "dilma2"
+      ],
+      "date": "2015-06-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Segundo o Aos Fatos, a afirmação não encontra amparo nos dados do próprio governo nem em levantamentos internacionais. As desonerações do primeiro mandato existiram, mas não sustentam o título de governo que mais reduziu impostos.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma afirma que seu governo foi o que mais reduziu impostos, mas não é verdade",
+          "url": "https://www.aosfatos.org/noticias/dilma-afirma-que-seu-governo-foi-o-que-mais-reduzi/",
+          "date": "2015-06-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma-onu-2015-otimista",
+      "claim": "O Brasil tem condições de superar as dificuldades atuais.",
+      "claimant": "Dilma Rousseff",
+      "about": [
+        "dilma2"
+      ],
+      "date": "2015-09-28",
+      "verdict": "exagerado",
+      "explanation": "No discurso à Assembleia Geral da ONU em 2015, Dilma fez um balanço otimista da economia em plena recessão. O Aos Fatos avaliou que, sem a aprovação do pacote fiscal então travado no Congresso, a promessa de superar rapidamente as dificuldades era exageradamente otimista.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Dilma faz balanço otimista de clima e crise",
+          "url": "https://www.aosfatos.org/noticias/dilma-faz-balanco-otimista-de-clima-e-crise/",
+          "date": "2015-09-28"
+        }
+      ]
+    },
+    {
+      "id": "temer-nao-sacrificou-area-social",
+      "claim": "O governo não sacrificou em nada a área social.",
+      "claimant": "Michel Temer",
+      "about": [
+        "temer"
+      ],
+      "date": "2017-05-12",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Os orçamentos de Saúde e Educação subiram de 2016 para 2017, mas esses valores não consideravam o contingenciamento aplicado todo ano pelo Executivo. Com o teto de gastos (EC 95/2016), as despesas totais passaram a ser corrigidas apenas pela inflação, pressionando áreas sociais.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Checamos o balanço do primeiro ano de Temer na Presidência",
+          "url": "https://www.aosfatos.org/noticias/checamos-o-balanco-do-primeiro-ano-de-temer-na-presidencia/",
+          "date": "2017-05-12"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Veja tudo o que já checamos sobre Temer",
+          "url": "https://www.aosfatos.org/noticias/veja-tudo-o-que-ja-checamos-sobre-temer/",
+          "date": "2018-12-31"
+        }
+      ]
+    },
+    {
+      "id": "temer-mensagem-congresso-distorce",
+      "claim": "Mensagem presidencial ao Congresso apresenta avanços na economia, no meio ambiente e no Bolsa Família.",
+      "claimant": "Michel Temer",
+      "about": [
+        "temer"
+      ],
+      "date": "2018-02-02",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "O Aos Fatos apontou que a mensagem enviada por Temer na abertura do ano legislativo distorcia dados sobre economia, meio ambiente e Bolsa Família, apresentando números de forma seletiva para inflar o desempenho do governo.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Mensagem de Temer ao Congresso distorce dados sobre economia, ambiente e Bolsa Família",
+          "url": "https://www.aosfatos.org/noticias/mensagem-de-temer-ao-congresso-distorce-dados-sobre-economia-ambiente-e-bolsa-familia/",
+          "date": "2018-02-02"
+        }
+      ]
+    },
+    {
+      "id": "reforma-trabalhista-nao-criou-empregos",
+      "claim": "Não houve criação de empregos depois da reforma trabalhista.",
+      "claimant": "Parlamentares de oposição",
+      "about": [
+        "temer"
+      ],
+      "date": "2018-11-11",
+      "dateApprox": true,
+      "verdict": "exagerado",
+      "explanation": "Nos 12 meses após a entrada em vigor da reforma, o Caged registrou 15,34 milhões de admissões e 14,82 milhões de desligamentos formais, saldo positivo de 517.733 vagas. A taxa de desemprego da Pnad seguiu alta, e estudos posteriores divergem sobre o efeito da reforma; a promessa do governo Temer de mais de 6 milhões de empregos também nunca se comprovou.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "Oposição omite contexto ao relacionar reforma trabalhista e desemprego",
+          "url": "https://www.aosfatos.org/noticias/oposicao-omite-contexto-ao-relacionar-reforma-trabalhista-e-desemprego/",
+          "date": "2018-11-11"
+        },
+        {
+          "outlet": "Aos Fatos",
+          "title": "Fato e ficção em sete declarações sobre a reforma trabalhista",
+          "url": "https://www.aosfatos.org/noticias/fato-e-ficcao-em-seis-declaracoes-sobre-reforma-trabalhista/",
+          "date": "2017-12-01"
+        }
+      ]
+    },
+    {
+      "id": "33-milhoes-fome-hoje",
+      "claim": "Número de pessoas passando fome subiu para 33 milhões no governo Lula.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3",
+        "bolsonaro"
+      ],
+      "date": "2025-06-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O vídeo usado é uma reportagem do Jornal Nacional de junho de 2022, durante o governo Bolsonaro, sobre a pesquisa da Rede Penssan (33,1 milhões em insegurança alimentar grave). O dado mais recente do IBGE apontava 6,4 milhões de pessoas em insegurança alimentar grave em 2024.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que 33 milhões passam fome no Brasil hoje; reportagem do JN é antiga",
+          "url": "https://www.aosfatos.org/noticias/33-milhoes-passam-fome-brasil/",
+          "date": "2025-06-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-fome-mapa-33-milhoes",
+      "claim": "Tiramos o Brasil do Mapa da Fome em 2014 e, quando voltei, havia 33 milhões passando fome.",
+      "claimant": "Lula",
+      "about": [
+        "lula3",
+        "bolsonaro"
+      ],
+      "date": "2025-01-02",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "Lula compara indicadores diferentes: a saída do Mapa da Fome em 2014 se refere ao indicador de subalimentação da FAO/ONU, enquanto os 33 milhões vêm da pesquisa da Rede Penssan, baseada na escala Ebia de insegurança alimentar grave. O Aos Fatos listou a fala entre as desinformações mais repetidas por Lula em 2024; a Secom contestou a avaliação.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "No segundo ano de governo, Lula desinformou mais sobre fome e educação",
+          "url": "https://www.aosfatos.org/noticias/lula-2024-desinformou-fome-educacao/",
+          "date": "2025-01-02"
+        }
+      ]
+    },
+    {
+      "id": "osso-de-patinho-crise-lula",
+      "claim": "Osso de patinho começou a ser vendido por causa da crise no governo Lula.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-03-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O osso de patinho é comercializado no varejo há mais de dez anos e não surgiu por crise econômica. Além disso, o preço da carne caiu cerca de 10% no primeiro ano do mandato, segundo o Projeto Comprova.",
+      "topic": "economia",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "É falso que osso de patinho tenha começado a ser comercializado por conta de suposta crise no governo Lula",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/e-falso-que-osso-de-patinho-tenha-comecado-a-ser-comercializado-por-conta-de-suposta-crise-no-governo-lula/",
+          "date": "2024-03-01"
+        }
+      ]
+    },
+    {
+      "id": "bndes-desvio-716-bilhoes",
+      "claim": "Governo Lula desviou R$ 716 bilhões por meio de empréstimos do BNDES.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula2",
+        "dilma1"
+      ],
+      "date": "2022-09-01",
+      "dateApprox": true,
+      "verdict": "enganoso",
+      "explanation": "Segundo o BNDES, o banco recebeu R$ 570 bilhões em recursos do Tesouro entre 2008 e 2014, valor diferente do citado. Os aportes foram empréstimos registrados e com retorno ao Tesouro, e o volume em si não comprova desvio, como sugeria o vídeo.",
+      "topic": "corrupcao",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "Vídeo engana sobre empréstimos do BNDES no governo Lula",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/video-engana-sobre-emprestimos-do-bndes-no-governo-lula/",
+          "date": "2022-09-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-audio-vazado-uniao-falida",
+      "claim": "Áudio vazado mostra Lula admitindo que a União está falida.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "dilma2",
+        "lula3"
+      ],
+      "date": "2023-03-01",
+      "dateApprox": true,
+      "verdict": "sem-contexto",
+      "explanation": "As declarações não foram vazadas: são públicas e foram feitas em 2016, quando Lula criticava a política de desonerações do governo Dilma. Circularam sem data, como se fossem uma avaliação atual sobre as contas do governo.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "Declarações \"vazadas\" de Lula sobre crise econômica são públicas e foram feitas em 2016",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/declaracoes-vazadas-de-lula-sobre-crise-economica-sao-publicas-e-foram-feitas-em-2016/",
+          "date": "2023-03-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-divida-com-uniao",
+      "claim": "Lula e o Instituto Lula têm dívidas com a União.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula2"
+      ],
+      "date": "2022-10-01",
+      "dateApprox": true,
+      "verdict": "verdadeiro",
+      "explanation": "As dívidas existem, mas o Comprova ressalta que as cobranças estão sendo questionadas na Justiça após a anulação dos processos da Lava Jato contra Lula. Trata-se de débito pessoal e do instituto, não de dívida pública.",
+      "topic": "corrupcao",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova",
+          "title": "Dívida de Lula com a União é real, mas questionada na Justiça após anulação de processos da Lava Jato",
+          "url": "https://projetocomprova.com.br/publica%C3%A7%C3%B5es/divida-de-lula-com-a-uniao-e-real-mas-questionada-na-justica-apos-anulacao-de-processos-da-lava-jato/",
+          "date": "2022-10-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-reduzir-salario-minimo-2025",
+      "claim": "Lula vai reduzir o salário mínimo em 2025.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-12-10",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O pacote fiscal de fim de 2024 limitou o ganho real do salário mínimo ao teto de crescimento do arcabouço fiscal, mas não previa redução nominal. O mínimo subiu de R$ 1.412 para R$ 1.518 em janeiro de 2025.",
+      "topic": "social",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova (via SBT News)",
+          "title": "Falso: é falso post que afirma que Lula vai reduzir o salário mínimo em 2025",
+          "url": "https://sbtnews.sbt.com.br/noticia/comprova/falso-e-falso-post-que-afirma-que-lula-vai-reduzir-o-salario-minimo-em-2025",
+          "date": "2024-12-10"
+        }
+      ]
+    },
+    {
+      "id": "haddad-sem-novos-impostos",
+      "claim": "O governo Lula não criou nenhum imposto novo.",
+      "claimant": "Fernando Haddad",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-06-01",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O governo instituiu a tributação de apostas esportivas online, mudou a tributação de fundos exclusivos e offshores e criou imposto temporário sobre exportação de petróleo por medida provisória. A checagem considerou corretos outros trechos, como os relativos ao novo arcabouço fiscal.",
+      "topic": "fiscal",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "No Roda Viva, Haddad desinforma ao dizer que governo Lula não criou novos impostos",
+          "url": "https://www.aosfatos.org/noticias/checamos-haddad-roda-viva/",
+          "date": "2024-06-01"
+        }
+      ]
+    },
+    {
+      "id": "lula-asilo-maduro",
+      "claim": "Lula anunciou asilo político a Nicolás Maduro e disse que 'o protegerá a qualquer custo'.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-01-10",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Não há registro de declaração do tipo na imprensa nem nos canais oficiais do governo, e a Secom negou a informação. O áudio usado nas publicações foi gerado por inteligência artificial.",
+      "topic": "institucional",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que Lula anunciou asilo político a Maduro e disse que ‘o protegerá a qualquer custo’",
+          "url": "https://www.aosfatos.org/noticias/e-falso-que-lula-anunciou-asilo-politico-a-maduro-e-disse-que-o-protegera-a-qualquer-custo/",
+          "date": "2026-01-10"
+        },
+        {
+          "outlet": "Boatos.org",
+          "title": "Lula vai dar asilo político a Nicolás Maduro?",
+          "url": "https://www.boatos.org/politica/lula-vai-dar-asilo-politico-a-nicolas-maduro.html",
+          "date": "2026-01-10"
+        }
+      ]
+    },
+    {
+      "id": "lula-criticou-urna-venezuela",
+      "claim": "Lula criticou a urna eletrônica brasileira.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2024-08-05",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O trecho que circula foi editado. Na entrevista original, Lula cobrava a divulgação das atas eleitorais da eleição na Venezuela, sem pôr em dúvida o sistema de votação brasileiro.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Aos Fatos",
+          "title": "É falso que Lula criticou urna eletrônica ao cobrar divulgação de atas eleitorais na Venezuela",
+          "url": "https://www.aosfatos.org/noticias/falso-lula-criticou-urna-eletronica-atas-eleitorais-venezuela/",
+          "date": "2024-08-05"
+        }
+      ]
+    },
+    {
+      "id": "plano-lula-cpmf-pix-2022",
+      "claim": "Plano de governo de Lula prevê nova CPMF, tributação do Pix e congelamento da poupança.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "bolsonaro",
+        "lula3"
+      ],
+      "date": "2022-09-15",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "O plano de governo registrado no TSE pela candidatura de Lula em 2022 não propõe nova CPMF, tributação do Pix nem congelamento da poupança. O boato antecipou o tema que voltaria a circular em janeiro de 2025.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Projeto Comprova (via CNN Brasil)",
+          "title": "Plano de governo de Lula não propõe medidas como nova CPMF e tributação do Pix",
+          "url": "https://www.cnnbrasil.com.br/nacional/plano-de-governo-de-lula-nao-propoe-medidas-como-nova-cpmf-e-tributacao-do-pix/",
+          "date": "2022-09-15"
+        }
+      ]
+    },
+    {
+      "id": "flavio-ameaca-desistir-debate-checagem",
+      "claim": "Flávio Bolsonaro disse que vai desistir do debate da Globo se houver checagem de fatos em tempo real.",
+      "claimant": "Posts em redes sociais",
+      "about": [
+        "lula3"
+      ],
+      "date": "2026-10-20",
+      "dateApprox": true,
+      "verdict": "falso",
+      "explanation": "Não há declaração pública de Flávio Bolsonaro com essa ameaça. O fato verificável é que a campanha de Lula pediu à Globo checagem em tempo real, o que foi confirmado pelo coordenador da campanha petista.",
+      "topic": "eleicoes",
+      "sources": [
+        {
+          "outlet": "Boatos.org",
+          "title": "Flávio Bolsonaro disse que vai desistir de debate da Globo se houver checagem de fatos em tempo real?",
+          "url": "https://www.boatos.org/politica/flavio-bolsonaro-disse-que-vai-desistir-de-debate-da-globo-se-houver-checagem-de-fatos-em-tempo-real.html",
+          "date": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

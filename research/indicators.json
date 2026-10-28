@@ -1,0 +1,233 @@
+{
+  "generatedAt": "2026-10-28",
+  "indicators": [
+    {
+      "id": "pib",
+      "name": "Crescimento do PIB",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "IBGE – Contas Nacionais Trimestrais / Sistema de Contas Nacionais (Referência 2010)",
+      "sourceUrl": "https://www.ibge.gov.br/estatisticas/economicas/industria/9052-sistema-de-contas-nacionais-brasil.html",
+      "values": {
+        "2006": 4,
+        "2007": 6.1,
+        "2008": 5.1,
+        "2009": -0.1,
+        "2010": 7.5,
+        "2011": 4,
+        "2012": 1.9,
+        "2013": 3,
+        "2014": 0.5,
+        "2015": -3.5,
+        "2016": -3.3,
+        "2017": 1.3,
+        "2018": 1.8,
+        "2019": 1.2,
+        "2020": -3.3,
+        "2021": 4.8,
+        "2022": 3,
+        "2023": 3.2,
+        "2024": 3.4,
+        "2025": 2.3
+      },
+      "notes": "Latest revised IBGE series (Referência 2010). 2006 = 4.0 (revised; first releases said 2.9 old series / 3.7). 2014 first published as 0.1, revised to 0.5. 2016 revised -3.5 -> -3.3. 2018 first 1.1, revised 1.8. 2019 first 1.1/1.4, revised 1.2. 2020 first -4.1/-3.9, final -3.3. 2021 first 4.6, then 5.0, final 4.8 (Nov 2023). 2022 2.9 -> 3.0. 2023 2.9 -> 3.2 (confirmed final Nov 2025). 2024 (3.4) and 2025 (2.3, released 2026-03-03) are still quarterly-accounts estimates subject to revision. IBGE is preparing a new reference-2021 series (first results expected 2027-2028) that may revise the whole history. 2026 omitted: only Q1 2026 (+1.8% y/y) was confirmed in research; no annual figure exists.",
+      "yearSources": {
+        "2006": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/11610-asi-gdp-increased-by-40-and-reached-r-237-trillion-in-2006.html?lang=en-GB",
+        "2007": "https://infograficos.gazetadopovo.com.br/economia/pib-do-brasil/",
+        "2014": "https://infograficos.gazetadopovo.com.br/economia/pib-do-brasil/",
+        "2016": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/22966-revisao-do-pib-de-2016-mostra-queda-de-3-3-em-relacao-ao-ano-anterior",
+        "2019": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/32092-em-2019-pib-cresce-1-2-e-chega-a-r-7-4-trilhoes",
+        "2020": "https://agenciagov.ebc.com.br/noticias/202311/pib-cresce-4-8-e-totaliza-r-9-trilhoes-em-2021",
+        "2021": "https://agenciagov.ebc.com.br/noticias/202311/pib-cresce-4-8-e-totaliza-r-9-trilhoes-em-2021",
+        "2022": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-12/ibge-revisa-para-3-o-pib-de-2022",
+        "2023": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-11/ibge-confirma-crescimento-de-32-da-economia-em-2023",
+        "2024": "https://www.band.com.br/economia/noticias/pib-cresce-23-em-2025-202603030908",
+        "2025": "https://www.band.com.br/economia/noticias/pib-cresce-23-em-2025-202603030908"
+      }
+    },
+    {
+      "id": "ipca",
+      "name": "Inflação (IPCA)",
+      "unit": "% no ano",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Sistema Nacional de Índices de Preços ao Consumidor (IPCA)",
+      "sourceUrl": "https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9256-indice-nacional-de-precos-ao-consumidor-amplo.html",
+      "values": {
+        "2006": 3.14,
+        "2007": 4.46,
+        "2008": 5.9,
+        "2009": 4.31,
+        "2010": 5.91,
+        "2011": 6.5,
+        "2012": 5.84,
+        "2013": 5.91,
+        "2014": 6.41,
+        "2018": 3.75,
+        "2024": 4.83,
+        "2025": 4.26
+      },
+      "notes": "December-to-December accumulated IPCA (not revised). 2006-2014 confirmed against compiled tables of the IBGE/BCB SGS 433 series; 2018, 2024, 2025 confirmed in IBGE's Jan-2026 release coverage. 2015-2017 and 2019-2023 were NOT verified in this session (web-search budget exhausted) and are omitted; they should be filled from SIDRA/IBGE in a follow-up. 2026 omitted (year not closed).",
+      "yearSources": {
+        "2006": "https://www.numerando.com.br/indices/ipca/acumulado",
+        "2014": "https://www.numerando.com.br/indices/ipca/acumulado",
+        "2018": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html",
+        "2024": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html",
+        "2025": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025.html"
+      }
+    },
+    {
+      "id": "desemprego",
+      "name": "Taxa de desemprego (PNAD Contínua)",
+      "unit": "% média anual",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – PNAD Contínua",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Series starts 2012.",
+      "yearSources": {}
+    },
+    {
+      "id": "desemprego_pme",
+      "name": "Taxa de desemprego (PME, 6 regiões metropolitanas)",
+      "unit": "% média anual",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Pesquisa Mensal de Emprego",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Different series from PNAD Contínua; not comparable. Covers 2006-2011 (PME discontinued Feb 2016).",
+      "yearSources": {}
+    },
+    {
+      "id": "selic",
+      "name": "Meta Selic no fim do ano",
+      "unit": "% a.a.",
+      "higherIsBetter": false,
+      "officialSource": "BCB – Copom",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "divida_bruta",
+      "name": "Dívida Bruta do Governo Geral",
+      "unit": "% do PIB, dez.",
+      "higherIsBetter": false,
+      "officialSource": "BCB – Estatísticas Fiscais",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Current methodology from 2006/2008; earlier years use a different definition.",
+      "yearSources": {}
+    },
+    {
+      "id": "resultado_primario",
+      "name": "Resultado primário do setor público consolidado",
+      "unit": "% do PIB",
+      "higherIsBetter": true,
+      "officialSource": "BCB – Estatísticas Fiscais",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Positive = surplus.",
+      "yearSources": {}
+    },
+    {
+      "id": "salario_minimo_real",
+      "name": "Ganho real do salário mínimo",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "Decretos/MP do salário mínimo; deflator INPC (IBGE)",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "desmatamento",
+      "name": "Desmatamento na Amazônia Legal (PRODES)",
+      "unit": "km²",
+      "higherIsBetter": false,
+      "officialSource": "INPE – PRODES",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. PRODES year = Aug-Jul.",
+      "yearSources": {}
+    },
+    {
+      "id": "homicidios",
+      "name": "Taxa de homicídios",
+      "unit": "por 100 mil hab.",
+      "higherIsBetter": false,
+      "officialSource": "IPEA/FBSP – Atlas da Violência (SIM/DataSUS)",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "pobreza_extrema",
+      "name": "Extrema pobreza",
+      "unit": "% da população",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Síntese de Indicadores Sociais (linha Banco Mundial US$ 2,15/3,00 PPC)",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "gini",
+      "name": "Índice de Gini do rendimento domiciliar per capita",
+      "unit": "índice 0-1",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – PNAD / PNAD Contínua",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "cambio",
+      "name": "Câmbio R$/US$ (PTAX fim de ano)",
+      "unit": "R$ por US$",
+      "higherIsBetter": false,
+      "officialSource": "BCB – PTAX venda, último dia útil",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass.",
+      "yearSources": {}
+    },
+    {
+      "id": "ideb",
+      "name": "IDEB anos iniciais (rede pública)",
+      "unit": "índice 0-10",
+      "higherIsBetter": true,
+      "officialSource": "INEP/MEC",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Biennial.",
+      "yearSources": {}
+    },
+    {
+      "id": "pib_mundo",
+      "name": "Crescimento do PIB mundial",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "FMI – World Economic Outlook (edição mais recente)",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Requested late by coordinator; search budget already exhausted when request arrived.",
+      "yearSources": {}
+    },
+    {
+      "id": "pib_emergentes",
+      "name": "Crescimento do PIB – economias emergentes e em desenvolvimento",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "FMI – World Economic Outlook (EMDEs)",
+      "sourceUrl": null,
+      "values": {},
+      "notes": "NOT VERIFIED: the session's web-search budget (200 calls/turn, shared across agents) ran out and WebFetch cannot reach wikipedia/ibge/bcb/ipea hosts from this environment. No values entered rather than unverified ones. Needs a follow-up research pass. Requested late by coordinator; search budget already exhausted when request arrived.",
+      "yearSources": {}
+    }
+  ]
+}
