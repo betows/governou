@@ -1,0 +1,139 @@
+{
+  "indicators": [
+    {
+      "id": "desemprego",
+      "name": "Taxa de desocupação (PNAD Contínua, média anual)",
+      "unit": "%",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – PNAD Contínua (média anual da taxa de desocupação, Brasil)",
+      "sourceUrl": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45761-desocupacao-cai-para-5-1-em-dezembro-e-2025-tem-melhores-resultados-da-serie-historica.html",
+      "values": {
+        "2012": 7.4, "2013": 7.1, "2014": 6.9, "2015": 8.6, "2016": 11.5, "2017": 12.7, "2018": 12.3,
+        "2019": 12.0, "2020": 13.8, "2021": 13.2, "2022": 9.3, "2023": 7.8, "2024": 6.6, "2025": 5.6
+      },
+      "notes": "Mixed vintages: 2014, 2015, 2019-2025 are from IBGE releases after the 2021 reweighting of PNAD Contínua (e.g. 2014=6.9, 2015=8.6, 2020=13.8 as cited in the Feb/2023 IBGE release); 2012, 2013, 2016, 2017, 2018 are the values as first released (original weights: 2013=7.1, 2016=11.5, 2017=12.7, 2018=12.3; the original release also had 2014=6.8, 2015=8.5, 2020=13.5). Revised values for 2013/2016-2018 were not found and may differ by ~0.1-0.2 p.p. Search snippets also cited an IBGE 'retrospectiva 2012-2024' table (Feb/2025) with a different series (7.4, 7.3, 7.0, 8.9, 11.7, 12.6, 12.2, 11.8, 13.8, 14.0, 9.6, 7.8, 6.6), possibly reweighted to Censo 2022 projections; it could not be opened (IBGE hosts blocked) so it was not used. Recommend confirming the full series in SIDRA (table 4099/6381 annual) before publication.",
+      "yearSources": {
+        "2012": "https://www.folhavitoria.com.br/economia/taxa-media-de-desemprego-fica-em-7-1-em-2013-diz-ibge/",
+        "2013": "https://www.folhavitoria.com.br/economia/taxa-media-de-desemprego-fica-em-7-1-em-2013-diz-ibge/",
+        "2014": "https://congressoemfoco.com.br/noticia/19813/desemprego-cai-a-93-em-2022-menor-indice-desde-2015",
+        "2015": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/36351-taxa-media-de-desemprego-cai-a-9-3-em-2022-menor-patamar-desde-2015.html",
+        "2016": "https://www.jornaldocomercio.com/2018/01/economia/609466-taxa-de-desemprego-bate-recorde-em-2017.html",
+        "2017": "https://agenciabrasil.ebc.com.br/economia/noticia/2018-01/taxa-de-desemprego-no-pais-fecha-2017-em-127",
+        "2018": "https://www.bemparana.com.br/noticia/desemprego-medio-fecha-2018-em-123-em-ano-marcado-por-recorde-na-informalidade",
+        "2019": "https://www.correiobraziliense.com.br/economia/2022/02/4988062-ibge-desemprego-no-brasil-cai-para-111-no-quarto-trimestre.html",
+        "2020": "https://congressoemfoco.com.br/noticia/19813/desemprego-cai-a-93-em-2022-menor-indice-desde-2015",
+        "2021": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/36351-taxa-media-de-desemprego-cai-a-9-3-em-2022-menor-patamar-desde-2015.html",
+        "2022": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/36351-taxa-media-de-desemprego-cai-a-9-3-em-2022-menor-patamar-desde-2015.html",
+        "2023": "https://www.cut.org.br/noticias/media-da-taxa-anual-de-desemprego-em-2024-fica-em-6-6-o-menor-indice-desde-2012-50bb",
+        "2024": "https://www.cut.org.br/noticias/media-da-taxa-anual-de-desemprego-em-2024-fica-em-6-6-o-menor-indice-desde-2012-50bb",
+        "2025": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/45761-desocupacao-cai-para-5-1-em-dezembro-e-2025-tem-melhores-resultados-da-serie-historica.html"
+      }
+    },
+    {
+      "id": "desemprego_pme",
+      "name": "Taxa de desocupação (PME, 6 regiões metropolitanas, média anual)",
+      "unit": "%",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Pesquisa Mensal de Emprego (PME), regiões metropolitanas de Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo e Porto Alegre",
+      "sourceUrl": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14354-asi-desocupacao-fica-em-46-em-dezembro-e-fecha-2012-com-media-de-55",
+      "values": {
+        "2007": 9.3, "2008": 7.9, "2009": 8.1, "2010": 6.7, "2011": 6.0, "2012": 5.5, "2013": 5.4, "2014": 4.8, "2015": 6.8
+      },
+      "notes": "PME covers only 6 metropolitan regions and is NOT comparable in level with PNAD Contínua (national); e.g. 2012 PME 5.5% vs PNADC 7.4%. PME was discontinued in early 2016. 2006 annual average not found (monthly 2006 readings ranged ~8.4%-10.4%; 1st quarter 2006 average 9.9%) so it is omitted. 2003 average was 12.4% per the 2012 IBGE release.",
+      "yearSources": {
+        "2007": "https://contadores.cnt.br/projetos/25/noticias/empresariais/2009/01/23/taxa-de-desemprego-cai-a-6-8-em-dezembro.html",
+        "2008": "https://contadores.cnt.br/projetos/25/noticias/empresariais/2009/01/23/taxa-de-desemprego-cai-a-6-8-em-dezembro.html",
+        "2009": "https://sindusconpr.com.br/brasil-teve-em-2010-a-menor-taxa-de-desemprego/",
+        "2010": "https://sindusconpr.com.br/brasil-teve-em-2010-a-menor-taxa-de-desemprego/",
+        "2011": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14354-asi-desocupacao-fica-em-46-em-dezembro-e-fecha-2012-com-media-de-55",
+        "2012": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14354-asi-desocupacao-fica-em-46-em-dezembro-e-fecha-2012-com-media-de-55",
+        "2013": "https://unieducar.org.br/noticia/taxa-media-de-desemprego-em-2013-e-a-menor-da-historia",
+        "2014": "https://www.congressoemfoco.com.br/noticia/42825/desemprego-nas-metropoles-fica-em-68-em-2015-o-maior-desde-2009",
+        "2015": "https://www.congressoemfoco.com.br/noticia/42825/desemprego-nas-metropoles-fica-em-68-em-2015-o-maior-desde-2009"
+      }
+    },
+    {
+      "id": "gini",
+      "name": "Índice de Gini do rendimento domiciliar per capita",
+      "unit": "índice (0-1)",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – PNAD Contínua, Rendimento de todas as fontes (2012+); Ipea com base na PNAD anual (2007, 2011)",
+      "sourceUrl": "https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/43302-rendimento-per-capita-e-recorde-e-desigualdades-caem-ao-menor-nivel-desde-2012.html?lang=pt-BR",
+      "values": {
+        "2007": 0.552, "2011": 0.527,
+        "2012": 0.540, "2015": 0.524, "2016": 0.537, "2018": 0.545, "2019": 0.544, "2020": 0.524,
+        "2021": 0.544, "2022": 0.518, "2023": 0.518, "2024": 0.506
+      },
+      "notes": "METHODOLOGY BREAK between 2011 and 2012: 2007 and 2011 come from the old annual PNAD as computed by Ipea (2007=0.552 from Ipea Comunicado n.9; 2011=0.527 announced by Ipea in Sep/2012) and are not level-comparable with the PNAD Contínua series (2012+), which runs higher. 2006, 2008, 2009 omitted (no consistent source found; an Ipea note gave 2008=0.544 excluding rural North, not used). 2013, 2014, 2017 omitted: revised PNADC values not confirmed (originally released 2017 figure was 0.549, pre-reweighting vintage, not used). 2012-2015 trend described by IBGE as declining, 2016-2018 rising.",
+      "yearSources": {
+        "2007": "https://repositorio.ipea.gov.br/bitstream/11058/5530/1/Comunicado_n9_PNAD_Pobreza.pdf",
+        "2011": "https://vermelho.org.br/2012/09/25/pnad-2011-confirma-decada-inclusiva-diz-presidente-do-ipea/",
+        "2012": "https://www.gazetasp.com.br/brasil/ibge-desigualdade-de-renda-cai-para-menor-nivel-em-11-anos/",
+        "2015": "https://www.gazetasp.com.br/brasil/ibge-desigualdade-de-renda-cai-para-menor-nivel-em-11-anos/",
+        "2016": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/25700-em-2017-despesas-com-saude-consumiram-8-0-do-pib-do-pais",
+        "2018": "https://www.gazetasp.com.br/brasil/ibge-desigualdade-de-renda-cai-para-menor-nivel-em-11-anos/",
+        "2019": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/32281-auxilio-emergencial-elevou-para-23-7-proporcao-de-domicilios-que-receberam-outros-programas-sociais-em-2020.html",
+        "2020": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/32281-auxilio-emergencial-elevou-para-23-7-proporcao-de-domicilios-que-receberam-outros-programas-sociais-em-2020.html",
+        "2021": "https://oespecialista.safra.com.br/pnad-continua-2022-ibge/",
+        "2022": "https://oespecialista.safra.com.br/pnad-continua-2022-ibge/",
+        "2023": "https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/43302-rendimento-per-capita-e-recorde-e-desigualdades-caem-ao-menor-nivel-desde-2012.html?lang=pt-BR",
+        "2024": "https://agenciadenoticias.ibge.gov.br/pt/agencia-noticias/43302-rendimento-per-capita-e-recorde-e-desigualdades-caem-ao-menor-nivel-desde-2012.html?lang=pt-BR"
+      }
+    },
+    {
+      "id": "pobreza_extrema",
+      "name": "População em extrema pobreza (linha US$ 2,15/dia PPC 2017)",
+      "unit": "% da população",
+      "higherIsBetter": false,
+      "officialSource": "IBGE – Síntese de Indicadores Sociais (SIS), com base na PNAD Contínua; linha do Banco Mundial de US$ 2,15/dia PPC 2017",
+      "sourceUrl": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45344",
+      "values": {
+        "2012": 6.6, "2021": 9.0, "2022": 5.9, "2023": 4.4, "2024": 3.5
+      },
+      "notes": "Single line: World Bank US$ 2.15/day (2017 PPP), as used by SIS 2023-2025 editions (SIS 2025 explicitly kept this line despite the June/2025 World Bank update). Values from SIS 2024/2025 vintages. 2013-2020 not found in the same vintage; an earlier SIS edition (2022 vintage) reported 2014=5.2% as the series low, but that vintage gave 2022=5.6% vs 5.9% in later editions, so 2014 was not mixed in. No pre-2012 values (different survey/line). Without social benefits, extreme poverty in 2024 would be ~10% per SIS 2025.",
+      "yearSources": {
+        "2012": "https://congressoemfoco.com.br/noticia/6505/pobreza-e-extrema-pobreza-atingem-menor-nivel-no-pais-desde-2012-aponta-ibge",
+        "2021": "https://www.cut.org.br/noticias/brasil-retira-8-6-milhoes-da-pobreza-e-registra-menor-indice-desde-2012-20ea/",
+        "2022": "https://congressoemfoco.com.br/noticia/6505/pobreza-e-extrema-pobreza-atingem-menor-nivel-no-pais-desde-2012-aponta-ibge",
+        "2023": "https://congressoemfoco.com.br/noticia/6505/pobreza-e-extrema-pobreza-atingem-menor-nivel-no-pais-desde-2012-aponta-ibge",
+        "2024": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45344"
+      }
+    },
+    {
+      "id": "salario_minimo_real",
+      "name": "Aumento real do salário mínimo",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "DIEESE – Notas Técnicas sobre o salário mínimo (Tabela 'Reajuste do Salário Mínimo'), reajuste nominal deflacionado pelo INPC",
+      "sourceUrl": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+      "values": {
+        "2006": 13.04, "2007": 5.10, "2008": 4.03, "2009": 5.79, "2010": 6.02, "2011": 0.37, "2012": 7.59,
+        "2013": 2.64, "2014": 1.16, "2015": 2.46, "2016": 0.36, "2017": -0.10, "2018": -0.25, "2019": 1.14,
+        "2020": 0.03, "2021": 0.01, "2023": 1.41, "2024": 4.69, "2025": 2.61, "2026": 2.5
+      },
+      "notes": "DIEESE methodology. 2020: two adjustments (Jan R$1.039, -0.36% real; Feb R$1.045, +0.39% real); annual value 0.03% is the compounded combination computed here from the two DIEESE rows. 2022 omitted: R$1.100->R$1.212 (+10.18% nominal) was reported as having no real gain (DIEESE NT 265 'sem aumento real'), but DIEESE's exact figure was not seen. 2023: Jan/2023 R$1.302 real +1.41% (DIEESE); the May/2023 raise to R$1.320 (DIEESE: -1.01% real relative to Jan basis) is captured in 2024, which DIEESE measures Jan/2023 R$1.302 -> Jan/2024 R$1.412 (+8.45% nominal, +4.69% real). 2025: DIEESE +2.61% using full-year 2024 INPC. 2026: R$1.621 (+6.79% nominal = INPC 4.18% Dec/24-Nov/25 + 2.5% capped real gain under Lei 15.077/2024); 2.5% is the ex-ante real gain built into the formula, DIEESE's ex-post figure may differ slightly. Reajustes before 2010 occurred in April/March/February, not January. 2012 figure is DIEESE's (7.59%); some press cited 9.2% using another base.",
+      "yearSources": {
+        "2006": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+        "2007": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+        "2008": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+        "2009": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+        "2010": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+        "2011": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+        "2012": "https://www.dieese.org.br/notatecnica/2015/notaTec153SalarioMinimo2016/4.html",
+        "2013": "https://www.dieese.org.br/notatecnica/2021/notaTec249salarioMinimo.pdf",
+        "2014": "https://www.dieese.org.br/notatecnica/2021/notaTec249salarioMinimo.pdf",
+        "2015": "https://www.dieese.org.br/notatecnica/2021/notaTec249salarioMinimo.pdf",
+        "2016": "https://www.dieese.org.br/notatecnica/2021/notaTec249salarioMinimo.pdf",
+        "2017": "https://www.dieese.org.br/notatecnica/2021/notaTec249salarioMinimo.pdf",
+        "2018": "https://www.dieese.org.br/notatecnica/2021/notaTec249salarioMinimo.pdf",
+        "2019": "https://www.dieese.org.br/notatecnica/2021/notaTec249salarioMinimo.pdf",
+        "2020": "https://www.dieese.org.br/notatecnica/2023/notaTec281salarioMinimo.pdf",
+        "2021": "https://www.dieese.org.br/notatecnica/2023/notaTec271salarioMinimo.html",
+        "2023": "https://www.dieese.org.br/notatecnica/2023/notaTec281salarioMinimo.pdf",
+        "2024": "https://www.dieese.org.br/notatecnica/2025/notaTec283salarioMinimo/3.html",
+        "2025": "https://www.dieese.org.br/notatecnica/2025/notaTec283salarioMinimo/3.html",
+        "2026": "https://www.dieese.org.br/notatecnica/2025/notaTec289salarioMinimo.html"
+      }
+    }
+  ]
+}

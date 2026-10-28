@@ -1,0 +1,132 @@
+{
+  "indicators": [
+    {
+      "id": "ipca",
+      "name": "IPCA - inflação acumulada no ano",
+      "unit": "% a.a.",
+      "higherIsBetter": false,
+      "officialSource": "IBGE - Índice Nacional de Preços ao Consumidor Amplo (IPCA)",
+      "sourceUrl": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/19450-ipca-rises-0-44-in-december-and-closes-2017-at-2-95.html?lang=en-GB",
+      "values": {
+        "2006": 3.14, "2007": 4.46, "2008": 5.90, "2009": 4.31, "2010": 5.91, "2011": 6.50, "2012": 5.84, "2013": 5.91, "2014": 6.41,
+        "2015": 10.67, "2016": 6.29, "2017": 2.95, "2018": 3.75, "2019": 4.31, "2020": 4.52, "2021": 10.06, "2022": 5.79, "2023": 4.62,
+        "2024": 4.83, "2025": 4.26
+      },
+      "notes": "2006-2014, 2024, 2025 carried over unchanged from prior compilation (not re-verified in this session, except 2018 = 3.75 which the IBGE 2019 release cites). 2016, 2017, 2019, 2020 confirmed on IBGE Agência de Notícias pages. 2015 and 2021 confirmed via press coverage of the IBGE Jan-2022 release (2021 = 10.06%, 'maior desde 2015, quando foi 10,67%'). 2022 and 2023 confirmed via press coverage of IBGE releases.",
+      "yearSources": {
+        "2015": "https://movimentoeconomico.com.br/economia/2022/01/11/ibge-inflacao-oficial-fecha-2021-com-alta-de-1006/",
+        "2016": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/19450-ipca-rises-0-44-in-december-and-closes-2017-at-2-95.html?lang=en-GB",
+        "2017": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/19450-ipca-rises-0-44-in-december-and-closes-2017-at-2-95.html?lang=en-GB",
+        "2018": "https://agenciadenoticias.ibge.gov.br/en/agencia-news/26637-inflation-exceeds-target-and-hits-4-31-in-2019.html?start=40",
+        "2019": "https://agenciadenoticias.ibge.gov.br/en/agencia-news/26637-inflation-exceeds-target-and-hits-4-31-in-2019.html?start=40",
+        "2020": "https://agenciadenoticias.ibge.gov.br/en/agencia-news/29885-inflation-accelerates-in-december-and-hits-4-52-in-2020-biggest-increase-since-2016.html?start=80",
+        "2021": "https://movimentoeconomico.com.br/economia/2022/01/11/ibge-inflacao-oficial-fecha-2021-com-alta-de-1006/",
+        "2022": "https://investnews.com.br/economia/ipca-fecha-2022-com-alta-de-579-aponta-ibge/amp/",
+        "2023": "https://investnews.com.br/economia/ipca-sobe-em-056-em-dezembro-e-acumula-alta-de-462-diz-ibge/amp/"
+      }
+    },
+    {
+      "id": "divida_bruta",
+      "name": "Dívida Bruta do Governo Geral (DBGG)",
+      "unit": "% do PIB (dezembro)",
+      "higherIsBetter": false,
+      "officialSource": "Banco Central do Brasil - Estatísticas Fiscais, DBGG metodologia a partir de 2008 (SGS 13762)",
+      "sourceUrl": "https://dadosabertos.bcb.gov.br/en/dataset/13762-divida-bruta-do-governo-geral--pib---metodologia-utilizada-a-partir-de-2008",
+      "values": {
+        "2013": 51.5, "2014": 56.3, "2015": 65.5, "2016": 69.8, "2017": 73.7, "2018": 75.3, "2019": 74.3,
+        "2020": 87.6, "2021": 78.3, "2022": 71.7, "2023": 73.8, "2024": 76.3, "2025": 78.7
+      },
+      "notes": "BCB concept (not IMF concept, which is higher: ~93% in Dec 2025). VINTAGE CAVEAT: BCB revises the series whenever IBGE revises GDP, and values here come from different publication dates: 2014-2019 from a Ministério da Fazenda presentation (Jan 2022, source BCB); 2020-2021 from press reports of BCB releases (2022-2025); 2022 = 71.7 (BCB vintage of early 2024; first release was 73.5); 2023 = 73.8 (BCB Jan-2025 release; first release 74.3); 2024 = 76.3 (implied by BCB Jan-2026 release: 2025 = 78.7, +2.4 pp; first release was 76.1). 2006-2012 OMITTED: only found inconsistent vintages - BCB Relatório de Inflação 2013 table (2006 56.4, 2007 58.0, 2008 57.4, 2009 60.9, 2010 53.4, 2011 54.2, 2012 58.7; old GDP base, appears to differ in concept) and TCU (2009 61.9, 2010 55.0). Recommend pulling SGS 13762 directly to replace the whole series with one vintage (dadosabertos.bcb.gov.br / api.bcb.gov.br must be allowed in the session network settings).",
+      "yearSources": {
+        "2013": "https://www.folhavitoria.com.br/economia/divida-bruta-do-governo-geral-sobe-a-78-6-do-pib-em-outubro-aponta-bc/",
+        "2014": "https://www.gov.br/fazenda/pt-br/centrais-de-conteudos/apresentacoes/2022/janeiro/slides-rtn-apresentacao-ministro.pdf",
+        "2015": "https://www.gov.br/fazenda/pt-br/centrais-de-conteudos/apresentacoes/2022/janeiro/slides-rtn-apresentacao-ministro.pdf",
+        "2016": "https://www.gov.br/fazenda/pt-br/centrais-de-conteudos/apresentacoes/2022/janeiro/slides-rtn-apresentacao-ministro.pdf",
+        "2017": "https://www.gov.br/fazenda/pt-br/centrais-de-conteudos/apresentacoes/2022/janeiro/slides-rtn-apresentacao-ministro.pdf",
+        "2018": "https://www.gov.br/fazenda/pt-br/centrais-de-conteudos/apresentacoes/2022/janeiro/slides-rtn-apresentacao-ministro.pdf",
+        "2019": "https://www.gov.br/fazenda/pt-br/centrais-de-conteudos/apresentacoes/2022/janeiro/slides-rtn-apresentacao-ministro.pdf",
+        "2020": "https://www.bemparana.com.br/noticias/economia/divida-publica-bruta-do-brasil-sobe-e-fecha-2025-em-787-do-pib-mostra-bc/",
+        "2021": "https://www.folhavitoria.com.br/economia/divida-bruta-do-governo-geral-no-fim-de-2022-e-a-menor-desde-o-fim-de-2016/",
+        "2022": "https://blogs.correiobraziliense.com.br/vicente/bc-divida-publica-bruta-cresce-r-8544-bi-em-2023-e-soma-r-81-tri/",
+        "2023": "https://www.jornalopcao.com.br/ultimas-noticias/divida-bruta-do-brasil-fecha-2024-em-761-do-pib-676083/",
+        "2024": "https://www.bemparana.com.br/noticias/economia/divida-publica-bruta-do-brasil-sobe-e-fecha-2025-em-787-do-pib-mostra-bc/",
+        "2025": "https://www.bemparana.com.br/noticias/economia/divida-publica-bruta-do-brasil-sobe-e-fecha-2025-em-787-do-pib-mostra-bc/"
+      }
+    },
+    {
+      "id": "resultado_primario",
+      "name": "Resultado primário do setor público consolidado",
+      "unit": "% do PIB (ano civil; positivo = superávit)",
+      "higherIsBetter": true,
+      "officialSource": "Banco Central do Brasil - Estatísticas Fiscais (setor público consolidado, exclui Petrobras e Eletrobras)",
+      "sourceUrl": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202201_Texto_de_estatisticas_fiscais.pdf",
+      "values": {
+        "2011": 2.9, "2012": 2.2, "2013": 1.7, "2014": -0.6, "2015": -1.9, "2016": -2.5,
+        "2017": -1.69, "2018": -1.57, "2019": -0.85, "2020": -9.41, "2021": 0.75, "2022": 1.28, "2023": -2.28, "2024": -0.40, "2025": -0.43
+      },
+      "notes": "2011-2016 from IFI/Senado RAF4 (May 2017) chart using BCB revised series (new GDP base, Petrobras/Eletrobras excluded retroactively); year mapping inferred from the chart sequence, one decimal only. These differ from first releases (e.g. 2012 first release 2.39%, 2013 1.90%, 2011 3.11%) because of the IBGE GDP base revision. 2017-2025 are BCB year-end release figures (2020 = 9.41% deficit per BCB Jan-2022 note, revised from 9.49%). 2006-2010 OMITTED: only old-vintage/secondary figures found (2006 4.32% at release; BBVA citing BCB: 2008 3.3, 2009 2.0, 2010 2.8) that are not comparable with the revised series. Pull BCB series (SGS 5793 / Estatísticas Fiscais) to fill.",
+      "yearSources": {
+        "2011": "https://www12.senado.leg.br/ifi/pdf/RAF4_composioedinmicadoresultadoprimrio.pdf/@@download/file/RAF4_composição e dinâmica do resultado primário.pdf",
+        "2012": "https://www12.senado.leg.br/ifi/pdf/RAF4_composioedinmicadoresultadoprimrio.pdf/@@download/file/RAF4_composição e dinâmica do resultado primário.pdf",
+        "2013": "https://www12.senado.leg.br/ifi/pdf/RAF4_composioedinmicadoresultadoprimrio.pdf/@@download/file/RAF4_composição e dinâmica do resultado primário.pdf",
+        "2014": "https://www12.senado.leg.br/ifi/pdf/RAF4_composioedinmicadoresultadoprimrio.pdf/@@download/file/RAF4_composição e dinâmica do resultado primário.pdf",
+        "2015": "https://www12.senado.leg.br/ifi/pdf/RAF4_composioedinmicadoresultadoprimrio.pdf/@@download/file/RAF4_composição e dinâmica do resultado primário.pdf",
+        "2016": "https://www12.senado.leg.br/ifi/pdf/RAF4_composioedinmicadoresultadoprimrio.pdf/@@download/file/RAF4_composição e dinâmica do resultado primário.pdf",
+        "2017": "https://www.moneytimes.com.br/setor-publico-registra-deficit-de-r-1106-bi-em-2017-o-menor-desde-2014/",
+        "2018": "https://www.poder360.com.br/economia/deficit-do-setor-publico-fica-em-r-108258-bilhoes-em-2018/",
+        "2019": "https://www.tribunadosertao.com.br/economia/2020/01/31/300691-deficit-primario-do-setor-publico-soma-r-61872-bi-e-atinge-085-do-pib-em-2019",
+        "2020": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202201_Texto_de_estatisticas_fiscais.pdf",
+        "2021": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202201_Texto_de_estatisticas_fiscais.pdf",
+        "2022": "https://www.folhavitoria.com.br/economia/setor-publico-tem-superavit-primario-de-r-125-994-bi-em-2022-mostra-bc/",
+        "2023": "https://www.moneytimes.com.br/bc-setor-publico-tem-deficit-primario-de-r-55021-bilhoes-em-2025-043-do-pib-mabe/",
+        "2024": "https://www.moneytimes.com.br/bc-setor-publico-tem-deficit-primario-de-r-55021-bilhoes-em-2025-043-do-pib-mabe/",
+        "2025": "https://www.moneytimes.com.br/bc-setor-publico-tem-deficit-primario-de-r-55021-bilhoes-em-2025-043-do-pib-mabe/"
+      }
+    },
+    {
+      "id": "selic",
+      "name": "Meta da taxa Selic no fim do ano",
+      "unit": "% a.a.",
+      "higherIsBetter": false,
+      "officialSource": "Banco Central do Brasil - Copom (histórico das taxas de juros)",
+      "sourceUrl": "https://www.bcb.gov.br/pec/boletim/banual2014/rel2014cap2p.pdf",
+      "values": {
+        "2006": 13.25, "2007": 11.25, "2008": 13.75, "2009": 8.75, "2010": 10.75, "2011": 11.00, "2012": 7.25, "2013": 10.00, "2014": 11.75,
+        "2015": 14.25, "2016": 13.75, "2017": 7.00, "2018": 6.50, "2020": 2.00, "2021": 9.25, "2022": 13.75, "2023": 11.75, "2024": 12.25, "2025": 15.00
+      },
+      "notes": "higherIsBetter=false is a convention only; Selic is a policy instrument and arguably should not be graded directly. 2006-2008 from LDO annexes / Lei 12.017/2009 (official). 2013 and 2014 from BCB Relatório Anual 2014. 2015-2016 from a third-party monthly Meta Selic table (dadosdemercado). 2020 = 2.00 inferred (rate held at 2% from Aug 2020 to Mar 2021). 2022 = 13.75 inferred (held from Aug 2022; Copom Feb 2023 maintained it). 2019 OMITTED: Dec-2019 decision (expected cut to 4.50) not confirmed by any source seen. 2026 not included (year not finished).",
+      "yearSources": {
+        "2006": "https://www12.senado.leg.br/orcamento/documentos/legislacao/ldo/2009/470-anexo-7-objetivos-das-politicas-monetaria/@@download/file/470-Anexo 7 - Objetivos das Políticas Monetária, Creditícia e Cambial.pdf",
+        "2007": "https://www12.senado.leg.br/orcamento/documentos/legislacao/ldo/2010/490-anexo-7-objetivos-das-politicas-monetaria/@@download/file/490-Anexo 7 - Objetivos das políticas monetária, creditícia e cambial.pdf",
+        "2008": "https://www2.camara.leg.br/legin/fed/lei/2009/lei-12017-12-agosto-2009-590480-publicacaooriginal-115691-pl.html",
+        "2009": "https://exame.com/economia/copom-se-reune-para-examinar-taxa-basica-de-juros",
+        "2010": "https://okai.com.br/documento/2010-12-08/comunicado-n-020381",
+        "2011": "https://www.em.com.br/app/noticia/economia/2011/11/30/internas_economia,265014/copom-decide-cortar-taxa-selic-para-11-ao-ano.shtml",
+        "2012": "https://www.jb.com.br/economia/noticias/2012/11/28/amp/na-ultima-reuniao-de-2012-copom-mantem-taxa-selic-em-725-ao-ano.html",
+        "2013": "https://www.bcb.gov.br/pec/boletim/banual2014/rel2014cap2p.pdf",
+        "2014": "https://www.bcb.gov.br/pec/boletim/banual2014/rel2014cap2p.pdf",
+        "2015": "https://www.dadosdemercado.com.br/indices/meta-selic",
+        "2016": "https://www.dadosdemercado.com.br/indices/meta-selic",
+        "2017": "https://static.poder360.com.br/2017/12/copom-dez.pdf",
+        "2018": "https://jovempan.com.br/economia/macroeconomia/copom-mantem-taxa-selic-em-650-ao-ano-menor-patamar-da-historia/",
+        "2020": "https://investnews.com.br/economia/copom-inicia-penultima-reuniao-de-2020-para-definir-taxa-selic",
+        "2021": "https://static.poder360.com.br/2021/12/Integra-comunicadoCopom-8.dez_.2021.pdf",
+        "2022": "https://static.poder360.com.br/2023/02/copom-mantem-selic-1fev2023.pdf",
+        "2023": "https://acionista.com.br/wp-content/uploads/2023/12/13122023_MACRO_BRASIL_Copom_compressed.pdf",
+        "2024": "https://www.metropoles.com/brasil/economia-br/copom-aperta-alta-de-juros-e-selic-fecha-2024-em-1225-ao-ano",
+        "2025": "https://www.poder360.com.br/poder-economia/sem-surpresa-banco-central-mantem-selic-em-15-em-2025/"
+      }
+    },
+    {
+      "id": "cambio",
+      "name": "Taxa de câmbio R$/US$ no fim do ano (PTAX venda)",
+      "unit": "R$ por US$",
+      "higherIsBetter": false,
+      "officialSource": "Banco Central do Brasil - PTAX venda, último dia útil do ano (SGS 1)",
+      "sourceUrl": "https://dadosabertos.bcb.gov.br/he/dataset/dolar-americano-usd-todos-os-boletins-diarios",
+      "values": {},
+      "notes": "NOT FILLED: no search result in this session showed official year-end PTAX values, and BCB hosts do not resolve from this environment. Only lead found: third-party site numerando.com.br lists PTAX venda 31/12/2025 = 5.5018 (citing BCB) but the same table shows an identical value for 30/12, so it was not used. Fill from BCB SGS series 1 (PTAX venda) taking the last business day of each year; requires api.bcb.gov.br / dadosabertos.bcb.gov.br to be allowed in the session network settings.",
+      "yearSources": {}
+    }
+  ]
+}
