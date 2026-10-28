@@ -8,7 +8,7 @@ import type { TermId } from "@/lib/types";
 import { toneVar } from "@/lib/ui";
 import { EventList } from "./EventList";
 import { FactCheckList } from "./FactCheckList";
-import { GradeRing } from "./GradeRing";
+import { Grade, Stamp } from "./Grade";
 import { IndicatorTable } from "./IndicatorTable";
 import { Initials } from "./Initials";
 import { PillarBars } from "./PillarBars";
@@ -51,7 +51,11 @@ export function TermDetail({ id }: { id: TermId }) {
           {term.note && <p className="mt-5 max-w-2xl rounded-xl bg-surface-2 px-4 py-3 text-sm text-muted">{term.note}</p>}
         </div>
         <div className="flex items-center gap-6">
-          <GradeRing score={s.score} size={168} stroke={12} provisional={s.provisional} />
+          <div className="flex flex-col items-center gap-4 border-l-2 border-ink pl-8">
+            <span className="label">Média final</span>
+            <Grade score={s.score} provisional={s.provisional} size="xl" />
+            <Stamp score={s.score} provisional={s.provisional} size="lg" animate />
+          </div>
         </div>
       </section>
 
@@ -62,7 +66,7 @@ export function TermDetail({ id }: { id: TermId }) {
             Cada pilar recebe uma nota de 0 a 10. A nota final é a média ponderada dos pilares com dados (cobertura de
             indicadores: <span className="tabular text-ink">{Math.round(s.coverage * 100)}%</span>).
           </p>
-          <div className="mt-6 glass rounded-2xl p-5">
+          <div className="mt-6 sheet p-5">
             <PillarBars pillars={s.pillars} />
           </div>
           <table className="mt-6 w-full text-sm">
@@ -102,7 +106,7 @@ export function TermDetail({ id }: { id: TermId }) {
           {s.pillars
             .filter((p) => p.pillar.id !== "gestao")
             .map((p) => (
-              <div key={p.pillar.id} className="glass rounded-2xl p-5">
+              <div key={p.pillar.id} className="sheet p-5">
                 <div className="flex items-baseline justify-between">
                   <h3 className="text-lg font-semibold">{p.pillar.name}</h3>
                   <span className="tabular font-display text-2xl" style={{ color: toneVar(p.score) }}>

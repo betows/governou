@@ -38,10 +38,10 @@ export function FactCheckView() {
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Busque um boato: “taxação do Pix”, “vacina”, “dívida”…"
-          className="flex-1 rounded-full border border-line bg-surface px-5 py-3 text-sm outline-none focus:border-accent"
+          className="flex-1 rounded-[3px] border border-line bg-surface px-5 py-3 text-sm outline-none focus:border-accent"
           aria-label="Buscar checagem"
         />
-        <select value={term} onChange={(e) => setTerm(e.target.value as TermId | "todos")} className="rounded-full border border-line bg-surface px-4 py-3 text-sm" aria-label="Governo">
+        <select value={term} onChange={(e) => setTerm(e.target.value as TermId | "todos")} className="rounded-[3px] border border-line bg-surface px-4 py-3 text-sm" aria-label="Governo">
           <option value="todos">Todos os governos</option>
           {TERMS.map((t) => (
             <option key={t.id} value={t.id}>
@@ -49,7 +49,7 @@ export function FactCheckView() {
             </option>
           ))}
         </select>
-        <select value={verdict} onChange={(e) => setVerdict(e.target.value as Verdict | "todos")} className="rounded-full border border-line bg-surface px-4 py-3 text-sm" aria-label="Veredito">
+        <select value={verdict} onChange={(e) => setVerdict(e.target.value as Verdict | "todos")} className="rounded-[3px] border border-line bg-surface px-4 py-3 text-sm" aria-label="Veredito">
           <option value="todos">Todos os vereditos</option>
           {Object.entries(VERDICT_META).map(([k, v]) => (
             <option key={k} value={k}>

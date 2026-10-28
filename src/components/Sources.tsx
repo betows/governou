@@ -10,9 +10,9 @@ export function Sources({ sources }: { sources: Source[] }) {
             target="_blank"
             rel="noopener noreferrer"
             title={s.title}
-            className="inline-flex max-w-[18rem] items-center gap-1.5 rounded-full border border-line bg-surface px-2.5 py-1 text-xs text-muted transition hover:border-accent hover:text-accent"
+            className="inline-flex max-w-[18rem] items-center gap-1.5 rounded-[3px] border border-line bg-surface px-2.5 py-1 text-xs text-muted transition hover:border-accent hover:text-accent"
           >
-            <span className="font-semibold text-ink">{s.outlet}</span>
+            <span className="whitespace-nowrap font-semibold text-ink">{s.outlet}</span>
             <span className="truncate">{s.title}</span>
             <span aria-hidden>↗</span>
           </a>

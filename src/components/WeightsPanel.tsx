@@ -8,7 +8,7 @@ export function WeightsPanel() {
   const total = PILLARS.reduce((a, p) => a + options.weights[p.id], 0) || 1;
 
   return (
-    <div className="glass rounded-2xl p-5 sm:p-6">
+    <div className="sheet p-5 sm:p-6">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h3 className="text-base font-semibold">Monte sua própria régua</h3>
         {!isDefault && (
@@ -68,7 +68,7 @@ function Toggle({ checked, onChange, title, desc }: { checked: boolean; onChange
       className="flex items-start gap-3 rounded-xl p-2 text-left transition hover:bg-surface-2"
     >
       <span className={`mt-0.5 flex h-5 w-9 shrink-0 items-center rounded-full p-0.5 transition ${checked ? "bg-accent" : "bg-line"}`}>
-        <span className={`h-4 w-4 rounded-full bg-white shadow transition ${checked ? "translate-x-4" : ""}`} />
+        <span className={`h-4 w-4 rounded-full bg-surface transition ${checked ? "translate-x-4" : ""}`} />
       </span>
       <span>
         <span className="block text-sm font-medium">{title}</span>

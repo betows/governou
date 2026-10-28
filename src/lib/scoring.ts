@@ -342,12 +342,20 @@ export function scoreTerm(term: Term, data: Dataset, opts: ScoreOptions = DEFAUL
 }
 
 export function gradeLabel(score: number | null) {
-  if (score === null) return { label: "Sem dados", tone: "none" as const };
-  if (score >= 8) return { label: "Excelente", tone: "great" as const };
-  if (score >= 6.5) return { label: "Bom", tone: "good" as const };
+  if (score === null) return { label: "Sem nota", tone: "none" as const };
+  if (score >= 8.5) return { label: "Excelente", tone: "great" as const };
+  if (score >= 7) return { label: "Bom", tone: "good" as const };
   if (score >= 5) return { label: "Regular", tone: "mid" as const };
-  if (score >= 3.5) return { label: "Ruim", tone: "bad" as const };
+  if (score >= 3) return { label: "Ruim", tone: "bad" as const };
   return { label: "Crítico", tone: "awful" as const };
+}
+
+/** Situação final no boletim, com a régua da escola: média 7 aprova, abaixo de 5 reprova. */
+export function situation(score: number | null, provisional: boolean) {
+  if (score === null || provisional) return { label: "Em apuração", tone: "none" as const };
+  if (score >= 7) return { label: "Aprovado", tone: "good" as const };
+  if (score >= 5) return { label: "Recuperação", tone: "mid" as const };
+  return { label: "Reprovado", tone: "awful" as const };
 }
 
 export const formatScore = (v: number | null) => (v === null ? "—" : fmtNum(round1(v)));

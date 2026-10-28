@@ -1,45 +1,77 @@
 @import "tailwindcss";
-@import "@fontsource-variable/space-grotesk";
-@import "@fontsource-variable/jetbrains-mono";
+@import "@fontsource-variable/archivo/wdth.css";
+@import "@fontsource-variable/libre-franklin";
+@import "@fontsource/courier-prime/400.css";
+@import "@fontsource/courier-prime/700.css";
 
-/* Tema único escuro — estética de painel de dados ao vivo. */
+/*
+ * Conceito: o boletim escolar do governo.
+ * Claro = folha de formulário oficial com pauta azulada; escuro = quadro-negro.
+ * Convenção da escola brasileira: nota azul (média ≥ 7), nota vermelha (< 5).
+ */
 :root {
-  color-scheme: dark;
-  --bg: #04060b;
-  --surface: #0a0f1a;
-  --surface-2: #121a2a;
-  --ink: #e8edf7;
-  --muted: #7d8aa3;
-  --line: #1a2335;
-  --accent: #22d3ee;
-  --accent-2: #8b5cf6;
-  --accent-soft: rgba(34, 211, 238, 0.1);
-  --great: #3dffa2;
-  --good: #b4ff4d;
-  --mid: #ffc83d;
-  --bad: #ff8a3d;
-  --awful: #ff4d6d;
-  --none: #4b5568;
+  --paper: #f7f8f5;
+  --sheet: #ffffff;
+  --fill: #eef1ee;
+  --rule: #cdd6e0;
+  --ink: #17191e;
+  --muted: #5d6571;
+  --pen: #1f40a6;        /* caneta azul */
+  --pen-soft: #e6ebf8;
+  --red: #c4262e;        /* caneta vermelha */
+  --ochre: #a86d12;      /* recuperação */
+  --stamp-none: #7b838f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #18211d;
+    --sheet: #1d2823;
+    --fill: #24302a;
+    --rule: #34443c;
+    --ink: #e9eee6;
+    --muted: #9aa89f;
+    --pen: #93b4ff;
+    --pen-soft: #233248;
+    --red: #ff8c84;
+    --ochre: #f0c26a;
+    --stamp-none: #8d9a92;
+  }
 }
 
 @theme inline {
-  --color-bg: var(--bg);
-  --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
+  --color-bg: var(--paper);
+  --color-surface: var(--sheet);
+  --color-surface-2: var(--fill);
   --color-ink: var(--ink);
   --color-muted: var(--muted);
-  --color-line: var(--line);
-  --color-accent: var(--accent);
-  --color-accent-2: var(--accent-2);
-  --color-accent-soft: var(--accent-soft);
-  --color-great: var(--great);
-  --color-good: var(--good);
-  --color-mid: var(--mid);
-  --color-bad: var(--bad);
-  --color-awful: var(--awful);
-  --font-sans: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+  --color-line: var(--rule);
+  --color-accent: var(--pen);
+  --color-accent-soft: var(--pen-soft);
+  --color-pen: var(--pen);
+  --color-red: var(--red);
+  --color-ochre: var(--ochre);
+  --color-great: var(--pen);
+  --color-good: var(--pen);
+  --color-mid: var(--ochre);
+  --color-bad: var(--red);
+  --color-awful: var(--red);
+  --font-sans: "Libre Franklin Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Archivo Variable", "Arial Narrow", ui-sans-serif, sans-serif;
+  --font-mono: "Courier Prime", "Courier New", ui-monospace, monospace;
+}
+
+:root {
+  --great: var(--pen);
+  --good: var(--pen);
+  --mid: var(--ochre);
+  --bad: var(--red);
+  --awful: var(--red);
+  --none: var(--stamp-none);
+  --accent: var(--pen);
+  --accent-soft: var(--pen-soft);
+  --line: var(--rule);
 }
 
 html {
@@ -47,95 +79,96 @@ html {
 }
 
 body {
-  background: var(--bg);
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.55;
 }
 
-/* Fundo: grade técnica + brilhos difusos. */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(60rem 30rem at 85% -10%, rgba(139, 92, 246, 0.18), transparent 60%),
-    radial-gradient(50rem 30rem at -10% 10%, rgba(34, 211, 238, 0.14), transparent 60%),
-    linear-gradient(var(--bg), var(--bg));
+h1, h2, h3 {
+  text-wrap: balance;
 }
 
-.grid-bg {
-  background-image:
-    linear-gradient(rgba(125, 138, 163, 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(125, 138, 163, 0.07) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(ellipse at 50% 0%, black 30%, transparent 75%);
+/* Títulos: Archivo estreita e pesada, como cabeçalho de formulário. */
+.font-display {
+  font-family: var(--font-display);
+  font-stretch: 72%;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-stretch: 90%;
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .tabular {
   font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
-  letter-spacing: -0.02em;
 }
 
-.font-display {
-  letter-spacing: -0.03em;
+/* Folha: área impressa do formulário. Sem sombra, canto quase reto. */
+.sheet {
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
 }
 
-/* Cartão de vidro com borda em gradiente. */
-.glass {
-  position: relative;
-  background: linear-gradient(180deg, rgba(18, 26, 42, 0.75), rgba(10, 15, 26, 0.75));
-  border: 1px solid var(--line);
-  backdrop-filter: blur(12px);
-}
-.glass::before {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  border-radius: inherit;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(34, 211, 238, 0.55), transparent 35%, transparent 65%, rgba(139, 92, 246, 0.55));
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  opacity: 0;
-  transition: opacity 0.3s;
-  pointer-events: none;
-}
-.glass:hover::before,
-.glass.lit::before {
-  opacity: 1;
+/* Pauta de caderno. */
+.ruled {
+  background-image: repeating-linear-gradient(to bottom, transparent 0 31px, var(--rule) 31px 32px);
 }
 
-.text-gradient {
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+/* Carimbo de situação. */
+.stamp {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-stretch: 80%;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  padding: 0.35em 0.6em 0.3em;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px var(--sheet), inset 0 0 0 3px currentColor;
+  transform: rotate(-4deg);
+  white-space: nowrap;
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+}
+@media (prefers-color-scheme: dark) {
+  .stamp { mix-blend-mode: normal; }
+}
+.stamp.pending {
+  border-style: dashed;
+  box-shadow: none;
 }
 
-.glow {
-  filter: drop-shadow(0 0 10px currentColor);
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--pen);
+  outline-offset: 2px;
 }
 
-@keyframes rise {
-  from { opacity: 0; transform: translateY(12px); }
-  to { opacity: 1; transform: none; }
-}
-.rise { animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+input[type="range"] { accent-color: var(--pen); }
 
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+@keyframes stamp-in {
+  from { opacity: 0; transform: rotate(-4deg) scale(1.6); }
+  to { opacity: 0.9; transform: rotate(-4deg) scale(1); }
 }
-.marquee { animation: marquee 40s linear infinite; }
+.stamp.animate { animation: stamp-in 0.35s cubic-bezier(0.3, 1.4, 0.5, 1) both; }
 
 @media (prefers-reduced-motion: reduce) {
-  .rise, .marquee { animation: none; }
+  .stamp.animate { animation: none; }
   html { scroll-behavior: auto; }
 }
-
-input[type="range"] { accent-color: var(--accent); }
-select option { background: var(--surface); }

@@ -7,7 +7,7 @@ import { PILLARS, RULES, formatScore } from "@/lib/scoring";
 import { CURRENT_TERM, TERMS, TERM_BY_ID } from "@/lib/terms";
 import type { TermId } from "@/lib/types";
 import { IMPACT_META, fmtDate, toneVar } from "@/lib/ui";
-import { GradeRing } from "./GradeRing";
+import { Grade, Stamp } from "./Grade";
 import { useScores } from "./ScoreProvider";
 
 export function MonitorView() {
@@ -47,7 +47,7 @@ export function MonitorView() {
             <button
               key={id}
               onClick={() => setRef(id)}
-              className={`rounded-full border px-3 py-1.5 transition ${ref === id ? "border-accent bg-accent text-bg font-semibold" : "border-line bg-surface text-muted hover:text-ink"}`}
+              className={`rounded-[3px] border px-3 py-1.5 transition ${ref === id ? "border-ink bg-ink text-bg font-semibold" : "border-line bg-surface text-muted hover:text-ink"}`}
             >
               {id === "media" ? "Média histórica" : TERM_BY_ID[id].label}
             </button>
@@ -56,18 +56,21 @@ export function MonitorView() {
       </section>
 
       <section className="grid gap-6 lg:grid-cols-[auto_1fr]">
-        <div className="flex items-center gap-8 glass rounded-3xl p-6">
+        <div className="flex items-center gap-8 sheet p-6">
           <div className="text-center">
-            <GradeRing score={cur.score} size={140} stroke={11} provisional={cur.provisional} />
+            <div className="flex flex-col items-center gap-3">
+              <Grade score={cur.score} provisional={cur.provisional} size="lg" />
+              <Stamp score={cur.score} provisional={cur.provisional} size="sm" />
+            </div>
             <div className="mt-2 text-xs text-muted">Atual</div>
           </div>
           <div className="text-center">
-            <GradeRing score={refScoreFor((id) => scores[id].score)} size={100} stroke={8} provisional={cur.provisional} />
+            <Grade score={refScoreFor((id) => scores[id].score)} provisional={cur.provisional} size="lg" />
             <div className="mt-2 max-w-[7rem] text-xs text-muted">{refLabel}</div>
           </div>
         </div>
 
-        <div className="glass rounded-3xl p-6">
+        <div className="sheet p-6">
           <h2 className="text-lg font-semibold">Pilar a pilar</h2>
           <ul className="mt-4 space-y-4">
             {PILLARS.map((p) => {
@@ -79,7 +82,7 @@ export function MonitorView() {
         </div>
       </section>
 
-      <section className="mt-6 glass rounded-3xl p-6">
+      <section className="mt-6 sheet p-6">
         <h2 className="text-lg font-semibold">Indicador a indicador</h2>
         <p className="text-sm text-muted">Barra cheia: governo atual · marcador: {refLabel}.</p>
         <ul className="mt-4 grid gap-x-10 gap-y-5 md:grid-cols-2">
@@ -104,7 +107,7 @@ export function MonitorView() {
         </div>
         <ul className="mt-6 grid gap-3 md:grid-cols-2">
           {recent.map((e) => (
-            <li key={e.id} className="glass rounded-2xl p-4">
+            <li key={e.id} className="sheet p-4">
               <div className="flex gap-3 text-xs">
                 <span className="font-semibold uppercase tracking-wider" style={{ color: IMPACT_META[e.impact].color }}>
                   {IMPACT_META[e.impact].label}
@@ -137,7 +140,7 @@ function CompareRow({ label, a, b, hint }: { label: string; a: number | null; b:
           )}
         </span>
       </div>
-      <div className="relative mt-1.5 h-2 rounded-full bg-surface-2">
+      <div className="relative mt-1.5 h-2 rounded-[3px] bg-surface-2">
         {a !== null && <div className="absolute inset-y-0 left-0 rounded-full" style={{ width: `${a * 10}%`, background: toneVar(a) }} />}
         {b !== null && <div className="absolute -top-1 h-4 w-0.5 rounded bg-accent" style={{ left: `calc(${b * 10}% - 1px)` }} title={`Referência: ${formatScore(b)}`} />}
       </div>

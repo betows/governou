@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Nav } from "@/components/Nav";
-import { Ticker } from "@/components/Ticker";
 import { ScoreProvider } from "@/components/ScoreProvider";
 import { DATA } from "@/lib/data";
 import "./globals.css";
@@ -14,11 +13,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className="h-full antialiased" style={{ colorScheme: "dark" }}>
+    <html lang="pt-BR" className="h-full antialiased">
       <body className="flex min-h-full flex-col">
         <ScoreProvider>
           <Nav />
-          <Ticker />
           <main className="flex-1">{children}</main>
           <footer className="mt-24 border-t border-line">
             <div className="mx-auto grid max-w-6xl gap-6 px-4 py-10 text-sm text-muted sm:grid-cols-[2fr_1fr]">

@@ -5,7 +5,7 @@ import { PILLARS, RULES, formatScore } from "@/lib/scoring";
 import { TERMS, TERM_BY_ID } from "@/lib/terms";
 import type { TermId } from "@/lib/types";
 import { toneVar } from "@/lib/ui";
-import { GradeRing } from "./GradeRing";
+import { Grade, Stamp } from "./Grade";
 import { useScores } from "./ScoreProvider";
 
 export function CompareView() {
@@ -25,7 +25,7 @@ export function CompareView() {
           [a, setA],
           [b, setB],
         ].map(([val, set], i) => (
-          <div key={i} className="glass rounded-3xl p-5">
+          <div key={i} className="sheet p-5">
             <select
               value={val as TermId}
               onChange={(e) => (set as (v: TermId) => void)(e.target.value as TermId)}
@@ -39,7 +39,10 @@ export function CompareView() {
               ))}
             </select>
             <div className="mt-5 flex justify-center">
-              <GradeRing score={scores[val as TermId].score} size={130} provisional={scores[val as TermId].provisional} />
+              <div className="flex items-center gap-5">
+                <Grade score={scores[val as TermId].score} provisional={scores[val as TermId].provisional} size="lg" />
+                <Stamp score={scores[val as TermId].score} provisional={scores[val as TermId].provisional} size="sm" />
+              </div>
             </div>
           </div>
         ))}
@@ -69,7 +72,7 @@ export function CompareView() {
 
 function Table({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="mt-8 glass rounded-3xl p-5">
+    <section className="mt-8 sheet p-5">
       <h2 className="mb-2 text-lg font-semibold">{title}</h2>
       <div className="divide-y divide-line">{children}</div>
     </section>

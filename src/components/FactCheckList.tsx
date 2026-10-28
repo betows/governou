@@ -9,12 +9,9 @@ export function FactCheckList({ checks }: { checks: FactCheck[] }) {
       {checks.map((c) => {
         const v = VERDICT_META[c.verdict];
         return (
-          <article key={c.id} className="flex flex-col glass rounded-2xl p-5">
+          <article key={c.id} className="flex flex-col sheet p-5">
             <div className="flex items-center justify-between gap-3">
-              <span
-                className="rounded-full px-2.5 py-0.5 text-xs font-bold uppercase tracking-wider text-white"
-                style={{ background: v.color }}
-              >
+              <span className="stamp" style={{ color: v.color, fontSize: "0.9rem" }}>
                 {v.label}
               </span>
               <span className="text-xs text-muted" title={c.dateApprox ? "Data aproximada" : undefined}>

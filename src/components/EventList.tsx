@@ -25,7 +25,7 @@ export function EventList({ events }: { events: GovEvent[] }) {
           <button
             key={f}
             onClick={() => setFilter(f)}
-            className={`rounded-full border px-3 py-1 transition ${filter === f ? "border-accent bg-accent text-bg font-semibold" : "border-line bg-surface text-muted hover:text-ink"}`}
+            className={`rounded-[3px] border px-3 py-1 transition ${filter === f ? "border-ink bg-ink text-bg font-semibold" : "border-line bg-surface text-muted hover:text-ink"}`}
           >
             {f === "todos" ? `Todos · ${events.length}` : `${IMPACT_META[f].label}s · ${count(f)}`}
           </button>
@@ -43,13 +43,13 @@ export function EventList({ events }: { events: GovEvent[] }) {
               >
                 {m.sign}
               </span>
-              <article className="glass rounded-2xl p-5" style={{ boxShadow: `inset 3px 0 0 ${m.color}` }}>
+              <article className="sheet p-5">
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
                   <span className="font-semibold uppercase tracking-wider" style={{ color: m.color }}>
                     {m.label}
                   </span>
                   <span className="text-muted">{fmtDate(e.date)}</span>
-                  <span className="rounded-full bg-surface-2 px-2 py-0.5 text-muted">{AREA_LABEL[e.area] ?? e.area}</span>
+                  <span className="rounded-[3px] bg-surface-2 px-2 py-0.5 text-muted">{AREA_LABEL[e.area] ?? e.area}</span>
                   <span className="text-muted" title="Peso do fato no pilar 'Fatos de governo'">
                     {"●".repeat(e.weight)}
                     <span className="opacity-30">{"●".repeat(3 - e.weight)}</span>
