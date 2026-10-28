@@ -3,7 +3,7 @@
  * Baixa o retrato de cada presidente da Wikipédia / Wikimedia Commons, junto com
  * autor e licença, e grava em public/retratos/ + src/data/portraits.json.
  *
- * Só aceita imagens com licença livre (CC BY, CC BY-SA, CC0 ou domínio público).
+ * Só aceita imagens com licença livre (CC BY, CC BY-SA, CC0, "Attribution" ou domínio público).
  * Se a rede falhar, mantém o portraits.json existente e o site usa o monograma.
  * Roda no build da Vercel; localmente depende de acesso a wikipedia.org.
  */
@@ -16,7 +16,8 @@ const PEOPLE = {
   bolsonaro: "Jair_Bolsonaro",
 };
 const UA = { "user-agent": "Governou/1.0 (https://github.com/betows/governou)" };
-const FREE = /^(cc[- ]by|cc0|public domain|domínio público|pd)/i;
+// Licenças livres aceitas. "Attribution" é a licença do Commons que só exige crédito.
+const FREE = /^(cc[- ]by|cc0|public domain|domínio público|pd|attribution$)/i;
 
 const outJson = new URL("../src/data/portraits.json", import.meta.url);
 const outDir = new URL("../public/retratos/", import.meta.url);
