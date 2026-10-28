@@ -36,7 +36,7 @@ export function Methodology() {
         </li>
         <li>
           <strong>Janela completa:</strong> uma média só é calculada com pelo menos 75% dos anos do mandato; uma variação só
-          vale se começar no ano anterior à posse (ou no primeiro ano) e terminar no último ano (ou no penúltimo). No
+          vale se começar no ano anterior à posse (ou no primeiro ano) e terminar no último ano do mandato. No
           mandato em curso aceita-se o último dado publicado, com até 2 anos de defasagem. Séries diferentes (ex.: PME e
           PNAD Contínua) nunca são misturadas dentro de um mesmo cálculo.
         </li>

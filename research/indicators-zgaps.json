@@ -1,0 +1,104 @@
+{
+  "indicators": [
+    {
+      "id": "homicidios",
+      "name": "Taxa de homicídios (Atlas da Violência, SIM/DataSUS)",
+      "unit": "por 100 mil habitantes",
+      "higherIsBetter": false,
+      "officialSource": "Ipea/FBSP, Atlas da Violência (dados do SIM/Ministério da Saúde)",
+      "sourceUrl": "https://www.ipea.gov.br/portal/images/170602_atlas_da_violencia_2017.pdf",
+      "values": { "2012": 29.4, "2014": 30.2, "2015": 28.9, "2016": 30.3 },
+      "notes": "EDITION MIX: none of these come from the Atlas 2025 (no search result showed its 2014-2016 values). 2012 = Atlas 2017 (series 2012-2015 quoted as 29.4, 28.6, 29.8, 28.9 in a commentary on the Atlas 2017; note Atlas 2017 gives 2013 = 28.6 vs 28.8 in Atlas 2025). 2014 = Atlas 2026 (May/2026 coverage: national rate fell 'from 30.2 to 20.1' between 2014, the start of its series, and 2024); older editions gave 2014 = 29.1 (Atlas 2016, preliminary) and 29.8 (Atlas 2018). 2015 = Atlas 2017 (59,080 homicides, 28.9). 2016 = Atlas 2018/2019 (62,517 homicides, 30.3). Recent editions run ~0.2-0.4 above older ones for the same year (e.g. 2017: 31.6 in Atlas 2019 vs 31.8 in Atlas 2025). 2006-2011 NOT found (no national annual values in any result).",
+      "yearSources": {
+        "2012": "https://www.cidadedabarra.com.br/2017/06/o-atlas-da-violencia-2017.html",
+        "2014": "https://www.band.com.br/noticias/brasil-tem-menor-taxa-de-homicidios-da-serie-historica-em-2024-202605261003",
+        "2015": "https://www.ipea.gov.br/portal/images/170602_atlas_da_violencia_2017.pdf",
+        "2016": "https://www.ipea.gov.br/portal/images/stories/PDFs/relatorio_institucional/190605_atlas_da_violencia_2019.pdf"
+      }
+    },
+    {
+      "id": "divida_bruta",
+      "name": "Dívida bruta do governo geral (DBGG)",
+      "unit": "% do PIB (dezembro)",
+      "higherIsBetter": false,
+      "officialSource": "Banco Central do Brasil, Nota Técnica 47 (jul/2018), série DBGG metodologia a partir de 2008 (SGS 13762)",
+      "sourceUrl": "https://www.bcb.gov.br/content/publicacoes/notastecnicas/47_notas_tecnicas_julho_2018.pdf",
+      "values": { "2006": 55.5, "2008": 56.0, "2009": 59.2, "2011": 51.3 },
+      "notes": "Vintage: BCB Nota Técnica 47 (July 2018, GDP base 2010, same methodology as series 13762 which starts Dec/2006). 2006 = 55.5 quoted directly from NT47 ('55,5% em 2006, ano de início da série, na atual metodologia'). 2008 = 56.0, 2009 = 59.2 and 2011 = 51.3 come from a blog summary of NT47; 2011 is corroborated by a data aggregator listing the series minimum as 51.27% in Dec/2011. 2007, 2010, 2012 NOT filled: the only values found (BCB Relatório de Inflação 2013: 2010 = 53.4, 2012 = 58.7) are on the pre-2015 GDP base and inconsistent with the 2013+ values (2013 = 51.5).",
+      "yearSources": {
+        "2006": "https://www.bcb.gov.br/content/publicacoes/notastecnicas/47_notas_tecnicas_julho_2018.pdf",
+        "2008": "https://fernandonogueiracosta.wordpress.com/2019/08/20/59881/",
+        "2009": "https://fernandonogueiracosta.wordpress.com/2019/08/20/59881/",
+        "2011": "https://www.daddusconsultoria.com/conteudos/indicadores/divida-bruta-pib"
+      }
+    },
+    {
+      "id": "pib_mundo",
+      "name": "Crescimento do PIB mundial (FMI)",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "FMI, World Economic Outlook, Statistical Appendix Table A1",
+      "sourceUrl": "https://www.imf.org/-/media/files/publications/weo/2019/april/english/tablea.pdf",
+      "values": { "2011": 4.3 },
+      "notes": "2011 = 4.3 from WEO April 2019 Table A1 (columns: Average 2001-10, 2011, 2012, ...; World row 3.9, 4.3, 3.5, ...). Different edition from the 2012+ values. 2006-2010 NOT filled: no official WEO table with those columns surfaced (only third-party copies of the current WEO database, e.g. 2009 ~ -0.4, not used).",
+      "yearSources": {
+        "2011": "https://www.imf.org/-/media/files/publications/weo/2019/april/english/tablea.pdf"
+      }
+    },
+    {
+      "id": "gini",
+      "name": "Índice de Gini do rendimento domiciliar per capita",
+      "unit": "índice (0-1)",
+      "higherIsBetter": false,
+      "officialSource": "IBGE, PNAD Contínua (Rendimento de todas as fontes) e PNAD anual (via Ipea/DATASUS IDB)",
+      "sourceUrl": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101880_informativo.pdf",
+      "values": { "2006": 0.561, "2008": 0.544, "2009": 0.540, "2013": 0.532, "2014": 0.526, "2017": 0.539 },
+      "notes": "2013, 2014, 2017: IBGE 'Rendimento de todas as fontes 2020' informative series (2012 0.540, 2013 0.532, 2014 0.526, 2015 0.524, 2016 0.537, 2017 0.539; matches existing 2012/2015/2016). The snippet layout was partly garbled, but 2013 = 0.532 and 2017 = 0.539 are corroborated by IEPE/CdG microdata study (stated identical to IBGE) and 2017 = 0.539 by a SIDRA table 7435 compilation. 2017 was first released as 0.549 (2018 release); 0.539 is the revised value. 2006, 2008, 2009: OLD annual PNAD, DATASUS IDB-2011 indicator B.9 (Ipea processing of PNAD microdata): 2006 0.5608, 2008 0.5441, 2009 0.5401 (rounded). SERIES BREAK: not level-comparable with PNAD Contínua (2012+). Same table gives 2007 = 0.5540 vs 0.552 in the existing file (Ipea Comunicado). No PNAD in 2010 (census year).",
+      "yearSources": {
+        "2006": "http://tabnet.datasus.gov.br/cgi/idb2011/b09ufb.htm",
+        "2008": "http://tabnet.datasus.gov.br/cgi/idb2011/b09ufb.htm",
+        "2009": "http://tabnet.datasus.gov.br/cgi/idb2011/b09ufb.htm",
+        "2013": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101880_informativo.pdf",
+        "2014": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101880_informativo.pdf",
+        "2017": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv101880_informativo.pdf"
+      }
+    },
+    {
+      "id": "cambio",
+      "name": "Taxa de câmbio PTAX (venda) no fim do ano",
+      "unit": "R$ por US$",
+      "higherIsBetter": false,
+      "officialSource": "Banco Central do Brasil, PTAX venda, último dia útil do ano (valores via reproduções de terceiros da série do BCB)",
+      "sourceUrl": "https://dadosabertos.bcb.gov.br/dataset/dolar-americano-usd-todos-os-boletins-diarios",
+      "values": {
+        "2006": 2.1380, "2007": 1.7713, "2008": 2.3370, "2009": 1.7412, "2010": 1.6662,
+        "2011": 1.8758, "2012": 2.0435, "2013": 2.3426, "2014": 2.6562, "2015": 3.9048,
+        "2016": 3.2591, "2017": 3.3080, "2018": 3.8748, "2019": 4.0307, "2020": 5.1967,
+        "2021": 5.5805, "2022": 5.2177, "2023": 4.8413, "2024": 6.1923, "2025": 5.5024
+      },
+      "notes": "All values are from third-party sites that republish the BCB PTAX series (BCB hosts unreachable here), not from bcb.gov.br directly. Each is the SELL (venda) rate of the last business day: numerando.com.br '/indices/dolar/YYYY' monthly tables give the December value (venda); its '/cambio/dolar-americano/' pages give the BUY rate (e.g. 2008 2.3362, 2009 1.7404, 2010 1.6654, 2011 1.8751, 2012 2.0429) and were NOT used. 2006 and 2015 from simianx table explicitly labelled 'taxa PTAX de venda do BCB no último dia útil do ano'. 2016-2025 from falazuki table labelled PTAX venda, último dia útil; 2025 corroborated by moed.as (31/12/2025 compra 5.5018 / venda 5.5024, citing BCB). Note PTAX methodology changed on 1 Jul 2011 (Circular 3506). Recommend a one-time check against SGS series 1 when the BCB is reachable.",
+      "yearSources": {
+        "2006": "https://www.simianx.ai/pt/stories/us-dollar-exchange-rate-by-year-every-year-1971-2026-table",
+        "2007": "https://www.numerando.com.br/indices/dolar/2007",
+        "2008": "https://www.numerando.com.br/indices/dolar/2008",
+        "2009": "https://www.numerando.com.br/indices/dolar/2009",
+        "2010": "https://www.numerando.com.br/indices/dolar/2010",
+        "2011": "https://www.numerando.com.br/indices/dolar/2011",
+        "2012": "https://www.numerando.com.br/indices/dolar/2012",
+        "2013": "https://www.numerando.com.br/indices/dolar/2013",
+        "2014": "https://www.numerando.com.br/indices/dolar/2014",
+        "2015": "https://www.simianx.ai/pt/stories/us-dollar-exchange-rate-by-year-every-year-1971-2026-table",
+        "2016": "https://www.falazuki.com/tabela/dolar-historico",
+        "2017": "https://www.falazuki.com/tabela/dolar-historico",
+        "2018": "https://www.falazuki.com/tabela/dolar-historico",
+        "2019": "https://www.falazuki.com/tabela/dolar-historico",
+        "2020": "https://www.falazuki.com/tabela/dolar-historico",
+        "2021": "https://www.falazuki.com/tabela/dolar-historico",
+        "2022": "https://www.falazuki.com/tabela/dolar-historico",
+        "2023": "https://www.falazuki.com/tabela/dolar-historico",
+        "2024": "https://www.falazuki.com/tabela/dolar-historico",
+        "2025": "https://moed.as/ptax/mensal/usd/2025/12.html"
+      }
+    }
+  ]
+}

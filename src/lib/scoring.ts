@@ -286,11 +286,11 @@ function scoreWithSeries(
     explanation = `Média de ${fmtNum(value, digits)} ${unit} em ${span}`;
   } else {
     // Variação só vale numa janela que represente o mandato inteiro: começa no ano
-    // anterior à posse (ou no primeiro ano) e termina no último ano (ou no penúltimo).
+    // anterior à posse (ou no primeiro ano) e termina no último ano do mandato.
     // No mandato em curso aceita-se o último dado publicado (até 2 anos de defasagem).
     const first = years[0];
     const lastYear = years[years.length - 1];
-    const lag = term.current ? 2 : 1;
+    const lag = term.current ? 2 : 0;
     baselineYear = [first - 1, first].find((y) => valueAt(y) !== undefined);
     const last = Array.from({ length: lag + 1 }, (_, k) => lastYear - k).find((y) => valueAt(y) !== undefined);
     if (baselineYear === undefined || last === undefined || last <= baselineYear) {
