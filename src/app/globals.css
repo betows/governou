@@ -180,25 +180,24 @@ input[type="range"] { accent-color: var(--pen); }
   html { scroll-behavior: auto; }
 }
 
-/* Foto 3x4 presa por clipe na ficha */
+/* Foto 3x4 presa por clipe na ficha. Sem rotação nem filtro: a foto fica nítida. */
 .photo-3x4 {
   position: relative;
-  background: var(--sheet);
-  padding: 6px 6px 22px;
+  background: #fbfbf8;
+  padding: 5px 5px 18px;
   border: 1px solid var(--rule);
-  box-shadow: 0 1px 0 var(--rule), 0 8px 18px -12px rgba(0, 0, 0, 0.35);
-  transform: rotate(-1.5deg);
+  box-shadow: 0 10px 22px -14px rgba(0, 0, 0, 0.45);
 }
 .photo-3x4 img,
 .photo-3x4 .mono {
   width: 100%;
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: center 20%;
-  filter: grayscale(0.15) contrast(1.02);
+  object-position: center 18%;
 }
 .photo-3x4 img {
   display: block;
+  background: #e9e9e4;
 }
 
 /* Campo de formulário: rótulo pequeno e valor datilografado sobre a linha */

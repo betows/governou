@@ -49,7 +49,7 @@ for (const [id, page] of Object.entries(PEOPLE)) {
     const file = decodeURIComponent(new URL(original).pathname.split("/").pop());
 
     const q = await json(
-      `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=480&titles=${encodeURIComponent(`File:${file}`)}`,
+      `https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=640&titles=${encodeURIComponent(`File:${file}`)}`,
     );
     const info = Object.values(q.query?.pages ?? {})[0]?.imageinfo?.[0];
     if (!info) throw new Error(`sem metadados para ${file}`);

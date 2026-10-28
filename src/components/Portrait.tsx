@@ -12,7 +12,7 @@ export function Portrait({ person, width = 132, clip = true }: { person: PersonI
       {clip && <PaperClip />}
       {p ? (
         // eslint-disable-next-line @next/next/no-img-element -- export estático, imagem já redimensionada no build
-        <img src={p.src} alt={`Retrato de ${NAMES[person]}`} width={width} height={Math.round((width * 4) / 3)} loading="lazy" />
+        <img src={p.src} alt={`Retrato de ${NAMES[person]}`} width={width} height={Math.round((width * 4) / 3)} loading="lazy" decoding="async" />
       ) : (
         <div className="mono grid place-items-center bg-surface-2 font-display text-4xl text-muted" aria-label={`Sem retrato de ${NAMES[person]}`}>
           {INITIALS[person]}
