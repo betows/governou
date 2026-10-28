@@ -14,20 +14,34 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import sharp from "sharp";
 
+// prefer: arquivos preferidos, em ordem (usados se existirem com licença livre); senão, a maior resolução.
+// top/height: faixa vertical mantida (fração da altura) antes do recorte 3x4 centralizado,
+// para o rosto ficar no terço superior do retrato.
 const PEOPLE = {
-  // upper: fração superior da foto mantida antes do recorte 3x4 (foto de meio corpo → foca o rosto)
   lula: {
     pages: ["pt:Luiz_Inácio_Lula_da_Silva", "en:Luiz_Inácio_Lula_da_Silva"],
-    files: ["Foto oficial de Luiz Inácio Lula da Silva (ombros).jpg", "Foto oficial de Luiz Inácio Lula da Silva.jpg"],
-    upper: 0.6,
+    prefer: ["Foto oficial de Luiz Inácio Lula da Silva (ombros).jpg"],
+    top: 0,
+    height: 0.8,
   },
   dilma: {
     pages: ["pt:Dilma_Rousseff", "en:Dilma_Rousseff"],
-    files: ["Dilma Rousseff - foto oficial 2011-01-09.jpg"],
-    upper: 0.5,
+    prefer: ["Dilma Rousseff - foto oficial 2011-01-09.jpg"],
+    top: 0.03,
+    height: 0.5,
   },
-  temer: { pages: ["pt:Michel_Temer", "en:Michel_Temer"], files: [], upper: 0.85 },
-  bolsonaro: { pages: ["pt:Jair_Bolsonaro", "en:Jair_Bolsonaro"], files: [], upper: 0.85 },
+  temer: {
+    pages: ["pt:Michel_Temer", "en:Michel_Temer"],
+    prefer: ["Michel Temer (foto oficial) (cropped 2).jpg"],
+    top: 0,
+    height: 1,
+  },
+  bolsonaro: {
+    pages: ["pt:Jair_Bolsonaro", "en:Jair_Bolsonaro"],
+    prefer: ["Jair Bolsonaro 2019 Portrait (3x4 cropped center).jpg"],
+    top: 0,
+    height: 1,
+  },
 };
 const UA = { "user-agent": "Governou/1.0 (https://github.com/betows/governou)" };
 // Licenças livres aceitas. "Attribution" é a licença do Commons que só exige crédito.
@@ -55,7 +69,7 @@ function fileFromUrl(url) {
 }
 
 async function candidatesFor(cfg) {
-  const names = new Set(cfg.files);
+  const names = new Set(cfg.prefer);
   for (const p of cfg.pages) {
     const [lang, title] = p.split(":");
     try {
@@ -115,17 +129,18 @@ for (const [id, cfg] of Object.entries(PEOPLE)) {
     if (usable.length === 0) {
       throw new Error(`nenhuma candidata livre entre: ${all.map((c) => `${c.file} [${c.license}]`).join("; ") || files.join("; ")}`);
     }
-    const pick = usable[0];
+    const pick = cfg.prefer.map((f) => usable.find((c) => c.file === f)).find(Boolean) ?? usable[0];
 
     const res = await fetch(pick.url, { headers: UA, signal: AbortSignal.timeout(30000) });
     if (!res.ok) throw new Error(`HTTP ${res.status} ao baixar ${pick.url}`);
     const input = Buffer.from(await res.arrayBuffer());
     const meta = await sharp(input).metadata();
 
-    // Mantém a parte de cima (onde fica o rosto) e recorta 3x4 a partir do topo.
-    const keepH = Math.round(meta.height * cfg.upper);
+    // Mantém a faixa onde fica o rosto e recorta 3x4 a partir do topo dessa faixa.
+    const top = Math.round(meta.height * cfg.top);
+    const keepH = Math.min(meta.height - top, Math.round(meta.height * cfg.height));
     await sharp(input)
-      .extract({ left: 0, top: 0, width: meta.width, height: keepH })
+      .extract({ left: 0, top, width: meta.width, height: keepH })
       .resize(OUT_W, OUT_H, { fit: "cover", position: "top" })
       .jpeg({ quality: 86, mozjpeg: true })
       .toFile(new URL(`${id}.jpg`, outDir).pathname);
