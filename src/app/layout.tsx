@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Nav } from "@/components/Nav";
+import { Analytics } from "@vercel/analytics/next";
 import { ScoreProvider } from "@/components/ScoreProvider";
+import { VotesProvider } from "@/components/VotesProvider";
 import { DATA } from "@/lib/data";
 import "./globals.css";
 
@@ -16,6 +18,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="pt-BR" className="h-full antialiased">
       <body className="flex min-h-full flex-col">
         <ScoreProvider>
+          <VotesProvider>
           <Nav />
           <main className="flex-1">{children}</main>
           <footer className="mt-24 border-t border-line">
@@ -32,7 +35,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </p>
             </div>
           </footer>
+          </VotesProvider>
         </ScoreProvider>
+        <Analytics />
       </body>
     </html>
   );

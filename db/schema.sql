@@ -109,3 +109,18 @@ create table if not exists president_bio (
   sources          jsonb not null default '[]',
   status           text not null default 'pendente' check (status in ('pendente', 'revisado'))
 );
+
+-- Nota do público: um voto por visitante e mandato (o visitante pode mudar o voto).
+-- voter = id aleatório guardado em cookie; ip_hash = hash do IP com sal secreto
+-- (o IP em si nunca é gravado), usado só para limitar abuso.
+create table if not exists public_vote (
+  term_id    text not null check (term_id in ('lula2', 'dilma1', 'dilma2', 'temer', 'bolsonaro', 'lula3')),
+  voter      text not null,
+  ip_hash    text not null,
+  score      smallint not null check (score between 0 and 10),
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now(),
+  primary key (term_id, voter)
+);
+
+create index if not exists public_vote_ip_idx on public_vote (ip_hash, updated_at);

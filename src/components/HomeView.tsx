@@ -9,6 +9,7 @@ import { CURRENT_TERM, TERMS, formatPeriod } from "@/lib/terms";
 import { toneVar } from "@/lib/ui";
 import { Grade, Stamp } from "./Grade";
 import { Portrait } from "./Portrait";
+import { PublicScoreLine } from "./PublicVote";
 import { useScores } from "./ScoreProvider";
 import { WeightsPanel } from "./WeightsPanel";
 
@@ -206,6 +207,7 @@ export function HomeView() {
                     <Grade score={s.score} provisional={s.provisional} size="sm" />
                     <Stamp score={s.score} provisional={s.provisional} size="sm" />
                   </span>
+                  <PublicScoreLine termId={t.id} />
                 </Link>
               </li>
             );

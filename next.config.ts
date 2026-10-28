@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  // Páginas continuam pré-renderizadas no build; só /api/* roda no servidor (votos do público).
   trailingSlash: true,
   turbopack: {
     rules: {

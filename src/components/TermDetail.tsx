@@ -11,6 +11,7 @@ import { FactCheckList } from "./FactCheckList";
 import { Grade, Stamp } from "./Grade";
 import { IndicatorTable } from "./IndicatorTable";
 import { PersonFile } from "./PersonFile";
+import { PublicVote } from "./PublicVote";
 import { ElectionMap } from "./ElectionMap";
 import { PillarBars } from "./PillarBars";
 import { useScores } from "./ScoreProvider";
@@ -56,6 +57,10 @@ export function TermDetail({ id }: { id: TermId }) {
           </a>
         </aside>
       </section>
+
+      <div className="pt-10">
+        <PublicVote termId={id} algorithmScore={s.provisional ? null : s.score} />
+      </div>
 
       <section id="nota" className="grid scroll-mt-20 gap-10 py-12 lg:grid-cols-[1fr_1.5fr]">
         <div>
