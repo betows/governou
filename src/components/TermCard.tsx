@@ -17,7 +17,7 @@ export function TermCard({ term, rank, index = 0 }: { term: Term; rank?: number;
   return (
     <Link
       href={`/governo/${term.id}/`}
-      className="rise group relative flex flex-col rounded-2xl border border-line bg-surface p-5 transition hover:-translate-y-0.5 hover:border-accent hover:shadow-[0_12px_40px_-20px_color-mix(in_oklab,var(--ink)_40%,transparent)]"
+      className="rise group relative flex flex-col glass rounded-2xl p-5 transition hover:-translate-y-0.5 hover:border-accent hover:shadow-[0_12px_40px_-20px_color-mix(in_oklab,var(--ink)_40%,transparent)]"
       style={{ animationDelay: `${index * 60}ms` }}
     >
       {term.current && (

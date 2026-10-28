@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <article className="mx-auto max-w-3xl px-4 py-12">
       <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">Transparência total</p>
-      <h1 className="mt-3 font-serif text-5xl tracking-tight">Como a nota é calculada</h1>
+      <h1 className="mt-3 font-display text-5xl font-bold">Como a nota é calculada</h1>
       <p className="mt-4 text-lg text-muted">
         A nota não é opinião: é o resultado de um algoritmo público aplicado a séries oficiais. Qualquer pessoa pode refazer
         a conta — o código está no repositório (<code className="text-sm">src/lib/scoring.ts</code>).
@@ -134,5 +134,5 @@ export default function Page() {
 }
 
 function H2({ children }: { children: React.ReactNode }) {
-  return <h2 className="mb-3 mt-12 font-serif text-3xl tracking-tight">{children}</h2>;
+  return <h2 className="mb-3 mt-12 font-display text-3xl font-bold">{children}</h2>;
 }

@@ -25,7 +25,7 @@ export function EventList({ events }: { events: GovEvent[] }) {
           <button
             key={f}
             onClick={() => setFilter(f)}
-            className={`rounded-full border px-3 py-1 transition ${filter === f ? "border-ink bg-ink text-bg" : "border-line bg-surface text-muted hover:text-ink"}`}
+            className={`rounded-full border px-3 py-1 transition ${filter === f ? "border-accent bg-accent text-bg font-semibold" : "border-line bg-surface text-muted hover:text-ink"}`}
           >
             {f === "todos" ? `Todos · ${events.length}` : `${IMPACT_META[f].label}s · ${count(f)}`}
           </button>
@@ -43,7 +43,7 @@ export function EventList({ events }: { events: GovEvent[] }) {
               >
                 {m.sign}
               </span>
-              <article className="rounded-2xl border border-line bg-surface p-5">
+              <article className="glass rounded-2xl p-5" style={{ boxShadow: `inset 3px 0 0 ${m.color}` }}>
                 <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs">
                   <span className="font-semibold uppercase tracking-wider" style={{ color: m.color }}>
                     {m.label}

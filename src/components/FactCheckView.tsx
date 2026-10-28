@@ -27,7 +27,7 @@ export function FactCheckView() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-12">
       <p className="text-xs font-semibold uppercase tracking-[0.2em] text-accent">Desmentindo boatos</p>
-      <h1 className="mt-3 font-serif text-5xl tracking-tight">Checagem</h1>
+      <h1 className="mt-3 font-display text-5xl font-bold">Checagem</h1>
       <p className="mt-2 max-w-2xl text-muted">
         Declarações e boatos sobre os governos, verificados por agências profissionais de checagem (Lupa, Aos Fatos,
         Comprova, AFP, Estadão Verifica, g1 Fato ou Fake, UOL Confere). Vale para todos os lados.

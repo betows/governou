@@ -17,7 +17,7 @@ export function CompareView() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-12">
-      <h1 className="font-serif text-5xl tracking-tight">Comparar governos</h1>
+      <h1 className="font-display text-5xl font-bold">Comparar governos</h1>
       <p className="mt-2 text-muted">Lado a lado, com a mesma régua.</p>
 
       <div className="mt-8 grid grid-cols-2 gap-4">
@@ -25,7 +25,7 @@ export function CompareView() {
           [a, setA],
           [b, setB],
         ].map(([val, set], i) => (
-          <div key={i} className="rounded-3xl border border-line bg-surface p-5">
+          <div key={i} className="glass rounded-3xl p-5">
             <select
               value={val as TermId}
               onChange={(e) => (set as (v: TermId) => void)(e.target.value as TermId)}
@@ -69,7 +69,7 @@ export function CompareView() {
 
 function Table({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <section className="mt-8 rounded-3xl border border-line bg-surface p-5">
+    <section className="mt-8 glass rounded-3xl p-5">
       <h2 className="mb-2 text-lg font-semibold">{title}</h2>
       <div className="divide-y divide-line">{children}</div>
     </section>
@@ -82,14 +82,14 @@ function Row({ label, a, b, ea, eb }: { label: string; a: number | null; b: numb
   return (
     <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 py-3 text-sm">
       <div className="text-right">
-        <div className={`tabular font-serif text-2xl ${winA ? "" : "opacity-70"}`} style={{ color: toneVar(a) }}>
+        <div className={`tabular font-display text-2xl ${winA ? "" : "opacity-70"}`} style={{ color: toneVar(a) }}>
           {formatScore(a)}
         </div>
         {ea && <div className="text-xs text-muted">{ea}</div>}
       </div>
       <div className="w-28 text-center text-xs font-medium uppercase tracking-wider text-muted sm:w-44">{label}</div>
       <div>
-        <div className={`tabular font-serif text-2xl ${winB ? "" : "opacity-70"}`} style={{ color: toneVar(b) }}>
+        <div className={`tabular font-display text-2xl ${winB ? "" : "opacity-70"}`} style={{ color: toneVar(b) }}>
           {formatScore(b)}
         </div>
         {eb && <div className="text-xs text-muted">{eb}</div>}

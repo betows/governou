@@ -36,7 +36,7 @@ export function TermDetail({ id }: { id: TermId }) {
           <div className="mt-6 flex items-center gap-4">
             <Initials term={term} size={64} />
             <div>
-              <h1 className="font-serif text-4xl leading-none tracking-tight sm:text-6xl">{term.label}</h1>
+              <h1 className="font-display text-4xl font-bold leading-none sm:text-6xl">{term.label}</h1>
               <p className="mt-2 text-muted">
                 {term.president} · {term.party} · {formatPeriod(term)} · vice: {term.vice}
               </p>
@@ -57,12 +57,12 @@ export function TermDetail({ id }: { id: TermId }) {
 
       <section className="grid gap-10 py-12 lg:grid-cols-[1fr_1.5fr]">
         <div>
-          <h2 className="font-serif text-3xl tracking-tight">Como a nota foi formada</h2>
+          <h2 className="font-display text-3xl font-bold">Como a nota foi formada</h2>
           <p className="mt-2 text-sm text-muted">
             Cada pilar recebe uma nota de 0 a 10. A nota final é a média ponderada dos pilares com dados (cobertura de
             indicadores: <span className="tabular text-ink">{Math.round(s.coverage * 100)}%</span>).
           </p>
-          <div className="mt-6 rounded-2xl border border-line bg-surface p-5">
+          <div className="mt-6 glass rounded-2xl p-5">
             <PillarBars pillars={s.pillars} />
           </div>
           <table className="mt-6 w-full text-sm">
@@ -86,7 +86,7 @@ export function TermDetail({ id }: { id: TermId }) {
                   </tr>
                 );
               })}
-              <tr className="border-t-2 border-ink font-semibold">
+              <tr className="border-t-2 border-accent font-semibold">
                 <td className="py-2">Nota final</td>
                 <td />
                 <td />
@@ -102,10 +102,10 @@ export function TermDetail({ id }: { id: TermId }) {
           {s.pillars
             .filter((p) => p.pillar.id !== "gestao")
             .map((p) => (
-              <div key={p.pillar.id} className="rounded-2xl border border-line bg-surface p-5">
+              <div key={p.pillar.id} className="glass rounded-2xl p-5">
                 <div className="flex items-baseline justify-between">
                   <h3 className="text-lg font-semibold">{p.pillar.name}</h3>
-                  <span className="tabular font-serif text-2xl" style={{ color: toneVar(p.score) }}>
+                  <span className="tabular font-display text-2xl" style={{ color: toneVar(p.score) }}>
                     {formatScore(p.score)}
                   </span>
                 </div>
@@ -119,7 +119,7 @@ export function TermDetail({ id }: { id: TermId }) {
       <section className="border-t border-line py-12">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <h2 className="font-serif text-3xl tracking-tight">Acertos e erros</h2>
+            <h2 className="font-display text-3xl font-bold">Acertos e erros</h2>
             <p className="mt-1 max-w-2xl text-sm text-muted">
               Fatos relevantes do mandato, classificados por resultado mensurável e consenso técnico — cada um com fonte.
               {balance.count < MIN_EVENTS
@@ -140,7 +140,7 @@ export function TermDetail({ id }: { id: TermId }) {
 
       {checks.length > 0 && (
         <section className="border-t border-line py-12">
-          <h2 className="font-serif text-3xl tracking-tight">Checagem de fatos</h2>
+          <h2 className="font-display text-3xl font-bold">Checagem de fatos</h2>
           <p className="mt-1 text-sm text-muted">Boatos e declarações sobre este governo verificados por agências de checagem.</p>
           <div className="mt-6">
             <FactCheckList checks={checks} />

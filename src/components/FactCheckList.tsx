@@ -9,7 +9,7 @@ export function FactCheckList({ checks }: { checks: FactCheck[] }) {
       {checks.map((c) => {
         const v = VERDICT_META[c.verdict];
         return (
-          <article key={c.id} className="flex flex-col rounded-2xl border border-line bg-surface p-5">
+          <article key={c.id} className="flex flex-col glass rounded-2xl p-5">
             <div className="flex items-center justify-between gap-3">
               <span
                 className="rounded-full px-2.5 py-0.5 text-xs font-bold uppercase tracking-wider text-white"
@@ -22,7 +22,7 @@ export function FactCheckList({ checks }: { checks: FactCheck[] }) {
                 {fmtDate(c.date)}
               </span>
             </div>
-            <blockquote className="mt-3 font-serif text-xl leading-snug">“{c.claim}”</blockquote>
+            <blockquote className="mt-3 font-display text-xl leading-snug">“{c.claim}”</blockquote>
             <p className="mt-1 text-xs text-muted">
               Autor: {c.claimant}
               {c.about.length > 0 && <> · Sobre: {c.about.map((t) => TERM_BY_ID[t]?.label).join(", ")}</>}

@@ -8,7 +8,7 @@ export function WeightsPanel() {
   const total = PILLARS.reduce((a, p) => a + options.weights[p.id], 0) || 1;
 
   return (
-    <div className="rounded-2xl border border-line bg-surface p-5 sm:p-6">
+    <div className="glass rounded-2xl p-5 sm:p-6">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h3 className="text-base font-semibold">Monte sua própria régua</h3>
         {!isDefault && (

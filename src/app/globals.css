@@ -1,43 +1,25 @@
 @import "tailwindcss";
-@import "@fontsource-variable/inter-tight";
-@import "@fontsource/instrument-serif";
-@import "@fontsource/instrument-serif/400-italic.css";
+@import "@fontsource-variable/space-grotesk";
 @import "@fontsource-variable/jetbrains-mono";
 
+/* Tema único escuro — estética de painel de dados ao vivo. */
 :root {
-  --bg: #f4f2ec;
-  --surface: #ffffff;
-  --surface-2: #ece9e1;
-  --ink: #0e1116;
-  --muted: #5b6270;
-  --line: #dfdbd1;
-  --accent: #1f5eff;
-  --accent-soft: #e3eaff;
-  --great: #16925a;
-  --good: #5e9f22;
-  --mid: #c98a06;
-  --bad: #dd5f22;
-  --awful: #d23434;
-  --none: #9aa1ad;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0a0c10;
-    --surface: #12151c;
-    --surface-2: #191d26;
-    --ink: #eceef2;
-    --muted: #8d95a5;
-    --line: #232834;
-    --accent: #7aa2ff;
-    --accent-soft: #18213a;
-    --great: #34c07c;
-    --good: #8cc63f;
-    --mid: #f0b429;
-    --bad: #f07a3c;
-    --awful: #f05252;
-    --none: #5b6270;
-  }
+  color-scheme: dark;
+  --bg: #04060b;
+  --surface: #0a0f1a;
+  --surface-2: #121a2a;
+  --ink: #e8edf7;
+  --muted: #7d8aa3;
+  --line: #1a2335;
+  --accent: #22d3ee;
+  --accent-2: #8b5cf6;
+  --accent-soft: rgba(34, 211, 238, 0.1);
+  --great: #3dffa2;
+  --good: #b4ff4d;
+  --mid: #ffc83d;
+  --bad: #ff8a3d;
+  --awful: #ff4d6d;
+  --none: #4b5568;
 }
 
 @theme inline {
@@ -48,14 +30,15 @@
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
   --color-accent-soft: var(--accent-soft);
   --color-great: var(--great);
   --color-good: var(--good);
   --color-mid: var(--mid);
   --color-bad: var(--bad);
   --color-awful: var(--awful);
-  --font-sans: "Inter Tight Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-serif: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-sans: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk Variable", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
 }
 
@@ -67,25 +50,92 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-sans);
-  font-feature-settings: "ss01", "cv11";
+}
+
+/* Fundo: grade técnica + brilhos difusos. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(60rem 30rem at 85% -10%, rgba(139, 92, 246, 0.18), transparent 60%),
+    radial-gradient(50rem 30rem at -10% 10%, rgba(34, 211, 238, 0.14), transparent 60%),
+    linear-gradient(var(--bg), var(--bg));
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(125, 138, 163, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 138, 163, 0.07) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 50% 0%, black 30%, transparent 75%);
 }
 
 .tabular {
+  font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
 }
 
-.grain {
-  background-image: radial-gradient(circle at 1px 1px, color-mix(in oklab, var(--ink) 9%, transparent) 1px, transparent 0);
-  background-size: 22px 22px;
+.font-display {
+  letter-spacing: -0.03em;
+}
+
+/* Cartão de vidro com borda em gradiente. */
+.glass {
+  position: relative;
+  background: linear-gradient(180deg, rgba(18, 26, 42, 0.75), rgba(10, 15, 26, 0.75));
+  border: 1px solid var(--line);
+  backdrop-filter: blur(12px);
+}
+.glass::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.55), transparent 35%, transparent 65%, rgba(139, 92, 246, 0.55));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.glass:hover::before,
+.glass.lit::before {
+  opacity: 1;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glow {
+  filter: drop-shadow(0 0 10px currentColor);
 }
 
 @keyframes rise {
-  from { opacity: 0; transform: translateY(10px); }
+  from { opacity: 0; transform: translateY(12px); }
   to { opacity: 1; transform: none; }
 }
-.rise { animation: rise 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.rise { animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee { animation: marquee 40s linear infinite; }
 
 @media (prefers-reduced-motion: reduce) {
-  .rise { animation: none; }
+  .rise, .marquee { animation: none; }
   html { scroll-behavior: auto; }
 }
+
+input[type="range"] { accent-color: var(--accent); }
+select option { background: var(--surface); }

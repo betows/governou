@@ -33,7 +33,7 @@ export function IndicatorTable({ pillar }: { pillar: PillarResult }) {
             </p>
           </div>
           <div className="hidden sm:block">{i.series && <Sparkline values={i.series.values} highlight={i.yearsUsed} />}</div>
-          <div className="tabular text-right text-2xl font-serif" style={{ color: i.score === null ? "var(--muted)" : toneVar(i.score) }}>
+          <div className="tabular text-right text-2xl font-display" style={{ color: i.score === null ? "var(--muted)" : toneVar(i.score) }}>
             {formatScore(i.score)}
           </div>
         </div>
