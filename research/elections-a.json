@@ -1,0 +1,105 @@
+{
+  "elections": [
+    {
+      "year": 2006,
+      "round": 2,
+      "date": "2006-10-29",
+      "winner": "lula",
+      "candidates": [
+        {"id": "lula", "name": "Lula", "party": "PT"},
+        {"id": "alckmin", "name": "Geraldo Alckmin", "party": "PSDB"}
+      ],
+      "national": {"lula": 60.83, "alckmin": 39.17},
+      "nationalSource": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006",
+      "states": {
+        "AC": {"lula": 52.36, "alckmin": 47.64, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "AL": {"lula": 61.45, "alckmin": 38.55, "source": "https://www.camara.leg.br/noticias/91047-lula-vira-eleicao-em-tres-estados-e-no-distrito-federal"},
+        "AP": {"lula": 70.40, "alckmin": 29.60, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "AM": {"lula": 86.80, "alckmin": 13.20, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "BA": {"lula": 78.08, "alckmin": 21.92, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "CE": {"lula": 82.38, "alckmin": 17.62, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "DF": {"lula": 56.96, "alckmin": 43.04, "source": "https://www.camara.leg.br/noticias/91047-lula-vira-eleicao-em-tres-estados-e-no-distrito-federal"},
+        "ES": {"lula": 65.54, "alckmin": 34.46, "source": "https://www.camara.leg.br/noticias/91047-lula-vira-eleicao-em-tres-estados-e-no-distrito-federal"},
+        "GO": {"lula": 54.78, "alckmin": 45.22, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "MA": {"lula": 84.63, "alckmin": 15.37, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "MG": {"lula": 65.19, "alckmin": 34.81, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"},
+        "PA": {"lula": 60.18, "alckmin": 39.82, "source": "https://www.gazetadopovo.com.br/vida-e-cidadania/lula-vence-em-20-estados-e-melhora-nas-urnas-a8v0p8dipw20fpia38kacnivi/"},
+        "RR": {"lula": 38.51, "alckmin": 61.49, "source": "https://www.camara.leg.br/noticias/91047-lula-vira-eleicao-em-tres-estados-e-no-distrito-federal"},
+        "RS": {"lula": 44.65, "alckmin": 55.39, "source": "https://www.camara.leg.br/noticias/91047-lula-vira-eleicao-em-tres-estados-e-no-distrito-federal"},
+        "SC": {"lula": 45.47, "alckmin": 54.53, "source": "https://www.camara.leg.br/noticias/91047-lula-vira-eleicao-em-tres-estados-e-no-distrito-federal"},
+        "SP": {"lula": 47.74, "alckmin": 52.26, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2006"}
+      },
+      "notes": "16 of 27 UFs verified via search snippets (pt.wikipedia 2006 table, Agencia Camara 1st-vs-2nd-round table, Gazeta do Povo). Missing (sem dado): MS, MT, PB, PE, PI, PR, RJ, RN, RO, SE, TO. MA: Lula 84.63% seen in Wikipedia table; Alckmin share is the complement (not seen directly); a Gazeta do Povo partial-count article gave 84.65%. RS values as printed by Agencia Camara sum to 100.04. PR omitted: only a partial-count figure (99.48% apurado, Alckmin 50.75 x Lula 49.25) was found. Cross-check: TSE/Agencia Camara and pt.wikipedia say Lula won 19 states + DF and Alckmin 7 states (Gazeta do Povo headline says 'Lula vence em 20 estados', i.e. counting DF); among the 16 filled UFs, Lula leads in 12 (AC, AL, AP, AM, BA, CE, DF, ES, GO, MA, MG, PA) and Alckmin in 4 (RR, RS, SC, SP), consistent with those totals (Alckmin's other 3 per Wikipedia/Camara: PR, MT, MS)."
+    },
+    {
+      "year": 2010,
+      "round": 2,
+      "date": "2010-10-31",
+      "winner": "dilma",
+      "candidates": [
+        {"id": "dilma", "name": "Dilma Rousseff", "party": "PT"},
+        {"id": "serra", "name": "José Serra", "party": "PSDB"}
+      ],
+      "national": {"dilma": 56.05, "serra": 43.95},
+      "nationalSource": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010",
+      "states": {
+        "AC": {"dilma": 30.33, "serra": 69.67, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "AL": {"dilma": 53.63, "serra": 46.37, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "AP": {"dilma": 62.66, "serra": 37.34, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "AM": {"dilma": 80.57, "serra": 19.43, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "BA": {"dilma": 70.85, "serra": 29.15, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "CE": {"dilma": 77.35, "serra": 22.65, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "DF": {"dilma": 52.81, "serra": 47.19, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "ES": {"dilma": 49.17, "serra": 50.83, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "GO": {"dilma": 49.25, "serra": 50.75, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "MA": {"dilma": 79.09, "serra": 20.91, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "MG": {"dilma": 58.45, "serra": 41.55, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_do_Brasil_em_Minas_Gerais_em_2010"},
+        "MS": {"dilma": 44.87, "serra": 55.13, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "MT": {"dilma": 48.89, "serra": 51.11, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "PA": {"dilma": 53.20, "serra": 46.80, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2010"},
+        "RJ": {"dilma": 60.48, "serra": 39.52, "source": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_do_Brasil_no_Rio_de_Janeiro_em_2010"}
+      },
+      "notes": "15 of 27 UFs verified via search snippets of pt.wikipedia tables (national page, results page, MG and RJ state pages). PA from vote counts 1,791,443 x 1,576,154. Missing (sem dado): PB, PE, PI, PR, RN, RO, RR, RS, SC, SE, SP, TO. Cross-check: ConJur (31/10/2010, https://www.conjur.com.br/2010-out-31/dilma-roussef-pt-primeira-mulher-presidir-brasil//?print=1) says Serra won 11 states (AC, ES, GO, MT, MS, PR, RS, RO, RR, SC, SP), so Dilma won 15 states + DF; among the 15 filled UFs, Serra leads in exactly AC, ES, GO, MS, MT and Dilma in the rest (incl. DF), consistent. Note: some secondary snippets mention Dilma winning '16' or '18' states; ConJur's explicit list was used. Wikipedia snippet noted a typo in AM vote counts; AM percentages kept as shown (sum 100)."
+    },
+    {
+      "year": 2014,
+      "round": 2,
+      "date": "2014-10-26",
+      "winner": "dilma",
+      "candidates": [
+        {"id": "dilma", "name": "Dilma Rousseff", "party": "PT"},
+        {"id": "aecio", "name": "Aécio Neves", "party": "PSDB"}
+      ],
+      "national": {"dilma": 51.64, "aecio": 48.36},
+      "nationalSource": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014",
+      "states": {
+        "AC": {"dilma": 36.32, "aecio": 63.68, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "AL": {"dilma": 62.12, "aecio": 37.88, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "AP": {"dilma": 61.45, "aecio": 38.55, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "AM": {"dilma": 65.02, "aecio": 34.98, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "BA": {"dilma": 70.16, "aecio": 29.84, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "CE": {"dilma": 76.75, "aecio": 23.25, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "DF": {"dilma": 38.10, "aecio": 61.90, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "ES": {"dilma": 46.15, "aecio": 53.85, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "GO": {"dilma": 42.89, "aecio": 57.11, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "MA": {"dilma": 78.76, "aecio": 21.24, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "MG": {"dilma": 52.41, "aecio": 47.59, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "MS": {"dilma": 43.67, "aecio": 56.33, "source": "https://fundacaoulysses.org.br/eleicoes-2014-quem-ganhou-em-cada-estado/"},
+        "MT": {"dilma": 45.33, "aecio": 54.67, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "PA": {"dilma": 57.41, "aecio": 42.59, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "PB": {"dilma": 64.26, "aecio": 35.74, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "PE": {"dilma": 70.20, "aecio": 29.80, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "PI": {"dilma": 78.30, "aecio": 21.70, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "PR": {"dilma": 39.02, "aecio": 60.98, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "RJ": {"dilma": 54.94, "aecio": 45.06, "source": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-10/dilma-vence-no-norte-e-no-nordeste-aecio-ganha-nas-outras-tres-regioes"},
+        "RN": {"dilma": 69.96, "aecio": 30.04, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "RO": {"dilma": 45.15, "aecio": 54.85, "source": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-10/dilma-vence-no-norte-e-no-nordeste-aecio-ganha-nas-outras-tres-regioes"},
+        "RS": {"dilma": 46.47, "aecio": 53.53, "source": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-10/dilma-vence-no-norte-e-no-nordeste-aecio-ganha-nas-outras-tres-regioes"},
+        "SC": {"dilma": 35.41, "aecio": 64.59, "source": "https://agenciabrasil.ebc.com.br/politica/noticia/2014-10/dilma-vence-no-norte-e-no-nordeste-aecio-ganha-nas-outras-tres-regioes"},
+        "SE": {"dilma": 67.01, "aecio": 32.99, "source": "https://pt.wikipedia.org/wiki/Resultados_da_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2014"},
+        "SP": {"dilma": 35.7, "aecio": 64.3, "source": "https://www2.senado.leg.br/jspui/bitstream/id/930252/1/Eleicao_presidencial_P154_R0193.pdf"}
+      },
+      "notes": "25 of 27 UFs filled. Missing (sem dado): RR (a 58.9% Aecio figure appeared but conflicted with a 58.9 x 41.1 South-region aggregate in another snippet, so omitted) and TO (Dilma won, no percentage found). Values where only one candidate's share was seen and the other is the complement (100 - x): MA (Aecio), MS (Aecio; Fundacao Ulysses snippet truncated), RJ (Aecio), RO (Dilma), SC (Dilma). SP is rounded to one decimal (Senado publication: Aecio 64.3% of valid votes; Congresso em Foco also gives Dilma 35.7%). PE/PB/PI also confirmed via vote counts in the Wikipedia table (e.g. PE 3,438,165 x 1,459,226). Cross-check: Agencia Brasil ('Dilma vence em 15 estados, Aecio em 12', https://agenciabrasil.ebc.com.br/politica/noticia/2014-10/dilma-vence-em-15-estados-aecio-em-12) and pt.wikipedia: Dilma won 15 states (AL, AM, AP, BA, CE, MA, MG, PA, PB, PE, PI, RJ, RN, SE, TO), Aecio 11 states + DF. Among the 25 filled UFs, Dilma leads in 14 (all of her 15 except TO, which is unfilled) and Aecio in 11 (AC, DF, ES, GO, MS, MT, PR, RO, RS, SC, SP), with RR (Aecio) unfilled: consistent."
+    }
+  ]
+}
