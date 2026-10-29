@@ -1,0 +1,413 @@
+{
+  "termId": "dilma1",
+  "events": [
+    {
+      "id": "dilma1-brasil-sem-miseria",
+      "date": "2011-06-02",
+      "title": "Lançamento do Plano Brasil Sem Miséria",
+      "summary": "O governo lançou o Plano Brasil Sem Miséria com a meta de retirar da extrema pobreza cerca de 16 milhões de pessoas até 2014, ampliando o Bolsa Família e criando a busca ativa de famílias fora do Cadastro Único. Em 2013, o MDS anunciou que 22 milhões de pessoas haviam superado a linha de extrema pobreza do programa; o dado é oficial e baseado na linha de renda administrativa, não em medição independente.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "Público-alvo inicial: 16,2 milhões em extrema pobreza (8,5% da população); MDS informou 22 milhões acima da linha de extrema pobreza do programa até março de 2013.",
+      "sources": [
+        {
+          "outlet": "Jornal Grande Bahia",
+          "title": "Brasil sem Miséria quer retirar 16 milhões da extrema pobreza até 2014",
+          "url": "https://jornalgrandebahia.com.br/2011/06/brasil-sem-miseria-quer-retirar-16-milhoes-da-extrema-pobreza-ate-2014/",
+          "date": "2011-06-02"
+        },
+        {
+          "outlet": "Jornal do Brasil",
+          "title": "Governo apresenta balanço do Plano Brasil Sem Miséria",
+          "url": "https://www.jb.com.br/pais/noticias/2013/03/04/amp/governo-apresenta-balanco-do-plano-brasil-sem-miseria.html",
+          "date": "2013-03-04"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-lei-acesso-informacao",
+      "date": "2011-11-18",
+      "title": "Sanção da Lei de Acesso à Informação (Lei 12.527)",
+      "summary": "A presidente sancionou a Lei de Acesso à Informação, que obriga os três Poderes de todos os entes federados a responder pedidos de informação sem exigir justificativa do solicitante e acaba com o sigilo eterno de documentos. A lei entrou em vigor em maio de 2012.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "Lei 12.527/2011, em vigor desde 16/05/2012; Brasil tornou-se o 89º país com lei do tipo.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Dilma sanciona Lei de Acesso a Informações",
+          "url": "https://www.congressoemfoco.com.br/noticia/105366/dilma-sanciona-lei-de-acesso-a-informacoes",
+          "date": "2011-11-18"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Entenda o que diz a Lei de Acesso",
+          "url": "https://www.congressoemfoco.com.br/noticias/outros-destaques/entenda-o-que-diz-a-lei-de-acesso/",
+          "date": "2011-11-18"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-comissao-verdade",
+      "date": "2012-05-16",
+      "title": "Instalação da Comissão Nacional da Verdade",
+      "summary": "Criada pela Lei 12.528/2011, a Comissão Nacional da Verdade foi instalada com sete membros para apurar violações de direitos humanos cometidas entre 1946 e 1988, sem caráter punitivo. O relatório final foi entregue à presidente em 10 de dezembro de 2014.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "Lei 12.528/2011 sancionada em 18/11/2011; comissão instalada em 16/05/2012; relatório final entregue em 10/12/2014.",
+      "sources": [
+        {
+          "outlet": "Jornal do Brasil",
+          "title": "Dilma sanciona lei que cria a Comissão da Verdade",
+          "url": "https://www.jb.com.br/pais/noticias/2011/11/18/amp/dilma-sanciona-lei-que-cria-a-comissao-da-verdade.html",
+          "date": "2011-11-18"
+        },
+        {
+          "outlet": "Vermelho",
+          "title": "Uma Comissão para apurar os crimes da ditadura",
+          "url": "https://vermelho.org.br/2012/12/27/uma-comissao-para-apurar-os-crimes-da-ditadura/",
+          "date": "2012-12-27"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-cotas",
+      "date": "2012-08-29",
+      "title": "Sanção da Lei de Cotas nas universidades federais (Lei 12.711)",
+      "summary": "A lei reservou metade das vagas de universidades e institutos federais a egressos de escolas públicas, com subcotas para estudantes pretos, pardos e indígenas e para famílias de baixa renda. O projeto foi aprovado por unanimidade no Senado e passou a valer a partir do Sisu de 2013.",
+      "impact": "positivo",
+      "area": "educacao",
+      "weight": 2,
+      "evidence": "50% das vagas federais reservadas a alunos de escola pública; parte para renda familiar per capita de até 1,5 salário mínimo.",
+      "sources": [
+        {
+          "outlet": "IHU Unisinos",
+          "title": "Dilma sanciona cotas em universidades",
+          "url": "https://ihu.unisinos.br/512985-dilma-sanciona-cotas-em-universidades",
+          "date": "2012-08-30"
+        },
+        {
+          "outlet": "UTFPR",
+          "title": "Nova lei de cotas sancionada será adaptada na UTFPR",
+          "url": "https://www.utfpr.edu.br/comunicacao/arquivo-de-noticias/reitoria/2012/nova-lei-de-cotas-sancionada-sera-adaptada-na-utfpr",
+          "date": "2012-08-30"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-mais-medicos",
+      "date": "2013-07-08",
+      "title": "Criação do Programa Mais Médicos (MP 621)",
+      "summary": "A medida provisória criou o Mais Médicos para levar médicos à atenção básica em regiões com carência, permitindo a atuação de estrangeiros sem revalidação do diploma, o que gerou forte oposição de entidades médicas e ações no STF. Em cerca de um ano o programa somava aproximadamente 14 mil médicos, a maioria cubanos contratados via cooperação com a OPAS.",
+      "impact": "positivo",
+      "area": "saude",
+      "weight": 2,
+      "evidence": "MP 621/2013, convertida na Lei 12.871/2013; cerca de 14 mil médicos em atividade em junho de 2014.",
+      "sources": [
+        {
+          "outlet": "Senado Federal",
+          "title": "Sumário da MPV 621/2013",
+          "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/sumarios-de-proposicoes/mpv621",
+          "date": "2013-07-09"
+        },
+        {
+          "outlet": "Outras Palavras",
+          "title": "Pequeno balanço do Mais Médicos, dois anos depois",
+          "url": "https://outraspalavras.net/outrasmidias/pequeno-balanco-do-mais-medicos-dois-anos-depois/",
+          "date": "2015-07-08"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-lei-anticorrupcao",
+      "date": "2013-08-01",
+      "title": "Sanção da Lei Anticorrupção (Lei 12.846)",
+      "summary": "A lei passou a responsabilizar administrativa e civilmente empresas por atos contra a administração pública, nacional ou estrangeira, com multas e acordos de leniência, inspirada no FCPA americano e no UK Bribery Act. Entrou em vigor em 2014, mas só foi regulamentada pelo Decreto 8.420 em março de 2015.",
+      "impact": "positivo",
+      "area": "corrupcao",
+      "weight": 2,
+      "evidence": "Lei 12.846/2013 publicada no DOU em 02/08/2013; vigência a partir de 29/01/2014.",
+      "sources": [
+        {
+          "outlet": "Consultor Jurídico",
+          "title": "Lei Anticorrupção deve observar regime do Direito Administrativo Sancionador",
+          "url": "https://www.conjur.com.br/2013-set-20/lei-anticorrupcao-observar-regime-direito-administrativo-sancionador//?print=1",
+          "date": "2013-09-20"
+        },
+        {
+          "outlet": "Âmbito Jurídico",
+          "title": "Aspectos da Lei n.º 12846/2013",
+          "url": "https://ambitojuridico.com.br/aspectos-da-lei-n-12846-2013/",
+          "date": "2013-08-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-marco-civil",
+      "date": "2014-04-23",
+      "title": "Sanção do Marco Civil da Internet (Lei 12.965)",
+      "summary": "Sancionado sem vetos na abertura do encontro NETmundial, em São Paulo, o Marco Civil estabeleceu princípios de neutralidade de rede, proteção da privacidade e regras de responsabilidade de provedores. A lei foi regulamentada em 2016.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "Aprovado pelo Senado em 22/04/2014 e sancionado em 23/04/2014; regulamentado pelo Decreto 8.771/2016.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Sancionada a lei do marco civil da internet",
+          "url": "https://www12.senado.leg.br/noticias/materias/2014/04/23/sancionada-a-lei-do-marco-civil-da-internet",
+          "date": "2014-04-23"
+        },
+        {
+          "outlet": "Migalhas",
+          "title": "Dilma sanciona Marco Civil da Internet",
+          "url": "https://www.migalhas.com.br/quentes/199602/dilma-sanciona-marco-civil-da-internet",
+          "date": "2014-04-23"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-mapa-fome",
+      "date": "2014-09-16",
+      "title": "FAO aponta saída do Brasil do Mapa da Fome",
+      "summary": "O relatório SOFI 2014 da FAO indicou que a proporção de brasileiros subalimentados ficou abaixo de 5%, patamar usado pela agência para considerar a fome superada. O resultado reflete políticas de mais de uma década; o país voltou ao mapa no triênio 2018–2020.",
+      "impact": "positivo",
+      "area": "social",
+      "weight": 3,
+      "evidence": "Subalimentação abaixo de 5% da população; queda de 82% no número de subalimentados entre 2002 e 2013, segundo a FAO.",
+      "sources": [
+        {
+          "outlet": "IHU Unisinos",
+          "title": "Número de desnutridos no Brasil caiu pela metade, diz FAO",
+          "url": "https://ihu.unisinos.br/170-noticias/noticias-2014/535337-numero-de-desnutridos-no-brasil-caiu-pela-metade-diz-fao",
+          "date": "2014-09-17"
+        },
+        {
+          "outlet": "Sesc São Paulo",
+          "title": "Enchendo o prato",
+          "url": "https://portal.sescsp.org.br/online/artigo/compartilhar/8615_ENCHENDO+O+PRATO",
+          "date": "2014-12-18"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-desemprego-minimo",
+      "date": "2014-12-31",
+      "title": "Desemprego médio de 2014 é o menor da série da PME",
+      "summary": "A Pesquisa Mensal de Emprego do IBGE registrou taxa média de desocupação de 4,8% em 2014, a menor da série iniciada em 2003, após 5,4% em 2013. A PME cobria apenas seis regiões metropolitanas; a PNAD Contínua, de abrangência nacional, indicava taxa mais alta (cerca de 6,8%), e o desemprego subiu fortemente a partir de 2015.",
+      "impact": "positivo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "PME/IBGE: desocupação média de 4,8% em 2014 (12,4% em 2003); dezembro de 2014 em 4,3%.",
+      "sources": [
+        {
+          "outlet": "Diário do Litoral",
+          "title": "Taxas de desemprego de 2014 são as menores da série histórica, diz IBGE",
+          "url": "https://www.diariodolitoral.com.br/nacional/emprego/taxas-de-desemprego-de-2014-sao-as-menores-da-serie-historica-diz-ibge/",
+          "date": "2015-01-29"
+        },
+        {
+          "outlet": "Vermelho",
+          "title": "Desemprego fecha 2014 com a menor taxa desde 2003",
+          "url": "https://vermelho.org.br/2015/01/29/desemprego-fecha-2014-com-a-menor-taxa-desde-2003-2/",
+          "date": "2015-01-29"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-ciencia-sem-fronteiras",
+      "date": "2014-06-25",
+      "title": "Ciência sem Fronteiras atinge cerca de 101 mil bolsas e é ampliado",
+      "summary": "Lançado em 2011, o programa financiou intercâmbio no exterior sobretudo para estudantes de graduação em áreas de ciência e tecnologia, e o governo anunciou nova fase de 100 mil bolsas em 2014. Críticos apontaram alto custo, foco na graduação sanduíche e falta de avaliação de resultados; a modalidade de graduação foi encerrada em 2017.",
+      "impact": "misto",
+      "area": "educacao",
+      "weight": 1,
+      "evidence": "101.446 bolsas concedidas entre 2011 e 2014 (Capes/CNPq), cerca de 79 mil de graduação.",
+      "sources": [
+        {
+          "outlet": "Jornal do Brasil",
+          "title": "Dilma anuncia mais 100 mil bolsas para o Ciência sem Fronteiras",
+          "url": "https://www.jb.com.br/ciencia-e-tecnologia/noticias/2014/06/25/dilma-anuncia-mais-100-mil-bolsas-para-o-ciencia-sem-fronteiras.html",
+          "date": "2014-06-25"
+        },
+        {
+          "outlet": "Senado Federal",
+          "title": "Requerimento de informações sobre o Programa Ciência sem Fronteiras",
+          "url": "https://legis.senado.leg.br/sdleg-getter/documento?dm=5246059",
+          "date": "2017-04-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-mp579-setor-eletrico",
+      "date": "2012-09-11",
+      "title": "MP 579 antecipa renovação de concessões para reduzir conta de luz",
+      "summary": "A medida provisória ofereceu renovação antecipada de concessões de geração e transmissão em troca de tarifas menores, com meta de reduzir as contas de luz em cerca de 20% em 2013. Cemig, Cesp e Copel recusaram parte das renovações, o Tesouro passou a fazer aportes bilionários ao setor e, com a seca e o uso de termelétricas, as tarifas subiram fortemente a partir de 2015.",
+      "impact": "negativo",
+      "area": "infraestrutura",
+      "weight": 3,
+      "evidence": "Meta de redução de ~20% (revista para 16,7% após recusas); aportes do Tesouro ao setor subiram de R$ 3,3 bi para cerca de R$ 12 bi em 2014, segundo a imprensa.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Dilma sanciona lei que reduz tarifa de energia elétrica",
+          "url": "https://www.congressoemfoco.com.br/noticia/59115/dilma-sanciona-lei-que-reduz-tarifa-de-energia-eletrica",
+          "date": "2013-01-11"
+        },
+        {
+          "outlet": "Estado de Minas",
+          "title": "Cemig recusa renovar concessão de usinas",
+          "url": "https://www.em.com.br/app/noticia/economia/2012/12/05/internas_economia,334526/cemig-recusa-renovar-concessao-de-usinas.shtml",
+          "date": "2012-12-05"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-desoneracoes",
+      "date": "2011-08-02",
+      "title": "Desoneração da folha de pagamentos no Plano Brasil Maior",
+      "summary": "Dentro da política conhecida como Nova Matriz Econômica, o governo substituiu a contribuição patronal de 20% sobre a folha por alíquotas sobre o faturamento e ampliou a medida a dezenas de setores. Em 2015, o próprio ministro da Fazenda, Joaquim Levy, disse que a política custava R$ 25 bilhões por ano sem proteger o emprego; avaliação posterior da Secretaria de Política Econômica também concluiu pela baixa eficácia.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 2,
+      "evidence": "Renúncia anual atingiu o pico de R$ 25,2 bilhões em 2015 (0,42% do PIB), segundo a FGV/IBRE.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Dilma classifica como “infeliz” crítica de ministro à desoneração da folha",
+          "url": "https://congressoemfoco.com.br/noticia/48634/dilma-classifica-como-%e2%80%9cinfeliz%e2%80%9d-critica-de-ministro-a-desoneracao-da-folha",
+          "date": "2015-02-28"
+        },
+        {
+          "outlet": "Blog do IBRE (FGV)",
+          "title": "Fim da desoneração da folha salarial: unanimidade entre Lula 3, Bolsonaro, Temer e Dilma 2",
+          "url": "https://blogdoibre.fgv.br/posts/fim-da-desoneracao-da-folha-salarial-unanimidade-entre-lula-3-bolsonaro-temer-e-dilma-2",
+          "date": "2023-04-01"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-lava-jato-petrobras",
+      "date": "2014-03-17",
+      "title": "Lava Jato expõe esquema de corrupção na Petrobras",
+      "summary": "Deflagrada pela Polícia Federal em março de 2014, a operação prendeu o ex-diretor de Abastecimento Paulo Roberto Costa, que se tornou o primeiro delator e revelou desvios em contratos da estatal com empreiteiras e repasses a partidos. A Petrobras reconheceu no balanço de 2014 perdas de R$ 6,2 bilhões com corrupção e registrou o primeiro prejuízo anual desde 1991.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 3,
+      "evidence": "Prejuízo líquido de R$ 21,6 bilhões em 2014, incluindo baixa de R$ 6,2 bilhões por desvios (2004–2012) e R$ 44,6 bilhões de impairment.",
+      "sources": [
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Entenda a Operação Lava Jato",
+          "url": "https://www.gazetadopovo.com.br/vida-publica/entenda-a-operacao-lava-jato-ejlyqg22gv2i4echdgvlao9ce",
+          "date": "2014-11-14"
+        },
+        {
+          "outlet": "Jornal Grande Bahia",
+          "title": "Petrobras perde R$ 6,2 bi com corrupção e prejuízo soma R$ 21,6 bi em 2014",
+          "url": "https://jornalgrandebahia.com.br/2015/04/petrobras-perde-r-62-bi-com-corrupcao-e-prejuizo-soma-r-216-bi-em-2014/",
+          "date": "2015-04-22"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-copa-obras",
+      "date": "2014-06-12",
+      "title": "Copa do Mundo com custos crescentes e obras de mobilidade não entregues",
+      "summary": "O torneio foi realizado sem grandes falhas operacionais, mas o TCU acompanhou elevação de custos e atrasos na matriz de responsabilidades, e parte dos projetos de mobilidade urbana foi retirada da matriz ou ficou inacabada. A mobilidade urbana foi apontada como a principal frustração do legado.",
+      "impact": "negativo",
+      "area": "infraestrutura",
+      "weight": 2,
+      "evidence": "Estimativa de custo total subiu de R$ 23 bi (fev/2011) para R$ 27,4 bi (2012), segundo o relator no TCU; 12 de 57 projetos de mobilidade foram excluídos da matriz.",
+      "sources": [
+        {
+          "outlet": "Agência Pública",
+          "title": "Campelo, ministro do TCU relator das obras da Copa: investimento pesado é estatal",
+          "url": "https://apublica.org/2012/07/campelo-ministro-tcu-relator-das-obras-da-copa-investimento-pesado-e-estado/",
+          "date": "2012-07-01"
+        },
+        {
+          "outlet": "IHU Unisinos",
+          "title": "Obras da Copa ficam R$ 2,7 bi mais caras",
+          "url": "https://ihu.unisinos.br/noticias/501135-obras-da-copa-ficam-r$-27-bi-mais-caras",
+          "date": "2011-09-21"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-pedaladas-tcu",
+      "date": "2014-12-31",
+      "title": "Pedaladas fiscais levam TCU a recomendar rejeição das contas de 2014",
+      "summary": "O governo atrasou repasses a bancos públicos e autarquias para pagamento de benefícios e programas, o que melhorava artificialmente o resultado fiscal. Em outubro de 2015, o TCU, por unanimidade, considerou a prática uma operação de crédito vedada pela Lei de Responsabilidade Fiscal e recomendou ao Congresso rejeitar as contas; o governo sustentou que as operações eram legais.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Parecer do TCU aprovado por 8 votos a 0 em 07/10/2015; manobras somavam cerca de R$ 40 bilhões.",
+      "sources": [
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Por unanimidade, TCU recomenda ao Congresso rejeição das contas de Dilma",
+          "url": "https://www.congressoemfoco.com.br/noticias/por-unanimidade-tcu-recomenda-ao-congresso-rejeicao-das-contas-de-dilma/",
+          "date": "2015-10-07"
+        },
+        {
+          "outlet": "Estado de Minas",
+          "title": "TCU rejeita contas de Dilma e abre porta para impeachment",
+          "url": "https://www.em.com.br/app/noticia/politica/2015/10/08/interna_politica,695950/tcu-rejeita-contas-de-dilma-e-abre-porta-para-impeachment.shtml",
+          "date": "2015-10-08"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-deficit-primario-2014",
+      "date": "2014-12-31",
+      "title": "Governo central tem primeiro déficit primário da série em 2014",
+      "summary": "O governo central fechou 2014 com déficit primário de R$ 17,2 bilhões, o primeiro desde o início da série em 1997, após superávit de R$ 77 bilhões em 2013; a meta original era de superávit de R$ 80,7 bilhões. O setor público consolidado teve déficit de R$ 32,5 bilhões, o primeiro da série do Banco Central iniciada em 2001.",
+      "impact": "negativo",
+      "area": "fiscal",
+      "weight": 3,
+      "evidence": "Déficit primário do governo central de R$ 17,24 bilhões em 2014; setor público consolidado com déficit de R$ 32,5 bilhões.",
+      "sources": [
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Governo central registra déficit de R$ 17,2 bilhões em 2014",
+          "url": "https://www.gazetadopovo.com.br/economia/governo-central-registra-deficit-de-r-172-bilhoes-em-2014-ejc1h165cfnxnlj1ejdmb0j0u",
+          "date": "2015-01-29"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Contas do setor público fecham 2014 com rombo de R$ 32,5 bilhões",
+          "url": "https://www.gazetadopovo.com.br/economia/contas-do-setor-publico-fecham-2014-com-rombo-de-r-325-bilhoes-ejdlg6bu8u63yyraoma1inosu",
+          "date": "2015-01-30"
+        }
+      ]
+    },
+    {
+      "id": "dilma1-pib-2014",
+      "date": "2014-12-31",
+      "title": "PIB cresce 0,1% em 2014 com queda do investimento",
+      "summary": "O IBGE informou crescimento de 0,1% do PIB em 2014, o pior resultado desde 2009, com queda de 4,4% da formação bruta de capital fixo e de 1,2% da indústria. O PIB per capita recuou 0,7%, e a economia entrou em recessão em 2015.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "PIB +0,1% em 2014 (R$ 5,52 trilhões); investimento -4,4%; PIB per capita -0,7%.",
+      "sources": [
+        {
+          "outlet": "Olhar Direto (Agência Brasil)",
+          "title": "Economia brasileira cresce 0,1% em 2014, diz IBGE",
+          "url": "https://olhardireto.com.br/agro-e-negocios/noticias/economia-brasileira-cresce-0-1-em-2014-diz-ibge",
+          "date": "2015-03-27"
+        },
+        {
+          "outlet": "Gazeta do Povo",
+          "title": "Investimento cai e PIB cresce só 0,1%",
+          "url": "https://www.gazetadopovo.com.br/economia/investimento-cai-e-pib-cresce-so-01-aslacz9vatsxae2b0pr7t0bv6",
+          "date": "2015-03-27"
+        }
+      ]
+    }
+  ]
+}

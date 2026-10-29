@@ -174,6 +174,240 @@
           "date": "2018-02-07"
         }
       ]
+    },
+    {
+      "id": "temer-migracao",
+      "date": "2017-05-24",
+      "title": "Sanção da nova Lei de Migração (Lei 13.445)",
+      "summary": "A lei substituiu o Estatuto do Estrangeiro de 1980, de viés de segurança nacional, por um marco baseado em direitos humanos, com repúdio à xenofobia e institucionalização do visto humanitário. Foi sancionada com cerca de 20 vetos, entre eles o da anistia a migrantes que entraram no país até julho de 2016.",
+      "impact": "positivo",
+      "area": "relacoes-exteriores",
+      "weight": 1,
+      "evidence": "Lei 13.445/2017 publicada em 25/05/2017, em vigor desde 21/11/2017; Agência Senado contabilizou 18 vetos.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Nova Lei de Migração é sancionada com vetos",
+          "url": "https://www12.senado.leg.br/noticias/materias/2017/05/25/nova-lei-de-migracao-e-sancionada-com-vetos",
+          "date": "2017-05-25"
+        },
+        {
+          "outlet": "Migalhas",
+          "title": "Temer sanciona com vetos Lei de Migração",
+          "url": "https://www.migalhas.com.br/quentes/259385/temer-sanciona-com-vetos-lei-de-migracao",
+          "date": "2017-05-25"
+        }
+      ]
+    },
+    {
+      "id": "temer-lgpd",
+      "date": "2018-08-14",
+      "title": "Sanção da Lei Geral de Proteção de Dados (Lei 13.709)",
+      "summary": "A LGPD estabeleceu regras para coleta e tratamento de dados pessoais por empresas e pelo poder público, com prazo de adaptação. O presidente vetou a criação da Autoridade Nacional de Proteção de Dados por vício de iniciativa e prometeu enviar proposta própria, além de vetar algumas sanções administrativas.",
+      "impact": "positivo",
+      "area": "institucional",
+      "weight": 2,
+      "evidence": "Lei 13.709/2018 sancionada em 14/08/2018 e publicada em 15/08/2018, com vigência prevista para 18 meses depois.",
+      "sources": [
+        {
+          "outlet": "Senado Notícias",
+          "title": "Sancionada com vetos lei geral de proteção de dados pessoais",
+          "url": "https://www12.senado.leg.br/noticias/materias/2018/08/15/sancionada-com-vetos-lei-geral-de-protecao-de-dados-pessoais",
+          "date": "2018-08-15"
+        }
+      ]
+    },
+    {
+      "id": "temer-ensino-medio",
+      "date": "2017-02-16",
+      "title": "Sanção da reforma do ensino médio (Lei 13.415)",
+      "summary": "Originada da MP 746/2016, a reforma flexibilizou o currículo com itinerários formativos e parte comum definida pela BNCC, e previu ampliação da carga horária e do ensino em tempo integral. O uso de medida provisória e o desenho dos itinerários foram criticados por especialistas e pela PGR; a reforma foi reformulada por nova lei em 2024.",
+      "impact": "misto",
+      "area": "educacao",
+      "weight": 2,
+      "evidence": "Lei 13.415/2017: cerca de 60% da carga para a BNCC e 40% para itinerários; carga anual ampliada progressivamente a partir de 800 horas.",
+      "sources": [
+        {
+          "outlet": "Agência Câmara",
+          "title": "Sancionada lei do novo ensino médio",
+          "url": "https://www.camara.leg.br/noticias/507866-SANCIONADA-LEI-DO-NOVO-ENSINO-MEDIO",
+          "date": "2017-02-16"
+        },
+        {
+          "outlet": "Exame",
+          "title": "Lei do novo ensino médio é publicada no Diário Oficial",
+          "url": "https://exame.com/brasil/lei-do-novo-ensino-medio-e-publicada-no-diario-oficial",
+          "date": "2017-02-17"
+        }
+      ]
+    },
+    {
+      "id": "temer-desemprego-recorde",
+      "date": "2017-04-28",
+      "title": "Desemprego atinge recorde de 13,7% e 14,2 milhões de pessoas",
+      "summary": "A PNAD Contínua do IBGE registrou taxa de desocupação de 13,7% no trimestre encerrado em março de 2017, a maior da série iniciada em 2012, com 14,2 milhões de desempregados. A população ocupada e o emprego com carteira assinada também atingiram mínimas da série; a taxa recuou lentamente nos trimestres seguintes.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Desocupação de 13,7% no 1º tri de 2017 (10,9% um ano antes); +3,1 milhões de desempregados em 12 meses.",
+      "sources": [
+        {
+          "outlet": "Agência Brasil",
+          "title": "IBGE: total de desempregados cresce e atinge 14,2 milhões",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2017-04/ibge-total-de-desempregados-cresce-e-atinge-142-milhoes",
+          "date": "2017-04-28"
+        },
+        {
+          "outlet": "Tribuna PR",
+          "title": "População desempregada atinge recorde de 14,2 milhões de pessoas, revela IBGE",
+          "url": "https://www.tribunapr.com.br/noticias/economia/populacao-desempregada-atinge-recorde-de-142-milhoes-de-pessoas-revela-ibge/",
+          "date": "2017-04-28"
+        }
+      ]
+    },
+    {
+      "id": "temer-denuncias-jbs",
+      "date": "2017-08-02",
+      "title": "Câmara barra denúncia da PGR contra Temer após delação da JBS",
+      "summary": "Com base na delação e na gravação feita por Joesley Batista, da JBS, a PGR denunciou o presidente por corrupção passiva, e a Câmara rejeitou o prosseguimento da acusação ao STF. Em outubro de 2017, uma segunda denúncia, por organização criminosa e obstrução de Justiça, também foi barrada; as acusações só poderiam ser analisadas após o fim do mandato.",
+      "impact": "negativo",
+      "area": "corrupcao",
+      "weight": 3,
+      "evidence": "1ª denúncia barrada por 263 x 227 votos (eram necessários 342 para autorizar); 2ª denúncia barrada por 251 x 233 em 25/10/2017.",
+      "sources": [
+        {
+          "outlet": "Consultor Jurídico",
+          "title": "Câmara rejeita denúncia contra Michel Temer por corrupção",
+          "url": "https://www.conjur.com.br/2017-ago-02/camara-rejeita-denuncia-michel-temer-corrupcao//?print=1",
+          "date": "2017-08-02"
+        },
+        {
+          "outlet": "Poder360",
+          "title": "Com ajuda do PT e oposição, Temer enterra denúncia e sai fortalecido",
+          "url": "https://www.poder360.com.br/congresso/com-ajuda-do-pt-e-oposicao-temer-enterra-denuncia-e-sai-fortalecido/",
+          "date": "2017-08-02"
+        },
+        {
+          "outlet": "Congresso em Foco",
+          "title": "Câmara livra Temer de segunda denúncia, agora por organização criminosa e obstrução de Justiça",
+          "url": "https://www.congressoemfoco.com.br/especial/noticias/camara-livra-temer-de-segunda-denuncia-agora-por-organizacao-criminosa-e-obstrucao-de-justica/",
+          "date": "2017-10-25"
+        }
+      ]
+    },
+    {
+      "id": "temer-renca",
+      "date": "2017-08-23",
+      "title": "Decreto extingue a Renca na Amazônia e é revogado após reação",
+      "summary": "O governo extinguiu por decreto a Reserva Nacional de Cobre e Associados (Renca), área de cerca de 47 mil km² entre Pará e Amapá, abrindo-a à mineração. Após críticas de ambientalistas e decisão da Justiça Federal suspendendo a medida, o governo editou novo texto e, em 25 de setembro de 2017, revogou a extinção e restabeleceu a reserva.",
+      "impact": "negativo",
+      "area": "meio-ambiente",
+      "weight": 1,
+      "evidence": "Decreto 9.142/2017 extinguiu a Renca; Decreto 9.159/2017 (25/09/2017) a restabeleceu.",
+      "sources": [
+        {
+          "outlet": "Bem Paraná",
+          "title": "Temer revoga decreto sobre reserva mineral e apresenta novo texto",
+          "url": "https://www.bemparana.com.br/noticia/522885/temer-revoga-decreto-sobre-reserva-mineral-e-apresenta-novo-texto",
+          "date": "2017-08-28"
+        },
+        {
+          "outlet": "IHU Unisinos",
+          "title": "Renca: Temer revoga polêmico decreto que ameaça reservas da Amazônia",
+          "url": "https://ihu.unisinos.br/572038-renca-temer-revoga-polemico-decreto-que-ameaca-reservas-da-amazonia",
+          "date": "2017-09-26"
+        }
+      ]
+    },
+    {
+      "id": "temer-portaria-trabalho-escravo",
+      "date": "2017-10-16",
+      "title": "Portaria restringe conceito de trabalho escravo e é suspensa pelo STF",
+      "summary": "A Portaria 1.129/2017 do Ministério do Trabalho restringiu a caracterização de trabalho análogo à escravidão e mudou regras de divulgação da 'lista suja' de empregadores. A ministra Rosa Weber, do STF, suspendeu a norma por violar princípios constitucionais e compromissos internacionais do país.",
+      "impact": "negativo",
+      "area": "social",
+      "weight": 2,
+      "evidence": "Liminar na ADPF 489 concedida em 24/10/2017, oito dias após a publicação da portaria.",
+      "sources": [
+        {
+          "outlet": "Migalhas",
+          "title": "Rosa Weber suspende portaria que mudou regras de combate ao trabalho escravo",
+          "url": "https://www.migalhas.com.br/quentes/267793/rosa-weber-suspende-portaria-que-mudou-regras-de-combate-ao-trabalho-escravo",
+          "date": "2017-10-24"
+        },
+        {
+          "outlet": "Jornal Opção",
+          "title": "Ministra Rosa Weber, do STF, suspende portaria sobre trabalho escravo",
+          "url": "https://www.jornalopcao.com.br/ultimas-noticias/ministra-rosa-weber-do-stf-suspende-portaria-sobre-trabalho-escravo-108176/",
+          "date": "2017-10-24"
+        }
+      ]
+    },
+    {
+      "id": "temer-intervencao-rio",
+      "date": "2018-02-16",
+      "title": "Intervenção federal na segurança pública do Rio de Janeiro",
+      "summary": "O governo decretou intervenção federal na segurança do Rio, sob comando do general Walter Braga Netto, até o fim de 2018. Dados do ISP mostraram queda em roubos e em homicídios dolosos, mas as mortes causadas por policiais atingiram o maior nível da série, e o Observatório da Intervenção concluiu que problemas estruturais não foram resolvidos.",
+      "impact": "misto",
+      "area": "seguranca",
+      "weight": 2,
+      "evidence": "Mortes por intervenção policial subiram cerca de 40% (de 859 para 1.185 no mesmo período de 2017 para 2018); roubo de cargas -20% e de veículos -8% (ISP).",
+      "sources": [
+        {
+          "outlet": "Exame (Estadão Conteúdo)",
+          "title": "No Rio sob intervenção, roubo cai e morte por policiais aumenta",
+          "url": "https://exame.com/brasil/no-rio-sob-intervencao-roubo-cai-e-morte-por-policiais-aumenta",
+          "date": "2018-12-01"
+        },
+        {
+          "outlet": "Brasil de Fato",
+          "title": "Tiroteios e chacinas crescem durante intervenção no Rio, aponta Observatório",
+          "url": "https://www.brasildefato.com.br/2018/04/26/tiroteios-e-chacinas-crescem-durante-intervencao-no-rio-aponta-observatorio",
+          "date": "2018-04-26"
+        }
+      ]
+    },
+    {
+      "id": "temer-greve-caminhoneiros",
+      "date": "2018-05-27",
+      "title": "Greve dos caminhoneiros e subsídio ao diesel",
+      "summary": "A paralisação de caminhoneiros em maio de 2018 provocou desabastecimento de combustíveis e alimentos em todo o país e afetou o PIB do trimestre. Para encerrá-la, o governo concedeu redução de R$ 0,46 por litro no diesel, combinando subvenção do Tesouro e corte de tributos, e criou a tabela de frete mínimo; a alta posterior do diesel quase anulou o desconto.",
+      "impact": "negativo",
+      "area": "economia",
+      "weight": 2,
+      "evidence": "Desconto de R$ 0,46/litro (R$ 0,30 de subvenção pela MP 838 + R$ 0,16 de tributos), com custo limitado a R$ 9,5 bilhões em 2018.",
+      "sources": [
+        {
+          "outlet": "Diário do Transporte",
+          "title": "Alta do diesel quase anula subvenção concedida pelo governo durante greve dos caminhoneiros",
+          "url": "https://diariodotransporte.com.br/2018/08/31/alta-do-diesel-quase-anula-subvencao-concedida-pelo-governo-durante-greve-dos-caminhoneiros/",
+          "date": "2018-08-31"
+        }
+      ]
+    },
+    {
+      "id": "temer-museu-nacional",
+      "date": "2018-09-02",
+      "title": "Incêndio destrói o Museu Nacional",
+      "summary": "Um incêndio destruiu a maior parte do acervo do Museu Nacional, vinculado à UFRJ, que reunia cerca de 20 milhões de itens. O museu recebia repasses abaixo do orçamento anual de manutenção desde 2014, e um financiamento de cerca de R$ 21 milhões do BNDES para reforma e prevenção de incêndios, assinado em 2018, ainda não havia sido liberado; a responsabilidade pelo subfinanciamento abrange mais de um governo.",
+      "impact": "negativo",
+      "area": "educacao",
+      "weight": 2,
+      "evidence": "Repasse de pouco mais de R$ 360 mil em 2018, ante orçamento anual de manutenção de cerca de R$ 550 mil.",
+      "sources": [
+        {
+          "outlet": "O Povo (DW)",
+          "title": "Incêndio destrói Museu Nacional no Rio de Janeiro",
+          "url": "https://www.opovo.com.br/noticias/mundo/dw/2018/09/incendio-destroi-museu-nacional-no-rio-de-janeiro.html",
+          "date": "2018-09-03"
+        },
+        {
+          "outlet": "IHU Unisinos",
+          "title": "Museu Nacional: o luto de quem viu virar cinzas décadas de trabalho",
+          "url": "https://ihu.unisinos.br/582440-museu-nacional-o-luto-de-quem-viu-virar-cinzas-decadas-de-trabalho",
+          "date": "2018-09-04"
+        }
+      ]
     }
   ]
 }
