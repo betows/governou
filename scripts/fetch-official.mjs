@@ -23,7 +23,8 @@ const SERIES = {
   divida_bruta: { code: 13762, name: "Dívida bruta do governo geral (% PIB)", unit: "% do PIB", reduce: "december", tol: 1.5 },
   // NFSP primário acumulado em 12 meses: positivo = déficit. Invertemos o sinal (positivo = superávit).
   resultado_primario: { code: 5793, name: "Resultado primário – setor público consolidado", unit: "% do PIB", reduce: "december", invert: true, tol: 0.3 },
-  desemprego: { code: 24369, name: "Taxa de desocupação – PNAD Contínua (média do ano)", unit: "%", reduce: "mean", minYear: 2012, tol: 0.3 },
+  // Desemprego fica de fora: a SGS 24369 é trimestre móvel e a média dos 12 meses não é a
+  // média anual oficial do IBGE (difere até 0,4 p.p.); vale o número publicado pelo IBGE.
 };
 
 async function getJson(url) {
