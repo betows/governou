@@ -45,11 +45,11 @@ async function getJson(url) {
   throw lastError;
 }
 
-async function fetchSeries(code) {
+async function fetchSeries(code, startYear = START_YEAR) {
   // A API SGS limita o intervalo por consulta; janelas de 5 anos evitam respostas lentas nas séries diárias.
   const out = [];
   const endYear = new Date().getFullYear();
-  for (let y = START_YEAR; y <= endYear; y += 5) {
+  for (let y = startYear; y <= endYear; y += 5) {
     const last = Math.min(y + 4, endYear);
     const url = `https://api.bcb.gov.br/dados/serie/bcdata.sgs.${code}/dados?formato=json&dataInicial=01/01/${y}&dataFinal=31/12/${last}`;
     try {
@@ -116,7 +116,8 @@ const reference = Object.fromEntries(
 const indicators = [];
 for (const [id, cfg] of Object.entries(SERIES)) {
   try {
-    const rows = await fetchSeries(cfg.code);
+    // Séries que começam depois de 2006 (ex.: PNAD Contínua em 2012) dão 404 em janelas anteriores.
+    const rows = await fetchSeries(cfg.code, cfg.minYear ?? START_YEAR);
     const expected = cfg.invert ? -1 : 1;
     let values = annual(rows, cfg, expected);
     let check = compare(values, reference[id]);
