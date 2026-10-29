@@ -14,7 +14,8 @@ interface Ctx {
 }
 
 const ScoreContext = createContext<Ctx | null>(null);
-const KEY = "rxp:options:v1";
+// v2: novas matérias (saúde e educação) e novos pesos padrão
+const KEY = "gv:options:v2";
 
 export function ScoreProvider({ children }: { children: React.ReactNode }) {
   const [options, setOptionsState] = useState<ScoreOptions>(DEFAULT_OPTIONS);

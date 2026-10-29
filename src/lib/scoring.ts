@@ -12,7 +12,7 @@ import type { Dataset, GovEvent, IndicatorSeries, Term } from "./types";
  * 4. Nota final = média ponderada dos pilares (pesos ajustáveis pelo usuário).
  */
 
-export type PillarId = "economia" | "fiscal" | "social" | "ambiente" | "seguranca" | "gestao";
+export type PillarId = "economia" | "fiscal" | "social" | "saude" | "educacao" | "ambiente" | "seguranca" | "gestao";
 
 export interface Pillar {
   id: PillarId;
@@ -23,12 +23,14 @@ export interface Pillar {
 }
 
 export const PILLARS: Pillar[] = [
-  { id: "economia", name: "Economia", short: "Econ.", description: "Crescimento, emprego e inflação.", defaultWeight: 25 },
-  { id: "fiscal", name: "Contas públicas", short: "Fiscal", description: "Trajetória da dívida e resultado primário.", defaultWeight: 20 },
-  { id: "social", name: "Social", short: "Social", description: "Pobreza extrema, desigualdade e salário mínimo real.", defaultWeight: 25 },
+  { id: "economia", name: "Economia", short: "Econ.", description: "Crescimento, emprego, inflação e investimento.", defaultWeight: 20 },
+  { id: "fiscal", name: "Contas públicas", short: "Fiscal", description: "Trajetória da dívida e resultado primário.", defaultWeight: 15 },
+  { id: "social", name: "Social", short: "Social", description: "Pobreza extrema, desigualdade, renda e salário mínimo real.", defaultWeight: 20 },
+  { id: "saude", name: "Saúde", short: "Saúde", description: "Mortalidade infantil e cobertura vacinal.", defaultWeight: 10 },
+  { id: "educacao", name: "Educação", short: "Educ.", description: "Qualidade do ensino fundamental medida pelo IDEB.", defaultWeight: 10 },
   { id: "ambiente", name: "Meio ambiente", short: "Amb.", description: "Desmatamento na Amazônia (PRODES/INPE).", defaultWeight: 10 },
   { id: "seguranca", name: "Segurança", short: "Seg.", description: "Evolução da taxa de homicídios.", defaultWeight: 10 },
-  { id: "gestao", name: "Fatos de governo", short: "Fatos", description: "Balanço dos principais acertos e erros documentados pela imprensa e por órgãos oficiais.", defaultWeight: 10 },
+  { id: "gestao", name: "Fatos de governo", short: "Fatos", description: "Balanço dos principais acertos e erros documentados pela imprensa e por órgãos oficiais.", defaultWeight: 5 },
 ];
 
 export type Aggregation = "media" | "variacao" | "variacao_pct";
@@ -48,6 +50,8 @@ export interface IndicatorRule {
   why: string;
   /** Séries alternativas, em ordem de preferência, quando a principal não cobre o período. */
   fallbacks?: string[];
+  /** Série publicada a cada dois anos (ex.: IDEB): a janela aceita a edição vizinha. */
+  biennial?: boolean;
 }
 
 export const RULES: IndicatorRule[] = [
@@ -84,6 +88,17 @@ export const RULES: IndicatorRule[] = [
     weight: 1,
     unit: "% a.a.",
     why: "Média da inflação anual. 3% (perto do centro da meta) recebe nota máxima; 10% ou mais recebe zero.",
+  },
+  {
+    id: "taxa_investimento",
+    pillar: "economia",
+    label: "Taxa de investimento",
+    aggregation: "media",
+    worst: 15,
+    best: 22,
+    weight: 0.6,
+    unit: "% do PIB",
+    why: "Média da formação bruta de capital fixo (máquinas, obras, infraestrutura) em relação ao PIB. Investimento alto sustenta o crescimento futuro.",
   },
   {
     id: "divida_bruta",
@@ -139,6 +154,63 @@ export const RULES: IndicatorRule[] = [
     weight: 0.8,
     unit: "% a.a.",
     why: "Ganho real médio anual do salário mínimo (acima da inflação).",
+  },
+  {
+    id: "renda_media_real",
+    pillar: "social",
+    label: "Renda média real",
+    aggregation: "variacao_pct",
+    worst: -5,
+    best: 12,
+    weight: 1,
+    unit: "%",
+    why: "Variação do rendimento médio real domiciliar per capita (PNAD Contínua, descontada a inflação). Série existe só a partir de 2012.",
+  },
+  {
+    id: "mortalidade_infantil",
+    pillar: "saude",
+    label: "Mortalidade infantil",
+    aggregation: "variacao_pct",
+    worst: 5,
+    best: -20,
+    weight: 1.2,
+    unit: "%",
+    why: "Variação percentual das mortes de menores de 1 ano por mil nascidos vivos durante o mandato.",
+  },
+  {
+    id: "cobertura_vacinal",
+    pillar: "saude",
+    label: "Cobertura vacinal infantil",
+    aggregation: "media",
+    worst: 70,
+    best: 95,
+    weight: 1,
+    unit: "%",
+    why: "Média da cobertura de vacinação infantil do PNI. 95% é a meta do Ministério da Saúde.",
+  },
+  {
+    id: "ideb_iniciais",
+    pillar: "educacao",
+    label: "IDEB – anos iniciais",
+    aggregation: "variacao",
+    worst: -0.3,
+    best: 0.6,
+    weight: 1,
+    unit: "pontos",
+    biennial: true,
+    why: "Variação do IDEB dos anos iniciais do ensino fundamental (INEP), entre a edição anterior ao mandato e a última do mandato.",
+  },
+  {
+    id: "ideb_finais",
+    pillar: "educacao",
+    label: "IDEB – anos finais",
+    aggregation: "variacao",
+    worst: -0.3,
+    best: 0.4,
+    weight: 1,
+    unit: "pontos",
+    biennial: true,
+    why: "Variação do IDEB dos anos finais do ensino fundamental (INEP), entre a edição anterior ao mandato e a última do mandato.",
   },
   {
     id: "desmatamento",
@@ -290,8 +362,9 @@ function scoreWithSeries(
     // No mandato em curso aceita-se o último dado publicado (até 2 anos de defasagem).
     const first = years[0];
     const lastYear = years[years.length - 1];
-    const lag = term.current ? 2 : 0;
-    baselineYear = [first - 1, first].find((y) => valueAt(y) !== undefined);
+    const lag = (term.current ? 2 : 0) + (rule.biennial ? 1 : 0);
+    const starts = rule.biennial ? [first - 1, first - 2, first] : [first - 1, first];
+    baselineYear = starts.find((y) => valueAt(y) !== undefined);
     const last = Array.from({ length: lag + 1 }, (_, k) => lastYear - k).find((y) => valueAt(y) !== undefined);
     if (baselineYear === undefined || last === undefined || last <= baselineYear) {
       const have = [first - 1, ...years].filter((y) => valueAt(y) !== undefined);
