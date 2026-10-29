@@ -43,3 +43,6 @@ next-env.d.ts
 
 # retratos baixados no build (scripts/fetch-portraits.mjs)
 /public/retratos/
+
+# séries baixadas da API do BCB no build (scripts/fetch-official.mjs)
+/research/official-bcb.json

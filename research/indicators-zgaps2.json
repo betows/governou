@@ -1,0 +1,52 @@
+{
+  "indicators": [
+    {
+      "id": "homicidios",
+      "name": "Taxa de homicídios",
+      "unit": "por 100 mil habitantes",
+      "higherIsBetter": false,
+      "officialSource": "Ipea/FBSP, Atlas da Violência (dados do SIM/Ministério da Saúde)",
+      "sourceUrl": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+      "values": { "2006": 26.6, "2007": 25.5, "2008": 26.7, "2009": 27.2, "2010": 27.8, "2011": 27.4 },
+      "notes": "EDITION MIX (same family as indicators-zgaps.json): 2009-2011 from the Atlas da Violência 2021 national table (series 2009-2019: Brasil 27.2, 27.8, 27.4, 29.4, 28.6, 29.8, 28.9, 30.3, 31.6, 27.8, 21.7); the Atlas 2020 table shows the same 2009-2011 values. 2006-2008 from the Atlas da Violência 2017 presentation (Ipea/FBSP, series from 2005: Brasil 26.1 (2005), 26.6, 25.5, 26.7). The Atlas 2017 and Atlas 2021 agree on 2012-2015 (29.4, 28.6, 29.8, 28.9), so the two editions are consistent with each other and with the 2012 value already in indicators-zgaps.json. Compared with the Atlas 2025 base series used for 2013+ (e.g. 2013 = 28.8 vs 28.6; 2017 = 31.8 vs 31.6), these older editions run ~0.2 lower. A third-party aggregator (dailyjournal.news, citing Ipea) shows a newer vintage (2006 26.5, 2008 26.5, 2009 26.9, 2010 27.2, 2011 26.9); it was NOT used because it is not an official publication, and it disagrees with the official editions found.",
+      "yearSources": {
+        "2006": "https://forumseguranca.org.br/wp-content/uploads/2017/06/FBSP_atlas_da_violencia_2017_apresentacao.pdf",
+        "2007": "https://forumseguranca.org.br/wp-content/uploads/2017/06/FBSP_atlas_da_violencia_2017_apresentacao.pdf",
+        "2008": "https://forumseguranca.org.br/wp-content/uploads/2017/06/FBSP_atlas_da_violencia_2017_apresentacao.pdf",
+        "2009": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2010": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2011": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf"
+      }
+    },
+    {
+      "id": "pib_mundo",
+      "name": "Crescimento do PIB mundial",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "FMI, World Economic Outlook, Statistical Appendix Table A1 (Summary of World Output)",
+      "sourceUrl": "https://www.imf.org/-/media/websites/imf/imported-flagship-issues/external/pubs/ft/weo/2014/01/pdf/_statapppdf.pdf",
+      "values": { "2006": 5.2, "2007": 5.3, "2008": 2.7, "2009": -0.4, "2010": 5.2 },
+      "notes": "All five years from WEO April 2014, Statistical Appendix Table A1, World row (columns: Average 1996-2005 3.7; 2006 5.2; 2007 5.3; 2008 2.7; 2009 -0.4; 2010 5.2). Different vintage from the other years in the series (2011 from WEO Apr/2019, 2012-2013 Apr/2020, 2014-2017 Oct/2022, 2018+ Apr/2026); later WEO vintages revised these years after ICP/PPP-weight updates, so the level may differ by a few tenths from the current WEO database.",
+      "yearSources": {
+        "2006": "https://www.imf.org/-/media/websites/imf/imported-flagship-issues/external/pubs/ft/weo/2014/01/pdf/_statapppdf.pdf",
+        "2007": "https://www.imf.org/-/media/websites/imf/imported-flagship-issues/external/pubs/ft/weo/2014/01/pdf/_statapppdf.pdf",
+        "2008": "https://www.imf.org/-/media/websites/imf/imported-flagship-issues/external/pubs/ft/weo/2014/01/pdf/_statapppdf.pdf",
+        "2009": "https://www.imf.org/-/media/websites/imf/imported-flagship-issues/external/pubs/ft/weo/2014/01/pdf/_statapppdf.pdf",
+        "2010": "https://www.imf.org/-/media/websites/imf/imported-flagship-issues/external/pubs/ft/weo/2014/01/pdf/_statapppdf.pdf"
+      }
+    },
+    {
+      "id": "salario_minimo_real",
+      "name": "Ganho real do salário mínimo",
+      "unit": "% a.a.",
+      "higherIsBetter": true,
+      "officialSource": "DIEESE – Notas Técnicas sobre o salário mínimo (Tabela 'Reajuste do Salário Mínimo'), reajuste nominal deflacionado pelo INPC",
+      "sourceUrl": "https://www.dieese.org.br/notatecnica/2023/notaTec281salarioMinimo.pdf",
+      "values": { "2022": 0.02 },
+      "notes": "Jan/2022: R$ 1.100,00 -> R$ 1.212,00, nominal +10.18%, INPC (DIEESE reference) 10.16%, real +0.02% per DIEESE's later salary-minimum table (NT 281, Dec/2023). DIEESE NT 265 (Dec/2021) had anticipated 'sem aumento real' (projected INPC 10.16% applied to R$ 1.100 = R$ 1.211,73, rounded to R$ 1.212). Effectively zero real gain.",
+      "yearSources": {
+        "2022": "https://www.dieese.org.br/notatecnica/2023/notaTec281salarioMinimo.pdf"
+      }
+    }
+  ]
+}

@@ -9,7 +9,7 @@
     "lint": "eslint",
     "data:fetch": "node scripts/fetch-official.mjs",
     "data:build": "node scripts/build-data.mjs",
-    "prebuild": "node scripts/db-push.mjs && node scripts/fetch-portraits.mjs && node scripts/build-data.mjs",
+    "prebuild": "node scripts/fetch-official.mjs && node scripts/db-push.mjs && node scripts/fetch-portraits.mjs && node scripts/build-data.mjs",
     "predev": "node scripts/build-data.mjs",
     "db:push": "node scripts/db-push.mjs",
     "db:test": "node scripts/test-db.mjs",
