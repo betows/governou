@@ -26,16 +26,37 @@ const SERIES = {
   desemprego: { code: 24369, name: "Taxa de desocupação – PNAD Contínua (média do ano)", unit: "%", reduce: "mean", minYear: 2012, tol: 0.3 },
 };
 
+async function getJson(url) {
+  // A API do BCB oscila (502, lentidão): até 3 tentativas com espera crescente.
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { accept: "application/json" }, signal: AbortSignal.timeout(45000) });
+      const text = await res.text();
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = JSON.parse(text);
+      if (!Array.isArray(data)) throw new Error(`resposta inesperada: ${text.slice(0, 160)}`);
+      return data;
+    } catch (err) {
+      lastError = err;
+      if (attempt < 3) await new Promise((r) => setTimeout(r, 2000 * attempt));
+    }
+  }
+  throw lastError;
+}
+
 async function fetchSeries(code) {
-  // A API SGS limita consultas a 10 anos por requisição.
+  // A API SGS limita o intervalo por consulta; janelas de 5 anos evitam respostas lentas nas séries diárias.
   const out = [];
   const endYear = new Date().getFullYear();
-  for (let y = START_YEAR; y <= endYear; y += 10) {
-    const last = Math.min(y + 9, endYear);
+  for (let y = START_YEAR; y <= endYear; y += 5) {
+    const last = Math.min(y + 4, endYear);
     const url = `https://api.bcb.gov.br/dados/serie/bcdata.sgs.${code}/dados?formato=json&dataInicial=01/01/${y}&dataFinal=31/12/${last}`;
-    const res = await fetch(url, { headers: { accept: "application/json" }, signal: AbortSignal.timeout(20000) });
-    if (!res.ok) throw new Error(`SGS ${code}: HTTP ${res.status}`);
-    out.push(...(await res.json()));
+    try {
+      out.push(...(await getJson(url)));
+    } catch (err) {
+      throw new Error(`SGS ${code} ${y}–${last}: ${err.message}`);
+    }
   }
   return out.map((r) => {
     const [d, m, y] = r.data.split("/").map(Number);

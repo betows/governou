@@ -1,0 +1,30 @@
+{
+  "indicators": [
+    {
+      "id": "homicidios",
+      "name": "Taxa de homicídios",
+      "unit": "por 100 mil hab.",
+      "higherIsBetter": false,
+      "officialSource": "Atlas da Violência (Ipea/FBSP), SIM/DataSUS",
+      "sourceUrl": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+      "values": {
+        "2009": 27.2, "2010": 27.8, "2011": 27.4, "2012": 29.4, "2013": 28.6, "2014": 29.8,
+        "2015": 28.9, "2016": 30.3, "2017": 31.6, "2018": 27.8, "2019": 21.7
+      },
+      "yearSources": {
+        "2009": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2010": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2011": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2012": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2013": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2014": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2015": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2016": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2017": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2018": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf",
+        "2019": "https://forumseguranca.org.br/wp-content/uploads/2021/12/atlas-violencia-2021-v7.pdf"
+      },
+      "notes": "Consolidação de edições: 2009–2019 vêm todos de uma única edição (Atlas da Violência 2021, tabela nacional), em vez de anos salteados de edições diferentes. 2006–2008 seguem do Atlas 2017 e 2020 em diante do Atlas 2025/2026; a troca de edição fica concentrada em 2008/2009 e 2019/2020. Valores tirados da tabela citada na pesquisa (indicators-zgaps2.json)."
+    }
+  ]
+}

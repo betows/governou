@@ -25,8 +25,8 @@ export interface Pillar {
 export const PILLARS: Pillar[] = [
   { id: "economia", name: "Economia", short: "Econ.", description: "Crescimento, emprego, inflação e investimento.", defaultWeight: 20 },
   { id: "fiscal", name: "Contas públicas", short: "Fiscal", description: "Trajetória da dívida e resultado primário.", defaultWeight: 15 },
-  { id: "social", name: "Social", short: "Social", description: "Pobreza extrema, desigualdade, renda e salário mínimo real.", defaultWeight: 20 },
-  { id: "saude", name: "Saúde", short: "Saúde", description: "Mortalidade infantil e cobertura vacinal.", defaultWeight: 10 },
+  { id: "social", name: "Social", short: "Social", description: "Pobreza extrema, desigualdade e salário mínimo real.", defaultWeight: 20 },
+  { id: "saude", name: "Saúde", short: "Saúde", description: "Mortalidade infantil.", defaultWeight: 10 },
   { id: "educacao", name: "Educação", short: "Educ.", description: "Qualidade do ensino fundamental medida pelo IDEB.", defaultWeight: 10 },
   { id: "ambiente", name: "Meio ambiente", short: "Amb.", description: "Desmatamento na Amazônia (PRODES/INPE).", defaultWeight: 10 },
   { id: "seguranca", name: "Segurança", short: "Seg.", description: "Evolução da taxa de homicídios.", defaultWeight: 10 },
@@ -156,17 +156,6 @@ export const RULES: IndicatorRule[] = [
     why: "Ganho real médio anual do salário mínimo (acima da inflação).",
   },
   {
-    id: "renda_media_real",
-    pillar: "social",
-    label: "Renda média real",
-    aggregation: "variacao_pct",
-    worst: -5,
-    best: 12,
-    weight: 1,
-    unit: "%",
-    why: "Variação do rendimento médio real domiciliar per capita (PNAD Contínua, descontada a inflação). Série existe só a partir de 2012.",
-  },
-  {
     id: "mortalidade_infantil",
     pillar: "saude",
     label: "Mortalidade infantil",
@@ -175,18 +164,8 @@ export const RULES: IndicatorRule[] = [
     best: -20,
     weight: 1.2,
     unit: "%",
-    why: "Variação percentual das mortes de menores de 1 ano por mil nascidos vivos durante o mandato.",
-  },
-  {
-    id: "cobertura_vacinal",
-    pillar: "saude",
-    label: "Cobertura vacinal infantil",
-    aggregation: "media",
-    worst: 70,
-    best: 95,
-    weight: 1,
-    unit: "%",
-    why: "Média da cobertura de vacinação infantil do PNI. 95% é a meta do Ministério da Saúde.",
+    fallbacks: ["mortalidade_infantil_censo2022"],
+    why: "Variação percentual das mortes de menores de 1 ano por mil nascidos vivos durante o mandato. A partir de 2022 o IBGE usa a base do Censo 2022; as duas séries nunca são comparadas entre si.",
   },
   {
     id: "ideb_iniciais",
@@ -343,6 +322,7 @@ function scoreWithSeries(
 
   let partial = available.length < years.length;
   let value: number;
+  let windowYears = 4;
   let baselineYear: number | undefined;
   let explanation: string;
   const span = available.length > 1 ? `${available[0]}–${available[available.length - 1]}` : `${available[0]}`;
@@ -383,9 +363,18 @@ function scoreWithSeries(
       const digits = Math.abs(value) < 0.1 ? 3 : 1;
       explanation = `De ${fmtNum(base, digits === 3 ? 3 : 1)} (${baselineYear}) para ${fmtNum(end, digits === 3 ? 3 : 1)} (${last}): ${value >= 0 ? "+" : ""}${fmtNum(value, digits)} ${unit}`;
     }
+    // Janelas de tamanhos diferentes (mandato de 1 a 4 anos, dado com defasagem) só são
+    // comparáveis por ano: a variação vira ritmo anual e a faixa (pensada para 4 anos) também.
+    windowYears = last - baselineYear;
+    if (windowYears !== 4) {
+      const perYear = value / windowYears;
+      const digits = Math.abs(perYear) < 0.1 ? 3 : 1;
+      explanation += ` em ${windowYears} ${windowYears === 1 ? "ano" : "anos"} (${perYear >= 0 ? "+" : ""}${fmtNum(perYear, digits)} por ano)`;
+    }
   }
 
-  const [worst, best] = useContext ? [-4, 2] : [rule.worst, rule.best];
+  const scale = rule.aggregation === "media" ? 1 : windowYears / 4;
+  const [worst, best] = useContext ? [-4, 2] : [rule.worst * scale, rule.best * scale];
   const score = toScore(value, worst, best);
   return {
     rule,

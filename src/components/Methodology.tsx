@@ -37,7 +37,7 @@ export function Methodology() {
         <li>
           <strong>Janela completa:</strong> uma média só é calculada com pelo menos 75% dos anos do mandato; uma variação só
           vale se começar no ano anterior à posse (ou no primeiro ano) e terminar no último ano do mandato. No
-          mandato em curso aceita-se o último dado publicado, com até 2 anos de defasagem. Séries publicadas a cada dois anos, como o IDEB, usam a edição mais próxima antes da posse e a última edição do mandato. Séries diferentes (ex.: PME e
+          mandato em curso aceita-se o último dado publicado, com até 2 anos de defasagem. Séries publicadas a cada dois anos, como o IDEB, usam a edição mais próxima antes da posse e a última edição do mandato. Como as janelas têm tamanhos diferentes (Dilma 2 tem 1 ano; Temer, 3; o mandato atual tem dados com atraso), toda variação é comparada pelo ritmo anual: as faixas de referência valem para 4 anos e são proporcionais ao tamanho da janela. Séries diferentes (ex.: PME e
           PNAD Contínua) nunca são misturadas dentro de um mesmo cálculo.
         </li>
         <li>A nota de cada pilar é a média ponderada dos seus indicadores com dado.</li>
